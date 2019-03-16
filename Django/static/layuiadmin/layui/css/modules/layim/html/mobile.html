@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>LayIM 移动版</title>
+    <link id="layuicss-skinlayim-mobilecss" rel="stylesheet" href="../../../layui.mobile.css">
+    <link rel="stylesheet" href="../mobile/layim.css?v=2.0" media="all">
+</head>
+<body>
+
+<script src="../../../../layui.js"></script>
+<script>
+    layui.config({
+        version: '20171011'
+    }).use('mobile', function(){
+        var mobile = layui.mobile,
+            layim = mobile.layim;
+
+        //演示自动回复
+        var autoReplay = [
+            '您好，我现在有事不在，一会再和您联系。',
+            '你没发错吧？face[微笑] ',
+            '洗澡中，请勿打扰，偷窥请购票，个体四十，团体八折，订票电话：一般人我不告诉他！face[哈哈] ',
+            "a(http://www.baidu.com)[百度]",
+            'face[威武] face[威武] face[威武] face[威武] ',
+            '你要和我说话？你真的要和我说话？你确定自己想说吗？你一定非说不可吗？那你说吧，这是自动回复。',
+            'face[黑线]  你慢慢说，别急……',
+            '(*^__^*) face[嘻嘻] ，是贤心吗？',
+            "[div]swqsqw[/div]"
+        ];
+
+        layim.config({
+            brief: true,
+            init: {
+                //我的信息
+                mine: {
+                    "username": "游客",
+                    "id": 100000,
+                    "status": "online",
+                    "avatar": "http://tp1.sinaimg.cn/5619439268/180/40030060651/1",
+                    "sign": "问一些问题"
+                }
+            }
+        });
+
+        //创建一个会话
+        layim.chat({
+            id: -2,
+            name: '康康',
+            type: 'friend',
+            avatar: '../../../../../../../static/layuiadmin/style/kangkang.png'
+        });
+
+        layim.on('back', function(){
+            //返回键关闭当前tab
+            parent.closeThisTabs();
+        });
+
+        //监听发送消息
+        layim.on('sendMessage', function(data){
+            var To = data.to;
+            //console.log(data);
+
+            //演示自动回复
+            setTimeout(function(){
+                var obj = {};
+                if(To.type === 'friend'){
+                    obj = {
+                        username: To.name,
+                        avatar: To.avatar,
+                        id: To.id,
+                        type: To.type,
+                        content: autoReplay[Math.random()*9|0]
+                    }
+                }
+                layim.getMessage(obj);
+            }, 1000);
+        });
+
+    });
+</script>
+</body>
+</html>

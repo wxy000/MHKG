@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>路过</title>
+</head>
+<body>
+{% autoescape off %} {{ next }} {% endautoescape %}
+
+<script>
+    var next_title = document.getElementById("next").value;
+    window.location.href = "/ManualAnnotation/tagging_data?title=" + next_title;
+</script>
+</body>
+
+</html>

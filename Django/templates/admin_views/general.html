@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>网站概况</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    访问量(PV)
+                    <span class="layui-badge layui-bg-blue layuiadmin-badge">最近一周</span>
+                </div>
+                <div class="layui-card-body layuiadmin-card-list">
+                    <p class="layuiadmin-big-font">{{ result.pv }}</p>
+                    <p>
+                        今日
+                        <span class="layuiadmin-span-color">
+                            {{ result.pv_now }}&nbsp;
+                            <i class="layui-inline layui-icon layui-icon-flag"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    独立访客(UV)
+                    <span class="layui-badge layui-bg-blue layuiadmin-badge">最近一周</span>
+                </div>
+                <div class="layui-card-body layuiadmin-card-list">
+
+                    <p class="layuiadmin-big-font">{{ result.uv }}</p>
+                    <p>
+                        今日
+                        <span class="layuiadmin-span-color">
+                            {{ result.uv_now }}&nbsp;
+                            <i class="layui-inline layui-icon layui-icon-flag"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    流入流出流量
+                    <span class="layui-badge layui-bg-blue layuiadmin-badge">最近一周</span>
+                </div>
+                <div class="layui-card-body layuiadmin-card-list">
+                    <p class="layuiadmin-big-font">{{ result.byte }}</p>
+                    <p>
+                        今日
+                        <span class="layuiadmin-span-color">
+                            {{ result.byte_now }}&nbsp;
+                            <i class="layui-inline layui-icon layui-icon-water"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    页面请求成功率
+                    <span class="layui-badge layui-bg-blue layuiadmin-badge">最近一周</span>
+                </div>
+                <div class="layui-card-body layuiadmin-card-list">
+
+                    <p class="layuiadmin-big-font">{{ result.code_ratio }}</p>
+                    <p>
+                        今日成功率
+                        <span class="layuiadmin-span-color">
+                            {{ result.code_ratio_now }}&nbsp;
+                            <i class="layui-inline layui-icon layui-icon-face-smile-b"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">服务器负载</div>
+                <div class="layui-card-body">
+
+                    <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-dataview">
+                        <div carousel-item id="LAY-index-dataview">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'general']);
+</script>
+</body>
+</html>

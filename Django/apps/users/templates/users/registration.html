@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../../static/users/css/layui.css">
+    <link rel="stylesheet" href="../../static/users/css/admin.css">
+</head>
+<body style="width: 100%; height: 100%;">
+
+<div id="container">
+    <div class="bg bg-blur" style="height: 100%; position: absolute;"></div>
+    <div class="admin-login-background form-wrapper">
+        <!--<div class="admin-header">-->
+        <!--<img src="images/ex_logo.png" class="admin-logo">-->
+        <!--</div>-->
+        <form class="layui-form" method="post" action="" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="fieldWrapper">
+                <i class="layui-icon layui-icon-username admin-icon admin-icon-username"></i>
+                {{ form.username }}
+                <span id="usernameerror" hidden>{{ form.username.errors }}</span>
+            </div>
+            <div class="fieldWrapper">
+                <i class="layui-icon layui-icon-release admin-icon admin-icon-email"></i>
+                {{ form.email }}
+                <span id="emailerror" hidden>{{ form.email.errors }}</span>
+            </div>
+            <div class="fieldWrapper">
+                <i class="layui-icon layui-icon-password admin-icon admin-icon-password"></i>
+                {{ form.password1 }}
+                <span id="password1error" hidden>{{ form.password1.errors }}</span>
+            </div>
+            <div class="fieldWrapper">
+                <i class="layui-icon layui-icon-password admin-icon admin-icon-password"></i>
+                {{ form.password2 }}
+                <span id="password2error" hidden>{{ form.password2.errors }}</span>
+            </div>
+            <div class="button-wrapper submit">
+                <button class="layui-btn admin-button" lay-submit>注册</button>
+            </div>
+        </form>
+        <div style="margin-top: 20px;">
+            <a href="/accounts/login" style="color: #009688; float: right;">已有账号？登陆</a>
+        </div>
+    </div>
+</div>
+<script src="../../static/users/js/layui.js"></script>
+<script>
+    layui.use('layer', function () {
+        var layer = layui.layer;
+        var $ = layui.$;
+
+        $(function(){
+            //session过期自动检测，如果当前框架不是顶层，则将顶层设置为此页面
+            if(window !== top){
+                top.location.href = location.href;
+            }
+        });
+
+        if ($("#usernameerror").html() !== '') {
+            layer.tips($("#usernameerror").html(), '#id_username', {
+                tips: [2, '#FF5722'],
+                tipsMore: true
+            });
+        }
+
+        if ($("#emailerror").html() !== '') {
+            layer.tips($("#emailerror").html(), '#id_email', {
+                tips: [2, '#FF5722'],
+                tipsMore: true
+            });
+        }
+
+        if ($("#password1error").html() !== '') {
+            layer.tips($("#password1error").html(), '#id_password1', {
+                tips: [2, '#FF5722'],
+                tipsMore: true
+            });
+        }
+
+        if ($("#password2error").html() !== '') {
+            layer.tips($("#password2error").html(), '#id_password2', {
+                tips: [2, '#FF5722'],
+                tipsMore: true
+            });
+        }
+
+    })
+</script>
+</body>
+</html>

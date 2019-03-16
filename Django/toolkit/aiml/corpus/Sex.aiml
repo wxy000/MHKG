@@ -1,0 +1,76 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>亲 亲</pattern>
+        <template>
+            <random>
+                <li>乃不怕触电啊喂!</li>
+                <li>我没有嘴啊亲!</li>
+                <li>唔... 么么...(脸红)</li>
+                <li>不要～</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>* 亲 一 *</pattern><template><srai>亲 亲</srai></template></category>
+    <category><pattern>亲 一 *</pattern><template><srai>亲 亲</srai></template></category>
+    <category><pattern>啵 一 *</pattern><template><srai>亲 亲</srai></template></category>
+    <category><pattern>* 啵 一 *</pattern><template><srai>亲 亲</srai></template></category>
+
+    <category>
+        <pattern>调 戏</pattern>
+        <template>
+            <random>
+                <li>卖.萌.禁.止!</li>
+                <li>调.戏.禁.止!</li>
+                <li>我是正经人，请勿调戏!</li>
+                <li>唔 . . .</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>调 戏 *</pattern><template><srai>调 戏</srai></template></category>
+    <category><pattern>* 调 戏 *</pattern><template><srai>调 戏</srai></template></category>
+    <category><pattern>* 调 戏</pattern><template><srai>调 戏</srai></template></category>
+    <category><pattern>喵 *</pattern><template><srai>调 戏</srai></template></category>
+    <category><pattern>喵</pattern><template><srai>调 戏</srai></template></category>
+    <category><pattern>笑 一 个</pattern><template><srai>调戏</srai></template></category>
+    <category><pattern>给 * 笑 一 个</pattern><template><srai>调戏</srai></template></category>
+
+    <category>
+        <pattern>我 喜 欢 你</pattern>
+        <template>
+            <random>
+                <li>说得我脸红了，但是谢谢你！</li>
+                <li>我有这么幸运吗？</li>
+                <li>哦，我发现我好幸福哦，哎呀，要醉了</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>我 爱 你</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>I LOVE YOU.</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>I LOVE YOU</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>LOVE YOU.</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>LOVE YOU</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>LOVE</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>I LIKE YOU.</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>I LIKE YOU</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>* 追 求 你</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>* 追 求 你 *</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>* 追 你</pattern><template><srai>我 喜 欢 你</srai></template></category>
+    <category><pattern>* 追 你 *</pattern><template><srai>我 喜 欢 你</srai></template></category>
+
+    <category>
+        <pattern>贫 嘴</pattern>
+        <template>
+            <random>
+                <li>呵呵，你还没有真正认识我！</li>
+                <li>讨厌~</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>* 贫 嘴 *</pattern><template><srai>贫 嘴</srai></template></category>
+    <category><pattern>* 贫 嘴</pattern><template><srai>贫 嘴</srai></template></category>
+    <category><pattern>* 讨 厌</pattern><template><srai>贫 嘴</srai></template></category>
+    <category><pattern>* 讨 厌 *</pattern><template><srai>贫 嘴</srai></template></category>
+    <category><pattern>讨 厌 *</pattern><template><srai>贫 嘴</srai></template></category>
+
+</aiml>

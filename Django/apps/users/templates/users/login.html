@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="../../static/users/css/layui.css">
+    <link rel="stylesheet" href="../../static/users/css/admin.css">
+</head>
+
+<style>
+    .code{
+        background-image: url(code.jpg);
+        font-family: Arial;
+        font-style: italic;
+        color: blue;
+        border: 0;
+        padding: 2px 3px;
+        letter-spacing: 3px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+</style>
+
+<body style="width: 100%; height: 100%;" onload="createCode()">
+
+<div id="container">
+    <div class="bg bg-blur" style="height: 100%; position: absolute;"></div>
+    <div class="admin-login-background form-wrapper">
+        <!--<div class="admin-header">-->
+            <!--<img src="http://pic15.nipic.com/20110715/7943290_155206295348_2.jpg" class="admin-logo">-->
+        <!--</div>-->
+        <span id="message" hidden>{% if message %}{{ message }}{% endif %}</span>
+        <form class="layui-form" method="post" action="" enctype="multipart/form-data" onSubmit="return code1()">
+            {% csrf_token %}
+            <div class="fieldWrapper">
+                <i class="layui-icon layui-icon-username admin-icon admin-icon-username"></i>
+                {{ form.username }}
+                <span id="usernameerror" hidden>{{ form.username.errors }}</span>
+            </div>
+            <div class="fieldWrapper">
+                <i class="layui-icon layui-icon-password admin-icon admin-icon-password"></i>
+                {{ form.password }}
+                <span id="passworderror" hidden>{{ form.password.errors }}</span>
+            </div>
+            <div>
+                <div style="width:80px;position: absolute;right: 10px;margin-top: 15px;">
+                    <a onClick="createCode()"><span id="login_code" title="看不清，换一张"></span></a>
+                </div>
+                <div>
+                    <input type="text" id="code" name="code" placeholder="验证码" maxlength="6"
+                           class="layui-input admin-input admin-input-verify">
+                </div>
+            </div>
+            <div class="button-wrapper submit">
+                <button class="layui-btn admin-button" lay-submit>登陆</button>
+            </div>
+        </form>
+        <div style="margin-top: 20px;">
+            <a href="javascript:void(0);" style="color: #009688; float: right;">忘记密码？</a>
+            <a href="/accounts/register" style="color: #009688;">新用户注册</a>
+        </div>
+    </div>
+</div>
+<script src="../../static/users/js/layui.js"></script>
+<script>
+    layui.use('layer', function () {
+        var layer = layui.layer;
+        var $ = layui.$;
+
+        if ($("#usernameerror").html() !== '') {
+            layer.tips($("#usernameerror").html(), '#id_username', {
+                tips: [2, '#FF5722'],
+                tipsMore: true
+            });
+        }
+
+        if ($("#passworderror").html() !== '') {
+            layer.tips($("#passworderror").html(), '#id_password', {
+                tips: [2, '#FF5722'],
+                tipsMore: true
+            });
+        }
+
+        if ($("#message").html() !== '') {
+            layer.msg($("#message").html(),{
+                anim: 6
+            });
+        }
+
+        $(function(){
+            //session过期自动检测，如果当前框架不是顶层，则将顶层设置为此页面
+            if(window !== top){
+                top.location.href = location.href;
+            }
+        });
+
+        /****************生成验证码*******************/
+        var code;
+        window.createCode = function () {
+            code = "";
+            var codeLength = 5; //验证码的长度
+            var checkCode = document.getElementById("login_code");
+            var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+            'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'); //所有候选组成验证码的字符，当然也可以用中文的
+            for(var i = 0; i < codeLength; i++){
+                var charNum = Math.floor(Math.random() * 52);
+                code += codeChars[charNum];
+            }
+            if(checkCode){
+                checkCode.className = "code";
+                checkCode.innerHTML = code;
+            }
+        };
+        //验证
+        window.code1 = function () {
+            var inputCode=document.getElementById("code").value;
+            if(inputCode.length <= 0){
+                layer.msg("请输入验证码！");
+                return false;
+            }else if(inputCode.toUpperCase() !== code.toUpperCase()){
+                createCode();
+                layer.msg("验证码输入有误！");
+                return false;
+            }else{
+                return true;
+            }
+        }
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <!--system-->
+    <category>
+        <pattern>TIME</pattern>
+        <template>
+            <date />
+        </template>
+    </category>
+    <category><pattern>* 几 号</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>* 几 号 *</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>几 号 *</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>几 号</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>* 几 点 *</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>* 几 点</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>几 点 *</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>几 点</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>日 期</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>日 期 *</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>* 日 期</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>* 日 期 *</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>哪 一 天</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>* 哪 一 天</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>哪 一 天 *</pattern><template><srai>TIME</srai></template></category>
+    <category><pattern>* 哪 一 天 *</pattern><template><srai>TIME</srai></template></category>
+
+    <category>
+        <pattern>版 本</pattern>
+        <template>
+            <version/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>规 则</pattern>
+        <template>
+            <size/>
+        </template>
+    </category>
+
+    <!--工具链接-->
+    <category>
+        <pattern>天 气</pattern>
+        <template>
+            天气戳这里：a(http://www.weather.com.cn/)[中国天气网]
+        </template>
+    </category>
+    <category><pattern>* 天 气 *</pattern><template><srai>天 气</srai></template></category>
+    <category><pattern>* 天 气</pattern><template><srai>天 气</srai></template></category>
+    <category><pattern>天 气 *</pattern><template><srai>天 气</srai></template></category>
+
+    <category>
+        <pattern>新 闻</pattern>
+        <template>
+            <random>
+                <li>看看有没有什么新闻。</li>
+                <li>新华网是国内比较权威的新闻网站。</li>
+            </random>
+            a(http://www.xinhuanet.com/)[新华网]
+        </template>
+    </category>
+    <category><pattern>* 新 闻 *</pattern><template><srai>新 闻</srai></template></category>
+    <category><pattern>新 闻 *</pattern><template><srai>新 闻</srai></template></category>
+    <category><pattern>* 新 闻</pattern><template><srai>新 闻</srai></template></category>
+
+    <category>
+        <pattern>体 育</pattern>
+        <template>
+            a(http://sports.sina.com.cn/)[新浪体育]
+        </template>
+    </category>
+    <category><pattern>* 体 育 *</pattern><template><srai>体 育</srai></template></category>
+    <category><pattern>* 体 育</pattern><template><srai>体 育</srai></template></category>
+    <category><pattern>体 育 *</pattern><template><srai>体 育</srai></template></category>
+
+    <category>
+        <pattern>娱 乐</pattern>
+        <template>
+            <random>
+                <li>来看看新浪的娱乐栏目。</li>
+                <li>看看有什么消息</li>
+            </random>
+            a(http://ent.sina.com.cn/)[新浪娱乐]
+        </template>
+    </category>
+    <category><pattern>* 娱 乐 *</pattern><template><srai>娱 乐</srai></template></category>
+    <category><pattern>娱 乐 *</pattern><template><srai>娱 乐</srai></template></category>
+    <category><pattern>* 娱 乐</pattern><template><srai>娱 乐</srai></template></category>
+
+    <category>
+        <pattern>军 事</pattern>
+        <template>
+            <random>
+                <li>来看看新浪的军事栏目。</li>
+                <li>看看有什么消息</li>
+            </random>
+            a(http://jczs.sina.com.cn/)[新浪军事]
+        </template>
+    </category>
+    <category><pattern>* 军 事 *</pattern><template><srai>军 事</srai></template></category>
+    <category><pattern>* 军 事</pattern><template><srai>军 事</srai></template></category>
+    <category><pattern>军 事 *</pattern><template><srai>军 事</srai></template></category>
+
+</aiml>

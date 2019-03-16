@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>实体百科</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../../../static/layuiadmin/style/custom.css" media="all">
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <span id="LAY-button" class="layui-btn layui-btn-xs layui-btn-radius" title="返回上一级">
+                        <i class="layui-icon">&#xe65c;</i>
+                    </span>
+                    <span>&nbsp;<i>{{ item.title }}</i>&nbsp;实体内容</span>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <br><h2>{{ item.title }}</h2>
+                    {% for labels in parentlabel %}
+                    {% for label in labels %}
+                    <span class="layui-badge layui-bg-blue">{{ label }}</span>
+                    {% endfor %}
+                    {% endfor %}
+                    <br><hr>
+                    <div>
+                        <img src="{{ item.img }}" onerror="this.src='../../../../static/layuiadmin/style/default.jpg';this.onerror=null" alt="{{ item.title }}" height="auto" width="18%" style="float: left; padding-right: 20px;">
+                        {% if item.介绍 %}
+                            <p style="text-indent:2em;">{{ item.介绍 }}</p>
+                        {% endif %}
+                        {% if item.简介 %}
+                            <p style="text-indent:2em;">{{ item.简介 }}</p>
+                        {% endif %}
+                        {% if item.产品说明 %}
+                            <p style="text-indent:2em;">{{ item.产品说明 }}</p>
+                        {% endif %}
+                    </div>
+                    <div style="clear: both;">
+                        <hr>
+                        <table id="table" class="layui-table" lay-even="" lay-skin="nob">
+                            <colgroup>
+                                <col width="20%">
+                                <col width="30%">
+                                <col width="20%">
+                                <col width="30%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    {% if item.批准文号 %}
+                                        <th>批准文号：</th>
+                                        <th>{{item.批准文号}}</th>
+                                    {% endif %}
+                                    {% if item.主要规格 %}
+                                        <th>主要规格：</th>
+                                        <th>{{item.主要规格}}</th>
+                                    {% endif %}
+                                    {% if item.传染方式 %}
+                                        <th>传染方式：</th>
+                                        <th>{{item.传染方式}}</th>
+                                    {% endif %}
+                                    {% if item.易感人群 %}
+                                        <th>易感人群：</th>
+                                        <th>{{item.易感人群}}</th>
+                                    {% endif %}
+                                    {% if item.适用性别 %}
+                                        <th>适用性别：</th>
+                                        <th>{{item.适用性别}}</th>
+                                    {% endif %}
+                                    {% if item.是否空腹 %}
+                                        <th>是否空腹：</th>
+                                        <th>{{item.是否空腹}}</th>
+                                    {% endif %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    {% if item.不良反应与风险 %}
+                                        <th>不良反应与风险：</th>
+                                        <th>{{item.不良反应与风险}}</th>
+                                    {% endif %}
+                                    {% if item.不适宜人群 %}
+                                        <th>不适宜人群：</th>
+                                        <th>{{item.不适宜人群}}</th>
+                                    {% endif %}
+                                </tr>
+                                <tr>
+                                    {% if item.正常值 %}
+                                        <th>正常值：</th>
+                                        <th>{{item.正常值}}</th>
+                                        <th></th>
+                                        <th></th>
+                                    {% endif %}
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <div>
+                            {% if item.预防 %}
+                                <br>
+                                <blockquote class="layui-elem-quote layui-quote-nm">
+                                    预防
+                                </blockquote>
+                                <p style="text-indent:2em;">{{ item.预防 }}</p>
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if item.食疗 %}
+                                <br>
+                                <blockquote class="layui-elem-quote layui-quote-nm">
+                                    食疗
+                                </blockquote>
+                                <p style="text-indent:2em;">{{ item.食疗 }}</p>
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if item.饮食保健 %}
+                                <br>
+                                <blockquote class="layui-elem-quote layui-quote-nm">
+                                    饮食保健
+                                </blockquote>
+                                <p style="text-indent:2em;">{{ item.饮食保健 }}</p>
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if item.检查过程 %}
+                                <br>
+                                <blockquote class="layui-elem-quote layui-quote-nm">
+                                    检查过程
+                                </blockquote>
+                                <p style="text-indent:2em;">{{ item.检查过程 }}</p>
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if item.用途 %}
+                                <br>
+                                <blockquote class="layui-elem-quote layui-quote-nm">
+                                    用途
+                                </blockquote>
+                                <p style="text-indent:2em;">{{ item.用途 }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-header"><i>{{ item.title }}</i>&nbsp;相关</div>
+                <div class="layui-card-body">
+
+                    <div class="layui-carousel layadmin-carousel layadmin-graph" data-anim="fade" lay-filter="LAY-index-pageone">
+                        <div carousel-item id="LAY-index-pageone">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="nodes" hidden>{{ nodeRelation }}</div>
+<script src="../../../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    var data = document.getElementById("nodes").innerHTML;
+    data = eval('('+ data +')');
+    // console.log(data);
+</script>
+<script>
+    layui.config({
+        base: '../../../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'entity'], function () {
+        var $ = layui.$;
+        $(document).on('click', '#LAY-button', function(){
+            window.history.go(-1);
+        });
+    });
+</script>
+</body>
+</html>

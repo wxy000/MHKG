@@ -1,0 +1,27 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>CONNECT SUCCEED</pattern>
+        <template>
+            [span]欢迎！康康为您服务[/span]
+            [div class=roundedRectangle][p]
+            [span]亲亲，你可以点击下面的问题哦[/span]
+            [span]a(javascript:toto('糖尿病的治疗方法');)[1、糖尿病的治疗方法][/span]
+            [span]a(javascript:toto('肿瘤要做什么检查');)[2、肿瘤要做什么检查][/span]
+            [span]a(javascript:toto('感冒吃什么药');)[3、感冒吃什么药][/span]
+            [span]a(javascript:toto('禽流感有什么并发症');)[4、禽流感有什么并发症][/span]
+            [span]a(javascript:toto('低血糖要吃什么');)[5、低血糖要吃什么][/span]
+            [/p][/div]
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <think><set name="star"><star /></set></think>
+            #NoMatchingTemplate:<get name="star" />
+        </template>
+    </category>
+
+</aiml>

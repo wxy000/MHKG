@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>实体查询</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-body" style="background-image: url(../../static/layuiadmin/style/search-bg.jpg);">
+                    <div style="height: 120px; text-align: center;">
+                        <div style="height: 30%;"></div>
+                        <!--<span style="font-size: 18px;"><b><i>实体搜索</i></b>&nbsp;&nbsp;&nbsp;</span>-->
+                        <div class="layui-inline" style="width: 60%;">
+                            <input type="text" id="keywords" placeholder="请输入实体" autocomplete="off" class="layui-input">
+                        </div>
+                        <button id="searchBtn" class="layui-btn layui-btn-normal">搜索</button>
+                        <center>
+                            <div style="text-align: left; width: 65%;">
+                                <b>热词推荐：</b>
+                                <a href="search?flag=1&keywords=肿瘤">
+                                    <span class="layui-badge layui-bg-orange">肿瘤</span>
+                                </a>
+                                <a href="search?flag=1&keywords=糖尿病">
+                                    <span class="layui-badge layui-bg-orange">糖尿病</span>
+                                </a>
+                                <a href="search?flag=1&keywords=抽搐">
+                                    <span class="layui-badge">抽搐</span>
+                                </a>
+                                <a href="search?flag=1&keywords=腹泻">
+                                    <span class="layui-badge">腹泻</span>
+                                </a>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm6">
+            <div class="layui-card">
+                <div class="layui-card-header">每周精选</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel" id="carousel-img" lay-anim="" lay-indicator="inside" lay-arrow="hover" style="width: 100%; height: 320px;">
+                        <div carousel-item="">
+                            {% for w in week %}
+                            <div class="">
+                                <a href="{{ w.url }}" target="_blank" title="{{ w.title }}">
+                                    <img src="{{ w.imgurl }}" style="height: 100%; width: 100%;">
+                                </a>
+                            </div>
+                            {% empty %}
+                            <div style="text-align: center; color: #8D8D8D">暂无数据</div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm6">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    <span>前沿瞻望</span>
+                    <span style="float: right;"><a href="http://news.bioon.com/medical" target="_blank">更多>></a></span>
+                </div>
+                <div class="layui-card-body">
+                    <div>
+                        <ul style="font-size: 14px; line-height: 32px;">
+                            {% for a in article %}
+                            <li title="{{ a.title }}">
+                                <a style="color: #1E9FFF;" href="{{ a.url }}" target="_blank">●&nbsp;&nbsp;{{ a.title }}</a>
+                                <span style="float: right; color: #3F3F3F;">{{ a.date }}</span>
+                            </li>
+                            {% empty %}
+                            <div style="text-align: center; color: #8D8D8D">暂无数据</div>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'carousel'], function () {
+        var $ = layui.$;
+        var carousel = layui.carousel;
+        //图片轮播
+        carousel.render({
+            elem: '#carousel-img'
+            , width: '100%'
+            , height: '320px'
+            , interval: 3000
+        });
+        $(document).on('click','#searchBtn',function(){
+            var s = document.getElementById("keywords").value;
+            if (s !== '') {
+                window.location.href = "search?flag=1&keywords=" + s;
+            } else {
+                layer.msg("请输入要查询的实体")
+            }
+        });
+    });
+</script>
+</body>
+</html>

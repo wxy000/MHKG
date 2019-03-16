@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>访问明细</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">访客详细情况</div>
+                <div class="layui-card-body">
+                    <div class="layui-tab" lay-filter="component-tabs-brief">
+                        <ul class="layui-tab-title">
+                            <li class="layui-this">今日</li>
+                            {% for day in result.days %}
+                            <li>{{ day }}</li>
+                            {% endfor %}
+                        </ul>
+                        <div class="layui-tab-content" style="margin: -10px;">
+                            <div id="tabEvent" class="layui-tab-item layui-show">
+                                <table class="layui-hide" id="test-table-toolbar" lay-filter="test-table-toolbar"></table>
+
+                                <script type="text/html" id="test-table-toolbar-toolbarDemo">
+                                    <div class="layui-btn-container">
+                                        <a style="color: #01AAED;" class="layui-btn-sm" lay-event="getCheckData">搜索及筛选</a>
+                                    </div>
+                                </script>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'table'], function () {
+        var $ = layui.$
+        ,admin = layui.admin
+        ,element = layui.element
+        ,table = layui.table
+        ,router = layui.router();
+
+        element.render();
+
+        function getTable(num){
+            table.render({
+                elem: '#test-table-toolbar'
+                ,url: 'getTableData?day=' + num
+                ,toolbar: '#test-table-toolbar-toolbarDemo'
+                ,title: '用户数据表'
+                ,cols: [[
+                    {type: 'checkbox', fixed: 'left'}
+                    // ,{field:'id', title:'ID', width:80, fixed: 'left', unresize: true, sort: true}
+                    ,{field:'log_time', title:'浏览时间', width:180, sort: true}
+                    ,{field:'refer', title:'页面来源', width:270}
+                    ,{field:'request', title:'受访', width:270}
+                    ,{field:'ip', title:'IP'}
+                    ,{field:'address', title:'地区', width:140}
+                ]]
+                ,page: true
+            });
+
+            //头工具栏事件
+            table.on('toolbar(test-table-toolbar)', function(obj){
+                var checkStatus = table.checkStatus(obj.config.id);
+                switch(obj.event){
+                    case 'getCheckData':
+                        layer.open({
+                            type: 2,
+                            title: "筛选条件",
+                            content: "/searchCondition",
+                            maxmin: !0,
+                            area: ["600px", "320px"],
+                            btn: ["确定", "取消"],
+                            yes: function (e, t) {
+                                var l = window["layui-layer-iframe" + e], r = "LAY-user-front-submit",
+                                    n = t.find("iframe").contents().find("#" + r);
+                                l.layui.form.on("submit(" + r + ")", function (t) {
+                                    var field = t.field;
+
+                                    console.log(field);
+                                    table.reload('test-table-toolbar', {
+                                        where: {
+                                            ip: field.ip,
+                                            address: field.address,
+                                            starttime: field.starttime,
+                                            endtime: field.endtime
+                                        }
+                                    });
+
+                                    table.reload("LAY-user-front-submit");
+                                    layer.close(e)
+                                });
+                                n.trigger("click")
+                            },
+                            success: function (e, t) {
+                            }
+                        });
+                        break;
+                }
+            });
+        }
+
+        getTable(0);
+
+        element.on('tab(component-tabs-brief)', function(obj){
+            // layer.msg(obj.index + '：' + this.innerHTML);
+            $("#test-table-toolbar").empty();
+            getTable(obj.index);
+        });
+
+    });
+</script>
+</body>
+</html>

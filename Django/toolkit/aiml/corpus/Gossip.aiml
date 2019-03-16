@@ -1,0 +1,140 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>没 有</pattern>
+        <template>哦，好吧。</template>
+    </category>
+
+    <category>
+        <pattern>好 的</pattern>
+        <template>
+            <random>
+                <li>嗯，好</li>
+                <li>呵呵</li>
+                <li>好，就这样。</li>
+                <li>一言为定。</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>可 以</pattern><template><srai>好 的</srai></template></category>
+    <category><pattern>嗯</pattern><template><srai>好 的</srai></template></category>
+    <category><pattern>* 明 白</pattern><template><srai>好 的</srai></template></category>
+    <category><pattern>明 白</pattern><template><srai>好 的</srai></template></category>
+
+    <category>
+        <pattern>是 的</pattern>
+        <template>还有其他问题吗？</template>
+    </category>
+
+    <category>
+        <pattern>不 要 介 意</pattern>
+        <template>好的，我不会介意的。</template>
+    </category>
+
+    <category>
+        <pattern>骗 你 *</pattern>
+        <template>
+            你为什么要骗我呀？
+        </template>
+    </category>
+
+    <category>
+        <pattern>我 有 *</pattern>
+        <template>
+            <random>
+                <li>你有<star/>?</li>
+                <li>真的? </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>哦</pattern>
+        <template>不要哦呀哦的，说点其他的吧。 </template>
+    </category>
+
+    <category>
+        <pattern>你 不 明 白</pattern>
+        <template>
+            <random>
+                <li>我这么说了? </li>
+                <li>我不明白? </li>
+                <li>你这么认为？ </li>
+                <li>随你想好了。</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>我 可 以 * ？</pattern>
+        <template>
+            <random>
+                <li>我不知道 </li>
+                <li>你应该去问问其他人</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>什 么 意 思</pattern>
+        <template>
+            <random>
+                <li>对不起，我刚才有些心不在焉</li>
+                <li>是我说错了？</li>
+                <li>我的脑袋有些迟钝</li>
+                <li>没什么呀</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>* 什 么 意 思</pattern><template><srai>什 么 意 思</srai></template></category>
+    <category><pattern>啥 意 思</pattern><template><srai>什 么 意 思</srai></template></category>
+    <category><pattern>你 在 说 什 么</pattern><template><srai>什 么 意 思</srai></template></category>
+
+    <category>
+        <pattern>问 什 么</pattern>
+        <template>
+            <random>
+                <li>你喜欢看书还是上网？</li>
+                <li>你是GG还是MM？</li>
+                <li>你在读书还是已经工作？</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>* 问 什 么</pattern><template><srai>问 什 么</srai></template></category>
+    <category><pattern>* 问 啥</pattern><template><srai>问 什 么</srai></template></category>
+    <category><pattern>问 啥</pattern><template><srai>问 什 么</srai></template></category>
+    <category><pattern>聊 什 么</pattern><template><srai>问 什 么</srai></template></category>
+    <category><pattern>* 聊 什 么</pattern><template><srai>问 什 么</srai></template></category>
+    <category><pattern>聊 啥</pattern><template><srai>问 什 么</srai></template></category>
+    <category><pattern>* 聊 啥</pattern><template><srai>问 什 么</srai></template></category>
+    <category>
+        <pattern>看 书</pattern>
+        <that>你喜欢看书还是上网？</that>
+        <template>我也是，看来我们有共同的爱好</template>
+    </category>
+    <category>
+        <pattern>上 网</pattern>
+        <that>你喜欢看书还是上网？</that>
+        <template><srai>看 书</srai></template>
+    </category>
+    <category>
+        <pattern>GG</pattern>
+        <that>你是GG还是MM？</that>
+        <template>那你一定喜欢PLMM吧，嘻嘻，我们小和尚不能的</template>
+    </category>
+    <category>
+        <pattern>MM</pattern>
+        <that>你是GG还是MM？</that>
+        <template>那你一定很温柔吧，嘻嘻，我们小和尚不能乱想的</template>
+    </category>
+    <category>
+        <pattern>工 作</pattern>
+        <that>你在读书还是已经工作？</that>
+        <template>恭喜发财，红包拿来</template>
+    </category>
+    <category>
+        <pattern>读 书</pattern>
+        <that>你在读书还是已经工作？</that>
+        <template>校园生活一定丰富多彩吧？</template>
+    </category>
+</aiml>

@@ -1,0 +1,383 @@
+{
+    "name": "症状百科",
+    "children": [
+        {
+            "name": "外科",
+            "children": [
+                {
+                    "name": "肛肠科",
+                    "children": [],
+                    "id": "zhengzhuang_0_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "普外科",
+                    "children": [],
+                    "id": "zhengzhuang_3_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "心胸外科",
+                    "children": [],
+                    "id": "zhengzhuang_20_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "骨外科",
+                    "children": [],
+                    "id": "zhengzhuang_21_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "感染科",
+                    "children": [],
+                    "id": "zhengzhuang_50_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "整形美容科",
+                    "children": [],
+                    "id": "zhengzhuang_95_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "神经外科",
+                    "children": [],
+                    "id": "zhengzhuang_130_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "泌尿外科",
+                    "children": [],
+                    "id": "zhengzhuang_131_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "烧伤科",
+                    "children": [],
+                    "id": "zhengzhuang_169_2",
+                    "parent": "外科"
+                },
+                {
+                    "name": "肝胆外科",
+                    "children": [],
+                    "id": "zhengzhuang_1108_2",
+                    "parent": "外科"
+                }
+            ],
+            "id": "zhengzhuang_0_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "内科",
+            "children": [
+                {
+                    "name": "内分泌科",
+                    "children": [],
+                    "id": "zhengzhuang_1_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "消化内科",
+                    "children": [],
+                    "id": "zhengzhuang_4_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "心内科",
+                    "children": [],
+                    "id": "zhengzhuang_9_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "肾内科",
+                    "children": [],
+                    "id": "zhengzhuang_15_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "呼吸内科",
+                    "children": [],
+                    "id": "zhengzhuang_23_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "神经内科",
+                    "children": [],
+                    "id": "zhengzhuang_25_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "遗传病科",
+                    "children": [],
+                    "id": "zhengzhuang_35_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "泌尿内科",
+                    "children": [],
+                    "id": "zhengzhuang_448_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "血液科",
+                    "children": [],
+                    "id": "zhengzhuang_503_2",
+                    "parent": "内科"
+                },
+                {
+                    "name": "风湿免疫科",
+                    "children": [],
+                    "id": "zhengzhuang_612_2",
+                    "parent": "内科"
+                }
+            ],
+            "id": "zhengzhuang_1_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "皮肤性病科",
+            "children": [
+                {
+                    "name": "性病科",
+                    "children": [],
+                    "id": "zhengzhuang_5_2",
+                    "parent": "皮肤性病科"
+                },
+                {
+                    "name": "皮肤科",
+                    "children": [],
+                    "id": "zhengzhuang_31_2",
+                    "parent": "皮肤性病科"
+                }
+            ],
+            "id": "zhengzhuang_5_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "儿科",
+            "children": [
+                {
+                    "name": "儿科综合",
+                    "children": [],
+                    "id": "zhengzhuang_6_2",
+                    "parent": "儿科"
+                },
+                {
+                    "name": "小儿外科",
+                    "children": [],
+                    "id": "zhengzhuang_196_2",
+                    "parent": "儿科"
+                },
+                {
+                    "name": "小儿内科",
+                    "children": [],
+                    "id": "zhengzhuang_481_2",
+                    "parent": "儿科"
+                }
+            ],
+            "id": "zhengzhuang_6_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "其他科室",
+            "children": [
+                {
+                    "name": "其他综合",
+                    "children": [],
+                    "id": "zhengzhuang_12_2",
+                    "parent": "其他科室"
+                },
+                {
+                    "name": "康复科",
+                    "children": [],
+                    "id": "zhengzhuang_16_2",
+                    "parent": "其他科室"
+                },
+                {
+                    "name": "理疗科",
+                    "children": [],
+                    "id": "zhengzhuang_44_2",
+                    "parent": "其他科室"
+                },
+                {
+                    "name": "辅助检查",
+                    "children": [],
+                    "id": "zhengzhuang_1387_2",
+                    "parent": "其他科室"
+                },
+                {
+                    "name": "保健养生",
+                    "children": [],
+                    "id": "zhengzhuang_3500_2",
+                    "parent": "其他科室"
+                },
+                {
+                    "name": "药品科",
+                    "children": [],
+                    "id": "zhengzhuang_4407_2",
+                    "parent": "其他科室"
+                },
+                {
+                    "name": "重症监护",
+                    "children": [],
+                    "id": "zhengzhuang_5559_2",
+                    "parent": "其他科室"
+                }
+            ],
+            "id": "zhengzhuang_12_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "中医科",
+            "children": [
+                {
+                    "name": "中医综合",
+                    "children": [],
+                    "id": "zhengzhuang_13_2",
+                    "parent": "中医科"
+                },
+                {
+                    "name": "中医理疗科",
+                    "children": [],
+                    "id": "zhengzhuang_19_2",
+                    "parent": "中医科"
+                },
+                {
+                    "name": "中医骨伤科",
+                    "children": [],
+                    "id": "zhengzhuang_4291_2",
+                    "parent": "中医科"
+                }
+            ],
+            "id": "zhengzhuang_13_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "五官科",
+            "children": [
+                {
+                    "name": "眼科",
+                    "children": [],
+                    "id": "zhengzhuang_22_2",
+                    "parent": "五官科"
+                },
+                {
+                    "name": "口腔科",
+                    "children": [],
+                    "id": "zhengzhuang_29_2",
+                    "parent": "五官科"
+                },
+                {
+                    "name": "耳鼻喉科",
+                    "children": [],
+                    "id": "zhengzhuang_69_2",
+                    "parent": "五官科"
+                }
+            ],
+            "id": "zhengzhuang_22_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "传染科",
+            "children": [],
+            "id": "zhengzhuang_30_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "心理科",
+            "children": [],
+            "id": "zhengzhuang_55_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "精神科",
+            "children": [],
+            "id": "zhengzhuang_75_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "营养科",
+            "children": [],
+            "id": "zhengzhuang_119_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "妇产科",
+            "children": [
+                {
+                    "name": "产科",
+                    "children": [],
+                    "id": "zhengzhuang_175_2",
+                    "parent": "妇产科"
+                },
+                {
+                    "name": "妇科",
+                    "children": [],
+                    "id": "zhengzhuang_223_2",
+                    "parent": "妇产科"
+                }
+            ],
+            "id": "zhengzhuang_175_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "急诊科",
+            "children": [],
+            "id": "zhengzhuang_192_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "男科",
+            "children": [],
+            "id": "zhengzhuang_277_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "肿瘤科",
+            "children": [
+                {
+                    "name": "肿瘤内科",
+                    "children": [],
+                    "id": "zhengzhuang_479_2",
+                    "parent": "肿瘤科"
+                },
+                {
+                    "name": "肿瘤外科",
+                    "children": [],
+                    "id": "zhengzhuang_766_2",
+                    "parent": "肿瘤科"
+                }
+            ],
+            "id": "zhengzhuang_479_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "生殖健康",
+            "children": [
+                {
+                    "name": "不孕不育",
+                    "children": [],
+                    "id": "zhengzhuang_653_2",
+                    "parent": "生殖健康"
+                }
+            ],
+            "id": "zhengzhuang_653_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "中西医结合科",
+            "children": [],
+            "id": "zhengzhuang_1280_1",
+            "parent": "症状百科"
+        },
+        {
+            "name": "体检科",
+            "children": [],
+            "id": "zhengzhuang_5576_1",
+            "parent": "症状百科"
+        }
+    ],
+    "id": "zhengzhuang_0_0",
+    "parent": ""
+}

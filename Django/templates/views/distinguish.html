@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实体识别</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header" style="color: #393D49;">【输入文本】</div>
+                <div class="layui-card-body layui-row layui-col-space10 layui-form">
+                    <div class="layui-col-md12">
+                        <textarea name="textarea" required lay-verify="required" placeholder="请输入" class="layui-textarea"></textarea>
+                    </div>
+                    <div class="layui-col-md12" style="text-align: center;">
+                        <button class="layui-btn layui-btn-normal" lay-submit lay-filter="shibie">点击识别</button>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-card">
+                <div class="layui-card-header" style="color: #393D49;">【识别结果】</div>
+                <div id="retext" class="layui-card-body" style="padding: 10px 20px;"></div>
+            </div>
+            <div class="layui-card">
+                <div class="layui-card-header" style="color: #393D49;">【分词结果】</div>
+                <div class="layui-card-body layui-col-space10">
+                    <table class="layui-table" lay-size="sm" lay-skin="line">
+                        <colgroup>
+                            <col width="150">
+                            <col width="150">
+                            <col>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>原词</th>
+                                <th>匹配到最相近的词</th>
+                                <th>简介</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pipeitable"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% csrf_token %}
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'form'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , form = layui.form;
+
+        //监听提交
+        form.on('submit(shibie)', function(data){
+            // layer.msg(JSON.stringify(data.field));
+            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
+            var index = layer.load(2);
+            $.ajax({
+                headers: {"X-CSRFToken": csrfToken},
+                url: 'getDistinguishData/',
+                data: data.field,
+                type: 'post',
+                success: function (data) {
+                    if (data.code === 0) {
+                        $("#retext").empty().html(data.retext);
+                        $("#pipeitable").empty().html(data.pipeitable);
+                    } else {
+                        layer.msg(data.msg);
+                    }
+                    layer.close(index);
+                },
+                error: function (data) {
+                    layer.close(index);
+                    layer.msg("发生错误，无法识别");
+                }
+            });
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

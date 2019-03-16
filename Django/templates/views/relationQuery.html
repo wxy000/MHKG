@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>关系查询</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/custom.css" media="all">
+    <style>
+        #searchEntity1,
+        #searchEntity2{
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            z-index: 999;
+            background-color: #fff;
+            border:1px solid #ccc;
+            border-radius:3px;
+            box-shadow:0px 0px 2px 2px rgba(62, 192, 230,0.3);
+            display:none;
+        }
+        #searchEntity1 ul,
+        #searchEntity2 ul{
+            max-height: 190px;
+            overflow: auto;
+        }
+        #searchEntity1 li,
+        #searchEntity2 li{
+            padding:4px;
+        }
+        #searchEntity1 li:hover,
+        #searchEntity2 li:hover{
+            background-color:#5FB878;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-form" style="padding: 20px 0px; text-align: center;">
+                        <div class="layui-inline" style="width: 20%;">
+                            <input type="text" id="entity1" readOnly placeholder="请输入实体" class="layui-input">
+                            <div id="searchEntity1">
+                                <input type="text" class="layui-input" placeholder="请输入实体">
+                                <ul id="entityList1"></ul>
+                            </div>
+                        </div>
+                        <div id="select" class="layui-input-inline" style="width: 15%;">
+                            <select id="selectRelation" name="relation" lay-filter="relation" aria-invalid="false">
+                                <option value="*">请选择关系</option>
+                                <option value="0">最短路径</option>
+                            </select>
+                        </div>
+                        <div class="layui-inline" style="width: 20%;">
+                            <input type="text" id="entity2" readOnly placeholder="请输入实体" class="layui-input">
+                            <div id="searchEntity2">
+                                <input type="text" class="layui-input" placeholder="请输入实体">
+                                <ul id="entityList2"></ul>
+                            </div>
+                        </div>
+                        <button id="searchBtn" class="layui-btn layui-btn-normal">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-header"><i>{{ item.title }}</i>&nbsp;相关</div>
+                <div class="layui-card-body">
+
+                    <div class="layui-carousel layadmin-carousel layadmin-graph-small" data-anim="fade" lay-filter="LAY-index-pageone">
+                        <div carousel-item id="LAY-index-pageone">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'form', 'relationQuery'], function () {
+        var $ = layui.$;
+        var form = layui.form;
+
+        //点击输入框弹出选择框
+        $("#entity1").val('');
+        $("#entity1").click(function(){
+            $("#searchEntity1 ul").empty();
+            $("#searchEntity1").show();
+            $("#searchEntity1 input").val('').focus();
+            return false;
+        });
+        $("#entity2").val('');
+        $("#entity2").click(function(){
+            $("#searchEntity2 ul").empty();
+            $("#searchEntity2").show();
+            $("#searchEntity2 input").val('').focus();
+            return false;
+        });
+
+        //点击其他地方隐藏选择框
+        $("body").on("click", function(){
+            $("#searchEntity1, #searchEntity2").hide();
+        });
+        $("#searchEntity1, #searchEntity2").click(function(event){
+            event.stopPropagation();
+        });
+        $("#searchEntity1 input, #searchEntity2 input").click(function(){
+            return false;
+        });
+
+        //输入关键字显示相关词
+        $("#searchEntity1 input").keyup(function(){
+            $("#searchEntity1 ul").empty();
+            var val = $(this).val();
+            if(val === ''){
+                // $("#searchEntity1 ul").append(entityli);
+            }else{
+                $.ajax({
+                    url: "node?name=" + val,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        $("#entityList1").empty();
+                        for (var j = 0; j < data.length; j++) {
+                            $("#entityList1").append("<li class=\"entityli\" nodeid1=\"" + data[j]['id'] + "\">" + data[j]['title'] + "</li>");
+                        }
+                        if( $("#searchEntity1 ul").find('li').length<=0 ){
+                            $("#searchEntity1 ul").append('<li class="notentityli1" style="background-color:#f0f0f3;">未找到相关选项! "' + val + '"</li>');
+                        }
+                    }
+                });
+            }
+        });
+        $("#searchEntity1").on("click", "li.notentityli1", function(){
+            return false;
+        });
+
+        $("#searchEntity2 input").keyup(function(){
+            $("#searchEntity2 ul").empty();
+            var val = $(this).val();
+            if(val === ''){
+                // $("#searchEntity2 ul").append(entityli);
+            }else{
+                $.ajax({
+                    url: "node?name=" + val,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        $("#entityList2").empty();
+                        for (var j = 0; j < data.length; j++) {
+                            $("#entityList2").append("<li class=\"entityli\" nodeid2=\"" + data[j]['id'] + "\">" + data[j]['title'] + "</li>");
+                        }
+                        if( $("#searchEntity2 ul").find('li').length<=0 ){
+                            $("#searchEntity2 ul").append('<li class="notentityli2" style="background-color:#f0f0f3;">未找到相关选项! "' + val + '"</li>');
+                        }
+                    }
+                });
+            }
+        });
+        $("#searchEntity2").on("click", "li.notentityli2", function(){
+            return false;
+        });
+
+        //点击选中
+        $("#searchEntity1").on("click", "li.entityli", function() {
+            $("#entity1").val($(this).text());
+            $("#entity1").attr("nodeid1", $(this).attr("nodeid1"));
+            $("#searchEntity1").hide();
+        });
+        $("#searchEntity2").on("click", "li.entityli", function() {
+            $("#entity2").val($(this).text());
+            $("#entity2").attr("nodeid2", $(this).attr("nodeid2"));
+            $("#searchEntity2").hide();
+        });
+    });
+</script>
+</body>
+</html>

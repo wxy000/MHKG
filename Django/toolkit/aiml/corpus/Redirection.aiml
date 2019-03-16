@@ -1,0 +1,13 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- OrdinaryQuestion.aiml -->
+    <category>
+        <pattern>* 是 啥</pattern>
+        <template>
+            $neo4j:<star/>
+        </template>
+    </category>
+    <category><pattern>* 是 什 么</pattern><template><srai><star/> 是 啥</srai></template></category>
+    <category><pattern>什 么 是 *</pattern><template><srai><star/> 是 啥</srai></template></category>
+    <category><pattern>啥 是 *</pattern><template><srai><star/> 是 啥</srai></template></category>
+
+</aiml>

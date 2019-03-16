@@ -1,0 +1,181 @@
+{
+    "id": "jiancha_0_0",
+    "parent": "",
+    "children": [
+        {
+            "id": "jiancha_0_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "内分泌检查"
+        },
+        {
+            "id": "jiancha_1_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "粪便/寄生虫检查"
+        },
+        {
+            "id": "jiancha_5_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "血液检查"
+        },
+        {
+            "id": "jiancha_15_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "生化检查"
+        },
+        {
+            "id": "jiancha_18_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "尿液/肾功能检查"
+        },
+        {
+            "id": "jiancha_21_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "显微镜检查"
+        },
+        {
+            "id": "jiancha_22_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "肝功能检查"
+        },
+        {
+            "id": "jiancha_23_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "肺功能检查"
+        },
+        {
+            "id": "jiancha_25_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "病原微生物检查"
+        },
+        {
+            "id": "jiancha_28_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "体格检查"
+        },
+        {
+            "id": "jiancha_29_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "X线"
+        },
+        {
+            "id": "jiancha_31_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "其他检查"
+        },
+        {
+            "id": "jiancha_42_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "CT"
+        },
+        {
+            "id": "jiancha_56_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "神经电生理"
+        },
+        {
+            "id": "jiancha_61_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "超声"
+        },
+        {
+            "id": "jiancha_83_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "脑脊液检查"
+        },
+        {
+            "id": "jiancha_85_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "内窥镜"
+        },
+        {
+            "id": "jiancha_117_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "核磁共振"
+        },
+        {
+            "id": "jiancha_118_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "放射性核素"
+        },
+        {
+            "id": "jiancha_164_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "体液检查"
+        },
+        {
+            "id": "jiancha_173_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "免疫检查"
+        },
+        {
+            "id": "jiancha_435_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "阴道分泌物检查"
+        },
+        {
+            "id": "jiancha_532_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "病理检查"
+        },
+        {
+            "id": "jiancha_533_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "精液及前列腺液检查"
+        },
+        {
+            "id": "jiancha_558_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "胸腹水检查"
+        },
+        {
+            "id": "jiancha_611_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "痰液检查"
+        },
+        {
+            "id": "jiancha_653_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "基因检测（DNA）"
+        },
+        {
+            "id": "jiancha_1043_1",
+            "parent": "检查项目",
+            "children": [],
+            "name": "骨髓检查"
+        },
+        {
+            "id": "jiancha_1689_1",
+            "children": [],
+            "parent": "检查项目",
+            "name": "心电图"
+        }
+    ],
+    "name": "检查项目"
+}

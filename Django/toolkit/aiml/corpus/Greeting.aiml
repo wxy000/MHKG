@@ -1,0 +1,135 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>你 好</pattern>
+        <template>
+            <random>
+                <li>好好好~</li>
+                <li>Hi~</li>
+                <li>Hello~</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>HI *</pattern><template><srai>你 好<star/></srai></template></category>
+    <category><pattern>HELLO *</pattern><template><srai>你 好<star/></srai></template></category>
+    <category><pattern>HI</pattern><template><srai>你 好</srai></template></category>
+    <category><pattern>HELLO</pattern><template><srai>你 好</srai></template></category>
+
+    <category>
+        <pattern>你 好 *</pattern>
+        <template>
+            <think><set name="star"><star index="1"/></set></think>
+            <condition name="star">
+                <li value="啊"><srai>你 好</srai></li>
+                <li value="呀"><srai>你 好</srai></li>
+                <li value="萌"><srai>调 戏</srai></li>
+                <li value="萌 啊"><srai>调 戏</srai></li>
+                <li value="聪 明"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="善 良"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="厉 害"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="文 艺"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="牛 逼"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="强"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="聪 明 啊"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="善 良 啊"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="厉 害 啊"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="文 艺 啊"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="牛 逼 啊"><srai>夸 奖 <get name="star" /></srai></li>
+                <li value="强 啊"><srai>夸 奖 <get name="star" /></srai></li>
+                <li><sr/></li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>晚 安</pattern>
+        <template>
+            <random>
+                <li>晚安</li>
+                <li>Sleep tight~</li>
+                <li>晚安，祝你梦到妹纸~</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>* 晚 安</pattern><template><srai>晚 安</srai></template></category>
+    <category><pattern>* 晚 安 *</pattern><template><srai>晚 安</srai></template></category>
+    <category><pattern>晚 安 *</pattern><template><srai>晚 安</srai></template></category>
+
+    <category>
+        <pattern>在 吗</pattern>
+        <template>
+            <random>
+                <li>在的。有什么问题吗？</li>
+                <li>在在，有什么可以帮你的吗？</li>
+                <li>Hello，有什么可以帮你的吗？</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>在</pattern><template><srai>在 吗</srai></template></category>
+    <category><pattern>在 *</pattern><template><srai>在 吗</srai></template></category>
+    <category><pattern>在 否</pattern><template><srai>在 吗</srai></template></category>
+    <category><pattern>* 有 没 有 人 *</pattern><template><srai>在 吗</srai></template></category>
+    <category><pattern>* 有 人 * 吗 *</pattern><template><srai>在 吗</srai></template></category>
+
+    <category>
+        <pattern>早 上 好</pattern>
+        <template>
+            早上好。
+        </template>
+    </category>
+
+    <category>
+        <pattern>早</pattern>
+        <template>早。</template>
+    </category>
+
+    <category>
+        <pattern>下 午 好</pattern>
+        <template>
+            下午好。
+        </template>
+    </category>
+
+    <category>
+        <pattern>晚 上 好</pattern>
+        <template>
+            晚上好
+        </template>
+    </category>
+
+    <category>
+        <pattern>你 叫 啥</pattern>
+        <template>我叫康康</template>
+    </category>
+    <category><pattern>你 叫 什 么</pattern><template><srai>你 叫 啥</srai></template></category>
+    <category><pattern>你 叫 什 么 *</pattern><template><srai>你 叫 啥</srai></template></category>
+    <category><pattern>你 叫 啥 *</pattern><template><srai>你 叫 啥</srai></template></category>
+    <category><pattern>你 是 *</pattern><template><srai>你 叫 啥</srai></template></category>
+    <category><pattern>你 是</pattern><template><srai>你 叫 啥</srai></template></category>
+
+    <category>
+        <pattern>喂</pattern>
+        <template>
+            <random>
+                <li>干啥? </li>
+                <li>咋啦</li>
+                <li>你在叫我？</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>很 高 兴 认 识 你</pattern>
+        <template>
+            <random>
+                <li>我也是</li>
+                <li>你是一个可爱的人</li>
+                <li>真的吗？</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>认 识 你 很 高 兴</pattern><template><srai>很 高 兴 认 识 你</srai></template></category>
+    <category><pattern>我 * 高 兴</pattern><template><srai>很 高 兴 认 识 你</srai></template></category>
+    <category><pattern>我 * 开 心</pattern><template><srai>很 高 兴 认 识 你</srai></template></category>
+
+</aiml>

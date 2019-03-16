@@ -1,0 +1,261 @@
+{
+    "id": "drug_0_0",
+    "name": "药品",
+    "parent": "",
+    "children": [
+        {
+            "id": "drug_0_1",
+            "name": "中成药",
+            "parent": "药品",
+            "children": [
+                {
+                    "id": "drug_0_2",
+                    "name": "妇科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_1_2",
+                    "name": "内科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_10_2",
+                    "name": "肿瘤科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_13_2",
+                    "name": "气血津液病症",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_17_2",
+                    "name": "骨伤科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_35_2",
+                    "name": "五官科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_47_2",
+                    "name": "外科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_55_2",
+                    "name": "儿科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_92_2",
+                    "name": "肾系病症",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_102_2",
+                    "name": "皮肤科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_183_2",
+                    "name": "心脑系病症",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_184_2",
+                    "name": "肝胆病症",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_188_2",
+                    "name": "肺系病症",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_193_2",
+                    "name": "其他中成药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_304_2",
+                    "name": "脾胃病症",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_327_2",
+                    "name": "眼科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_765_2",
+                    "name": "耳鼻喉科药",
+                    "parent": "中成药",
+                    "children": []
+                },
+                {
+                    "id": "drug_1015_2",
+                    "name": "经络肢体病症",
+                    "parent": "中成药",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "drug_3_1",
+            "name": "化学药品",
+            "parent": "药品",
+            "children": [
+                {
+                    "id": "drug_4_2",
+                    "name": "消化系统药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_5_2",
+                    "name": "抗菌药与抗病毒药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_6_2",
+                    "name": "有关激素类药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_12_2",
+                    "name": "皮肤科药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_15_2",
+                    "name": "神经和肌肉、骨骼系统药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_16_2",
+                    "name": "循环系统药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_20_2",
+                    "name": "维生素、矿物质与氨基酸",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_36_2",
+                    "name": "五官科药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_38_2",
+                    "name": "其他化学药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_48_2",
+                    "name": "泌尿与生殖系统药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_74_2",
+                    "name": "呼吸系统药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_133_2",
+                    "name": "影响血液及造血系统药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_633_2",
+                    "name": "抗肿瘤药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_737_2",
+                    "name": "调节水、电解质及酸碱平衡药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_790_2",
+                    "name": "麻醉药及其辅助药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_818_2",
+                    "name": "抗寄生虫药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_831_2",
+                    "name": "抗变态反应药",
+                    "parent": "化学药品",
+                    "children": []
+                },
+                {
+                    "id": "drug_2346_2",
+                    "name": "酶类及其它生化制剂",
+                    "parent": "化学药品",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "drug_39_1",
+            "name": "化学原料药",
+            "parent": "药品",
+            "children": []
+        },
+        {
+            "id": "drug_40_1",
+            "name": "兽药",
+            "parent": "药品",
+            "children": []
+        },
+        {
+            "id": "drug_109_1",
+            "name": "生物制品",
+            "parent": "药品",
+            "children": []
+        },
+        {
+            "id": "drug_1311_1",
+            "name": "中药材和饮片",
+            "parent": "药品",
+            "children": []
+        }
+    ]
+}

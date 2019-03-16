@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>设置我的资料</title>
+    <link rel="stylesheet" href="../../../../static/users/css/layui.css">
+    <link rel="stylesheet" href="../../../../static/users/css/user.css">
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">设置我的资料</div>
+                <div class="layui-card-body form-wrapper" pad15>
+
+                    <form class="layui-form" method="post" action="" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">用户名</label>
+                            <div class="layui-input-inline fieldWrapper">
+                                {{ form.username }}
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">不可修改。一般用于后台登入名</div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">性别</label>
+                            <div class="layui-input-inline fieldWrapper">
+                                {{ form.gender }}
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">头像</label>
+                            <div class="layui-input-inline fieldWrapper">
+                                {{ form.image }}
+                            </div>
+                            <div class="layui-input-inline layui-btn-container" style="width: auto;">
+                                <button type="button" class="layui-btn layui-btn-primary" id="LAY_avatarUpload">
+                                    <i class="layui-icon">&#xe67c;</i>上传图片
+                                </button>
+                                <a class="layui-btn layui-btn-primary" onclick="avartatPreview()">查看图片</a >
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">手机</label>
+                            <div class="layui-input-inline fieldWrapper">
+                                {{ form.phone }}
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">邮箱</label>
+                            <div class="layui-input-inline fieldWrapper">
+                                {{ form.email }}
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-input-block button-wrapper submit">
+                                <button class="layui-btn" lay-submit>确认修改</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重新填写</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% csrf_token %}
+<script src="../../../../static/users/js/layui.js"></script>
+<script>
+    layui.use(['form', 'upload'], function () {
+        var n = layui.form;
+        var i = layui.$, e = layui.layer, s = layui.upload;
+        var r = i("#LAY_avatarSrc");
+        var formData = new FormData();
+        var csrfToken = i("[name='csrfmiddlewaretoken']").val();
+        // formData.append('avatar', i("#id_image").get(0).files[0]);
+        s.render({
+            url: "/accounts/upload/",
+            headers: {"X-CSRFToken": csrfToken},
+            elem: "#LAY_avatarUpload",
+            accept: 'images',
+            done: function (t) {
+                // console.log(t);
+                0 === t.code ? (r.val(t.data.src) && e.msg(t.msg)) : e.msg(t.msg, {icon: 5})
+            }
+        });
+        window.avartatPreview = function () {
+            var i = r.val();
+            //获取第二个/出现的位置
+            // var index = find(i,'/',1);
+            // var url = i.substring(index);
+            e.photos({photos: {title: "查看头像", data: [{src: i}]}, shade: .01, closeBtn: 1, anim: 5})
+        };
+
+        //查找字符在字符串中的位置
+        // function find(str, cha, num){
+        //     var x = str.indexOf(cha);
+        //     for(var i = 0; i < num; i++){
+        //         x=str.indexOf(cha, x + 1);
+        //     }
+        //     return x;
+        // }
+    })
+</script>
+</body>
+
+</html>

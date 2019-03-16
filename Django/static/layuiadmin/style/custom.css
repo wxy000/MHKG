@@ -1,0 +1,23 @@
+.layadmin-graph {
+    height: 420px !important
+}
+
+.layadmin-graph > [carousel-item]:before {
+    display: none
+}
+
+.layadmin-graph > [carousel-item] > div {
+    height: 420px
+}
+
+.layadmin-graph-small {
+    height: 365px !important
+}
+
+.layadmin-graph-small > [carousel-item]:before {
+    display: none
+}
+
+.layadmin-graph-small > [carousel-item] > div {
+    height: 365px
+}

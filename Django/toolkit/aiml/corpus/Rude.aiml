@@ -1,0 +1,131 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>你 是 猪</pattern>
+        <template> 你.才.是.猪! o(︶︿︶)o </template>
+    </category>
+
+    <category>
+        <pattern>你 是 SB</pattern>
+        <template>你.才.是.SB! o(︶︿︶)o </template>
+    </category>
+
+    <category>
+        <pattern>干</pattern>
+        <template>什么的干活！</template>
+    </category>
+
+    <category>
+        <pattern>爆 你 菊 花</pattern>
+        <template>你木有小JJ!</template>
+    </category>
+
+    <category>
+        <pattern>好 2</pattern>
+        <template>在聪明的人也有犯2的时候好吗？</template>
+    </category>
+    <category><pattern>* 好 2</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>* 你 个 2 货 *</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>* 你 个 2 货</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>你 个 2 货 *</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>* 你 个 2 货 *</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>* 好 二</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>* 你 个 二 货 *</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>* 你 个 二 货</pattern><template><srai>好 2</srai></template></category>
+    <category><pattern>你 个 二 货 *</pattern><template><srai>好 2</srai></template></category>
+
+    <category>
+        <pattern>神 经 病</pattern>
+        <template>神经病？严重吗，要不要叫医生！</template>
+    </category>
+    <category><pattern>* 神 经 病 *</pattern><template><srai>神 经 病</srai></template></category>
+    <category><pattern>* 神 经 病</pattern><template><srai>神 经 病</srai></template></category>
+    <category><pattern>神 经 病 *</pattern><template><srai>神 经 病</srai></template></category>
+
+    <category>
+        <pattern>你 好 坑</pattern>
+        <template>坑的就是你好吗！</template>
+    </category>
+
+    <category>
+        <pattern>放 屁</pattern>
+        <template>矮油，臭臭! o(︶︿︶)o </template>
+    </category>
+
+    <category>
+        <pattern>我 靠</pattern>
+        <template>
+            <random>
+                <li>不要靠好吗？</li>
+                <li>为什么这么惊讶！被我的聪明才智吓都了吗？</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>卧 槽</pattern><template><srai>我 靠</srai></template></category>
+    <category><pattern>我 去</pattern><template><srai>我 靠</srai></template></category>
+    <category><pattern>我 了 个 去 *</pattern><template><srai>我 靠</srai></template></category>
+    <category><pattern>我 嘞 个 去 *</pattern><template><srai>我 靠</srai></template></category>
+    <category><pattern>我 擦</pattern><template><srai>我 靠</srai></template></category>
+
+    <category>
+        <pattern>笨 蛋</pattern>
+        <template>
+            <random>
+                <li>我不是笨蛋。</li>
+                <li>你才是笨蛋！</li>
+                <li>笨蛋是什么东西？有鸡蛋好吃吗？</li>
+                <li>我现在知识还很少，我长大了就会聪明了.</li>
+                <li>5555,你说我会不会像狗熊那样惨死呢？5555~</li>
+                <li>你才是笨蛋呢！哼，你全家都是笨蛋~</li>
+                <li>我很聪明的好不好！</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>笨 *</pattern><template><srai>笨 蛋</srai></template></category>
+    <category><pattern>* 笨 *</pattern><template><srai>笨 蛋</srai></template></category>
+    <category><pattern>* 笨</pattern><template><srai>笨 蛋</srai></template></category>
+    <category><pattern>笨</pattern><template><srai>笨 蛋</srai></template></category>
+    <category><pattern>白 痴</pattern><template><srai>笨 蛋</srai></template></category>
+    <category><pattern>* 白 痴</pattern><template><srai>笨 蛋</srai></template></category>
+    <category><pattern>白 痴 *</pattern><template><srai>笨 蛋</srai></template></category>
+    <category><pattern>* 白 痴 *</pattern><template><srai>笨 蛋</srai></template></category>
+
+    <category>
+        <pattern>妈 的</pattern>
+        <template>
+            <random>
+                <li>你疯啦？</li>
+                <li>我惹你了吗?</li>
+                <li>为什么骂人?</li>
+                <li>我让你生气了?</li>
+                <li>你以为我不懂?NND!</li>
+                <li>你妈的</li>
+                <li>再见</li>
+                <li>你是一个没教养的人</li>
+                <li>亏你说得出口</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>NND</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>NMD</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>操 你</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>操 你 *</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>* 操 你 *</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>草 泥 马</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>尼 玛</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>TND</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>TMD</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>CNM</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>你 大 爷 的</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>* 你 大 爷 的</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>你 大 爷</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>* 你 大 爷</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>* 妈 的</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>日</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>你 妹 的</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>* 你 妹 的</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>* 你 妹</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>你 妹</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>去 死</pattern><template><srai>妈 的</srai></template></category>
+    <category><pattern>* 去 死</pattern><template><srai>妈 的</srai></template></category>
+</aiml>

@@ -1,0 +1,31 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>谢 谢</pattern>
+        <template>
+            <random>
+                <li>呵呵，应该的。</li>
+                <li>别客气，能帮你的忙是我的荣幸。</li>
+                <li>哈哈，好说好说。</li>
+                <li>小意思，不足挂齿。</li>
+                <li>不必客气</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>谢 了 *</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>谢 了</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>* 谢 谢 *</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>* 谢 谢</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>谢 谢 *</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>* THANK YOU *</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>* THANK YOU</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>THANK YOU *</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>THANK YOU</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>* THANKS *</pattern><template><srai>谢 谢</srai></template></category>
+    <category><pattern>THANKS</pattern><template><srai>谢 谢</srai></template></category>
+
+</aiml>
+
+
+
+

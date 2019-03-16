@@ -1,0 +1,1168 @@
+[
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_0_2",
+                        "parent": "肿瘤科",
+                        "name": "肿瘤外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_53_2",
+                        "parent": "肿瘤科",
+                        "name": "肿瘤内科"
+                    }
+                ],
+                "id": "jibing_0_1",
+                "parent": "疾病",
+                "name": "肿瘤科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_1_2",
+                        "parent": "内科",
+                        "name": "消化内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_4_2",
+                        "parent": "内科",
+                        "name": "神经内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_7_2",
+                        "parent": "内科",
+                        "name": "心内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_10_2",
+                        "parent": "内科",
+                        "name": "呼吸内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_13_2",
+                        "parent": "内科",
+                        "name": "肾内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_18_2",
+                        "parent": "内科",
+                        "name": "血液科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_67_2",
+                        "parent": "内科",
+                        "name": "风湿免疫科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_90_2",
+                        "parent": "内科",
+                        "name": "内分泌科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_756_2",
+                        "parent": "内科",
+                        "name": "泌尿内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_1426_2",
+                        "parent": "内科",
+                        "name": "遗传病科"
+                    }
+                ],
+                "id": "jibing_1_1",
+                "parent": "疾病",
+                "name": "内科"
+            },
+            {
+                "children": [],
+                "id": "jibing_2_1",
+                "parent": "疾病",
+                "name": "急诊科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_6_2",
+                        "parent": "外科",
+                        "name": "心胸外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_12_2",
+                        "parent": "外科",
+                        "name": "肛肠科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_21_2",
+                        "parent": "外科",
+                        "name": "烧伤科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_24_2",
+                        "parent": "外科",
+                        "name": "骨外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_43_2",
+                        "parent": "外科",
+                        "name": "普外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_44_2",
+                        "parent": "外科",
+                        "name": "肝胆外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_62_2",
+                        "parent": "外科",
+                        "name": "神经外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_131_2",
+                        "parent": "外科",
+                        "name": "泌尿外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_851_2",
+                        "parent": "外科",
+                        "name": "感染科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_4832_2",
+                        "parent": "外科",
+                        "name": "整形美容科"
+                    }
+                ],
+                "id": "jibing_6_1",
+                "parent": "疾病",
+                "name": "外科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_8_2",
+                        "parent": "妇产科",
+                        "name": "妇科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_182_2",
+                        "parent": "妇产科",
+                        "name": "产科"
+                    }
+                ],
+                "id": "jibing_8_1",
+                "parent": "疾病",
+                "name": "妇产科"
+            },
+            {
+                "children": [],
+                "id": "jibing_26_1",
+                "parent": "疾病",
+                "name": "肝病"
+            },
+            {
+                "children": [],
+                "id": "jibing_27_1",
+                "parent": "疾病",
+                "name": "传染科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_34_2",
+                        "parent": "五官科",
+                        "name": "眼科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_91_2",
+                        "parent": "五官科",
+                        "name": "口腔科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_191_2",
+                        "parent": "五官科",
+                        "name": "耳鼻喉科"
+                    }
+                ],
+                "id": "jibing_34_1",
+                "parent": "疾病",
+                "name": "五官科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_47_2",
+                        "parent": "儿科",
+                        "name": "儿科综合"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_1519_2",
+                        "parent": "儿科",
+                        "name": "小儿内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_1929_2",
+                        "parent": "儿科",
+                        "name": "小儿外科"
+                    }
+                ],
+                "id": "jibing_47_1",
+                "parent": "疾病",
+                "name": "儿科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_59_2",
+                        "parent": "皮肤性病科",
+                        "name": "性病科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_99_2",
+                        "parent": "皮肤性病科",
+                        "name": "皮肤科"
+                    }
+                ],
+                "id": "jibing_59_1",
+                "parent": "疾病",
+                "name": "皮肤性病科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_74_2",
+                        "parent": "中医科",
+                        "name": "中医综合"
+                    }
+                ],
+                "id": "jibing_74_1",
+                "parent": "疾病",
+                "name": "中医科"
+            },
+            {
+                "children": [],
+                "id": "jibing_85_1",
+                "parent": "疾病",
+                "name": "精神科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_113_2",
+                        "parent": "其他科室",
+                        "name": "康复科"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_910_2",
+                        "parent": "其他科室",
+                        "name": "其他综合"
+                    },
+                    {
+                        "children": [],
+                        "id": "jibing_4498_2",
+                        "parent": "其他科室",
+                        "name": "减肥"
+                    }
+                ],
+                "id": "jibing_113_1",
+                "parent": "疾病",
+                "name": "其他科室"
+            },
+            {
+                "children": [],
+                "id": "jibing_170_1",
+                "parent": "疾病",
+                "name": "男科"
+            },
+            {
+                "children": [],
+                "id": "jibing_241_1",
+                "parent": "疾病",
+                "name": "心理科"
+            },
+            {
+                "children": [],
+                "id": "jibing_604_1",
+                "parent": "疾病",
+                "name": "营养科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "jibing_3896_2",
+                        "parent": "生殖健康",
+                        "name": "不孕不育"
+                    }
+                ],
+                "id": "jibing_3750_1",
+                "parent": "疾病",
+                "name": "生殖健康"
+            }
+        ],
+        "id": "jibing_0_0",
+        "parent": "",
+        "name": "疾病"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_0_2",
+                        "parent": "外科",
+                        "name": "肛肠科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_3_2",
+                        "parent": "外科",
+                        "name": "普外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_20_2",
+                        "parent": "外科",
+                        "name": "心胸外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_21_2",
+                        "parent": "外科",
+                        "name": "骨外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_50_2",
+                        "parent": "外科",
+                        "name": "感染科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_95_2",
+                        "parent": "外科",
+                        "name": "整形美容科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_130_2",
+                        "parent": "外科",
+                        "name": "神经外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_131_2",
+                        "parent": "外科",
+                        "name": "泌尿外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_169_2",
+                        "parent": "外科",
+                        "name": "烧伤科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_1108_2",
+                        "parent": "外科",
+                        "name": "肝胆外科"
+                    }
+                ],
+                "id": "zhengzhuang_0_1",
+                "parent": "症状",
+                "name": "外科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_1_2",
+                        "parent": "内科",
+                        "name": "内分泌科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_4_2",
+                        "parent": "内科",
+                        "name": "消化内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_9_2",
+                        "parent": "内科",
+                        "name": "心内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_15_2",
+                        "parent": "内科",
+                        "name": "肾内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_23_2",
+                        "parent": "内科",
+                        "name": "呼吸内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_25_2",
+                        "parent": "内科",
+                        "name": "神经内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_35_2",
+                        "parent": "内科",
+                        "name": "遗传病科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_448_2",
+                        "parent": "内科",
+                        "name": "泌尿内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_503_2",
+                        "parent": "内科",
+                        "name": "血液科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_612_2",
+                        "parent": "内科",
+                        "name": "风湿免疫科"
+                    }
+                ],
+                "id": "zhengzhuang_1_1",
+                "parent": "症状",
+                "name": "内科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_5_2",
+                        "parent": "皮肤性病科",
+                        "name": "性病科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_31_2",
+                        "parent": "皮肤性病科",
+                        "name": "皮肤科"
+                    }
+                ],
+                "id": "zhengzhuang_5_1",
+                "parent": "症状",
+                "name": "皮肤性病科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_6_2",
+                        "parent": "儿科",
+                        "name": "儿科综合"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_196_2",
+                        "parent": "儿科",
+                        "name": "小儿外科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_481_2",
+                        "parent": "儿科",
+                        "name": "小儿内科"
+                    }
+                ],
+                "id": "zhengzhuang_6_1",
+                "parent": "症状",
+                "name": "儿科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_12_2",
+                        "parent": "其他科室",
+                        "name": "其他综合"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_16_2",
+                        "parent": "其他科室",
+                        "name": "康复科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_44_2",
+                        "parent": "其他科室",
+                        "name": "理疗科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_1387_2",
+                        "parent": "其他科室",
+                        "name": "辅助检查"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_3500_2",
+                        "parent": "其他科室",
+                        "name": "保健养生"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_4407_2",
+                        "parent": "其他科室",
+                        "name": "药品科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_5559_2",
+                        "parent": "其他科室",
+                        "name": "重症监护"
+                    }
+                ],
+                "id": "zhengzhuang_12_1",
+                "parent": "症状",
+                "name": "其他科室"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_13_2",
+                        "parent": "中医科",
+                        "name": "中医综合"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_19_2",
+                        "parent": "中医科",
+                        "name": "中医理疗科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_4291_2",
+                        "parent": "中医科",
+                        "name": "中医骨伤科"
+                    }
+                ],
+                "id": "zhengzhuang_13_1",
+                "parent": "症状",
+                "name": "中医科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_22_2",
+                        "parent": "五官科",
+                        "name": "眼科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_29_2",
+                        "parent": "五官科",
+                        "name": "口腔科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_69_2",
+                        "parent": "五官科",
+                        "name": "耳鼻喉科"
+                    }
+                ],
+                "id": "zhengzhuang_22_1",
+                "parent": "症状",
+                "name": "五官科"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_30_1",
+                "parent": "症状",
+                "name": "传染科"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_55_1",
+                "parent": "症状",
+                "name": "心理科"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_75_1",
+                "parent": "症状",
+                "name": "精神科"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_119_1",
+                "parent": "症状",
+                "name": "营养科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_175_2",
+                        "parent": "妇产科",
+                        "name": "产科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_223_2",
+                        "parent": "妇产科",
+                        "name": "妇科"
+                    }
+                ],
+                "id": "zhengzhuang_175_1",
+                "parent": "症状",
+                "name": "妇产科"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_192_1",
+                "parent": "症状",
+                "name": "急诊科"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_277_1",
+                "parent": "症状",
+                "name": "男科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_479_2",
+                        "parent": "肿瘤科",
+                        "name": "肿瘤内科"
+                    },
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_766_2",
+                        "parent": "肿瘤科",
+                        "name": "肿瘤外科"
+                    }
+                ],
+                "id": "zhengzhuang_479_1",
+                "parent": "症状",
+                "name": "肿瘤科"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "zhengzhuang_653_2",
+                        "parent": "生殖健康",
+                        "name": "不孕不育"
+                    }
+                ],
+                "id": "zhengzhuang_653_1",
+                "parent": "症状",
+                "name": "生殖健康"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_1280_1",
+                "parent": "症状",
+                "name": "中西医结合科"
+            },
+            {
+                "children": [],
+                "id": "zhengzhuang_5576_1",
+                "parent": "症状",
+                "name": "体检科"
+            }
+        ],
+        "id": "zhengzhuang_0_0",
+        "parent": "",
+        "name": "症状"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "id": "jiancha_0_1",
+                "parent": "检查项目",
+                "name": "内分泌检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_1_1",
+                "parent": "检查项目",
+                "name": "粪便/寄生虫检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_5_1",
+                "parent": "检查项目",
+                "name": "血液检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_15_1",
+                "parent": "检查项目",
+                "name": "生化检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_18_1",
+                "parent": "检查项目",
+                "name": "尿液/肾功能检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_21_1",
+                "parent": "检查项目",
+                "name": "显微镜检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_22_1",
+                "parent": "检查项目",
+                "name": "肝功能检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_23_1",
+                "parent": "检查项目",
+                "name": "肺功能检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_25_1",
+                "parent": "检查项目",
+                "name": "病原微生物检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_28_1",
+                "parent": "检查项目",
+                "name": "体格检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_29_1",
+                "parent": "检查项目",
+                "name": "X线"
+            },
+            {
+                "children": [],
+                "id": "jiancha_31_1",
+                "parent": "检查项目",
+                "name": "其他检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_42_1",
+                "parent": "检查项目",
+                "name": "CT"
+            },
+            {
+                "children": [],
+                "id": "jiancha_56_1",
+                "parent": "检查项目",
+                "name": "神经电生理"
+            },
+            {
+                "children": [],
+                "id": "jiancha_61_1",
+                "parent": "检查项目",
+                "name": "超声"
+            },
+            {
+                "children": [],
+                "id": "jiancha_83_1",
+                "parent": "检查项目",
+                "name": "脑脊液检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_85_1",
+                "parent": "检查项目",
+                "name": "内窥镜"
+            },
+            {
+                "children": [],
+                "id": "jiancha_117_1",
+                "parent": "检查项目",
+                "name": "核磁共振"
+            },
+            {
+                "children": [],
+                "id": "jiancha_118_1",
+                "parent": "检查项目",
+                "name": "放射性核素"
+            },
+            {
+                "children": [],
+                "id": "jiancha_164_1",
+                "parent": "检查项目",
+                "name": "体液检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_173_1",
+                "parent": "检查项目",
+                "name": "免疫检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_435_1",
+                "parent": "检查项目",
+                "name": "阴道分泌物检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_532_1",
+                "parent": "检查项目",
+                "name": "病理检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_533_1",
+                "parent": "检查项目",
+                "name": "精液及前列腺液检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_558_1",
+                "parent": "检查项目",
+                "name": "胸腹水检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_611_1",
+                "parent": "检查项目",
+                "name": "痰液检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_653_1",
+                "parent": "检查项目",
+                "name": "基因检测（DNA）"
+            },
+            {
+                "children": [],
+                "id": "jiancha_1043_1",
+                "parent": "检查项目",
+                "name": "骨髓检查"
+            },
+            {
+                "children": [],
+                "id": "jiancha_1689_1",
+                "parent": "检查项目",
+                "name": "心电图"
+            }
+        ],
+        "id": "jiancha_0_0",
+        "parent": "",
+        "name": "检查项目"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "drug_0_2",
+                        "parent": "中成药",
+                        "name": "妇科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_1_2",
+                        "parent": "中成药",
+                        "name": "内科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_10_2",
+                        "parent": "中成药",
+                        "name": "肿瘤科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_13_2",
+                        "parent": "中成药",
+                        "name": "气血津液病症"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_17_2",
+                        "parent": "中成药",
+                        "name": "骨伤科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_35_2",
+                        "parent": "中成药",
+                        "name": "五官科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_47_2",
+                        "parent": "中成药",
+                        "name": "外科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_55_2",
+                        "parent": "中成药",
+                        "name": "儿科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_92_2",
+                        "parent": "中成药",
+                        "name": "肾系病症"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_102_2",
+                        "parent": "中成药",
+                        "name": "皮肤科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_183_2",
+                        "parent": "中成药",
+                        "name": "心脑系病症"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_184_2",
+                        "parent": "中成药",
+                        "name": "肝胆病症"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_188_2",
+                        "parent": "中成药",
+                        "name": "肺系病症"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_193_2",
+                        "parent": "中成药",
+                        "name": "其他中成药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_304_2",
+                        "parent": "中成药",
+                        "name": "脾胃病症"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_327_2",
+                        "parent": "中成药",
+                        "name": "眼科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_765_2",
+                        "parent": "中成药",
+                        "name": "耳鼻喉科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_1015_2",
+                        "parent": "中成药",
+                        "name": "经络肢体病症"
+                    }
+                ],
+                "id": "drug_0_1",
+                "parent": "药品",
+                "name": "中成药"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": "drug_4_2",
+                        "parent": "化学药品",
+                        "name": "消化系统药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_5_2",
+                        "parent": "化学药品",
+                        "name": "抗菌药与抗病毒药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_6_2",
+                        "parent": "化学药品",
+                        "name": "有关激素类药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_12_2",
+                        "parent": "化学药品",
+                        "name": "皮肤科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_15_2",
+                        "parent": "化学药品",
+                        "name": "神经和肌肉、骨骼系统药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_16_2",
+                        "parent": "化学药品",
+                        "name": "循环系统药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_20_2",
+                        "parent": "化学药品",
+                        "name": "维生素、矿物质与氨基酸"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_36_2",
+                        "parent": "化学药品",
+                        "name": "五官科药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_38_2",
+                        "parent": "化学药品",
+                        "name": "其他化学药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_48_2",
+                        "parent": "化学药品",
+                        "name": "泌尿与生殖系统药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_74_2",
+                        "parent": "化学药品",
+                        "name": "呼吸系统药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_133_2",
+                        "parent": "化学药品",
+                        "name": "影响血液及造血系统药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_633_2",
+                        "parent": "化学药品",
+                        "name": "抗肿瘤药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_737_2",
+                        "parent": "化学药品",
+                        "name": "调节水、电解质及酸碱平衡药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_790_2",
+                        "parent": "化学药品",
+                        "name": "麻醉药及其辅助药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_818_2",
+                        "parent": "化学药品",
+                        "name": "抗寄生虫药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_831_2",
+                        "parent": "化学药品",
+                        "name": "抗变态反应药"
+                    },
+                    {
+                        "children": [],
+                        "id": "drug_2346_2",
+                        "parent": "化学药品",
+                        "name": "酶类及其它生化制剂"
+                    }
+                ],
+                "id": "drug_3_1",
+                "parent": "药品",
+                "name": "化学药品"
+            },
+            {
+                "children": [],
+                "id": "drug_39_1",
+                "parent": "药品",
+                "name": "化学原料药"
+            },
+            {
+                "children": [],
+                "id": "drug_40_1",
+                "parent": "药品",
+                "name": "兽药"
+            },
+            {
+                "children": [],
+                "id": "drug_109_1",
+                "parent": "药品",
+                "name": "生物制品"
+            },
+            {
+                "children": [],
+                "id": "drug_1311_1",
+                "parent": "药品",
+                "name": "中药材和饮片"
+            }
+        ],
+        "id": "drug_0_0",
+        "parent": "",
+        "name": "药品"
+    }
+]

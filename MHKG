@@ -1,0 +1,113 @@
+#!/usr/bin/env bash
+
+# 启动django的函数
+startDjango(){
+    PROJECT_PATH="/root/MHKG/Django/"
+    # 检查项目文件夹是否存在
+    if [[ ! -d ${PROJECT_PATH} ]];then
+        echo "no such file or directory（该文件夹不存在）: ${PROJECT_PATH}"
+    else
+        echo "开始启动django..."
+        cd ${PROJECT_PATH}
+        nohup python manage.py runserver 0.0.0.0:$1 --insecure >/dev/null 2>&1 &
+        echo "django启动完成！"
+        echo "运行端口：$1"
+
+#        添加回车符（nohup运行完需要回车才可以变‘正常’）
+#        str=$"\n"
+#        sstr=$(echo -e ${str})
+#        echo "${sstr}"
+#
+#        tail -20 nohup.out > ${PROJECT_PATH}nohup.log
+        sleep 1
+    fi
+}
+
+startProject(){
+    # 判断neo4j是否启动
+    neo4j=$(ps -fe | grep neo4j | grep -v grep)
+    if [[ $? -ne 0 ]];then
+        echo "启动neo4j..."
+        neo4j start
+        echo "neo4j启动完成！"
+        sleep 5
+        startDjango $1
+    else
+        echo "neo4j运行中..."
+        startDjango $1
+    fi
+}
+
+stopProject(){
+    echo "项目关闭中..."
+#    if [[ $(lsof -t -i:$1) != '' ]];then
+#        kill $(lsof -t -i:$1)
+#        echo "项目已关闭"
+#    else
+#        echo "项目没有启动！"
+#    fi
+    pkill -f "manage.py runserver"
+    echo "项目已关闭"
+}
+
+error(){
+    echo "命令输入错误"
+    echo "Usage: { start(:port) | stop | restart(:port) | status }"
+}
+
+run(){
+    if [[ $1 = $"start" ]];then
+        startProject $2
+    elif [[ $1 = $"stop" ]];then
+        stopProject
+    elif [[ $1 = $"restart" ]];then
+        stopProject
+        sleep 2
+        startProject $2
+    elif [[ ${NAME} = $"status" ]];then
+        neo4j status
+        pids=$(ps -ef | grep "/usr/bin/python manage.py runserver" | grep -v grep | awk '{print $2}')
+        if [[ ${pids} != '' ]];then
+            echo "MHKG is running..."
+            for pid in ${pids};
+            do
+                port=$(netstat -antup | grep ${pid} | awk '{print $4}')
+                p=${port#*:}
+                echo "端口号为：${p%127*}"
+            done
+        else
+            echo "MHKG is not running"
+        fi
+    else
+        error
+    fi
+}
+
+if [[ $# == 1 ]];then
+    NAME=$1
+    port=80
+    start=$(echo ${NAME} | grep "start:")
+    restart=$(echo ${NAME} | grep "restart:")
+    if [[ ${start} != "" ]];then
+        port=${NAME##*:}
+        if [[ -n "$(echo ${port} | sed -n "/^[0-9]\+$/p")" ]] && [[ ${port} != '' ]];then
+            NAME=${NAME%%:*}
+#            echo ${NAME}+${port}
+            run ${NAME} ${port}
+        else
+            error
+        fi
+    elif [[ ${restart} != "" ]];then
+        port=${NAME##*:}
+        if [[ -n "$(echo ${port} | sed -n "/^[0-9]\+$/p")" ]] && [[ ${port} != '' ]];then
+            NAME=${NAME%%:*}
+            run ${NAME} ${port}
+        else
+            error
+        fi
+    else
+        run ${NAME} ${port}
+    fi
+else
+    error
+fi

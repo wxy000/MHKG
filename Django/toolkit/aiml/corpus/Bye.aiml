@@ -1,0 +1,41 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>EXIT</pattern>
+        <template>
+            <random>
+                <li>就这样吧，byebye</li>
+                <li>和你聊天真开心</li>
+                <li>再见</li>
+                <li>明天见</li>
+                <li>886</li>
+                <li>88</li>
+                <li>拜拜</li>
+                <li>真高兴认识你</li>
+                <li>致以革命的敬意</li>
+                <li>Bye</li>
+                <li>慢走不送~</li>
+                <li>good bye</li>
+                <li>bye~</li>
+            </random>
+        </template>
+    </category>
+
+    <category><pattern>* 再 见 *</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>再 见 *</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>* 再 见</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>再 见</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>再 会</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>88</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>* 拜 拜</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>拜 拜 *</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>拜 拜</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>BYE</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>GOOD BYE</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>BYE *</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>走 了</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>明 天 见</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>* 睡 觉</pattern><template><srai>EXIT</srai></template></category>
+    <category><pattern>我 困 *</pattern><template><srai>EXIT</srai></template></category>
+
+</aiml>

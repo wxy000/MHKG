@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>医疗健康知识图谱</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="Shortcut Icon" href="../static/favicon.ico" />
+    <link rel="stylesheet" href="../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/layuiadmin/style/admin.css" media="all">
+
+    <script>
+        /^http(s*):\/\//.test(location.href) || alert('请先部署到 localhost 下再访问');
+    </script>
+    <link id="layuicss-layer" rel="stylesheet" href="../static/layuiadmin/layui/css/modules/layer/default/layer.css" media="all">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_935338_ecm9ldhpc1l.css">
+
+</head>
+<body class="layui-layout-body">
+
+<div id="LAY_app">
+
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header">
+            <!-- 头部区域 -->
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item layadmin-flexible" lay-unselect="">
+                    <a href="javascript:;" layadmin-event="flexible" title="侧边伸缩">
+                        <i class="layui-icon layui-icon-shrink-right" id="LAY_app_flexible"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item layui-hide-xs" lay-unselect="">
+                    <a href="http://www.layui.com/admin/" target="_blank" title="前台">
+                        <i class="layui-icon layui-icon-website"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item" lay-unselect="">
+                    <a href="javascript:;" layadmin-event="refresh" title="刷新">
+                        <i class="layui-icon layui-icon-refresh-3"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item layui-hide-xs" lay-unselect="">
+                    <input type="text" placeholder="搜索..." autocomplete="off" class="layui-input layui-input-search"
+                           layadmin-event="serach" lay-action="views/entityQuery/search?flag=0&keywords=">
+                </li>
+            </ul>
+            <ul class="layui-nav layui-layout-right" lay-filter="layadmin-layout-right">
+
+                <!--<li class="layui-nav-item" lay-unselect="">-->
+                    <!--<a lay-href="views/msg" layadmin-event="message" lay-text="消息中心">-->
+                        <!--<i class="layui-icon layui-icon-notice"></i>-->
+
+                        <!--&lt;!&ndash; 如果有新消息，则显示小圆点 &ndash;&gt;-->
+                        <!--<span class="layui-badge-dot"></span>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <li class="layui-nav-item layui-hide-xs" lay-unselect="">
+                    <a href="javascript:;" layadmin-event="theme">
+                        <i class="layui-icon layui-icon-theme"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item layui-hide-xs" lay-unselect="">
+                    <a href="javascript:;" layadmin-event="note">
+                        <i class="layui-icon layui-icon-note"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item layui-hide-xs" lay-unselect="">
+                    <a href="javascript:;" layadmin-event="fullscreen">
+                        <i class="layui-icon layui-icon-screen-full"></i>
+                    </a>
+                </li>
+                {% if request.user.is_authenticated %}
+                <li class="layui-nav-item" lay-unselect="">
+                    <a href="javascript:;" style="display: inline; margin-right: -20px;">
+                        <img id="touxiang" src="{{ user_profile.image }}" class="layui-nav-img">
+                    </a>
+                    <a href="javascript:;" style="display: inline; margin-left: -20px; margin-right: 10px;">
+                        <cite>{{ user.username }}</cite>
+                        <span class="layui-nav-more"></span>
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd style="text-align: center;"><a lay-href="accounts/userinfo/{{ user.id }}">基本资料</a></dd>
+                        <dd style="text-align: center;"><a lay-href="accounts/user/{{ user.id }}/pwdchange">修改密码</a></dd>
+                        <hr>
+                        <dd style="text-align: center;"><a href="accounts/logout">退出</a></dd>
+                    </dl>
+                </li>
+                {% else %}
+                <li class="layui-nav-item layui-bg-gray" lay-unselect="">
+                    <a href="accounts/login" style="display:inline; margin-right: -10px;">登陆</a>
+                    <a href="accounts/register" style="display:inline; margin-left: -10px;">注册</a>
+                </li>
+                {% endif %}
+
+                <li class="layui-nav-item layui-hide-xs" lay-unselect="">
+                    <a href="javascript:;" layadmin-event="about">
+                        <i class="layui-icon layui-icon-more-vertical"></i>
+                    </a>
+                </li>
+                <li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-unselect="">
+                    <a href="javascript:;" layadmin-event="more">
+                        <i class="layui-icon layui-icon-more-vertical"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--侧边菜单-->
+        <div class="layui-side layui-side-menu">
+
+            <!--超级用户-->
+            {% if request.user.is_superuser %}
+            <div class="layui-side-scroll">
+                <div class="layui-logo" lay-href="admin_views/general">
+                    <span>医疗健康知识图谱</span>
+                </div>
+                <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                    <li data-name="home" class="layui-nav-item layui-nav-itemed">
+                        <a href="javascript:;" lay-tips="统计分析" lay-direction="2">
+                            <i class="layui-icon layui-icon-home"></i>
+                            <cite>统计分析</cite>
+                            <span class="layui-nav-more"></span>
+                        </a>
+                        <dl class="layui-nav-child">
+                            <dd data-name="general" class="layui-this">
+                                <a href="javascript:;" lay-href="admin_views/general">
+                                    <cite>网站概况</cite>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd data-name="flux">
+                                <a href="javascript:;">流量分析<span class="layui-nav-more"></span></a>
+                                <dl class="layui-nav-child">
+                                    <dd data-name="pul">
+                                        <a lay-href="admin_views/pul" lay-text="PV/UV/流量">PV/UV/流量</a>
+                                    </dd>
+                                    <dd data-name="accessDetails">
+                                        <a lay-href="admin_views/accessDetails" lay-text="访问明细">访问明细</a>
+                                    </dd>
+                                </dl>
+                            </dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd data-name="visitor">
+                                <a href="javascript:;">访客分析<span class="layui-nav-more"></span></a>
+                                <dl class="layui-nav-child">
+                                    <dd data-name="area">
+                                        <a lay-href="admin_views/area" lay-text="地区">地区</a>
+                                    </dd>
+                                    <dd data-name="terminal">
+                                        <a lay-href="admin_views/terminal" lay-text="终端">终端</a>
+                                    </dd>
+                                    <dd data-name="newOld">
+                                        <a lay-href="admin_views/newOld" lay-text="新老访客">新老访客</a>
+                                    </dd>
+                                </dl>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li data-name="userList" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="admin_views/userList" lay-tips="用户管理" lay-direction="2">
+                            <i class="layui-icon layui-icon-user"></i>
+                            <cite>用户管理</cite>
+                        </a>
+                    </li>
+                    <li data-name="get" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="ManualAnnotation" lay-tips="人工标注" lay-direction="2">
+                            <i class="layui-icon layui-icon-auz"></i>
+                            <cite>人工标注</cite>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--普通用户-->
+            {% else %}
+            <div class="layui-side-scroll">
+                <div class="layui-logo" lay-href="views/console">
+                    <span>医疗健康知识图谱</span>
+                </div>
+                <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                    <!-- 侧边导航: <ul class="layui-nav layui-nav-tree layui-nav-side"> -->
+                    <li data-name="home" class="layui-nav-item layui-nav-itemed">
+                        <a href="javascript:;" lay-tips="首页" lay-direction="2">
+                            <i class="layui-icon layui-icon-home"></i>
+                            <cite>首页</cite>
+                            <span class="layui-nav-more"></span>
+                        </a>
+                        <dl class="layui-nav-child">
+                            <dd data-name="console" class="layui-this">
+                                <a href="javascript:;" lay-href="views/console">
+                                    <i class="iconfont layui-extend-jiankongkongzhiguanlijianguan"></i>
+                                    <cite>控制台</cite>
+                                </a>
+                            </dd>
+                            <dd data-name="console">
+                                <a href="javascript:;" lay-href="views/consoles">
+                                    <i class="iconfont layui-extend-ziyuangailan"></i>
+                                    <cite>概览</cite>
+                                </a>
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li data-name="distinguish" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="views/distinguish" lay-tips="实体识别" lay-direction="2">
+                            <i class="layui-icon iconfont layui-extend-renlianshibie1"></i>
+                            <cite>实体识别</cite>
+                        </a>
+                    </li>
+
+                    <li data-name="entityQuery" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="views/entityQuery" lay-tips="实体查询" lay-direction="2">
+                            <i class="layui-icon iconfont layui-extend-search1"></i>
+                            <cite>实体查询</cite>
+                        </a>
+                    </li>
+
+                    <li data-name="relationQuery" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="views/relationQuery" lay-tips="关系查询" lay-direction="2">
+                            <i class="layui-icon iconfont layui-extend-peizhixiangguanxichaxun"></i>
+                            <cite>关系查询</cite>
+                        </a>
+                    </li>
+
+                    <li data-name="classifiedQuery" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="views/classifiedQuery" lay-tips="分类查询" lay-direction="2">
+                            <i class="layui-icon iconfont layui-extend-search"></i>
+                            <cite>分类查询</cite>
+                        </a>
+                    </li>
+
+                    {% if request.user.is_authenticated %}
+                    <li data-name="interlocution" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="views/interlocution?id={{ user.id }}" lay-tips="MHKG问答" lay-direction="2">
+                            <i class="layui-icon iconfont layui-extend-wenda"></i>
+                            <cite>MHKG 智能问答</cite>
+                        </a>
+                    </li>
+                    {% else %}
+                    <li data-name="interlocution" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="views/interlocution" lay-tips="MHKG问答" lay-direction="2">
+                            <i class="layui-icon iconfont layui-extend-wenda"></i>
+                            <cite>MHKG 智能问答</cite>
+                        </a>
+                    </li>
+                    {% endif %}
+
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+        <!-- 页面标签 -->
+        <div class="layadmin-pagetabs" id="LAY_app_tabs">
+            <div class="layui-icon layadmin-tabs-control layui-icon-prev" layadmin-event="leftPage"></div>
+            <div class="layui-icon layadmin-tabs-control layui-icon-next" layadmin-event="rightPage"></div>
+            <div class="layui-icon layadmin-tabs-control layui-icon-down">
+                <ul class="layui-nav layadmin-tabs-select" lay-filter="layadmin-pagetabs-nav">
+                    <li class="layui-nav-item" lay-unselect="">
+                        <a href="javascript:;"><span class="layui-nav-more"></span></a>
+                        <dl class="layui-nav-child layui-anim-fadein">
+                            <dd layadmin-event="closeThisTabs"><a href="javascript:;">关闭当前标签页</a></dd>
+                            <dd layadmin-event="closeOtherTabs"><a href="javascript:;">关闭其它标签页</a></dd>
+                            <dd layadmin-event="closeAllTabs"><a href="javascript:;">关闭全部标签页</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="layui-tab" lay-unauto="" lay-allowclose="true" lay-filter="layadmin-layout-tabs">
+                <ul class="layui-tab-title" id="LAY_app_tabsheader">
+
+                    <!--超级用户-->
+                    {% if request.user.is_superuser %}
+                    <li lay-id="admin_views/general" lay-attr="admin_views/general" class="layui-this">
+                        <i class="layui-icon layui-icon-home"></i>
+                        <i class="layui-icon layui-unselect layui-tab-close">ဆ</i>
+                    </li>
+
+                    <!--普通用户-->
+                    {% else %}
+                    <li lay-id="views/console" lay-attr="views/console" class="layui-this">
+                        <i class="layui-icon layui-icon-home"></i>
+                        <i class="layui-icon layui-unselect layui-tab-close">ဆ</i>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 主体内容 -->
+        <div class="layui-body" id="LAY_app_body">
+            <div class="layadmin-tabsbody-item layui-show">
+                <!--超级用户-->
+                {% if request.user.is_superuser %}
+                <iframe src="admin_views/general" frameborder="0" class="layadmin-iframe"></iframe>
+
+                <!--普通用户-->
+                {% else %}
+                <iframe src="views/console" frameborder="0" class="layadmin-iframe"></iframe>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- 辅助元素，一般用于移动设备下遮罩 -->
+        <div class="layadmin-body-shade" layadmin-event="shade"></div>
+    </div>
+</div>
+<script src="../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'admin'], function () {
+        var $ = layui.$;
+        var admin = layui.admin;
+
+        $(function(){
+            //session过期自动检测，如果当前框架不是顶层，则将顶层设置为此页面
+            if(window !== top){
+                top.location.href = location.href;
+            }
+        });
+
+        window.closeThisTabs=function(){
+            admin.events.closeThisTabs();
+        };
+
+        //查找字符在字符串中的位置
+        // function find(str, cha, num){
+        //     var x = str.indexOf(cha);
+        //     for(var i = 0; i < num; i++){
+        //         x=str.indexOf(cha, x + 1);
+        //     }
+        //     return x;
+        // }
+        //
+        // var i = $("#touxiang").attr("imgsrc");
+        // var index = find(i,'/',1);
+        // var url = i.substring(index);
+        // $("#touxiang").attr("src", url);
+    });
+</script>
+</body>
+</html>

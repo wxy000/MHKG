@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>智能问答</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/custom.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/im.css" media="all">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_935338_vvvuyuntf8j.css">
+</head>
+<body>
+
+<style>
+    table tr {
+        height: 30px;
+    }
+    table tr a {
+        color: #01AAED;
+    }
+</style>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <span>智能问答</span>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm9">
+            <div id="chat" class="layui-card">
+                <div class="layui-card-header">推理依据</div>
+                <div class="layui-card-body">
+                    <div class="layui-carousel layadmin-carousel layadmin-graph" data-anim="fade" lay-filter="LAY-index-pageone">
+                        <div carousel-item id="LAY-index-pageone">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm3">
+            <div class="layui-card">
+                <div class="layui-card-header">最热提问</div>
+                <div class="layui-card-body">
+                    <table style="margin-left: 10px;">
+                        <tr><td>
+                            <a href="javascript:void(0);">
+                                <i class="iconfont layui-extend-iconfontzhizuobiaozhun47"></i>&nbsp;糖尿病的治疗方法
+                            </a>
+                        </td></tr>
+                        <tr><td>
+                            <a href="javascript:void(0);">
+                                <i class="iconfont layui-extend-iconfontzhizuobiaozhun47"></i>&nbsp;肿瘤要做什么检查
+                            </a>
+                        </td></tr>
+                        <tr><td>
+                            <a href="javascript:void(0);">
+                                <i class="iconfont layui-extend-iconfontzhizuobiaozhun47"></i>&nbsp;感冒吃什么药
+                            </a>
+                        </td></tr>
+                        <tr><td>
+                            <a href="javascript:void(0);">
+                                <i class="iconfont layui-extend-iconfontzhizuobiaozhun47"></i>&nbsp;禽流感有什么并发症
+                            </a>
+                        </td></tr>
+                        <tr><td>
+                            <a href="javascript:void(0);">
+                                <i class="iconfont layui-extend-iconfontzhizuobiaozhun47"></i>&nbsp;低血糖要吃什么
+                            </a>
+                        </td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="hiddenmine" hidden>{{ result }}</div>
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'im', 'im2']);
+</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>详情</title>
+    <link rel="stylesheet" href="../../static/ManualAnnotation/css/layui.css">
+    <link rel="stylesheet" href="../../static/ManualAnnotation/css/admin.css">
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="row">
+        <div class="layui-row layui-col-space15">
+            <div class="layui-col-md8">
+                <div class="layui-card">
+                    {% autoescape off %}
+                    <!--代表将html标签文本转义成标签显示-->
+                    <div class="layui-card-header">词条：</div>
+                    <div class="layui-card-body">{{ title }} {{ jianjie }}</div>
+                    {% endautoescape %}
+                </div>
+            </div>
+            <div class="layui-col-md4">
+                <div class="layui-card">
+                    {% autoescape off %}
+                    <!--代表将html标签文本转义成标签显示-->
+                    <div class="layui-card-header">选择标签：</div>
+                    <div class="layui-card-body">
+                        <form class="layui-form" action="/ManualAnnotation/tagging-get" method="get">
+                            {{ taggingCheck }}
+
+                            <!-- Button trigger modal -->
+                            <hr/>
+                            <div style="text-align: center;">
+                                <a id="tanchuang" href="javascript:void(0);">
+                                    <h4>查看标注情况</h4>
+                                </a>
+                            </div>
+                            <hr/>
+                            <div style="text-align: center; padding-bottom: 10px;">
+                                <div class="layui-input-inline">
+                                    <a class="layui-btn" href="/ManualAnnotation/tagging-get">换一个</a>
+                                    <button class="layui-btn layui-btn-primary" type="submit">立即提交</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    {% endautoescape %}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="content" hidden>
+    {% autoescape off %}
+    {{ already }}
+    {% endautoescape %}
+</div>
+
+<script src="../../static/ManualAnnotation/js/layui.js"></script>
+<script>
+    layui.use(['form', 'layer'], function () {
+        var form = layui.form;
+        var layer = layui.layer;
+        var $ = layui.$;
+
+        //点击按钮弹窗
+        $("#tanchuang").on('click', function () {
+            layer.open({
+                title: '标注情况',
+                type: 1,
+                shadeClose: true,
+                // skin: 'layui-layer-rim', //加上边框
+                area: ['380px', 'auto'], //宽高
+                content: $("#content")
+            });
+        });
+    })
+</script>
+</body>
+
+</html>

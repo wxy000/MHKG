@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>概览</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/custom.css" media="all">
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <span><i>{{ item.title }}</i>&nbsp;的知识图谱</span>
+                    <span id="LAY-button" class="layui-btn layui-btn-sm" style="float: right;">
+                        <i class="layui-icon">&#xe669;</i>换一条
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm9">
+            <div class="layui-card">
+                <div class="layui-card-header"><i>{{ item.title }}</i>&nbsp;相关</div>
+                <div class="layui-card-body">
+
+                    <div class="layui-carousel layadmin-carousel layadmin-graph" data-anim="fade" lay-filter="LAY-index-pageone">
+                        <div carousel-item id="LAY-index-pageone">
+                            <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm3">
+            <div class="layui-card">
+                <div class="layui-card-header"><i>{{ item.title }}</i>&nbsp;简介</div>
+                <div class="layui-card-body">
+                    <div>
+                        <!--<p><b>疾病名称：</b><span>{{ item.title }}</span></p>-->
+                        <p style="text-indent: 2em;">{{ item.简介 }}</p>
+                        <!--<p><b>易感人群：</b><span>{{ item.易感人群 }}</span></p>-->
+                        <!--<p><b>传染方式：</b><span>{{ item.传染方式 }}</span></p>-->
+                        <!--<p><b>预防：</b><span>{{ item.预防 }}</span></p>-->
+                        <!--<p><b>饮食保健：</b><span>{{ item.饮食保健 }}</span></p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="next" hidden>{{nodeRelation}}</div>
+
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    var data = document.getElementById("next").innerHTML;
+    data = eval('('+ data +')');
+    // console.log(data);
+</script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'console2'], function () {
+        var $ = layui.$;
+        $(document).on('click','#LAY-button',function(){
+            window.location.reload();
+        });
+    });
+</script>
+</body>
+</html>
