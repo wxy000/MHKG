@@ -12,6 +12,8 @@ sleep 5
 /usr/bin/python /root/MHKG/Django/toolkit/getNginxLogs.py ${LOGS_PATH}/ nginx_access_${YESTERDAY} .log
 
 echo "" > ${LOGS_PATH}/uwsgi.log
+echo "" > ${LOGS_PATH}/websocket.log
+echo "" > ${LOGS_PATH}/nginx_error.log
 
 # 删除7天前的日志
 cd ${LOGS_PATH}

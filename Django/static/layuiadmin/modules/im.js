@@ -53,7 +53,7 @@ layui.define(function(exports){
             });
         }
 
-        var socket = new WebSocket('ws://119.29.225.142:8080/ws/chat/' + mine.id + '/');
+        var socket = new WebSocket('ws://119.29.225.142:8001/ws/chat/' + mine.id + '/');
         // 监听页面关闭，然后主动关闭websocket连接，防止卡死
         // window.onbeforeunload = function() {
         //     socket.close();
