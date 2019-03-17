@@ -60,8 +60,12 @@ layui.define(function(exports){
         // };
         socket.onopen = function(){
             // 系统消息
-            // layim.setChatStatus('<span style="color:#FF5722;">在线</span>');
-            // layim.getMessage({system: true, id: adminDict.id, type: adminDict.type, content: '康康上线啦'});
+            mine['content'] = "CONNECT SUCCEED";
+            adminDict['name'] = adminDict['username'];
+            socket.send(JSON.stringify({
+                type: 'chatMessage',
+                data: {'mine': mine, 'to': adminDict}
+            }));
         };
         layim.on("sendMessage", function (data) {
             var To = data.to;
