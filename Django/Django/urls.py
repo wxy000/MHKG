@@ -57,7 +57,7 @@ urlpatterns = [
     path('views/classifiedQuery/getEntity/', classifiedQuery_view.getEntity),
     path('views/classifiedQuery/baike/', baike_view.baike),
     path('views/interlocution/', interlocution_view.interlocution),
-    path('getAnswer/', interlocution_view.getAnswer),
+    # path('getAnswer/', interlocution_view.getAnswer),
     # re_path('views/(?P<p>\S*)/', views.pages),
     path('admin_views/userList/', userList_view.getAllUser),
     path('admin_views/userList/getUserInfo/', userList_view.getUserInfo),

@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'channels',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ManualAnnotation.apps.ManualannotationConfig',
     'users.apps.UsersConfig',
+    'chat.apps.ChatConfig',
 ]
 
 MIDDLEWARE = [
@@ -115,6 +117,18 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+
+# Channels
+ASGI_APPLICATION = 'Django.routing.application'
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": ["redis://:wxy123456@39.108.111.94:6379"],
+        },
+    },
+}
 
 
 # Static files (CSS, JavaScript, Images)

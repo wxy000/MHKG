@@ -16,6 +16,7 @@ layui.define(function(exports){
             type: 'friend'
         };
         var mine = eval('(' + $("#hiddenmine").html() + ')');
+        var friends = eval('(' + $("#hiddenfriends").html() + ')');
         if (mine.id === -1 && mine.username === '游客') {
             layim.config({
                 brief: true,
@@ -42,13 +43,7 @@ layui.define(function(exports){
                     }, {
                         groupname: '专家会诊',
                         id: -20,
-                        list: [{
-                            username: 'wxy000',
-                            id: 2
-                        }, {
-                            username: 'wxy',
-                            id: 1
-                        }]
+                        list: friends
                     }]
                 },
                 initSkin: "3.jpg",
@@ -58,24 +53,15 @@ layui.define(function(exports){
             });
         }
 
-        var socket = new WebSocket('ws://119.29.225.142:80/getAnswer/');
+        var socket = new WebSocket('ws://119.29.225.142:8080/ws/chat/' + mine.id + '/');
         // 监听页面关闭，然后主动关闭websocket连接，防止卡死
-        window.onbeforeunload = function() {
-            socket.close();
-        };
+        // window.onbeforeunload = function() {
+        //     socket.close();
+        // };
         socket.onopen = function(){
             // 系统消息
-            layim.setChatStatus('<span style="color:#FF5722;">在线</span>');
-            layim.getMessage({system: true, id: adminDict.id, type: adminDict.type, content: '康康上线啦'});
-            socket.onmessage = function (res) {
-                layim.getMessage({
-                    username: adminDict.username,
-                    avatar: adminDict.avatar,
-                    id: adminDict.id,
-                    type: adminDict.type,
-                    content: res.data
-                });
-            };
+            // layim.setChatStatus('<span style="color:#FF5722;">在线</span>');
+            // layim.getMessage({system: true, id: adminDict.id, type: adminDict.type, content: '康康上线啦'});
         };
         layim.on("sendMessage", function (data) {
             var To = data.to;
@@ -83,20 +69,17 @@ layui.define(function(exports){
                 type: 'chatMessage',
                 data: data
             }));
-            if(To.type === 'friend'){
-                layim.setChatStatus('<span style="color:#FF5722;">对方正在输入。。。</span>');
-            }
-            socket.onmessage = function (res) {
-                layim.setChatStatus('<span style="color:#FF5722;">在线</span>');
-                layim.getMessage({
-                    username: To.username ? To.username : To.name,
-                    avatar: To.avatar,
-                    id: To.id,
-                    type: To.type,
-                    content: res.data
-                });
-            };
         });
+        socket.onmessage = function (res) {
+            var msg = JSON.parse(res.data);
+            layim.getMessage({
+                username: msg.message.username,
+                avatar: msg.message.avatar,
+                id: msg.message.id,
+                type: 'friend',
+                content: msg.message.content
+            });
+        };
 
         // 将机器人客服的问候链接作为要发送的信息发送给客服
         window.toto = function(obj) {
