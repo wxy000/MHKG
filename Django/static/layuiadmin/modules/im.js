@@ -53,7 +53,23 @@ layui.define(function(exports){
             });
         }
 
-        var socket = new WebSocket('ws://119.29.225.142:8001/ws/chat/' + mine.id + '/');
+        //产生随机数函数
+        function RndNum(n){
+            var rnd = "";
+            for(var i = 0; i < n; i++)
+                rnd += Math.floor(Math.random() * 10);
+            return rnd;
+        }
+
+        // 防止多个游客聊天导致的回复混乱
+        var roomId = '';
+        if (mine.id === -1) {
+            roomId = RndNum(5) + Math.random();
+        } else {
+            roomId = "" + mine.id
+        }
+
+        var socket = new WebSocket('ws://119.29.225.142:8001/ws/chat/' + roomId + '/');
         // 监听页面关闭，然后主动关闭websocket连接，防止卡死
         // window.onbeforeunload = function() {
         //     socket.close();

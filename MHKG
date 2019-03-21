@@ -65,11 +65,13 @@ restartProject(){
     echo "neo4j重启完成"
     nginx -s reload
     echo "nginx重启完成"
+    sleep 1
     cd "/root/MHKG/Django/logs"
     uwsgi --stop uwsgi.pid
     sleep 1
     cd "/root/MHKG/Django"
     uwsgi --ini uwsgi.ini
+    sleep 1
     echo "uwsgi重启完成"
     supervisorctl restart daphne
     echo "daphne重启成功"
