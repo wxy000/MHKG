@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -10,10 +11,12 @@ from toolkit.toolbar1 import Toolbar1
 from toolkit.mongodb_operation.mongodb_logfile import mongo
 
 
+@login_required
 def getTerminal(request):
     return render(request, 'admin_views/terminal.html')
 
 
+@login_required
 def getTerminalData(request):
     id = request.GET.get('id', '')
     day = request.GET.get('day', '')

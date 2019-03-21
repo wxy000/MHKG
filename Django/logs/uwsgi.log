@@ -550,3 +550,859 @@ connect succeed
 63====3
 {'title': '日常生活最错误的3种食物搭配', 'abstract': '有句成语说“对症下药”，吃水果也是有黄金时间段的，正确的区分每种水果的发挥时间，让吃进去的水果发挥最大的作用。', 'url': 'https://ys.99.com.cn/zhinan/206257.htm'}
 [pid: 26696|app: 0|req: 2/4] 120.199.34.100 () {44 vars in 891 bytes} [Thu Mar 21 02:28:27 2019] GET /views/console/ => generated 13366 bytes in 464 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[uwsgi-python-reloader] module/file /root/MHKG/Django/apps/users/views.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 26693)...
+Gracefully killing worker 2 (pid: 26694)...
+Gracefully killing worker 3 (pid: 26695)...
+Gracefully killing worker 4 (pid: 26696)...
+[uwsgi-python-reloader] module/file /root/MHKG/Django/apps/users/views.py has been modified
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:36:53 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1945240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1945240 pid: 976 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 27499, cores: 2)
+spawned uWSGI worker 2 (pid: 27500, cores: 2)
+spawned uWSGI worker 3 (pid: 27501, cores: 2)
+spawned uWSGI worker 4 (pid: 27502, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 27500|app: 0|req: 1/1] 58.251.121.185 () {38 vars in 652 bytes} [Thu Mar 21 02:42:48 2019] GET /FxCodeShell.jsp%2520 => generated 1121 bytes in 994 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[uwsgi-python-reloader] module/file ./Django/terminal_view.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 27499)...
+Gracefully killing worker 2 (pid: 27500)...
+Gracefully killing worker 3 (pid: 27501)...
+Gracefully killing worker 4 (pid: 27502)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:43:30 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x203e240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x203e240 pid: 976 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 28089, cores: 2)
+spawned uWSGI worker 2 (pid: 28090, cores: 2)
+spawned uWSGI worker 3 (pid: 28091, cores: 2)
+spawned uWSGI worker 4 (pid: 28092, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28092|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 856 bytes} [Thu Mar 21 02:44:40 2019] GET / => generated 11772 bytes in 810 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+326====11
+{'title': '我们最常吃的6种米营养功效如何', 'abstract': '吃饭这件事我们一天做3次，但是也不见得我们就了解米饭。糙米、糯米、白米等米是我们常吃的米，对于它们我们到底了解多少呢？下面跟着小编一起来看看我们常吃的米营养功效如何吧。', 'url': 'https://ys.99.com.cn/zhinan/618572.htm'}
+[pid: 28092|app: 0|req: 2/2] 120.199.34.100 () {44 vars in 891 bytes} [Thu Mar 21 02:44:41 2019] GET /views/console/ => generated 13457 bytes in 450 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 28092|app: 0|req: 3/3] 120.199.34.100 () {44 vars in 893 bytes} [Thu Mar 21 02:44:46 2019] GET /views/consoles/ => generated 12854 bytes in 1292 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 28092|app: 0|req: 4/4] 120.199.34.100 () {44 vars in 1049 bytes} [Thu Mar 21 02:44:54 2019] GET /views/consoles/baike?name=%E8%82%9B%E9%97%A8%E6%9D%BE%E5%BC%9B&amp;id=8181&amp;label=2 => generated 0 bytes in 6 msecs (HTTP/1.1 301) 3 headers in 193 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+集合已存在！
+集合已存在！
+[pid: 28091|app: 0|req: 1/5] 120.199.34.100 () {44 vars in 1051 bytes} [Thu Mar 21 02:44:54 2019] GET /views/consoles/baike/?name=%E8%82%9B%E9%97%A8%E6%9D%BE%E5%BC%9B&amp;id=8181&amp;label=2 => generated 11211 bytes in 1870 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+集合已存在！
+集合已存在！
+[pid: 28092|app: 0|req: 5/6] 120.199.34.100 () {44 vars in 1177 bytes} [Thu Mar 21 02:45:00 2019] GET /views/consoles/baike/?name=%E8%82%9B%E9%97%A8%E6%8B%AC%E7%BA%A6%E8%82%8C%E6%9D%BE%E5%BC%9B&amp;id=8180&amp;label=2 => generated 10267 bytes in 499 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 28091|app: 0|req: 2/7] 120.199.34.100 () {44 vars in 897 bytes} [Thu Mar 21 02:45:11 2019] GET /views/distinguish => generated 0 bytes in 6 msecs (HTTP/1.1 301) 3 headers in 124 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28090|app: 0|req: 1/8] 120.199.34.100 () {44 vars in 899 bytes} [Thu Mar 21 02:45:12 2019] GET /views/distinguish/ => generated 4075 bytes in 998 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:39: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+  m.add_string(self.Q_C.public_numbers().encode_point())
+/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:96: CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
+  self.curve, Q_S_bytes
+/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:111: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+  hm.add_string(self.Q_C.public_numbers().encode_point())
+------start------
+[connect success] | ip : 39.108.111.94
+result:
+Model loaded succeed [['肛门失禁', 'uw'], ['是', 'v'], ['排便', 'v'], ['功能', 'n'], ['紊乱', 'a'], ['的', 'u'], ['一', 'm'], ['种', 'q'], ['症状', 'n'], ['，', 'w'], ['患者', 'n'], ['失去', 'v'], ['控制', 'v'], ['排气', 'v'], ['、', 'w'], ['排便', 'a'], ['的', 'u'], ['能力', 'n'], ['。', 'w'], ['发病率', 'n'], ['不', 'd'], ['高', 'a'], ['，', 'w'], ['不', 'd'], ['直接', 'a'], ['威胁', 'v'], ['生命', 'n'], ['，', 'w'], ['但', 'c'], ['造成', 'v'], ['身体', 'n'], ['和', 'c'], ['精神', 'n'], ['上', 'f'], ['的', 'u'], ['痛苦', 'a'], ['，', 'w'], ['严格', 'a'], ['地', 'u'], ['干扰', 'v'], ['了', 'u'], ['正常', 'a'], ['生活', 'v'], ['和', 'c'], ['工作', 'v'], ['。', 'w'], ['常', 'd'], ['由', 'p'], ['肛管', 'j'], ['直肠结肠', 'id'], ['疾病', 'n'], ['、', 'w'], ['括约肌', 'n'], ['损伤', 'v'], ['、', 'w'], ['神经系统', 'id'], ['疾病', 'n'], ['及', 'c'], ['肛周', 'n'], ['组织', 'v'], ['先天性', 'a'], ['畸形', 'n'], ['引起', 'v'], ['。', 'w']]
+
+------end------
+[pid: 28091|app: 0|req: 3/9] 120.199.34.100 () {52 vars in 1144 bytes} [Thu Mar 21 02:45:16 2019] POST /views/distinguish/getDistinguishData/ => generated 1020 bytes in 11619 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 1)
+集合已存在！
+集合已存在！
+[pid: 28090|app: 0|req: 2/10] 120.199.34.100 () {44 vars in 1040 bytes} [Thu Mar 21 02:45:31 2019] GET /views/distinguish/baike?name=%E8%82%9B%E9%97%A8%E5%A4%B1%E7%A6%81&id=934&label=1 => generated 13080 bytes in 146 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+集合已存在！
+集合已存在！
+[pid: 28092|app: 0|req: 6/11] 120.199.34.100 () {44 vars in 1120 bytes} [Thu Mar 21 02:45:35 2019] GET /views/distinguish/baike?name=%E8%82%9B%E8%82%A0%E7%96%BE%E7%97%85&amp;id=4493&amp;label=1 => generated 12788 bytes in 451 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 28092|app: 0|req: 7/12] 120.199.34.100 () {44 vars in 897 bytes} [Thu Mar 21 02:45:41 2019] GET /views/entityQuery => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 124 bytes (1 switches on core 1)
+[{'title': '柳叶刀-医科院 、工程院就基因编辑婴儿事件发声', 'url': 'http://med.ckcest.cn/news_detail_jing.html', 'imgurl': 'http://med.ckcest.cn/mkb/static/img/s_index_slide_01.jpg'}, {'title': '重磅首发！2018年（2017年度）中国医院科技量值（STEM）发布', 'url': 'http://med.ckcest.cn/news_detail_jing2.html', 'imgurl': 'http://med.ckcest.cn/mkb/static/img/s_index_slide_02.jpg'}, {'title': '广东初步查明“基因编辑婴儿事件”', 'url': 'http://med.ckcest.cn/details.html?id=4248551055099904&classesEn=news', 'imgurl': 'http://med.ckcest.cn/mkb/static/img/s_index_slide_03.jpg'}]
+[{'title': 'Arthritis&#160;Care&#160;...', 'url': 'http://news.bioon.com/article/6735760.html', 'date': '2019-03-21'}, {'title': 'Int&#160;J&#160;Cancer：实锤...', 'url': 'http://news.bioon.com/article/6735759.html', 'date': '2019-03-21'}, {'title': 'Diabetes&#160;Care：蓝牙钢笔帽可...', 'url': 'http://news.bioon.com/article/6735758.html', 'date': '2019-03-21'}, {'title': 'PNAS：新型炎症抑制剂可以防止胎儿出现神经发育障...', 'url': 'http://news.bioon.com/article/6735757.html', 'date': '2019-03-21'}, {'title': '全球首个产后抑郁症药物！Sage公司创新药Zulr...', 'url': 'http://news.bioon.com/article/6735716.html', 'date': '2019-03-20'}, {'title': '20年重大突破！罗氏Tecentriq获美国FDA...', 'url': 'http://news.bioon.com/article/6735660.html', 'date': '2019-03-20'}, {'title': '乳腺癌新药！Puma靶向药物Nerlynx获批，用...', 'url': 'http://news.bioon.com/article/6735664.html', 'date': '2019-03-20'}, {'title': '靶向抗癌药！艾伯维/罗氏venetoclax多发性...', 'url': 'http://news.bioon.com/article/6735727.html', 'date': '2019-03-20'}, {'title': '天境生物宣布自主研发抗GM-CSF单抗药物TJM2...', 'url': 'http://news.bioon.com/article/6735720.html', 'date': '2019-03-20'}, {'title': 'Inter&#160;J&#160;Env&#16...', 'url': 'http://news.bioon.com/article/6735713.html', 'date': '2019-03-20'}]
+[pid: 28090|app: 0|req: 3/13] 120.199.34.100 () {44 vars in 899 bytes} [Thu Mar 21 02:45:41 2019] GET /views/entityQuery/ => generated 10373 bytes in 826 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 28092|app: 0|req: 8/14] 120.199.34.100 () {44 vars in 998 bytes} [Thu Mar 21 02:45:50 2019] GET /views/entityQuery/search?flag=1&keywords=%E6%8A%BD%E6%90%90 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 166 bytes (1 switches on core 1)
+[pid: 28090|app: 0|req: 4/15] 120.199.34.100 () {44 vars in 1000 bytes} [Thu Mar 21 02:45:51 2019] GET /views/entityQuery/search/?flag=1&keywords=%E6%8A%BD%E6%90%90 => generated 32433 bytes in 596 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 28092|app: 0|req: 9/16] 120.199.34.100 () {44 vars in 1102 bytes} [Thu Mar 21 02:45:55 2019] GET /views/entityQuery/search/entity?name=%E6%8A%BD%E6%90%90%E4%B8%8E%E6%83%8A%E5%8E%A5&id=2546 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 197 bytes (1 switches on core 1)
+集合已存在！
+集合已存在！
+[pid: 28090|app: 0|req: 5/17] 120.199.34.100 () {44 vars in 1104 bytes} [Thu Mar 21 02:45:55 2019] GET /views/entityQuery/search/entity/?name=%E6%8A%BD%E6%90%90%E4%B8%8E%E6%83%8A%E5%8E%A5&id=2546 => generated 16246 bytes in 1161 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+集合已存在！
+集合已存在！
+[pid: 28092|app: 0|req: 10/18] 120.199.34.100 () {44 vars in 1091 bytes} [Thu Mar 21 02:46:00 2019] GET /views/entityQuery/search/entity/?name=Trousseau%E5%BE%81&amp;id=14289 => generated 7739 bytes in 227 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 28090|app: 0|req: 6/19] 120.199.34.100 () {44 vars in 901 bytes} [Thu Mar 21 02:46:11 2019] GET /views/relationQuery => generated 0 bytes in 4 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 1)
+[pid: 28091|app: 0|req: 4/20] 120.199.34.100 () {44 vars in 903 bytes} [Thu Mar 21 02:46:11 2019] GET /views/relationQuery/ => generated 7958 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28090|app: 0|req: 7/21] 120.199.34.100 () {44 vars in 904 bytes} [Thu Mar 21 02:46:13 2019] GET /views/relationQuery/relation => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 135 bytes (1 switches on core 1)
+[pid: 28091|app: 0|req: 5/22] 120.199.34.100 () {44 vars in 906 bytes} [Thu Mar 21 02:46:13 2019] GET /views/relationQuery/relation/ => generated 75 bytes in 417 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28091|app: 0|req: 6/23] 120.199.34.100 () {44 vars in 909 bytes} [Thu Mar 21 02:46:15 2019] GET /views/relationQuery/node?name=1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28089|app: 0|req: 1/24] 120.199.34.100 () {44 vars in 911 bytes} [Thu Mar 21 02:46:15 2019] GET /views/relationQuery/node/?name=1 => generated 15145 bytes in 1060 msecs (HTTP/1.1 200) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 28091|app: 0|req: 7/25] 120.199.34.100 () {44 vars in 909 bytes} [Thu Mar 21 02:46:19 2019] GET /views/relationQuery/node?name=2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 1)
+[pid: 28090|app: 0|req: 8/26] 120.199.34.100 () {44 vars in 911 bytes} [Thu Mar 21 02:46:19 2019] GET /views/relationQuery/node/?name=2 => generated 16666 bytes in 88 msecs (HTTP/1.1 200) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 28091|app: 0|req: 8/27] 120.199.34.100 () {44 vars in 983 bytes} [Thu Mar 21 02:46:21 2019] GET /views/relationQuery/nodeRelation?entity1=1163&entity2=203&relation=* => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 175 bytes (1 switches on core 1)
+[pid: 28090|app: 0|req: 9/28] 120.199.34.100 () {44 vars in 985 bytes} [Thu Mar 21 02:46:21 2019] GET /views/relationQuery/nodeRelation/?entity1=1163&entity2=203&relation=* => generated 629 bytes in 4764 msecs (HTTP/1.1 200) 3 headers in 115 bytes (1 switches on core 0)
+[pid: 28091|app: 0|req: 9/29] 120.199.34.100 () {44 vars in 905 bytes} [Thu Mar 21 02:46:28 2019] GET /views/classifiedQuery => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 128 bytes (1 switches on core 1)
+[pid: 28089|app: 0|req: 2/30] 120.199.34.100 () {44 vars in 907 bytes} [Thu Mar 21 02:46:29 2019] GET /views/classifiedQuery/ => generated 11624 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 1)
+[pid: 28091|app: 0|req: 10/31] 120.199.34.100 () {44 vars in 869 bytes} [Thu Mar 21 02:46:29 2019] GET /views/classifiedQuery/getFenlei => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 138 bytes (1 switches on core 1)
+集合已存在！
+[pid: 28091|app: 0|req: 11/32] 120.199.34.100 () {44 vars in 871 bytes} [Thu Mar 21 02:46:29 2019] GET /views/classifiedQuery/getFenlei/ => generated 16525 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 117 bytes (1 switches on core 1)
+!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ ＂＃＄％＆＇（）＊＋，－／：；＜＝＞＠［＼］＾＿｀｛｜｝～｟｠｢｣､　、〃〈〉《》「」『』【】〔〕〖〗〘〙〚〛〜〝〞〟〰〾〿–—‘’‛“”„‟…‧﹏﹑﹔·！？｡。
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+[pid: 28090|app: 0|req: 10/33] 120.199.34.100 () {52 vars in 1138 bytes} [Thu Mar 21 02:46:30 2019] POST /views/classifiedQuery/getEntity/ => generated 806215 bytes in 535 msecs (HTTP/1.1 200) 3 headers in 118 bytes (1 switches on core 1)
+[pid: 28092|app: 0|req: 11/34] 120.199.34.100 () {44 vars in 903 bytes} [Thu Mar 21 02:46:46 2019] GET /views/interlocution/ => generated 4135 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 28092|app: 0|req: 12/35] 120.199.34.100 () {44 vars in 893 bytes} [Thu Mar 21 02:47:43 2019] GET /accounts/login/ => generated 5358 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 28092|app: 0|req: 13/36] 120.199.34.100 () {42 vars in 843 bytes} [Thu Mar 21 02:47:43 2019] GET /accounts/login/code.jpg => generated 1121 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 28092|app: 0|req: 14/37] 120.199.34.100 () {52 vars in 1162 bytes} [Thu Mar 21 02:47:54 2019] POST /accounts/login/ => generated 0 bytes in 205 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+[pid: 28092|app: 0|req: 15/38] 120.199.34.100 () {46 vars in 953 bytes} [Thu Mar 21 02:47:55 2019] GET / => generated 12451 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Thu Mar 21 02:47:55 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28089)...
+Gracefully killing worker 2 (pid: 28090)...
+Gracefully killing worker 3 (pid: 28091)...
+Gracefully killing worker 4 (pid: 28092)...
+383====2
+{'title': '芋头的营养价值高 三类人群要少吃', 'abstract': '芋头是我们常吃的一种食材，芋头的营养价值很高，而且吃芋头的好处也不少，但是并不是人人都适合吃的，一起接着往下看吧。', 'url': 'https://ys.99.com.cn/zhinan/720785.htm'}
+[pid: 28092|app: 0|req: 16/39] 120.199.34.100 () {44 vars in 935 bytes} [Thu Mar 21 02:47:55 2019] GET /views/console/ => generated 13384 bytes in 321 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:47:57 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1844240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1844240 pid: 976 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 28541, cores: 2)
+spawned uWSGI worker 2 (pid: 28542, cores: 2)
+spawned uWSGI worker 3 (pid: 28543, cores: 2)
+spawned uWSGI worker 4 (pid: 28544, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28543|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 954 bytes} [Thu Mar 21 02:48:00 2019] GET /views/interlocution?id=1 => generated 0 bytes in 761 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 0)
+[pid: 28543|app: 0|req: 2/2] 120.199.34.100 () {44 vars in 956 bytes} [Thu Mar 21 02:48:01 2019] GET /views/interlocution/?id=1 => generated 4233 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 28543|app: 0|req: 3/3] 120.199.34.100 () {44 vars in 945 bytes} [Thu Mar 21 02:48:23 2019] GET /accounts/userinfo/1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 0)
+[pid: 28543|app: 0|req: 4/4] 120.199.34.100 () {44 vars in 947 bytes} [Thu Mar 21 02:48:23 2019] GET /accounts/userinfo/1/ => generated 5687 bytes in 42 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 28543|app: 0|req: 5/5] 120.199.34.100 () {44 vars in 957 bytes} [Thu Mar 21 02:48:30 2019] GET /accounts/user/1/pwdchange => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 132 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28542|app: 0|req: 1/6] 120.199.34.100 () {44 vars in 959 bytes} [Thu Mar 21 02:48:30 2019] GET /accounts/user/1/pwdchange/ => generated 3583 bytes in 1081 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 28543|app: 0|req: 6/7] 120.199.34.100 () {42 vars in 767 bytes} [Thu Mar 21 02:48:55 2019] GET /accounts/userinfo/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28541|app: 0|req: 1/8] 120.199.34.100 () {42 vars in 769 bytes} [Thu Mar 21 02:48:55 2019] GET /accounts/userinfo/1/ => generated 0 bytes in 752 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 28543|app: 0|req: 7/9] 120.199.34.100 () {42 vars in 812 bytes} [Thu Mar 21 02:48:56 2019] GET /accounts/login/?next=/accounts/userinfo/1/ => generated 5358 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 28543|app: 0|req: 8/10] 120.199.34.100 () {44 vars in 943 bytes} [Thu Mar 21 02:49:03 2019] GET /accounts/login/?next=/accounts/userinfo/1/ => generated 5358 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 28543|app: 0|req: 9/11] 120.199.34.100 () {42 vars in 825 bytes} [Thu Mar 21 02:49:08 2019] GET /accounts/login/code.jpg => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 28543|app: 0|req: 10/12] 120.199.34.100 () {52 vars in 1197 bytes} [Thu Mar 21 02:49:16 2019] POST /accounts/login/?next=/accounts/userinfo/1/ => generated 0 bytes in 217 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+[pid: 28542|app: 0|req: 2/13] 120.199.34.100 () {46 vars in 980 bytes} [Thu Mar 21 02:49:16 2019] GET / => generated 12451 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+Thu Mar 21 02:49:16 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28541)...
+Gracefully killing worker 2 (pid: 28542)...
+Gracefully killing worker 3 (pid: 28543)...
+Gracefully killing worker 4 (pid: 28544)...
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 1 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:49:18 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1936240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1936240 pid: 976 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 28716, cores: 2)
+spawned uWSGI worker 2 (pid: 28717, cores: 2)
+spawned uWSGI worker 3 (pid: 28718, cores: 2)
+spawned uWSGI worker 4 (pid: 28719, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28719|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 933 bytes} [Thu Mar 21 02:49:20 2019] GET /views/console => generated 0 bytes in 941 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
+135====10
+{'title': '经期吃五种甜品补血', 'abstract': '一年一度的春节即将到来了，家家户户也又要开始准备除夕大餐了。不管是在家里吃饭还是外出点餐过节，除夕餐的菜品搭配方法都是我们必须要掌握的一个技巧，所以，今天我就来说一下春节家宴的按配方案与技巧。', 'url': 'https://ys.99.com.cn/zhinan/354924.htm'}
+[pid: 28719|app: 0|req: 2/2] 120.199.34.100 () {44 vars in 935 bytes} [Thu Mar 21 02:49:21 2019] GET /views/console/ => generated 13463 bytes in 347 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 28719|app: 0|req: 3/3] 120.199.34.100 () {44 vars in 937 bytes} [Thu Mar 21 02:49:29 2019] GET /accounts/logout => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+Thu Mar 21 02:49:29 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28716)...
+Gracefully killing worker 3 (pid: 28718)...
+Gracefully killing worker 2 (pid: 28717)...
+Gracefully killing worker 4 (pid: 28719)...
+[pid: 28719|app: 0|req: 4/4] 120.199.34.100 () {44 vars in 939 bytes} [Thu Mar 21 02:49:29 2019] GET /accounts/logout/ => generated 0 bytes in 141 msecs (HTTP/1.1 302) 5 headers in 223 bytes (1 switches on core 0)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:49:30 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1cf9240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1cf9240 pid: 976 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 28759, cores: 2)
+spawned uWSGI worker 2 (pid: 28762, cores: 2)
+spawned uWSGI worker 3 (pid: 28763, cores: 2)
+spawned uWSGI worker 4 (pid: 28764, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28759|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 893 bytes} [Thu Mar 21 02:49:31 2019] GET /accounts/login/ => generated 5358 bytes in 1078 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 28759|app: 0|req: 2/2] 120.199.34.100 () {42 vars in 843 bytes} [Thu Mar 21 02:49:32 2019] GET /accounts/login/code.jpg => generated 1121 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 28759|app: 0|req: 3/3] 120.199.34.100 () {52 vars in 1162 bytes} [Thu Mar 21 02:49:45 2019] POST /accounts/login/ => generated 0 bytes in 209 msecs (HTTP/1.1 302) 8 headers in 569 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+Thu Mar 21 02:49:46 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28759)...
+Gracefully killing worker 2 (pid: 28762)...
+Gracefully killing worker 4 (pid: 28764)...
+Gracefully killing worker 3 (pid: 28763)...
+connect succeed
+数据库已存在！
+[pid: 28763|app: 0|req: 1/4] 120.199.34.100 () {46 vars in 953 bytes} [Thu Mar 21 02:49:45 2019] GET / => generated 12581 bytes in 1222 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:49:48 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x20f5240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x20f5240 pid: 976 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 28814, cores: 2)
+spawned uWSGI worker 2 (pid: 28815, cores: 2)
+spawned uWSGI worker 3 (pid: 28816, cores: 2)
+spawned uWSGI worker 4 (pid: 28817, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28815|app: 0|req: 1/1] 120.199.34.100 () {44 vars in 945 bytes} [Thu Mar 21 02:49:49 2019] GET /admin_views/general => generated 0 bytes in 804 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 0)
+集合不存在
+集合不存在
+[pid: 28815|app: 0|req: 2/2] 120.199.34.100 () {44 vars in 947 bytes} [Thu Mar 21 02:49:50 2019] GET /admin_views/general/ => generated 4635 bytes in 112 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28814|app: 0|req: 1/3] 120.199.34.100 () {44 vars in 937 bytes} [Thu Mar 21 02:49:59 2019] GET /admin_views/pul => generated 0 bytes in 848 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 2/4] 120.199.34.100 () {44 vars in 939 bytes} [Thu Mar 21 02:50:01 2019] GET /admin_views/pul/ => generated 3536 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+集合不存在
+集合不存在
+[pid: 28814|app: 0|req: 3/5] 120.199.34.100 () {46 vars in 998 bytes} [Thu Mar 21 02:50:36 2019] GET /admin_views/general/ => generated 4635 bytes in 111 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 4/6] 120.199.34.100 () {44 vars in 919 bytes} [Thu Mar 21 02:50:38 2019] GET /admin_views/general/getCpuAndMemory => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 142 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28817|app: 0|req: 1/7] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:38 2019] GET /admin_views/general/getCpuAndMemory/ => generated 30 bytes in 981 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 5/8] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:39 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 28816|app: 0|req: 1/9] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:40 2019] GET /admin_views/general/getCpuAndMemory/ => generated 30 bytes in 1189 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 6/10] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:41 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 2/11] 120.199.34.100 () {44 vars in 939 bytes} [Thu Mar 21 02:50:42 2019] GET /admin_views/pul/ => generated 3536 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 7/12] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:42 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 2/13] 120.199.34.100 () {44 vars in 924 bytes} [Thu Mar 21 02:50:42 2019] GET /admin_views/pul/getPulData?id=pvuv&day=0 => generated 0 bytes in 3 msecs (HTTP/1.1 301) 3 headers in 147 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 3/14] 120.199.34.100 () {44 vars in 926 bytes} [Thu Mar 21 02:50:42 2019] GET /admin_views/pul/getPulData/?id=pvuv&day=0 => generated 1337 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 4/15] 120.199.34.100 () {44 vars in 924 bytes} [Thu Mar 21 02:50:42 2019] GET /admin_views/pul/getPulData?id=flux&day=0 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 147 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 5/16] 120.199.34.100 () {44 vars in 926 bytes} [Thu Mar 21 02:50:42 2019] GET /admin_views/pul/getPulData/?id=flux&day=0 => generated 1337 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 130 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 8/17] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:43 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 9/18] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:44 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 10/19] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:45 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 6/20] 120.199.34.100 () {44 vars in 924 bytes} [Thu Mar 21 02:50:45 2019] GET /admin_views/pul/getPulData?id=pvuv&day=1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 147 bytes (1 switches on core 0)
+[pid: 28816|app: 0|req: 3/21] 120.199.34.100 () {44 vars in 926 bytes} [Thu Mar 21 02:50:45 2019] GET /admin_views/pul/getPulData/?id=pvuv&day=1 => generated 1354 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 11/22] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:46 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 12/23] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:47 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 13/24] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:48 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 14/25] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:49 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 3/26] 120.199.34.100 () {44 vars in 924 bytes} [Thu Mar 21 02:50:49 2019] GET /admin_views/pul/getPulData?id=pvuv&day=7 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 147 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 15/27] 120.199.34.100 () {44 vars in 926 bytes} [Thu Mar 21 02:50:49 2019] GET /admin_views/pul/getPulData/?id=pvuv&day=7 => generated 278 bytes in 77 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 4/28] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:50 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 5/29] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:51 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 6/30] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 7/31] 120.199.34.100 () {44 vars in 924 bytes} [Thu Mar 21 02:50:52 2019] GET /admin_views/pul/getPulData?id=flux&day=1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 147 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 16/32] 120.199.34.100 () {44 vars in 926 bytes} [Thu Mar 21 02:50:52 2019] GET /admin_views/pul/getPulData/?id=flux&day=1 => generated 1354 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 17/33] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:53 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 18/34] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:54 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 19/35] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:55 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 4/36] 120.199.34.100 () {44 vars in 924 bytes} [Thu Mar 21 02:50:55 2019] GET /admin_views/pul/getPulData?id=flux&day=7 => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 147 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 20/37] 120.199.34.100 () {44 vars in 926 bytes} [Thu Mar 21 02:50:55 2019] GET /admin_views/pul/getPulData/?id=flux&day=7 => generated 278 bytes in 63 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 8/38] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:56 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 9/39] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:57 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 10/40] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:58 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 11/41] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:50:59 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 12/42] 120.199.34.100 () {44 vars in 957 bytes} [Thu Mar 21 02:50:59 2019] GET /admin_views/accessDetails => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 132 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 21/43] 120.199.34.100 () {44 vars in 959 bytes} [Thu Mar 21 02:51:00 2019] GET /admin_views/accessDetails/ => generated 5734 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 22/44] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:00 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 23/45] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:01 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 24/46] 120.199.34.100 () {44 vars in 1017 bytes} [Thu Mar 21 02:51:01 2019] GET /admin_views/accessDetails/getTableData?day=0&page=1&limit=10 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 167 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 5/47] 120.199.34.100 () {44 vars in 1019 bytes} [Thu Mar 21 02:51:01 2019] GET /admin_views/accessDetails/getTableData/?day=0&page=1&limit=10 => generated 1554 bytes in 149 msecs (HTTP/1.1 200) 4 headers in 130 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 25/48] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:02 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 13/49] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:03 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 26/50] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:04 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 27/51] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:05 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 28/52] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:06 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 29/53] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:07 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 30/54] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:08 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 31/55] 120.199.34.100 () {44 vars in 939 bytes} [Thu Mar 21 02:51:09 2019] GET /admin_views/area => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 123 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 14/56] 120.199.34.100 () {44 vars in 941 bytes} [Thu Mar 21 02:51:09 2019] GET /admin_views/area/ => generated 2922 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 32/57] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:09 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 7/58] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:10 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 33/59] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:11 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 34/60] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:12 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 15/61] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:13 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 35/62] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:14 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 36/63] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:15 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 37/64] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:16 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 38/65] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:18 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 39/66] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:19 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 40/67] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:19 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 16/68] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:20 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 41/69] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:21 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 42/70] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:22 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 43/71] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:23 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 44/72] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:25 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 17/73] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:25 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 45/74] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:26 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 46/75] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:27 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 47/76] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:28 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 48/77] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:29 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 49/78] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:30 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 50/79] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:31 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 51/80] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:32 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 52/81] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:33 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 53/82] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:34 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 54/83] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:35 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 55/84] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:36 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 56/85] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:37 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 57/86] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:38 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 58/87] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:39 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 59/88] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:40 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 60/89] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:41 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 61/90] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:42 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 62/91] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:44 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 63/92] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:48 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 64/93] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:49 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 8/94] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:49 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 65/95] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 6/96] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 9/97] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 66/98] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 18/99] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 10/100] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 67/101] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:53 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 68/102] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:54 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 69/103] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:55 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 70/104] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:56 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 71/105] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:57 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 72/106] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:58 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 73/107] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:51:59 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 74/108] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:00 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 75/109] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:01 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 76/110] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:02 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 77/111] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:03 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 78/112] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:04 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 79/113] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:05 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 80/114] 120.199.34.100 () {44 vars in 911 bytes} [Thu Mar 21 02:52:06 2019] GET /admin_views/area/getMapData?day=0 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 11/115] 120.199.34.100 () {44 vars in 913 bytes} [Thu Mar 21 02:52:06 2019] GET /admin_views/area/getMapData/?day=0 => generated 93 bytes in 125 msecs (HTTP/1.1 200) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 12/116] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:07 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 13/117] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:07 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 14/118] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:08 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 15/119] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:09 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 16/120] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:10 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 17/121] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:11 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 7/122] 120.199.34.100 () {44 vars in 911 bytes} [Thu Mar 21 02:52:11 2019] GET /admin_views/area/getMapData?day=1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 0)
+[pid: 28817|app: 0|req: 19/123] 120.199.34.100 () {44 vars in 913 bytes} [Thu Mar 21 02:52:11 2019] GET /admin_views/area/getMapData/?day=1 => generated 93 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 18/124] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:12 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 19/125] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:13 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 20/126] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:14 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 21/127] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:15 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 22/128] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:16 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 23/129] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:17 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 8/130] 120.199.34.100 () {44 vars in 911 bytes} [Thu Mar 21 02:52:17 2019] GET /admin_views/area/getMapData?day=7 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 140 bytes (1 switches on core 0)
+集合不存在
+集合不存在
+[pid: 28815|app: 0|req: 24/131] 120.199.34.100 () {44 vars in 913 bytes} [Thu Mar 21 02:52:17 2019] GET /admin_views/area/getMapData/?day=7 => generated 94 bytes in 106 msecs (HTTP/1.1 200) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 81/132] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:18 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 82/133] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:19 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 83/134] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:20 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 25/135] 120.199.34.100 () {44 vars in 913 bytes} [Thu Mar 21 02:52:20 2019] GET /admin_views/area/getMapData?day=15 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 141 bytes (1 switches on core 0)
+集合不存在
+集合不存在
+集合不存在
+集合不存在
+集合不存在
+集合不存在
+集合不存在
+集合不存在
+集合不存在
+集合不存在
+[pid: 28816|app: 0|req: 9/136] 120.199.34.100 () {44 vars in 915 bytes} [Thu Mar 21 02:52:20 2019] GET /admin_views/area/getMapData/?day=15 => generated 94 bytes in 120 msecs (HTTP/1.1 200) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 84/137] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:21 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 85/138] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:22 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 20/139] 120.199.34.100 () {44 vars in 947 bytes} [Thu Mar 21 02:52:22 2019] GET /admin_views/terminal => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 127 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 26/140] 120.199.34.100 () {44 vars in 949 bytes} [Thu Mar 21 02:52:22 2019] GET /admin_views/terminal/ => generated 3553 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 86/141] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:23 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 87/142] 120.199.34.100 () {44 vars in 957 bytes} [Thu Mar 21 02:52:24 2019] GET /admin_views/terminal/getTerminalData?id=liulanqi&day=0 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 161 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 88/143] 120.199.34.100 () {44 vars in 959 bytes} [Thu Mar 21 02:52:24 2019] GET /admin_views/terminal/getTerminalData/?id=liulanqi&day=0 => generated 324 bytes in 173 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 21/144] 120.199.34.100 () {44 vars in 953 bytes} [Thu Mar 21 02:52:25 2019] GET /admin_views/terminal/getTerminalData?id=xitong&day=0 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 27/145] 120.199.34.100 () {44 vars in 955 bytes} [Thu Mar 21 02:52:25 2019] GET /admin_views/terminal/getTerminalData/?id=xitong&day=0 => generated 239 bytes in 131 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 28/146] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:25 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 29/147] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:26 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 30/148] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:27 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 31/149] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:28 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 32/150] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:29 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 33/151] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:30 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 34/152] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:31 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 22/153] 120.199.34.100 () {44 vars in 957 bytes} [Thu Mar 21 02:52:31 2019] GET /admin_views/terminal/getTerminalData?id=liulanqi&day=1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 161 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 89/154] 120.199.34.100 () {44 vars in 959 bytes} [Thu Mar 21 02:52:31 2019] GET /admin_views/terminal/getTerminalData/?id=liulanqi&day=1 => generated 489 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 35/155] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:32 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 36/156] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:33 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 37/157] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:34 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 38/158] 120.199.34.100 () {44 vars in 957 bytes} [Thu Mar 21 02:52:35 2019] GET /admin_views/terminal/getTerminalData?id=liulanqi&day=7 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 161 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 39/159] 120.199.34.100 () {44 vars in 959 bytes} [Thu Mar 21 02:52:35 2019] GET /admin_views/terminal/getTerminalData/?id=liulanqi&day=7 => generated 696 bytes in 138 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 90/160] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:35 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 40/161] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:36 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 91/162] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:37 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 92/163] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:38 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 93/164] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:39 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 94/165] 120.199.34.100 () {44 vars in 953 bytes} [Thu Mar 21 02:52:39 2019] GET /admin_views/terminal/getTerminalData?id=xitong&day=1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 95/166] 120.199.34.100 () {44 vars in 955 bytes} [Thu Mar 21 02:52:39 2019] GET /admin_views/terminal/getTerminalData/?id=xitong&day=1 => generated 241 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 23/167] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:40 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 24/168] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:41 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 25/169] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:42 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 26/170] 120.199.34.100 () {44 vars in 953 bytes} [Thu Mar 21 02:52:42 2019] GET /admin_views/terminal/getTerminalData?id=xitong&day=7 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 159 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 41/171] 120.199.34.100 () {44 vars in 955 bytes} [Thu Mar 21 02:52:42 2019] GET /admin_views/terminal/getTerminalData/?id=xitong&day=7 => generated 285 bytes in 95 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 42/172] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:43 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 43/173] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:44 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 44/174] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:45 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 45/175] 120.199.34.100 () {44 vars in 943 bytes} [Thu Mar 21 02:52:46 2019] GET /admin_views/newOld => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 125 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 10/176] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:46 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 46/177] 120.199.34.100 () {44 vars in 945 bytes} [Thu Mar 21 02:52:46 2019] GET /admin_views/newOld/ => generated 2574 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 27/178] 120.199.34.100 () {44 vars in 923 bytes} [Thu Mar 21 02:52:47 2019] GET /admin_views/newOld/getNewOldData?day=0 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 145 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 47/179] 120.199.34.100 () {44 vars in 925 bytes} [Thu Mar 21 02:52:47 2019] GET /admin_views/newOld/getNewOldData/?day=0 => generated 142 bytes in 101 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 48/180] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:47 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 49/181] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:48 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 50/182] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:49 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 51/183] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:50 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 52/184] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:51 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 53/185] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:52 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 54/186] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:53 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 55/187] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:54 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 11/188] 120.199.34.100 () {44 vars in 923 bytes} [Thu Mar 21 02:52:54 2019] GET /admin_views/newOld/getNewOldData?day=1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 145 bytes (1 switches on core 1)
+[pid: 28815|app: 0|req: 56/189] 120.199.34.100 () {44 vars in 925 bytes} [Thu Mar 21 02:52:54 2019] GET /admin_views/newOld/getNewOldData/?day=1 => generated 141 bytes in 71 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 28/190] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:55 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 29/191] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:56 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 30/192] 120.199.34.100 () {44 vars in 923 bytes} [Thu Mar 21 02:52:57 2019] GET /admin_views/newOld/getNewOldData?day=2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 145 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 12/193] 120.199.34.100 () {44 vars in 925 bytes} [Thu Mar 21 02:52:57 2019] GET /admin_views/newOld/getNewOldData/?day=2 => generated 141 bytes in 58 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 31/194] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:57 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 96/195] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:58 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28817|app: 0|req: 32/196] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:52:59 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 33/197] 120.199.34.100 () {44 vars in 923 bytes} [Thu Mar 21 02:52:59 2019] GET /admin_views/newOld/getNewOldData?day=3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 145 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 13/198] 120.199.34.100 () {44 vars in 925 bytes} [Thu Mar 21 02:53:00 2019] GET /admin_views/newOld/getNewOldData/?day=3 => generated 141 bytes in 54 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 28817|app: 0|req: 34/199] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:00 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 35/200] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:01 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 14/201] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:02 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 36/202] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:03 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 37/203] 120.199.34.100 () {44 vars in 923 bytes} [Thu Mar 21 02:53:03 2019] GET /admin_views/newOld/getNewOldData?day=4 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 145 bytes (1 switches on core 1)
+[pid: 28816|app: 0|req: 15/204] 120.199.34.100 () {44 vars in 925 bytes} [Thu Mar 21 02:53:03 2019] GET /admin_views/newOld/getNewOldData/?day=4 => generated 141 bytes in 47 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 38/205] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:04 2019] GET /admin_views/general/getCpuAndMemory/ => generated 29 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 39/206] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:05 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 40/207] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:06 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 41/208] 120.199.34.100 () {44 vars in 923 bytes} [Thu Mar 21 02:53:06 2019] GET /admin_views/newOld/getNewOldData?day=5 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 145 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 42/209] 120.199.34.100 () {44 vars in 925 bytes} [Thu Mar 21 02:53:06 2019] GET /admin_views/newOld/getNewOldData/?day=5 => generated 141 bytes in 36 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 28814|app: 0|req: 97/210] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:07 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 98/211] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:08 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 99/212] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:09 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28817|app: 0|req: 43/213] 120.199.34.100 () {44 vars in 947 bytes} [Thu Mar 21 02:53:09 2019] GET /admin_views/userList => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 127 bytes (1 switches on core 0)
+[pid: 28816|app: 0|req: 16/214] 120.199.34.100 () {44 vars in 949 bytes} [Thu Mar 21 02:53:09 2019] GET /admin_views/userList/ => generated 8176 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 100/215] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:10 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 101/216] 120.199.34.100 () {44 vars in 988 bytes} [Thu Mar 21 02:53:11 2019] GET /admin_views/userList/getUserInfo?page=1&limit=10 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 155 bytes (1 switches on core 0)
+[pid: 28815|app: 0|req: 57/217] 120.199.34.100 () {44 vars in 990 bytes} [Thu Mar 21 02:53:11 2019] GET /admin_views/userList/getUserInfo/?page=1&limit=10 => generated 401 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 28817|app: 0|req: 44/218] 120.199.34.100 () {42 vars in 929 bytes} [Thu Mar 21 02:53:11 2019] GET /admin_views/userList/%7B%7B%20d.avatar%20%7D%7D => generated 1121 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 102/219] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:11 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 103/220] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:12 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 104/221] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:13 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 105/222] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:14 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 106/223] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:15 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 107/224] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:16 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 108/225] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:17 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 109/226] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:18 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 110/227] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:19 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 111/228] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:20 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 112/229] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:21 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 113/230] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:22 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 114/231] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:23 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 115/232] 120.199.34.100 () {44 vars in 921 bytes} [Thu Mar 21 02:53:24 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 116/233] 120.199.34.100 () {44 vars in 939 bytes} [Thu Mar 21 02:53:24 2019] GET /accounts/logout/ => generated 0 bytes in 27 msecs (HTTP/1.1 302) 5 headers in 223 bytes (1 switches on core 0)
+[pid: 28814|app: 0|req: 117/234] 120.199.34.100 () {44 vars in 893 bytes} [Thu Mar 21 02:53:25 2019] GET /accounts/login/ => generated 5358 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 28817|app: 0|req: 45/235] 120.199.34.100 () {44 vars in 877 bytes} [Thu Mar 21 02:53:25 2019] GET /admin_views/general/getCpuAndMemory/ => generated 28 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 114 bytes (1 switches on core 0)
+Thu Mar 21 02:53:25 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28814)...
+Gracefully killing worker 2 (pid: 28815)...
+Gracefully killing worker 3 (pid: 28816)...
+Gracefully killing worker 4 (pid: 28817)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 21 02:53:27 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1925240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1925240 pid: 976 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 976)
+spawned uWSGI worker 1 (pid: 29300, cores: 2)
+spawned uWSGI worker 2 (pid: 29301, cores: 2)
+spawned uWSGI worker 3 (pid: 29302, cores: 2)
+spawned uWSGI worker 4 (pid: 29303, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 29302|app: 0|req: 2/1] 120.199.34.100 () {42 vars in 843 bytes} [Thu Mar 21 02:53:28 2019] GET /accounts/login/code.jpg => generated 1121 bytes in 1105 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 29302|app: 0|req: 2/2] 120.199.34.100 () {42 vars in 825 bytes} [Thu Mar 21 02:53:29 2019] GET / => generated 11772 bytes in 818 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+60====0
+{'title': '这些动物的头不能吃', 'abstract': '食物中毒怎么办？食物中毒后第一反应往往是腹部的不适，中毒者首先会感觉到腹胀，一些患者还会腹痛，个别的还会发生急性腹泻。与腹部不适伴发的还有恶心，随后会发生呕吐的情况', 'url': 'https://ys.99.com.cn/zhinan/187981.htm'}
+[pid: 29303|app: 0|req: 1/3] 120.199.34.100 () {44 vars in 891 bytes} [Thu Mar 21 02:53:30 2019] GET /views/console/ => generated 13421 bytes in 1202 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)

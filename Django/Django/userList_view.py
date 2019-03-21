@@ -2,6 +2,7 @@
 import datetime
 import json
 
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.db.models import Q
 from django.http import HttpResponse
@@ -11,10 +12,12 @@ from django.shortcuts import render
 from users.models import UserProfile
 
 
+@login_required
 def getAllUser(request):
     return render(request, 'admin_views/userList.html')
 
 
+@login_required
 def getUserInfo(request):
     # 获取get请求中的值
     page = int(request.GET.get('page'))
@@ -65,6 +68,7 @@ def getUserInfo(request):
     return HttpResponse(json.dumps(result, ensure_ascii=False), content_type="application/json,charset=utf-8")
 
 
+@login_required
 def batchdel(request):
     ids = request.GET.get('ids', '#')
     if ids != '#':
@@ -81,6 +85,7 @@ def batchdel(request):
     return HttpResponse(json.dumps(result, ensure_ascii=False), content_type="application/json,charset=utf-8")
 
 
+@login_required
 def delById(request):
     id = request.GET.get('id', '#')
     if id != '#':

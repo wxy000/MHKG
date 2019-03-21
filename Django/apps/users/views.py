@@ -149,6 +149,7 @@ def upload(request):
     return HttpResponse(json.dumps(result, ensure_ascii=False))
 
 
+@login_required
 def edit_userinfo(request):
     id = request.GET.get('id', '')
     if id == '':
@@ -165,6 +166,7 @@ def edit_userinfo(request):
             return render(request, 'users/edit_userinfo.html', {'code': 500, 'msg': "用户不存在！"})
 
 
+@login_required
 def adduser(request):
     username = request.GET.get('username', '')
     password = request.GET.get('password', '')
@@ -197,6 +199,7 @@ def adduser(request):
     return HttpResponse(json.dumps(result, ensure_ascii=False), content_type="application/json,charset=utf-8")
 
 
+@login_required
 def updateuser(request):
     id = request.GET.get('id', '')
     username = request.GET.get('username', '')

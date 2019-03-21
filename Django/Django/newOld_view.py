@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -10,12 +11,14 @@ from toolkit.mongodb_operation.mongodb_logfile import mongo
 m = mongo()
 
 
+@login_required
 def newOld(request):
     days = m.getSixDay()
     result = {'days': days}
     return render(request, 'admin_views/newOld.html', {'result': result})
 
 
+@login_required
 def getNewOldData(request):
     day = request.GET.get('day', '')
     if day == '':

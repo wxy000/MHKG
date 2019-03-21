@@ -2,6 +2,7 @@
 import json
 
 import psutil
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -11,6 +12,7 @@ from toolkit.mongodb_operation.mongodb_logfile import mongo
 from toolkit.toolbar import Toolbar
 
 
+@login_required
 def general(request):
     toolbar = Toolbar()
     m = mongo()

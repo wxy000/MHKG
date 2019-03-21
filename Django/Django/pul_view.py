@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -10,10 +11,12 @@ from toolkit.toolbar import Toolbar
 from toolkit.mongodb_operation.mongodb_logfile import mongo
 
 
+@login_required
 def pul(request):
     return render(request, 'admin_views/pul.html')
 
 
+@login_required
 def getPulData(request):
     toolbar = Toolbar()
     m = mongo()

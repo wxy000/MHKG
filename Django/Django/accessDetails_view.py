@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -10,6 +11,7 @@ from toolkit.mongodb_operation.mongodb_logfile import mongo
 from toolkit.toolbar1 import Toolbar1
 
 
+@login_required
 def getAccessDetails(request):
     m = mongo()
     days = m.getSixDay()
@@ -17,6 +19,7 @@ def getAccessDetails(request):
     return render(request, 'admin_views/accessDetails.html', {'result': result})
 
 
+@login_required
 def getTableData(request):
     day = request.GET.get('day', '')
     page = int(request.GET.get('page'))
