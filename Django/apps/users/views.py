@@ -4,8 +4,12 @@ import os
 import random
 import time
 
+from django.contrib.sessions.models import Session
+from django.db.models import Q
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.models import User
+from django.utils import timezone
+
 from .models import UserProfile
 from django.contrib import auth
 from .forms import RegistrationForm, LoginForm, UserinfoForm, PwdChangeForm
@@ -50,8 +54,20 @@ def login(request):
             if user is not None and user.is_active:
                 auth.login(request, user)
 
+                # 同一个用户在另外一个地方登陆时，会将之前该用户的session清除
+                session_key = request.session.session_key
+                for session in Session.objects.filter(~Q(session_key=session_key), expire_date__gte=timezone.now()):
+                    data = session.get_decoded()
+                    if data.get('_auth_user_id', None) == str(request.user.id):
+                        session.delete()
+
+                # 删除掉所有过期的session
+                request.session.clear_expired()
+
                 response = HttpResponseRedirect(reverse('index'))
                 response.set_signed_cookie('userId', user.id, max_age=3600, salt="salt")
+                # 关闭浏览器，删除session
+                request.session.set_expiry(0)
                 return response
                 # return render(request, 'index.html?id=' + str(user.id))
 

