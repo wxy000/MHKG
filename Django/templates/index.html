@@ -88,8 +88,24 @@
                 </li>
                 {% else %}
                 <li class="layui-nav-item layui-bg-gray" lay-unselect="">
-                    <a href="accounts/login" style="display:inline; margin-right: -10px;">登陆</a>
-                    <a href="accounts/register" style="display:inline; margin-left: -10px;">注册</a>
+                    <a href="javascript:;" style="display: inline; margin-right: 5px;">
+                        <cite>登陆</cite>
+                        <span class="layui-nav-more"></span>
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd style="text-align: center;"><a href="accounts/login">普通用户登陆</a></dd>
+                        <dd style="text-align: center;"><a href="doctor/login1">医生登陆</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item layui-bg-gray" lay-unselect="">
+                    <a href="javascript:;" style="display: inline; margin-right: 5px;">
+                        <cite>注册</cite>
+                        <span class="layui-nav-more"></span>
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd style="text-align: center;"><a href="accounts/register">普通用户注册</a></dd>
+                        <dd style="text-align: center;"><a href="doctor/register1">医生注册</a></dd>
+                    </dl>
                 </li>
                 {% endif %}
 
@@ -163,6 +179,12 @@
                         <a href="javascript:;" lay-href="admin_views/userList" lay-tips="用户管理" lay-direction="2">
                             <i class="layui-icon layui-icon-user"></i>
                             <cite>用户管理</cite>
+                        </a>
+                    </li>
+                    <li data-name="doctorList" class="layui-nav-item">
+                        <a href="javascript:;" lay-href="admin_views/doctorList" lay-tips="用户管理" lay-direction="2">
+                            <i class="layui-icon layui-icon-user"></i>
+                            <cite>医生管理</cite>
                         </a>
                     </li>
                     <li data-name="get" class="layui-nav-item">

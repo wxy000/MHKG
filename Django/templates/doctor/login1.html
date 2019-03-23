@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="../../static/users/css/layui.css">
+    <link rel="stylesheet" href="../../static/users/css/admin.css">
+</head>
+
+<style>
+    .code{
+        background-image: url(code.jpg);
+        font-family: Arial;
+        font-style: italic;
+        color: blue;
+        border: 0;
+        padding: 2px 3px;
+        letter-spacing: 3px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+</style>
+
+<body style="width: 100%; height: 100%;" onload="createCode()">
+
+<div id="container">
+    <div class="bg1 bg-blur" style="height: 100%; position: absolute;"></div>
+    <div class="admin-login-background">
+        <form class="layui-form" method="post" action="">
+            <div>
+                <i class="layui-icon layui-icon-username admin-icon admin-icon-username"></i>
+                <input type="text" name="doctorId" lay-verify="required" autocomplete="off" placeholder="请输入医生ID" class="layui-input admin-input admin-input-username">
+            </div>
+            <div>
+                <i class="layui-icon layui-icon-password admin-icon admin-icon-password"></i>
+                <input type="password" name="doctorpassword" required lay-verify="pass" autocomplete="off" placeholder="请输入密码" class="layui-input admin-input">
+            </div>
+            <div>
+                <div style="width:80px;position: absolute;right: 10px;margin-top: 15px;">
+                    <a onClick="createCode()"><span id="login_code" title="看不清，换一张"></span></a>
+                </div>
+                <div>
+                    <input type="text" id="code" name="code" lay-verify="code1" placeholder="验证码" maxlength="6"
+                           class="layui-input admin-input admin-input-verify">
+                </div>
+            </div>
+            <div class="submit">
+                <button class="layui-btn admin-button" lay-submit lay-filter="component-form-demo1">登陆</button>
+            </div>
+        </form>
+        <div style="margin-top: 20px;">
+            <a href="javascript:void(0);" style="color: #009688; float: right;">忘记密码？</a>
+            <a href="/doctor/register1" style="color: #009688;">新医生注册</a>
+        </div>
+    </div>
+</div>
+{% csrf_token %}
+<script src="../../static/users/js/layui.js"></script>
+<script>
+    layui.use(['layer', 'form'], function () {
+        var layer = layui.layer;
+        var $ = layui.$;
+        var form = layui.form;
+
+        //自定义验证规则
+        form.verify({
+            pass: [
+                /^[\S]{6,12}$/
+                ,'密码必须6到12位，且不能出现空格'
+            ],
+            code1: function (value) {
+                if (value.length <= 0) {
+                    return "请输入验证码";
+                } else if (value.toUpperCase() !== code.toUpperCase()) {
+                    createCode();
+                    return "验证码输入有误！";
+                }
+            }
+        });
+
+        $(function(){
+            //session过期自动检测，如果当前框架不是顶层，则将顶层设置为此页面
+            if(window !== top){
+                top.location.href = location.href;
+            }
+        });
+
+        /****************生成验证码*******************/
+        var code;
+        window.createCode = function () {
+            code = "";
+            var codeLength = 5; //验证码的长度
+            var checkCode = document.getElementById("login_code");
+            var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+            'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'); //所有候选组成验证码的字符，当然也可以用中文的
+            for(var i = 0; i < codeLength; i++){
+                var charNum = Math.floor(Math.random() * 52);
+                code += codeChars[charNum];
+            }
+            if(checkCode){
+                checkCode.className = "code";
+                checkCode.innerHTML = code;
+            }
+        };
+
+        /* 监听提交 */
+        form.on('submit(component-form-demo1)', function(data){
+            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
+            $.ajax({
+                url: '/doctor/getLogin/',
+                type: 'post',
+                data: JSON.stringify(data.field),
+                headers: {"X-CSRFToken": csrfToken},
+                success: function (data) {
+                    if (data.code === 0) {
+                        // 主页
+                        console.log(data.data);
+                    } else if (data.code === 500) {
+                        layer.msg(data.msg);
+                    } else if (data.code === 200) {
+                        layer.msg(data.msg, function () {
+                            window.top.location.href = "/doctor/perfectInfo?doctorId=" + data.doctorId + "&doctorname=" + data.doctorname;
+                        });
+                    }
+                },
+                error: function (data) {
+                    layer.msg("未知错误");
+                }
+            });
+            return false;
+        });
+
+    })
+</script>
+</body>
+</html>

@@ -82,6 +82,13 @@ i {
     background-attachment: fixed;
     filter: alpha(opacity=50);
 }
+.bg1 {
+    background-image: url(/static/images/background1.jpg);
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    filter: alpha(opacity=50);
+}
 .bg-blur {
     float: left;
     width: 100%;

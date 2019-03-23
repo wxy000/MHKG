@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 
+from . import doctorList_view
+from . import login1_register1_view
 from . import interlocution_view
 from . import newOld_view
 from . import accessDetails_view
@@ -63,6 +65,12 @@ urlpatterns = [
     path('admin_views/userList/getUserInfo/', userList_view.getUserInfo),
     path('admin_views/userList/batchDel/', userList_view.batchdel),
     path('admin_views/userList/del/', userList_view.delById),
+    path('admin_views/doctorList/', doctorList_view.getAllDoctor),
+    path('admin_views/doctorList/getDoctorInfo/', doctorList_view.getDoctorInfo),
+    path('doctor/shenhe/', doctorList_view.shenhe),
+    path('doctor/updateAuditing/', doctorList_view.updateAuditing),
+    path('doctor/del/', doctorList_view.delDoctor),
+    path('doctor/batchDel/', doctorList_view.batchDelDoctor),
     path('admin_views/general/', general_view.general),
     path('admin_views/general/getCpuAndMemory/', general_view.getCpuAndMemory),
     path('admin_views/pul/', pul_view.pul),
@@ -76,6 +84,14 @@ urlpatterns = [
     path('searchCondition/', views.searchCondition),
     path('admin_views/newOld/', newOld_view.newOld),
     path('admin_views/newOld/getNewOldData/', newOld_view.getNewOldData),
+    path('doctor/login1/', login1_register1_view.login),
+    path('doctor/getLogin/', login1_register1_view.getLogin),
+    path('doctor/register1/', login1_register1_view.register),
+    path('doctor/getRegister/', login1_register1_view.getRegister),
+    path('doctor/perfectInfo/', login1_register1_view.perfectInfo),
+    path('doctor/upload/', login1_register1_view.upload),
+    path('doctor/uploadpaper/', login1_register1_view.uploadpaper),
+    path('doctor/getPerfectInfo/', login1_register1_view.getPerfectInfo),
     path('ManualAnnotation/', include('ManualAnnotation.urls', namespace='ManualAnnotation')),
     path('accounts/', include('users.urls', namespace='users')),
 ]

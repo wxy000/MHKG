@@ -1,1 +1,2 @@
 
+2019/03/23 11:07:13 [error] 21032#0: *9170 open() "/root/MHKG/Django/static/layuiadmin/lib/extend/echarts.js.map" failed (2: No such file or directory), client: 112.10.183.66, server: _, request: "GET /static/layuiadmin/lib/extend/echarts.js.map HTTP/1.1", host: "119.29.225.142"

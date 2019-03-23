@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../../static/users/css/layui.css">
+    <link rel="stylesheet" href="../../static/users/css/admin.css">
+</head>
+<body style="width: 100%; height: 100%;">
+
+<div id="container">
+    <div class="bg1 bg-blur" style="height: 100%; position: absolute;"></div>
+    <div class="admin-login-background">
+        <form class="layui-form" method="post" action="" enctype="multipart/form-data">
+            <div>
+                <i class="layui-icon layui-icon-username admin-icon admin-icon-username"></i>
+                <input type="text" name="doctorname" autocomplete="off" required lay-verify="title" placeholder="请输入姓名" class="layui-input admin-input admin-input-username">
+            </div>
+            <div>
+                <i class="layui-icon layui-icon-release admin-icon admin-icon-email"></i>
+                <input type="text" name="doctoremail" autocomplete="off" required lay-verify="email" placeholder="请输入邮箱" class="layui-input admin-input">
+            </div>
+            <div>
+                <i class="layui-icon layui-icon-password admin-icon admin-icon-password"></i>
+                <input id="pass1" type="password" name="doctorpassword" autocomplete="off" required lay-verify="pass" placeholder="请输入密码" class="layui-input admin-input">
+            </div>
+            <div>
+                <i class="layui-icon layui-icon-password admin-icon admin-icon-password"></i>
+                <input type="password" name="doctorpassword2" autocomplete="off" required lay-verify="pass|pass2" placeholder="请再次输入密码" class="layui-input admin-input admin-input-verify">
+            </div>
+            <div class="submit">
+                <button class="layui-btn admin-button" lay-submit lay-filter="formRegister">注册</button>
+            </div>
+        </form>
+        <div style="margin-top: 20px;">
+            <a href="/doctor/login1" style="color: #009688; float: right;">已有账号？登陆</a>
+        </div>
+    </div>
+</div>
+{% csrf_token %}
+<script src="../../static/users/js/layui.js"></script>
+<script>
+    layui.use(['layer', 'form'], function () {
+        var layer = layui.layer;
+        var $ = layui.$;
+        var form = layui.form;
+
+        //自定义验证规则
+        form.verify({
+            title: function(value){
+                if(value.length < 1){
+                    return '姓名至少得1个字符';
+                }
+            }
+            ,pass: [
+                /^[\S]{6,12}$/
+                ,'密码必须6到12位，且不能出现空格'
+            ]
+            ,pass2: function (value) {
+                if (value !== $("#pass1").val()) {
+                    return "两次密码输入不同，请重新输入";
+                }
+            }
+        });
+
+        //监听提交
+        form.on('submit(formRegister)', function(data){
+            // layer.msg(JSON.stringify(data.field));
+            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
+            $.ajax({
+                url: '/doctor/getRegister/',
+                type: 'post',
+                data: JSON.stringify(data.field),
+                headers: {"X-CSRFToken": csrfToken},
+                success: function (data) {
+                    if (data.code === 0) {
+                        window.top.location.href = "/doctor/perfectInfo?doctorId=" + data.doctorId + "&doctorname=" + data.doctorname
+                    } else {
+                        layer.msg(data.msg);
+                    }
+                },
+                error: function (data) {
+                    layer.msg("未知错误");
+                }
+            });
+            return false;
+        });
+
+        $(function(){
+            //session过期自动检测，如果当前框架不是顶层，则将顶层设置为此页面
+            if(window !== top){
+                top.location.href = location.href;
+            }
+        });
+
+    })
+</script>
+</body>
+</html>
