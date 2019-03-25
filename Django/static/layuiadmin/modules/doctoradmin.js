@@ -36,6 +36,8 @@
         }, {
             field: "quiz2", title: "所属科室", minWidth: 100
         }, {
+            field: "positionalTitle", title: "职称", minWidth: 100
+        }, {
             field: 'isPerfect', title:'信息完善状态', minWidth: 80, align: 'center', fixed: 'right',
             templet: '<div>{{# if(d.isPerfect==1){ }}<button class="layui-btn layui-btn-xs">已完善</button>' +
                 '{{# }else{ }}<button class="layui-btn layui-btn-primary layui-btn-xs">待完善</button>' +
@@ -67,7 +69,7 @@
                     layer.confirm("真的删除行么", function (t) {
                         var csrfToken = $("[name='csrfmiddlewaretoken']").val();
                         admin.req({
-                            url: '/doctor/del',
+                            url: '/admin_views/doctorList/del',
                             headers: {"X-CSRFToken": csrfToken},
                             data: {'doctorId': e.data.doctorId}
                             // type: 'post'
@@ -84,7 +86,7 @@
             layer.open({
                 type: 2,
                 title: '审核状态',
-                content: "/doctor/shenhe?isAuditing=" + e.data.isAuditing,
+                content: "/admin_views/doctorList/shenhe?isAuditing=" + e.data.isAuditing,
                 maxmin: !0,
                 area: ["400px", "180px"],
                 btn: ["确定", "取消"],
@@ -96,7 +98,7 @@
                         field['doctorId'] = e.data.doctorId;
 
                         admin.req({
-                            url: "/doctor/updateAuditing",
+                            url: "/admin_views/doctorList/updateAuditing",
                             data: field
                         });
 

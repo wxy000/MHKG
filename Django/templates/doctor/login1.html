@@ -115,7 +115,8 @@
                 success: function (data) {
                     if (data.code === 0) {
                         // 主页
-                        console.log(data.data);
+                        console.log(data.doctorId);
+                        window.top.location.href = '/doctor/index?doctorId=' + data.doctorId
                     } else if (data.code === 500) {
                         layer.msg(data.msg);
                     } else if (data.code === 200) {

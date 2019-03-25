@@ -110,7 +110,7 @@
                             var csrfToken = $("[name='csrfmiddlewaretoken']").val();
                             //执行 Ajax 后重载
                             admin.req({
-                                url: '/doctor/batchDel',
+                                url: '/admin_views/doctorList/batchDel',
                                 data: {'ids': ids.join(',')},
                                 headers: {"X-CSRFToken": csrfToken},
                                 // type: 'post'

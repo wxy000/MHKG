@@ -114,13 +114,28 @@ def getLogin(request):
         result = {'code': 500, 'msg': "用户名或密码错误"}
     else:
         if temp['isPerfect'] == 0:
-            result = {'code': 200, 'msg': "请完善信息，以便管理员审核", 'doctorId': data['doctorId'],
+            result = {'code': 200, 'msg': "请完善信息，以便管理员审核", 'doctorId': temp['doctorId'],
                       'doctorname': temp['doctorname']}
         elif temp['isPerfect'] == 1:
             if temp['isAuditing'] == 0:
                 result = {'code': 500, 'msg': "管理员正在审核中，请您耐心等待"}
             elif temp['isAuditing'] == 1:
-                result = {'code': 0, 'msg': "", 'data': temp}
+                result = {'code': 0, 'msg': "", 'doctorId': temp['doctorId']}
             elif temp['isAuditing'] == 2:
                 result = {'code': 500, 'msg': "您的信息不符合规定，已被驳回"}
     return HttpResponse(json.dumps(result, ensure_ascii=False), content_type="application/json,charset=utf-8")
+
+
+def index(request):
+    doctorId = request.GET.get('doctorId', '')
+    if doctorId == '':
+        return render(request, 'doctor/login1.html')
+    else:
+        find = mongo()
+        temp = {'doctorId': doctorId}
+        doctors = find.getDoctorInfo(temp)
+        if len(doctors) == 0:
+            return render(request, 'doctor/login1.html')
+        else:
+            result = doctors[0]
+            return render(request, 'doctor/index.html', {'result': result})

