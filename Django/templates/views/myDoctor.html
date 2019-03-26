@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>我的医生</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/custom.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/im.css" media="all">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_935338_5w3z4hpqzs7.css">
+</head>
+<body>
+
+<style>
+    table tr {
+        height: 30px;
+    }
+    table tr a {
+        color: #01AAED;
+    }
+</style>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+
+    </div>
+</div>
+
+<div id="hiddenmine" hidden>{{ result }}</div>
+<div id="hiddenfriends" hidden>{{ friends }}</div>
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'doctorim']);
+</script>
+</body>
+</html>

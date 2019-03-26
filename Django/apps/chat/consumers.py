@@ -35,8 +35,6 @@ class ChatConsumer(AsyncWebsocketConsumer):
         # message.pop('mine')
         to_user = text_data_json['data']['to']
         to_user_id = 'chat_' + str(text_data_json['data']['to']['id'])
-        if to_user_id == 'chat_-2':
-            to_user_id = self.room_group_name
 
         # Send message to room group
         await self.channel_layer.group_send(
@@ -53,13 +51,56 @@ class ChatConsumer(AsyncWebsocketConsumer):
         message = event['message']
         to_user = event['to_user']
         if to_user['id'] == '-2' or to_user['id'] == -2:
-            message['content'] = robot(message['content'])
             message['username'] = to_user['name']
             message['id'] = to_user['id']
             message['avatar'] = to_user['avatar']
         # Send message to WebSocket
         await self.send(text_data=json.dumps({
             'message': message
+        }, ensure_ascii=False).replace(u'\xa0', u''))
+
+
+class RobotConsumer(AsyncWebsocketConsumer):
+    async def connect(self):
+        self.room_name = self.scope['url_route']['kwargs']['room_name']
+        self.room_group_name = 'robot_%s' % self.room_name
+
+        # Join room group
+        await self.channel_layer.group_add(
+            self.room_group_name,
+            self.channel_name
+        )
+
+        await self.accept()
+
+    async def disconnect(self, close_code):
+        # Leave room group
+        await self.channel_layer.group_discard(
+            self.room_group_name,
+            self.channel_name
+        )
+
+    # Receive message from WebSocket
+    async def receive(self, text_data):
+        text_data_json = json.loads(text_data)
+        message = text_data_json['data']['mine']
+
+        # Send message to room group
+        await self.channel_layer.group_send(
+            self.room_group_name,
+            {
+                'type': 'robot_message',
+                'message': message
+            }
+        )
+
+    # Receive message from room group
+    async def robot_message(self, event):
+        message = event['message']
+        msg = robot(message['content'])
+        # Send message to WebSocket
+        await self.send(text_data=json.dumps({
+            'message': msg
         }, ensure_ascii=False).replace(u'\xa0', u''))
 
 

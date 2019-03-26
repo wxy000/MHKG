@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 
+from . import myDoctor_view
+from . import healthControl_view
+from . import inquiry_view
 from . import doctorList_view
 from . import login1_register1_view
 from . import interlocution_view
@@ -59,6 +62,7 @@ urlpatterns = [
     path('views/classifiedQuery/getEntity/', classifiedQuery_view.getEntity),
     path('views/classifiedQuery/baike/', baike_view.baike),
     path('views/interlocution/', interlocution_view.interlocution),
+    path('views/myDoctor/', myDoctor_view.myDoctor),
     # path('getAnswer/', interlocution_view.getAnswer),
     # re_path('views/(?P<p>\S*)/', views.pages),
     path('admin_views/userList/', userList_view.getAllUser),
@@ -93,6 +97,8 @@ urlpatterns = [
     path('doctor/uploadpaper/', login1_register1_view.uploadpaper),
     path('doctor/getPerfectInfo/', login1_register1_view.getPerfectInfo),
     path('doctor/index/', login1_register1_view.index),
+    path('doctor/inquiry/', inquiry_view.inquiry),
+    path('doctor/healthControl/', healthControl_view.healthControl),
     path('ManualAnnotation/', include('ManualAnnotation.urls', namespace='ManualAnnotation')),
     path('accounts/', include('users.urls', namespace='users')),
 ]

