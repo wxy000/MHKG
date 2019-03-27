@@ -78,7 +78,7 @@ layui.define(function(exports){
         var echartsApp = [], options = [{
             title : {
                 text: '访客浏览器分布',
-                x: 'center',
+                x: 'right',
                 textStyle: {
                     fontSize: 14
                 }
@@ -115,7 +115,7 @@ layui.define(function(exports){
         var echartsxitong = [], xitongoption = [{
             title : {
                 text: '访客系统分布',
-                x: 'center',
+                x: 'right',
                 textStyle: {
                     fontSize: 14
                 }

@@ -23,7 +23,8 @@ def inquiry(request):
             friends = list()
             result = doctors[0]
             mine = {'username': result['doctorname'], 'id': result['doctorId'], 'status': "online",
-                    'sign': result['positionalTitle'], 'avatar': result['doctorheader']}
+                    'sign': '(' + result['positionalTitle'] + ')擅长' + result['goodAt'],
+                    'avatar': result['doctorheader']}
 
             # 取全部用户的信息
             user1 = User.objects.all()
@@ -37,4 +38,6 @@ def inquiry(request):
 
                             temp = {'id': i.id, 'username': i.username, 'avatar': url}
                             friends.append(temp)
-            return render(request, 'doctor/inquiry.html', {'result': result, 'mine': mine, 'friends': friends})
+            return render(request, 'doctor/inquiry.html',
+                          {'result': result, 'mine': mine,
+                           'friends': [{'groupname': "患者", 'id': -100000, 'list': friends}]})

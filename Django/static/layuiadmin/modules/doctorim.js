@@ -11,21 +11,17 @@ layui.define(function(exports){
 
         var mine = eval('(' + $("#hiddenmine").html() + ')');
         var friends = eval('(' + $("#hiddenfriends").html() + ')');
-        var groupname = "专家会诊";
-        var fdStart = mine.id.toString().indexOf("YS");
-        if(fdStart === 0) {
-            groupname = "患者";
-        }
+        // var groupname = "专家会诊";
+        // var fdStart = mine.id.toString().indexOf("YS");
+        // if(fdStart === 0) {
+        //     groupname = "患者";
+        // }
         layim.config({
             title: mine.username + '的IM',
             min: true,
             init: {
                 mine: mine,
-                friend: [{
-                    groupname: groupname,
-                    id: -20,
-                    list: friends
-                }]
+                friend: friends
             },
             initSkin: "3.jpg",
             notice: true,

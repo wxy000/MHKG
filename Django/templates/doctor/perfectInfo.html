@@ -96,12 +96,34 @@
                         <div class="layui-inline">
                             <select name="quiz2">
                                 <option value="">请选择科室</option>
-                                <option value="内科" selected>内科</option>
-                                <option value="外科">外科</option>
-                                <option value="妇产科">妇产科</option>
-                                <option value="儿科">儿科</option>
-                                <option value="骨科">骨科</option>
-                                <option value="肿瘤科">肿瘤科</option>
+                                <optgroup label="内科">
+                                    <option value="消化内科" selected>消化内科</option>
+                                    <option value="呼吸内科">呼吸内科</option>
+                                    <option value="神经内科">神经内科</option>
+                                    <option value="心内科">心内科</option>
+                                    <option value="血液科">血液科</option>
+                                    <option value="内分泌科">内分泌科</option>
+                                </optgroup>
+                                <optgroup label="外科">
+                                    <option value="心胸外科">心胸外科</option>
+                                    <option value="骨外科">骨外科</option>
+                                    <option value="肛肠科">肛肠科</option>
+                                    <option value="神经外科">神经外科</option>
+                                    <option value="感染科">感染科</option>
+                                </optgroup>
+                                <optgroup label="妇产科">
+                                    <option value="妇科">妇科</option>
+                                    <option value="产科">产科</option>
+                                </optgroup>
+                                <optgroup label="儿科">
+                                    <option value="小儿内科">小儿内科</option>
+                                    <option value="小儿外科">小儿外科</option>
+                                    <option value="儿科综合">儿科综合</option>
+                                </optgroup>
+                                <optgroup label="肿瘤科">
+                                    <option value="肿瘤外科">肿瘤外科</option>
+                                    <option value="肿瘤内科">肿瘤内科</option>
+                                </optgroup>
                             </select>
                         </div>
                         <div class="layui-inline">
@@ -114,6 +136,13 @@
                                 <option value="医士">医士</option>
                             </select>
                         </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">您的擅长</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="goodAt" lay-verify="required" placeholder="请输入您擅长的方面并用‘，’隔开" autocomplete="off" class="layui-input">
                     </div>
                 </div>
 
