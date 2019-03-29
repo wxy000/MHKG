@@ -1,3 +1,5 @@
+import random
+
 from channels.generic.websocket import AsyncWebsocketConsumer
 import json
 
@@ -97,14 +99,14 @@ class RobotConsumer(AsyncWebsocketConsumer):
     # Receive message from room group
     async def robot_message(self, event):
         message = event['message']
-        msg = robot(message['content'])
+        msg = robot(message['content'], self.room_name)
         # Send message to WebSocket
         await self.send(text_data=json.dumps({
             'message': msg
         }, ensure_ascii=False).replace(u'\xa0', u''))
 
 
-def robot(content):
+def robot(content, userid):
     find = Find()
     send = im()
     alice = send.get_alice()
@@ -119,7 +121,7 @@ def robot(content):
     else:
         receive = alice.respond(ucontent)
         if receive == '':
-            return "找不到答案face[委屈]，你可以戳戳a(https://www.baidu.com/s?wd=" + ucontent + ")[这里]"
+            return "找不到答案face[委屈]，你可以戳戳a(https://www.baidu.com/s?wd=" + content + ")[这里]"
 
         # 数据库查询
         elif receive[0] == '$':
@@ -132,14 +134,23 @@ def robot(content):
                 entity = str(res[1]).replace(" ", "")
                 ans = find.matchNodebyTitle(entity)
                 if ans is None:
-                    return "找不到答案face[委屈]，你可以戳戳a(https://www.baidu.com/s?wd=" + ucontent + ")[这里]"
+                    if '.' not in str(userid):
+                        return "找不到答案face[委屈]" \
+                               "[div]你可以戳戳a(https://www.baidu.com/s?wd=" + content + ")[这里][/div]"
+                    else:
+                        return "找不到答案face[委屈]" \
+                               "[div]1、你可以戳戳a(https://www.baidu.com/s?wd=" + content + ")[这里][/div]" \
+                               "[div]2、a(javascript:get_doctor('#');)[点此登陆]，您可以享受到专业医生的服务[/div]"
                 else:
                     if '简介' in ans.keys():
-                        return str(ans['简介'])
+                        return str(ans['简介']) + \
+                               "[div class=jiacu]详细情况可以咨询" + getDoctor(userid, entity) + "[/div]"
                     elif '介绍' in ans.keys():
-                        return str(ans['介绍'])
+                        return str(ans['介绍']) + \
+                               "[div class=jiacu]详细情况可以咨询" + getDoctor(userid, entity) + "[/div]"
                     elif '产品说明' in ans.keys():
-                        return str(ans['产品说明'])
+                        return str(ans['产品说明']) + \
+                               "[div class=jiacu]详细情况可以咨询" + getDoctor(userid, entity) + "[/div]"
                     else:
                         return "a(https://www.baidu.com/s?wd=" + entity + ")[" + entity + "]"
 
@@ -157,3 +168,12 @@ def robot(content):
                     return "百度搜索-->a(https://www.baidu.com/s?wd=" + wq + ")[" + wq + "]"
         else:
             return str(receive)
+
+
+def getDoctor(userid, entity):
+    if '.' not in str(userid):
+        return "[span doctorId=YS19032700 onmouseenter=get_doctor_mouseenter(this)]" \
+               "a(javascript:get_doctor('YS19032700');)[欧阳豆豆][/span]"
+    else:
+        return "[span doctorId=# onmouseenter=get_doctor_mouseenter(this)]" \
+               "a(javascript:get_doctor('#');)[" + entity + "][/span]"

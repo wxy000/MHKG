@@ -62,6 +62,7 @@ urlpatterns = [
     path('views/classifiedQuery/getEntity/', classifiedQuery_view.getEntity),
     path('views/classifiedQuery/baike/', baike_view.baike),
     path('views/interlocution/', interlocution_view.interlocution),
+    path('views/interlocution/getDoctor/', interlocution_view.getDoctor),
     path('views/myDoctor/', myDoctor_view.myDoctor),
     # path('getAnswer/', interlocution_view.getAnswer),
     # re_path('views/(?P<p>\S*)/', views.pages),

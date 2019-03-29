@@ -81,6 +81,38 @@ layui.define(function(exports){
             layer.msg(obj);
         };
 
+        window.get_doctor = function (id) {
+            if (id === '#') {
+                layer.msg("请先登录", function () {
+                    window.top.location.href = "/accounts/login";
+                });
+            } else {
+                top.layui.index.openTabsPage('views/myDoctor?id=' + mine.id, "我的医生");
+            }
+        };
+
+        window.get_doctor_mouseenter = function (x) {
+            var doctorId = x.getAttribute('doctorId');
+            if (doctorId === '#') {
+                layer.tips('登陆后才能看到详细信息哦', x, {tips: 1});
+            } else {
+                $.ajax({
+                    url: '/views/interlocution/getDoctor?doctorId=' + doctorId,
+                    success: function (data) {
+                        if (data.code === 0) {
+                            var div = '<div>' +
+                                '<img src="' + data.data.doctorheader + '" style="height: 56px; width: 56px; border-radius:50%;">' +
+                                '<div style="float: right; margin: 8px 0 8px 10px;">' +
+                                '<div style="font-size: 16px;">' + data.data.doctorname + '(' + data.data.quiz2 + data.data.positionalTitle + ')</div>' +
+                                '<div>' + data.data.goodAt + '</div>' +
+                                '</div></div>';
+                            layer.tips(div, x, {tips: [1, '#2F9688'], area: ['auto', 'auto']});
+                        }
+                    }
+                });
+            }
+        }
+
     });
     exports('im', {})
 });
