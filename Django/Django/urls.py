@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 
+from . import doctorInfo_view
 from . import myDoctor_view
 from . import healthControl_view
 from . import inquiry_view
@@ -100,6 +101,11 @@ urlpatterns = [
     path('doctor/index/', login1_register1_view.index),
     path('doctor/inquiry/', inquiry_view.inquiry),
     path('doctor/healthControl/', healthControl_view.healthControl),
+    path('doctor/doctorInfo/', doctorInfo_view.doctorInfo),
+    path('doctor/updateDoctorInfo/', doctorInfo_view.updateDoctorInfo),
+    path('doctor/uploadPass/', doctorInfo_view.uploadPass),
+    path('doctor/uploadPassword/', doctorInfo_view.uploadPassword),
+    path('doctor/logout/', doctorInfo_view.logout),
     path('ManualAnnotation/', include('ManualAnnotation.urls', namespace='ManualAnnotation')),
     path('accounts/', include('users.urls', namespace='users')),
 ]

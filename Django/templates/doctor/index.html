@@ -79,10 +79,10 @@
                         <span class="layui-nav-more"></span>
                     </a>
                     <dl class="layui-nav-child">
-                        <dd style="text-align: center;"><a lay-href="">基本资料</a></dd>
-                        <dd style="text-align: center;"><a lay-href="">修改密码</a></dd>
+                        <dd style="text-align: center;"><a lay-href="/doctor/doctorInfo?doctorId={{ result.doctorId }}">基本资料</a></dd>
+                        <dd style="text-align: center;"><a lay-href="/doctor/uploadPass?doctorId={{ result.doctorId }}">修改密码</a></dd>
                         <hr>
-                        <dd style="text-align: center;"><a href="">退出</a></dd>
+                        <dd style="text-align: center;"><a href="/doctor/logout">退出</a></dd>
                     </dl>
                 </li>
 

@@ -2,6 +2,7 @@
 ;layui.define(["form", "upload"], function (t) {
     var i = layui.$, e = layui.layer, a = (layui.laytpl, layui.setter, layui.view, layui.admin), n = layui.form,
         s = layui.upload;
+    var $ = layui.$;
     i("body");
     n.verify({
         nickname: function (t, i) {
@@ -25,6 +26,32 @@
         var i = r.val();
         e.photos({photos: {title: "查看头像", data: [{src: i}]}, shade: .01, closeBtn: 1, anim: 5})
     }, n.on("submit(setmypass)", function (t) {
-        return e.msg(JSON.stringify(t.field)), !1
+        var csrfToken = $("[name='csrfmiddlewaretoken']").val();
+        // e.msg(JSON.stringify(t.field));
+        $.ajax({
+            url: '/doctor/uploadPassword/',
+            type: 'post',
+            data: JSON.stringify(t.field),
+            headers: {"X-CSRFToken": csrfToken},
+            success: function (data) {
+                if (data.code === 0) {
+                    layer.msg(data.msg, function () {
+                        window.top.location.href = "/doctor/login1";
+                    });
+                } else if (data.code === 200) {
+                    layer.msg(data.msg);
+                } else if (data.code === 500) {
+                    layer.msg(data.msg, function () {
+                        window.location.reload();
+                    });
+                } else {
+                    layer.msg("未知错误");
+                }
+            },
+            error: function (data) {
+                layer.msg("未知错误");
+            }
+        });
+        return false;
     }), t("set", {})
 });
