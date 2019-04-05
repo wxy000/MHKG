@@ -58,12 +58,27 @@
                                         <cite>分类查询</cite>
                                     </a>
                                 </li>
+                                {% if request.user.is_authenticated %}
+                                <li class="layui-col-xs3">
+                                    <a lay-href="views/interlocution?id={{ request.user.id }}">
+                                        <i class="layui-icon iconfont layui-extend-wenda"></i>
+                                        <cite>MHKG 智能问答</cite>
+                                    </a>
+                                </li>
+                                <li class="layui-col-xs3">
+                                    <a lay-href="views/myDoctor?id={{ request.user.id }}">
+                                        <i class="layui-icon iconfont layui-extend-wenda"></i>
+                                        <cite>我的医生</cite>
+                                    </a>
+                                </li>
+                                {% else %}
                                 <li class="layui-col-xs3">
                                     <a lay-href="views/interlocution">
                                         <i class="layui-icon iconfont layui-extend-wenda"></i>
                                         <cite>MHKG 智能问答</cite>
                                     </a>
                                 </li>
+                                {% endif %}
                             </ul>
 
                         </div>
