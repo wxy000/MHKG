@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_935338_5w3z4hpqzs7.css">
 </head>
 
 <style>
@@ -16,6 +17,13 @@
     }
     .layui-text-top a:hover{
         color: #FFFF00;
+    }
+    #quanbuqiuzhu {
+        line-height: 30px;
+        margin-left: 10px;
+    }
+    #quanbuqiuzhu li a {
+        color: #01AAED;
     }
 </style>
 
@@ -61,27 +69,20 @@
                             <div class="layui-card-header">
                                 <span style="color: #ffffff;">正在求助</span>
                                 <span style="color: #FFFF00">&nbsp;&nbsp;&nbsp;乐于助人，快乐自己</span>
+                                <a href="javascript:;" onclick="get_allQiuzhu()" class="layui-a-tips" style="color: #ffffff;">全部求助</a>
                             </div>
                             <div class="layui-card-body layuiadmin-card-list">
                                 <ul class="layui-col-space8" style="margin-left: 20px;">
+                                    {% for qiuzhu in bufenQiuzhu reversed %}
                                     <li style="list-style: disc;">
-                                        <a href="javascript:;" style="color: #ffffff;">
-                                            <span>111111111111111</span>
-                                            <span style="float: right;">周1</span>
+                                        <a href="javascript:;" onclick="get_qiuzhu1('{{ qiuzhu.qiuzhuId }}', '{{ result.doctorId }}')" style="color: #ffffff;">
+                                            <span>{{ qiuzhu.content }}</span>
+                                            <span style="float: right;">{{ qiuzhu.createTime }}</span>
                                         </a>
                                     </li>
-                                    <li style="list-style: disc;">
-                                        <a href="javascript:;" style="color: #ffffff;">
-                                            <span>222222222222222</span>
-                                            <span style="float: right;">周2</span>
-                                        </a>
-                                    </li>
-                                    <li style="list-style: disc;">
-                                        <a href="javascript:;" style="color: #ffffff;">
-                                            <span>333333333333333</span>
-                                            <span style="float: right;">周3</span>
-                                        </a>
-                                    </li>
+                                    {% empty %}
+                                    <div style="margin-left: -30px; height: 86px;"><center>没有求助</center></div>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
@@ -94,43 +95,45 @@
                     </div>
                     <div class="layui-card-body">
                         <ul class="layui-col-space10">
+                            {% for maqiuzhu in myAnswerQiuzhu reversed %}
                             <li>
-                                <a href="javascript:;">
+                                <a href="javascript:;" onclick="get_qiuzhu1('{{ maqiuzhu.qiuzhuId }}', '{{ result.doctorId }}')">
                                     <img src="{{ result.doctorheader }}" class="layui-nav-img">
-                                    <span>11111111111</span>
-                                    <span style="float: right;">周1</span>
+                                    <span>{{ maqiuzhu.content }}</span>
+                                    <span style="float: right;">{{ maqiuzhu.createTime }}</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="javascript:;">
-                                    <img src="{{ result.doctorheader }}" class="layui-nav-img">
-                                    <span>22222222222</span>
-                                    <span style="float: right;">周2</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:;">
-                                    <img src="{{ result.doctorheader }}" class="layui-nav-img">
-                                    <span>33333333333</span>
-                                    <span style="float: right;">周3</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:;">
-                                    <img src="{{ result.doctorheader }}" class="layui-nav-img">
-                                    <span>44444444444</span>
-                                    <span style="float: right;">周4</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:;">
-                                    <img src="{{ result.doctorheader }}" class="layui-nav-img">
-                                    <span>55555555555</span>
-                                    <span style="float: right;">周5</span>
-                                </a>
-                            </li>
+                            {% empty %}
+                            <center>暂无回答</center>
+                            {% endfor %}
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="allQiuzhu" hidden>
+    <div class="layui-fluid">
+        <div class="layui-row layui-col-space15">
+            <div class="layui-card">
+                <div class="layui-card-header" style="color: #393D49;">【全部求助】</div>
+                <div class="layui-card-body">
+                    <ul id="quanbuqiuzhu">
+                        {% for qiuzhu in allQiuzhu reversed %}
+                        <li style="clear:both;">
+                            <a href="javascript:;" onclick="get_qiuzhu1('{{ qiuzhu.qiuzhuId }}', '{{ result.doctorId }}')">
+                                <div>
+                                    <i class="iconfont layui-extend-iconfontzhizuobiaozhun47"></i>
+                                    {{ qiuzhu.content }}
+                                </div>
+                                <div style="float: right; color: #3F3F3F;">{{ qiuzhu.createTime }}</div>
+                            </a>
+                        </li>
+                        {% empty %}
+                        <center>没有求助</center>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
@@ -144,7 +147,41 @@
         base: '../../../static/layuiadmin/' //静态资源所在路径
     }).extend({
         index: 'lib/index' //主入口模块
-    }).use(['index', 'doctorim']);
+    }).use(['index', 'doctorim', 'form'], function () {
+
+        var $ = layui.$,
+            admin = layui.admin,
+            element = layui.element,
+            form = layui.form,
+            router = layui.router();
+
+        element.render();
+
+        window.get_qiuzhu1 = function(qiuzhuId, doctorId) {
+            var xx = layer.open({
+                type: 2,
+                title: '求助信息',
+                content: '/doctor/getQiuzhu1?qiuzhuId=' + qiuzhuId + '&doctorId=' + doctorId,
+                maxmin: true,
+                area: ['500px', '450px'],
+                btn: ['确定'],
+                yes: function (index, layero) {
+                    layer.close(index);
+                }
+            });
+            layer.full(xx);
+        };
+
+        window.get_allQiuzhu = function () {
+            admin.popupRight({
+                id: 'LAY_adminPopupLayerTest'
+                ,success: function(){
+                    $('#'+ this.id).html($("#allQiuzhu").html());
+                    //admin.view(this.id).render('system/xxx')
+                }
+            });
+        }
+    });
 </script>
 </body>
 </html>

@@ -9,26 +9,101 @@
     <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
     <link rel="stylesheet" href="../../static/layuiadmin/style/custom.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/template.css" media="all">
     <link rel="stylesheet" href="../../static/layuiadmin/style/im.css" media="all">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_935338_5w3z4hpqzs7.css">
 </head>
 <body>
 
 <style>
-    table tr {
-        height: 30px;
+    #quanbuqiuzhu {
+        line-height: 30px;
+        margin-left: 10px;
     }
-    table tr a {
+    #quanbuqiuzhu li a {
         color: #01AAED;
     }
 </style>
 
 <div class="layui-fluid">
     <div class="layui-row layui-col-space15">
+        <div class="layui-col-md8">
+            <div class="layui-card">
+                <div class="layui-card-header" style="color: #393D49;">【我的求助】</div>
+                <div class="layui-card-body layui-row layui-col-space10 layui-form">
+                    <div class="layui-col-md12">
+                        <textarea id="textarea" name="textarea" required lay-verify="required" placeholder="请输入" class="layui-textarea"></textarea>
+                    </div>
+                    <div class="layui-col-md12" style="text-align: center;">
+                        <button class="layui-btn layui-btn-normal" lay-submit lay-filter="qiuzhu">点击求助</button>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-card">
+                <div class="layui-card-header" style="color: #393D49;">【医生们】</div>
+                <div class="layui-card-body layui-fluid layadmin-maillist-fluid">
+                    <div class="layui-row layui-col-space10">
+                        {% for alld in alldoctors %}
+                        <div class="layui-col-md6 layui-col-sm6">
+                            <div class="layadmin-contact-box">
+                                <a href="javascript:;">
+                                    <div class="layui-col-md4 layui-col-sm6">
+                                        <div class="layadmin-text-center">
+                                            <img src="{{ alld.doctorheader }}">
+                                            <div class="layadmin-maillist-img layadmin-font-blod">
+                                                {{ alld.positionalTitle }}
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                    <div class="layui-col-md8 layadmin-padding-left20 layui-col-sm6">
+                                        <h3 class="layadmin-title">
+                                            <strong>{{ alld.doctorname }}</strong>
+                                            ({{ alld.sex }})
+                                        </h3>
+                                        <p class="layadmin-textimg">
+                                            <i class="layui-icon layui-icon-location"></i>
+                                            {{ alld.quiz1 }}
+                                        </p>
+                                        <div class="layadmin-address">
+                                            <strong>科室：</strong>{{ alld.quiz2 }}
+                                            <br>
+                                            <strong>E-mail：</strong>{{ alld.doctoremail }}
+                                            <br>
+                                            <strong>手机：</strong>{{ alld.phone }}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md4">
+            <div class="layui-card">
+                <div class="layui-card-header" style="color: #393D49;">【我的全部求助】</div>
+                <div class="layui-card-body">
+                    <ul id="quanbuqiuzhu">
+                        {% for qiuzhu in allQiuzhu reversed %}
+                        <li>
+                            <a href="javascript:;" onclick="get_qiuzhu('{{ qiuzhu.qiuzhuId }}')">
+                                <i class="iconfont layui-extend-iconfontzhizuobiaozhun47"></i>
+                                {{ qiuzhu.content }}
+                                <span style="float: right;">{{ qiuzhu.createTime }}</span>
+                            </a>
+                        </li>
+                        {% empty %}
+                        <center>没有求助</center>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
+{% csrf_token %}
 <div id="hiddenmine" hidden>{{ result }}</div>
 <div id="hiddenfriends" hidden>{{ friends }}</div>
 <script src="../../static/layuiadmin/layui/layui.js"></script>
@@ -37,7 +112,57 @@
         base: '../../../static/layuiadmin/' //静态资源所在路径
     }).extend({
         index: 'lib/index' //主入口模块
-    }).use(['index', 'doctorim']);
+    }).use(['index', 'doctorim', 'form'], function () {
+
+        var $ = layui.$,
+            admin = layui.admin,
+            element = layui.element,
+            form = layui.form;
+
+        window.get_qiuzhu = function(id) {
+            var xx = layer.open({
+                type: 2,
+                title: '我的求助',
+                content: '/doctor/getQiuzhu?qiuzhuId=' + id,
+                maxmin: true,
+                area: ['500px', '450px'],
+                btn: ['确定'],
+                yes: function (index, layero) {
+                    layer.close(index);
+                }
+            });
+            // layer.full(xx);
+        };
+
+        //监听提交
+        form.on('submit(qiuzhu)', function(data){
+            // layer.msg(JSON.stringify(data.field));
+            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
+            var index = layer.load(2);
+            $.ajax({
+                headers: {"X-CSRFToken": csrfToken},
+                url: '/views/myDoctor/setHelper/',
+                data: data.field,
+                type: 'post',
+                success: function (data) {
+                    if (data.code === 0) {
+                        layer.msg(data.msg, function () {
+                            $("#textarea").val('');
+                            window.location.reload();
+                        });
+                    } else {
+                        layer.msg(data.msg);
+                    }
+                    layer.close(index);
+                },
+                error: function (data) {
+                    layer.close(index);
+                    layer.msg("无法求助，请稍后再试");
+                }
+            });
+            return false;
+        });
+    });
 </script>
 </body>
 </html>

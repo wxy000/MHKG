@@ -37,7 +37,10 @@ class Toolbar:
                 if line.split(' ')[8] == '200':
                     sum_code += 1
                 ips.append(ip)
-        sum_code_ratio = str(round((sum_code / len(ips)) * 100, 2)) + '%'
+        lenips = len(ips)
+        if len(ips) == 0:
+            lenips = 1
+        sum_code_ratio = str(round((sum_code / lenips) * 100, 2)) + '%'
         temp = {'pv_now': len(ips), 'uv_now': len(set(ips)), 'byte_now': self.filesize(sum_bytes),
                 'code_ratio_now': sum_code_ratio}
         return temp

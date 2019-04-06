@@ -137,5 +137,13 @@ def index(request):
         if len(doctors) == 0:
             return render(request, 'doctor/login1.html')
         else:
-            result = doctors[0]
-            return render(request, 'doctor/index.html', {'result': result})
+            if doctors[0]['isPerfect'] == 0:
+                return render(request, 'doctor/perfectInfo.html',
+                              {'doctorId': doctors[0]['doctorId'],
+                               'doctorname': doctors[0]['doctorname']})
+            elif doctors[0]['isPerfect'] == 1:
+                if doctors[0]['isAuditing'] == 1:
+                    result = doctors[0]
+                    return render(request, 'doctor/index.html', {'result': result})
+                else:
+                    return render(request, 'doctor/login1.html')

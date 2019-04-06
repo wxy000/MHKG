@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>求助</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/template.css" media="all">
+</head>
+<body>
+<div class="layadmin-message-fluid">
+    <div class="layui-row">
+        <div class="layui-col-md12">
+            <div class="layui-bg-gray" style="padding: 20px;">
+                <span style="font-weight: bold; font-size: 16px;">{{ result.qiuzhuTitle }}</span>
+            </div>
+        </div>
+        <div class="layui-col-md12 layadmin-homepage-list-imgtxt message-content">
+            {% for allaq in result.allAnswerQiuzhu reversed %}
+            <div class="media-body">
+                <a href="javascript:;" class="media-left" style="float: left;">
+                    <img src="{{ allaq.doctorheader }}" height="46px" width="46px">
+                </a>
+                <div class="pad-btm">
+                    <p class="fontColor"><a href="javascript:;">{{ allaq.doctorname }}</a></p>
+                    <p class="min-font">
+                        <span class="layui-breadcrumb" lay-separator="-">
+                            <a>{{ allaq.createTime }}</a>
+                            <a>回答了您</a>
+                        </span>
+                    </p>
+                </div>
+                <p class="message-text">{{ allaq.content }}</p>
+            </div>
+            {% empty %}
+            <center>暂无回答</center>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div id="code" hidden>{{ result.code }}</div>
+<div id="msg" hidden>{{ result.msg }}</div>
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use('index', function () {
+        var $ = layui.$;
+
+        if ($("#code").text() === '500') {
+            var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+            parent.layer.close(index); //再执行关闭
+            parent.layer.msg($("#msg").text());
+        }
+    });
+</script>
+</body>
+</html>
