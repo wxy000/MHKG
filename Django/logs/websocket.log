@@ -98,4 +98,848 @@ Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
 Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
-Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...Not Found: /nice ports,/Trinity.txt.bak
+2019-04-06 18:20:26,799 WARNING  Not Found: /nice ports,/Trinity.txt.bak
+done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:8014 - - [06/Apr/2019:16:12:31] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:8014 - - [06/Apr/2019:16:12:31] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:8014 - - [06/Apr/2019:16:12:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:6448 - - [06/Apr/2019:16:12:57] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:8140 - - [06/Apr/2019:16:12:58] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:8140 - - [06/Apr/2019:16:12:58] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:8342 - - [06/Apr/2019:16:13:32] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:8342 - - [06/Apr/2019:16:13:32] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:7895 - - [06/Apr/2019:16:15:01] "WSDISCONNECT /robot/1/" - -
+124.160.57.70:8342 - - [06/Apr/2019:16:15:01] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:8140 - - [06/Apr/2019:16:20:19] "WSDISCONNECT /ws/chat/YS19032700/" - -
+183.57.54.43:51197 - - [06/Apr/2019:18:20:26] "GET /" 200 12678
+183.57.54.43:51669 - - [06/Apr/2019:18:20:26] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak" 404 9920
+124.160.57.70:53326 - - [07/Apr/2019:01:18:00] "WSCONNECTING /robot/471570.5220131494412967/" - -
+124.160.57.70:53326 - - [07/Apr/2019:01:18:00] "WSCONNECT /robot/471570.5220131494412967/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:53326 - - [07/Apr/2019:01:18:26] "WSDISCONNECT /robot/471570.5220131494412967/" - -
+124.160.57.70:53454 - - [07/Apr/2019:01:19:16] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:53454 - - [07/Apr/2019:01:19:16] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:53541 - - [07/Apr/2019:01:20:22] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:53541 - - [07/Apr/2019:01:20:22] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:53454 - - [07/Apr/2019:01:23:20] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:54253 - - [07/Apr/2019:01:27:01] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:54253 - - [07/Apr/2019:01:27:01] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:53541 - - [07/Apr/2019:01:27:17] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:54271 - - [07/Apr/2019:01:27:17] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:54271 - - [07/Apr/2019:01:27:18] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:54253 - - [07/Apr/2019:01:29:18] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:54447 - - [07/Apr/2019:01:29:30] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:54447 - - [07/Apr/2019:01:29:30] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:54447 - - [07/Apr/2019:01:30:13] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:54504 - - [07/Apr/2019:01:30:13] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:54504 - - [07/Apr/2019:01:30:13] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:54271 - - [07/Apr/2019:01:30:48] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:54542 - - [07/Apr/2019:01:30:48] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:54542 - - [07/Apr/2019:01:30:48] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:54504 - - [07/Apr/2019:01:31:33] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:54589 - - [07/Apr/2019:01:31:34] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:54589 - - [07/Apr/2019:01:31:34] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:54589 - - [07/Apr/2019:01:45:53] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:55884 - - [07/Apr/2019:01:45:53] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:55884 - - [07/Apr/2019:01:45:53] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:55884 - - [07/Apr/2019:01:45:57] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:55890 - - [07/Apr/2019:01:45:57] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:55890 - - [07/Apr/2019:01:45:57] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:55890 - - [07/Apr/2019:01:46:31] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:55971 - - [07/Apr/2019:01:46:31] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:55971 - - [07/Apr/2019:01:46:31] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:55971 - - [07/Apr/2019:01:51:27] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:13165 - - [07/Apr/2019:03:59:33] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13165 - - [07/Apr/2019:03:59:33] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13165 - - [07/Apr/2019:04:03:23] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13842 - - [07/Apr/2019:04:04:00] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:13842 - - [07/Apr/2019:04:04:00] "WSCONNECT /ws/chat/2/" - -
+198.108.67.48:62306 - - [07/Apr/2019:05:25:03] "GET /" 200 12678
+124.160.57.70:13842 - - [07/Apr/2019:06:09:39] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:35069 - - [07/Apr/2019:06:09:55] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:35069 - - [07/Apr/2019:06:09:55] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:35069 - - [07/Apr/2019:06:12:00] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:35364 - - [07/Apr/2019:06:12:00] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:35364 - - [07/Apr/2019:06:12:00] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:35364 - - [07/Apr/2019:06:12:39] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:35519 - - [07/Apr/2019:06:12:40] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:35519 - - [07/Apr/2019:06:12:40] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:35519 - - [07/Apr/2019:06:13:28] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:35707 - - [07/Apr/2019:06:13:28] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:35707 - - [07/Apr/2019:06:13:28] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:35707 - - [07/Apr/2019:06:13:57] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:35571 - - [07/Apr/2019:06:13:58] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:35571 - - [07/Apr/2019:06:13:58] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:35571 - - [07/Apr/2019:06:14:20] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:35920 - - [07/Apr/2019:06:14:20] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:35920 - - [07/Apr/2019:06:14:20] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:35920 - - [07/Apr/2019:06:18:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:36562 - - [07/Apr/2019:06:18:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:36562 - - [07/Apr/2019:06:18:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:36562 - - [07/Apr/2019:06:25:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:37402 - - [07/Apr/2019:06:25:17] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:37402 - - [07/Apr/2019:06:25:17] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:37402 - - [07/Apr/2019:06:27:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:37706 - - [07/Apr/2019:06:27:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:37706 - - [07/Apr/2019:06:27:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:37706 - - [07/Apr/2019:06:28:16] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:37837 - - [07/Apr/2019:06:28:16] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:37837 - - [07/Apr/2019:06:28:16] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:37837 - - [07/Apr/2019:06:44:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:40330 - - [07/Apr/2019:06:44:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:40330 - - [07/Apr/2019:06:44:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:40330 - - [07/Apr/2019:06:44:46] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:40427 - - [07/Apr/2019:06:44:46] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:40427 - - [07/Apr/2019:06:44:46] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:40427 - - [07/Apr/2019:06:45:54] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:40676 - - [07/Apr/2019:06:45:54] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:40676 - - [07/Apr/2019:06:45:54] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:40676 - - [07/Apr/2019:06:47:27] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:40954 - - [07/Apr/2019:06:47:27] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:40954 - - [07/Apr/2019:06:47:27] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:40954 - - [07/Apr/2019:06:55:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:42320 - - [07/Apr/2019:06:55:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:42320 - - [07/Apr/2019:06:55:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:42320 - - [07/Apr/2019:06:56:53] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:42552 - - [07/Apr/2019:06:56:54] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:42552 - - [07/Apr/2019:06:56:54] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:42552 - - [07/Apr/2019:06:56:55] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:42561 - - [07/Apr/2019:06:56:57] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:42561 - - [07/Apr/2019:06:56:57] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:42561 - - [07/Apr/2019:07:09:19] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:45504 - - [07/Apr/2019:07:09:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:45504 - - [07/Apr/2019:07:09:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:45504 - - [07/Apr/2019:07:09:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:45648 - - [07/Apr/2019:07:09:50] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:45648 - - [07/Apr/2019:07:09:50] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:45648 - - [07/Apr/2019:07:14:52] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:46773 - - [07/Apr/2019:07:14:52] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:46773 - - [07/Apr/2019:07:14:52] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:46773 - - [07/Apr/2019:07:15:09] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:46813 - - [07/Apr/2019:07:15:10] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:46813 - - [07/Apr/2019:07:15:10] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:46813 - - [07/Apr/2019:07:17:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:47185 - - [07/Apr/2019:07:17:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:47185 - - [07/Apr/2019:07:17:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:47185 - - [07/Apr/2019:07:17:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:47194 - - [07/Apr/2019:07:17:18] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:47194 - - [07/Apr/2019:07:17:18] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:54542 - - [07/Apr/2019:07:18:11] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:47421 - - [07/Apr/2019:07:18:11] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:47421 - - [07/Apr/2019:07:18:11] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:47194 - - [07/Apr/2019:07:26:13] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:48884 - - [07/Apr/2019:07:26:14] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:48884 - - [07/Apr/2019:07:26:14] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:48884 - - [07/Apr/2019:07:26:16] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:48888 - - [07/Apr/2019:07:26:16] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:48888 - - [07/Apr/2019:07:26:16] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:48888 - - [07/Apr/2019:07:31:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:49731 - - [07/Apr/2019:07:31:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:49731 - - [07/Apr/2019:07:31:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:49731 - - [07/Apr/2019:07:35:16] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:50421 - - [07/Apr/2019:07:35:16] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:50421 - - [07/Apr/2019:07:35:16] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:50421 - - [07/Apr/2019:07:35:55] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:50585 - - [07/Apr/2019:07:35:55] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:50585 - - [07/Apr/2019:07:35:55] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:50585 - - [07/Apr/2019:07:36:34] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:50676 - - [07/Apr/2019:07:36:34] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:50676 - - [07/Apr/2019:07:36:34] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:50676 - - [07/Apr/2019:07:37:31] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:50816 - - [07/Apr/2019:07:37:31] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:50816 - - [07/Apr/2019:07:37:31] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:50816 - - [07/Apr/2019:07:39:11] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:51117 - - [07/Apr/2019:07:39:34] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:51117 - - [07/Apr/2019:07:39:34] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:51117 - - [07/Apr/2019:07:40:47] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:51295 - - [07/Apr/2019:07:40:48] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:51295 - - [07/Apr/2019:07:40:48] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:51295 - - [07/Apr/2019:07:41:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:51395 - - [07/Apr/2019:07:41:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:51395 - - [07/Apr/2019:07:41:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:51395 - - [07/Apr/2019:07:42:38] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:51626 - - [07/Apr/2019:07:42:38] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:51626 - - [07/Apr/2019:07:42:38] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:51626 - - [07/Apr/2019:07:44:12] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:52133 - - [07/Apr/2019:07:44:13] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:52133 - - [07/Apr/2019:07:44:13] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:52133 - - [07/Apr/2019:07:44:38] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:52227 - - [07/Apr/2019:07:44:39] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:52227 - - [07/Apr/2019:07:44:39] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:52227 - - [07/Apr/2019:07:45:47] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:52392 - - [07/Apr/2019:07:45:47] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:52392 - - [07/Apr/2019:07:45:47] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:52392 - - [07/Apr/2019:07:46:00] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:52422 - - [07/Apr/2019:07:46:00] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:52422 - - [07/Apr/2019:07:46:00] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:52422 - - [07/Apr/2019:07:46:20] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:52484 - - [07/Apr/2019:07:46:20] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:52484 - - [07/Apr/2019:07:46:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:52484 - - [07/Apr/2019:07:47:18] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:52662 - - [07/Apr/2019:07:47:18] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:52662 - - [07/Apr/2019:07:47:18] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:52662 - - [07/Apr/2019:07:50:31] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:53533 - - [07/Apr/2019:07:50:31] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:53533 - - [07/Apr/2019:07:50:31] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:53533 - - [07/Apr/2019:07:54:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:55064 - - [07/Apr/2019:07:54:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:55064 - - [07/Apr/2019:07:54:49] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:55064 - - [07/Apr/2019:07:58:20] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:55808 - - [07/Apr/2019:07:58:20] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:55808 - - [07/Apr/2019:07:58:20] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:55808 - - [07/Apr/2019:08:00:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:56166 - - [07/Apr/2019:08:00:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:56166 - - [07/Apr/2019:08:00:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:56166 - - [07/Apr/2019:08:03:59] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:57158 - - [07/Apr/2019:08:03:59] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:57158 - - [07/Apr/2019:08:03:59] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:57158 - - [07/Apr/2019:08:08:06] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:57966 - - [07/Apr/2019:08:08:07] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:57966 - - [07/Apr/2019:08:08:07] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:57966 - - [07/Apr/2019:08:09:43] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:58477 - - [07/Apr/2019:08:09:43] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:58477 - - [07/Apr/2019:08:09:43] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:58477 - - [07/Apr/2019:08:14:01] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:59415 - - [07/Apr/2019:08:14:01] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:59415 - - [07/Apr/2019:08:14:01] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:59415 - - [07/Apr/2019:08:14:25] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:59524 - - [07/Apr/2019:08:14:25] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:59524 - - [07/Apr/2019:08:14:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:59524 - - [07/Apr/2019:08:14:55] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:59612 - - [07/Apr/2019:08:14:55] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:59612 - - [07/Apr/2019:08:14:55] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:59612 - - [07/Apr/2019:08:15:23] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:59731 - - [07/Apr/2019:08:15:23] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:59731 - - [07/Apr/2019:08:15:23] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:59731 - - [07/Apr/2019:08:16:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:59924 - - [07/Apr/2019:08:16:23] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:59924 - - [07/Apr/2019:08:16:23] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:59924 - - [07/Apr/2019:08:18:12] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:60225 - - [07/Apr/2019:08:18:12] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:60225 - - [07/Apr/2019:08:18:12] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:60225 - - [07/Apr/2019:08:18:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:60249 - - [07/Apr/2019:08:18:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:60249 - - [07/Apr/2019:08:18:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:60249 - - [07/Apr/2019:08:19:25] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:60682 - - [07/Apr/2019:08:19:25] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:60682 - - [07/Apr/2019:08:19:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:60682 - - [07/Apr/2019:08:20:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:60877 - - [07/Apr/2019:08:20:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:60877 - - [07/Apr/2019:08:20:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:60877 - - [07/Apr/2019:08:21:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61075 - - [07/Apr/2019:08:21:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:61075 - - [07/Apr/2019:08:21:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:61075 - - [07/Apr/2019:08:21:58] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61219 - - [07/Apr/2019:08:21:59] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:61219 - - [07/Apr/2019:08:21:59] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:61219 - - [07/Apr/2019:08:22:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61351 - - [07/Apr/2019:08:22:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:61351 - - [07/Apr/2019:08:22:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:61351 - - [07/Apr/2019:08:22:45] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61418 - - [07/Apr/2019:08:22:46] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:61418 - - [07/Apr/2019:08:22:46] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:61418 - - [07/Apr/2019:08:23:14] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61498 - - [07/Apr/2019:08:23:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:61498 - - [07/Apr/2019:08:23:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:61498 - - [07/Apr/2019:08:27:12] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62135 - - [07/Apr/2019:08:27:12] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62135 - - [07/Apr/2019:08:27:12] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62135 - - [07/Apr/2019:08:28:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62359 - - [07/Apr/2019:08:28:16] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62359 - - [07/Apr/2019:08:28:16] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62359 - - [07/Apr/2019:08:28:34] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62415 - - [07/Apr/2019:08:28:35] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62415 - - [07/Apr/2019:08:28:35] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62415 - - [07/Apr/2019:08:29:09] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62626 - - [07/Apr/2019:08:29:10] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62626 - - [07/Apr/2019:08:29:10] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62626 - - [07/Apr/2019:08:30:00] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62886 - - [07/Apr/2019:08:30:00] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62886 - - [07/Apr/2019:08:30:00] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62886 - - [07/Apr/2019:08:30:08] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63000 - - [07/Apr/2019:08:30:39] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63000 - - [07/Apr/2019:08:30:39] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63000 - - [07/Apr/2019:08:31:12] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63088 - - [07/Apr/2019:08:31:12] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63088 - - [07/Apr/2019:08:31:12] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63088 - - [07/Apr/2019:08:31:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63181 - - [07/Apr/2019:08:31:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63181 - - [07/Apr/2019:08:31:49] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63181 - - [07/Apr/2019:08:32:19] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63247 - - [07/Apr/2019:08:32:20] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63247 - - [07/Apr/2019:08:32:20] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63247 - - [07/Apr/2019:08:32:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63475 - - [07/Apr/2019:08:33:07] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63475 - - [07/Apr/2019:08:33:08] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63475 - - [07/Apr/2019:08:34:30] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63734 - - [07/Apr/2019:08:34:31] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63734 - - [07/Apr/2019:08:34:31] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63734 - - [07/Apr/2019:08:35:42] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63965 - - [07/Apr/2019:08:35:42] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63965 - - [07/Apr/2019:08:35:42] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63965 - - [07/Apr/2019:08:36:03] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64020 - - [07/Apr/2019:08:36:03] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64020 - - [07/Apr/2019:08:36:03] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64020 - - [07/Apr/2019:08:38:00] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64375 - - [07/Apr/2019:08:38:00] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64375 - - [07/Apr/2019:08:38:00] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64375 - - [07/Apr/2019:08:38:39] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64494 - - [07/Apr/2019:08:38:39] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64494 - - [07/Apr/2019:08:38:39] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64494 - - [07/Apr/2019:08:39:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64689 - - [07/Apr/2019:08:39:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64689 - - [07/Apr/2019:08:39:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64689 - - [07/Apr/2019:08:41:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64936 - - [07/Apr/2019:08:41:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64936 - - [07/Apr/2019:08:41:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64936 - - [07/Apr/2019:08:41:54] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:65137 - - [07/Apr/2019:08:41:54] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:65137 - - [07/Apr/2019:08:41:54] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:65137 - - [07/Apr/2019:08:42:47] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:65412 - - [07/Apr/2019:08:42:47] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:65412 - - [07/Apr/2019:08:42:47] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:65412 - - [07/Apr/2019:08:42:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:65424 - - [07/Apr/2019:08:42:50] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:65424 - - [07/Apr/2019:08:42:50] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:65424 - - [07/Apr/2019:08:43:27] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1042 - - [07/Apr/2019:08:43:27] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1042 - - [07/Apr/2019:08:43:27] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1042 - - [07/Apr/2019:08:44:39] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1317 - - [07/Apr/2019:08:44:39] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1317 - - [07/Apr/2019:08:44:39] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1317 - - [07/Apr/2019:08:46:53] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1754 - - [07/Apr/2019:08:46:53] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1754 - - [07/Apr/2019:08:46:53] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1754 - - [07/Apr/2019:08:47:18] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1881 - - [07/Apr/2019:08:47:18] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1881 - - [07/Apr/2019:08:47:18] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1881 - - [07/Apr/2019:08:48:02] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:2009 - - [07/Apr/2019:08:48:03] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:2009 - - [07/Apr/2019:08:48:03] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:2009 - - [07/Apr/2019:08:48:31] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:2075 - - [07/Apr/2019:08:48:32] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:2075 - - [07/Apr/2019:08:48:32] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:2075 - - [07/Apr/2019:08:50:31] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:2394 - - [07/Apr/2019:08:50:31] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:2394 - - [07/Apr/2019:08:50:31] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:2394 - - [07/Apr/2019:08:56:03] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:3505 - - [07/Apr/2019:08:56:03] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:3505 - - [07/Apr/2019:08:56:03] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:3505 - - [07/Apr/2019:08:57:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:3839 - - [07/Apr/2019:08:57:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:3839 - - [07/Apr/2019:08:57:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:3839 - - [07/Apr/2019:08:58:12] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:4050 - - [07/Apr/2019:08:58:45] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:4050 - - [07/Apr/2019:08:58:45] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:4050 - - [07/Apr/2019:08:59:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:4326 - - [07/Apr/2019:08:59:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:4326 - - [07/Apr/2019:08:59:50] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:4326 - - [07/Apr/2019:09:03:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:5402 - - [07/Apr/2019:09:03:17] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:5402 - - [07/Apr/2019:09:03:17] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:5402 - - [07/Apr/2019:09:04:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:5683 - - [07/Apr/2019:09:04:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:5683 - - [07/Apr/2019:09:04:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:5683 - - [07/Apr/2019:09:04:24] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:5686 - - [07/Apr/2019:09:04:24] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:5686 - - [07/Apr/2019:09:04:24] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:5686 - - [07/Apr/2019:09:04:45] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:5790 - - [07/Apr/2019:09:04:46] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:5790 - - [07/Apr/2019:09:04:46] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:5790 - - [07/Apr/2019:09:06:26] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:6113 - - [07/Apr/2019:09:06:26] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:6113 - - [07/Apr/2019:09:06:26] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:6113 - - [07/Apr/2019:09:08:37] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:6567 - - [07/Apr/2019:09:08:37] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:6567 - - [07/Apr/2019:09:08:37] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:6567 - - [07/Apr/2019:09:11:19] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:7228 - - [07/Apr/2019:09:11:20] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:7228 - - [07/Apr/2019:09:11:20] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:7228 - - [07/Apr/2019:09:12:24] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:7503 - - [07/Apr/2019:09:12:24] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:7503 - - [07/Apr/2019:09:12:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:7503 - - [07/Apr/2019:09:13:03] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:7577 - - [07/Apr/2019:09:13:03] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:7577 - - [07/Apr/2019:09:13:03] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:7577 - - [07/Apr/2019:09:14:04] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:7745 - - [07/Apr/2019:09:14:04] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:7745 - - [07/Apr/2019:09:14:04] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:7745 - - [07/Apr/2019:09:15:34] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:8110 - - [07/Apr/2019:09:15:35] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:8110 - - [07/Apr/2019:09:15:35] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:8110 - - [07/Apr/2019:09:17:23] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:8489 - - [07/Apr/2019:09:17:24] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:8489 - - [07/Apr/2019:09:17:24] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:8489 - - [07/Apr/2019:09:21:14] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:9178 - - [07/Apr/2019:09:21:14] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:9178 - - [07/Apr/2019:09:21:14] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:9178 - - [07/Apr/2019:09:22:36] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:9372 - - [07/Apr/2019:09:22:36] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:9372 - - [07/Apr/2019:09:22:36] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:9372 - - [07/Apr/2019:09:24:40] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:9826 - - [07/Apr/2019:09:24:40] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:9826 - - [07/Apr/2019:09:24:40] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:9826 - - [07/Apr/2019:09:25:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:9920 - - [07/Apr/2019:09:25:17] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:9920 - - [07/Apr/2019:09:25:17] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:9920 - - [07/Apr/2019:09:27:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:10188 - - [07/Apr/2019:09:27:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:10188 - - [07/Apr/2019:09:27:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:10188 - - [07/Apr/2019:09:29:42] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:10593 - - [07/Apr/2019:09:29:42] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:10593 - - [07/Apr/2019:09:29:42] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:10593 - - [07/Apr/2019:09:37:26] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:11672 - - [07/Apr/2019:09:37:26] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:11672 - - [07/Apr/2019:09:37:26] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:11672 - - [07/Apr/2019:09:38:05] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:11793 - - [07/Apr/2019:09:38:05] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:11793 - - [07/Apr/2019:09:38:05] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:11793 - - [07/Apr/2019:09:41:16] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:12682 - - [07/Apr/2019:09:41:17] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:12682 - - [07/Apr/2019:09:41:17] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:12682 - - [07/Apr/2019:09:41:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:12787 - - [07/Apr/2019:09:41:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:12787 - - [07/Apr/2019:09:41:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:12787 - - [07/Apr/2019:09:42:07] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:12854 - - [07/Apr/2019:09:42:07] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:12854 - - [07/Apr/2019:09:42:07] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:12854 - - [07/Apr/2019:09:42:48] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:12970 - - [07/Apr/2019:09:42:48] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:12970 - - [07/Apr/2019:09:42:48] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:12970 - - [07/Apr/2019:09:43:13] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13023 - - [07/Apr/2019:09:43:13] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13023 - - [07/Apr/2019:09:43:13] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13023 - - [07/Apr/2019:09:43:56] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13152 - - [07/Apr/2019:09:43:56] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13152 - - [07/Apr/2019:09:43:56] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13152 - - [07/Apr/2019:09:44:11] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13189 - - [07/Apr/2019:09:44:12] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13189 - - [07/Apr/2019:09:44:12] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13189 - - [07/Apr/2019:09:44:40] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13291 - - [07/Apr/2019:09:44:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13291 - - [07/Apr/2019:09:44:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13291 - - [07/Apr/2019:09:45:09] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13386 - - [07/Apr/2019:09:45:09] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13386 - - [07/Apr/2019:09:45:09] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13386 - - [07/Apr/2019:09:45:48] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13490 - - [07/Apr/2019:09:45:48] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13490 - - [07/Apr/2019:09:45:48] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13490 - - [07/Apr/2019:09:46:46] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13642 - - [07/Apr/2019:09:46:46] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13642 - - [07/Apr/2019:09:46:46] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13642 - - [07/Apr/2019:09:54:38] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:15535 - - [07/Apr/2019:09:54:38] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:15535 - - [07/Apr/2019:09:54:38] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:15535 - - [07/Apr/2019:09:54:58] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:15608 - - [07/Apr/2019:09:54:58] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:15608 - - [07/Apr/2019:09:54:58] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:15608 - - [07/Apr/2019:09:59:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:16526 - - [07/Apr/2019:09:59:50] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:16526 - - [07/Apr/2019:09:59:50] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:16526 - - [07/Apr/2019:10:03:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:17182 - - [07/Apr/2019:10:03:42] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:17182 - - [07/Apr/2019:10:03:42] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:17182 - - [07/Apr/2019:10:08:16] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:18271 - - [07/Apr/2019:10:08:16] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:18271 - - [07/Apr/2019:10:08:16] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:18271 - - [07/Apr/2019:10:08:48] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:6714 - - [07/Apr/2019:10:08:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:6714 - - [07/Apr/2019:10:08:49] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:6714 - - [07/Apr/2019:10:15:00] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:19402 - - [07/Apr/2019:10:15:00] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:19402 - - [07/Apr/2019:10:15:00] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:19402 - - [07/Apr/2019:10:25:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:21232 - - [07/Apr/2019:10:25:51] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:21232 - - [07/Apr/2019:10:25:51] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:21232 - - [07/Apr/2019:10:29:20] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:21833 - - [07/Apr/2019:10:29:20] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:21833 - - [07/Apr/2019:10:29:20] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:21833 - - [07/Apr/2019:10:30:53] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22139 - - [07/Apr/2019:10:30:54] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22139 - - [07/Apr/2019:10:30:54] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22139 - - [07/Apr/2019:10:30:56] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22145 - - [07/Apr/2019:10:30:56] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22145 - - [07/Apr/2019:10:30:56] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22145 - - [07/Apr/2019:10:31:45] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22272 - - [07/Apr/2019:10:31:45] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22272 - - [07/Apr/2019:10:31:45] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22272 - - [07/Apr/2019:10:31:47] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22288 - - [07/Apr/2019:10:31:47] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22288 - - [07/Apr/2019:10:31:47] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22288 - - [07/Apr/2019:10:31:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22296 - - [07/Apr/2019:10:31:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22296 - - [07/Apr/2019:10:31:49] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22296 - - [07/Apr/2019:10:32:28] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22417 - - [07/Apr/2019:10:32:29] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22417 - - [07/Apr/2019:10:32:29] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22417 - - [07/Apr/2019:10:32:48] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22494 - - [07/Apr/2019:10:32:48] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22494 - - [07/Apr/2019:10:32:48] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22494 - - [07/Apr/2019:10:49:56] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:25986 - - [07/Apr/2019:10:49:57] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:25986 - - [07/Apr/2019:10:49:57] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:25986 - - [07/Apr/2019:10:51:31] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:26322 - - [07/Apr/2019:10:51:31] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:26322 - - [07/Apr/2019:10:51:31] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:26322 - - [07/Apr/2019:10:53:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:26688 - - [07/Apr/2019:10:53:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:26688 - - [07/Apr/2019:10:53:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:26688 - - [07/Apr/2019:10:59:40] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:27732 - - [07/Apr/2019:10:59:40] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:27732 - - [07/Apr/2019:10:59:40] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:27732 - - [07/Apr/2019:11:00:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:27836 - - [07/Apr/2019:11:00:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:27836 - - [07/Apr/2019:11:00:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:27836 - - [07/Apr/2019:11:01:52] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:28065 - - [07/Apr/2019:11:01:52] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:28065 - - [07/Apr/2019:11:01:52] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:47421 - - [07/Apr/2019:11:02:37] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28176 - - [07/Apr/2019:11:02:37] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:28176 - - [07/Apr/2019:11:02:37] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28065 - - [07/Apr/2019:11:09:51] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:29595 - - [07/Apr/2019:11:09:51] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:29595 - - [07/Apr/2019:11:09:51] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:28176 - - [07/Apr/2019:11:11:23] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29866 - - [07/Apr/2019:11:11:23] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:29866 - - [07/Apr/2019:11:11:23] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29866 - - [07/Apr/2019:11:15:56] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:30730 - - [07/Apr/2019:11:15:56] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:30730 - - [07/Apr/2019:11:15:56] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:30730 - - [07/Apr/2019:11:15:57] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:30736 - - [07/Apr/2019:11:15:57] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:30736 - - [07/Apr/2019:11:15:57] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:30736 - - [07/Apr/2019:11:26:01] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:32937 - - [07/Apr/2019:11:26:02] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:32937 - - [07/Apr/2019:11:26:02] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:32937 - - [07/Apr/2019:11:26:07] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:32951 - - [07/Apr/2019:11:26:08] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:32951 - - [07/Apr/2019:11:26:08] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:32951 - - [07/Apr/2019:11:26:13] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:32962 - - [07/Apr/2019:11:26:13] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:32962 - - [07/Apr/2019:11:26:13] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:32962 - - [07/Apr/2019:11:26:36] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33034 - - [07/Apr/2019:11:26:37] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:33034 - - [07/Apr/2019:11:26:37] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33034 - - [07/Apr/2019:11:26:45] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33057 - - [07/Apr/2019:11:26:45] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:33057 - - [07/Apr/2019:11:26:45] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33057 - - [07/Apr/2019:11:26:52] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33073 - - [07/Apr/2019:11:26:52] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:33073 - - [07/Apr/2019:11:26:52] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:33073 - - [07/Apr/2019:11:26:55] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:33089 - - [07/Apr/2019:11:26:56] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:33089 - - [07/Apr/2019:11:26:56] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:33089 - - [07/Apr/2019:11:26:59] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:33111 - - [07/Apr/2019:11:26:59] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:33111 - - [07/Apr/2019:11:26:59] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33111 - - [07/Apr/2019:11:27:44] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33224 - - [07/Apr/2019:11:27:44] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:33224 - - [07/Apr/2019:11:27:44] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:29595 - - [07/Apr/2019:11:27:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:33244 - - [07/Apr/2019:11:27:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:33244 - - [07/Apr/2019:11:27:49] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:33224 - - [07/Apr/2019:11:28:06] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33287 - - [07/Apr/2019:11:28:06] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:33287 - - [07/Apr/2019:11:28:06] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33287 - - [07/Apr/2019:11:29:35] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33542 - - [07/Apr/2019:11:29:35] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:33542 - - [07/Apr/2019:11:29:35] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33542 - - [07/Apr/2019:11:29:40] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33559 - - [07/Apr/2019:11:29:40] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:33559 - - [07/Apr/2019:11:29:40] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:33559 - - [07/Apr/2019:11:29:54] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:33611 - - [07/Apr/2019:11:29:54] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:33611 - - [07/Apr/2019:11:29:54] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:33611 - - [07/Apr/2019:11:29:57] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:33620 - - [07/Apr/2019:11:29:58] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:33620 - - [07/Apr/2019:11:29:58] "WSCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33620 - - [07/Apr/2019:11:30:23] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:33693 - - [07/Apr/2019:11:30:24] "WSCONNECTING /ws/chat/YS19032703/" - -
+124.160.57.70:33693 - - [07/Apr/2019:11:30:24] "WSCONNECT /ws/chat/YS19032703/" - -
+124.160.57.70:33693 - - [07/Apr/2019:11:30:28] "WSDISCONNECT /ws/chat/YS19032703/" - -
+124.160.57.70:33708 - - [07/Apr/2019:11:30:28] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:33708 - - [07/Apr/2019:11:30:28] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:33244 - - [07/Apr/2019:11:30:33] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:33764 - - [07/Apr/2019:11:30:46] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:33764 - - [07/Apr/2019:11:30:46] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:33764 - - [07/Apr/2019:13:33:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:59503 - - [07/Apr/2019:13:33:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:59503 - - [07/Apr/2019:13:33:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:59503 - - [07/Apr/2019:13:38:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:60579 - - [07/Apr/2019:13:38:25] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:60579 - - [07/Apr/2019:13:38:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:60579 - - [07/Apr/2019:13:40:29] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61353 - - [07/Apr/2019:13:40:29] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:61353 - - [07/Apr/2019:13:40:29] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:61353 - - [07/Apr/2019:13:42:14] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61827 - - [07/Apr/2019:13:42:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:61827 - - [07/Apr/2019:13:42:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:61827 - - [07/Apr/2019:13:43:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62081 - - [07/Apr/2019:13:43:50] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62081 - - [07/Apr/2019:13:43:50] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62081 - - [07/Apr/2019:13:44:06] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62128 - - [07/Apr/2019:13:44:06] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62128 - - [07/Apr/2019:13:44:06] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62128 - - [07/Apr/2019:13:44:38] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62259 - - [07/Apr/2019:13:44:38] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62259 - - [07/Apr/2019:13:44:38] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62259 - - [07/Apr/2019:13:44:53] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62318 - - [07/Apr/2019:13:44:54] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62318 - - [07/Apr/2019:13:44:54] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62318 - - [07/Apr/2019:13:45:27] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62410 - - [07/Apr/2019:13:45:30] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62410 - - [07/Apr/2019:13:45:30] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62410 - - [07/Apr/2019:13:45:59] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62484 - - [07/Apr/2019:13:46:00] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62484 - - [07/Apr/2019:13:46:00] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62484 - - [07/Apr/2019:13:46:29] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62567 - - [07/Apr/2019:13:46:29] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62567 - - [07/Apr/2019:13:46:29] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62567 - - [07/Apr/2019:13:47:28] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:62746 - - [07/Apr/2019:13:47:28] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:62746 - - [07/Apr/2019:13:47:28] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:62746 - - [07/Apr/2019:13:50:43] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63354 - - [07/Apr/2019:13:50:44] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63354 - - [07/Apr/2019:13:50:44] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63354 - - [07/Apr/2019:13:51:52] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:63525 - - [07/Apr/2019:13:51:52] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:63525 - - [07/Apr/2019:13:51:52] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:63525 - - [07/Apr/2019:13:58:25] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64616 - - [07/Apr/2019:13:58:25] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64616 - - [07/Apr/2019:13:58:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64616 - - [07/Apr/2019:13:59:05] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64725 - - [07/Apr/2019:13:59:06] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64725 - - [07/Apr/2019:13:59:06] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64725 - - [07/Apr/2019:13:59:38] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64897 - - [07/Apr/2019:13:59:38] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64897 - - [07/Apr/2019:13:59:38] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64897 - - [07/Apr/2019:13:59:58] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64955 - - [07/Apr/2019:13:59:58] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64955 - - [07/Apr/2019:13:59:58] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64955 - - [07/Apr/2019:14:01:21] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:65196 - - [07/Apr/2019:14:01:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:65196 - - [07/Apr/2019:14:01:22] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:65196 - - [07/Apr/2019:14:01:57] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:65370 - - [07/Apr/2019:14:01:57] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:65370 - - [07/Apr/2019:14:01:57] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:65370 - - [07/Apr/2019:14:02:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:65437 - - [07/Apr/2019:14:02:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:65437 - - [07/Apr/2019:14:02:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:65437 - - [07/Apr/2019:14:02:28] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1043 - - [07/Apr/2019:14:02:29] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1043 - - [07/Apr/2019:14:02:29] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1043 - - [07/Apr/2019:14:02:52] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1183 - - [07/Apr/2019:14:02:52] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1183 - - [07/Apr/2019:14:02:53] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1183 - - [07/Apr/2019:14:03:10] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1251 - - [07/Apr/2019:14:03:10] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1251 - - [07/Apr/2019:14:03:10] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1251 - - [07/Apr/2019:14:03:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1270 - - [07/Apr/2019:14:03:18] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1270 - - [07/Apr/2019:14:03:18] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1270 - - [07/Apr/2019:14:04:30] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:55748 - - [07/Apr/2019:14:04:31] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:55748 - - [07/Apr/2019:14:04:31] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:55748 - - [07/Apr/2019:14:04:46] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1461 - - [07/Apr/2019:14:04:47] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1461 - - [07/Apr/2019:14:04:47] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1461 - - [07/Apr/2019:14:05:10] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1536 - - [07/Apr/2019:14:05:10] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1536 - - [07/Apr/2019:14:05:10] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1536 - - [07/Apr/2019:14:05:25] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1574 - - [07/Apr/2019:14:05:25] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1574 - - [07/Apr/2019:14:05:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1574 - - [07/Apr/2019:14:05:37] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1597 - - [07/Apr/2019:14:05:37] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1597 - - [07/Apr/2019:14:05:37] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1597 - - [07/Apr/2019:14:06:06] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1700 - - [07/Apr/2019:14:06:06] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1700 - - [07/Apr/2019:14:06:06] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1700 - - [07/Apr/2019:14:06:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1737 - - [07/Apr/2019:14:06:18] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1737 - - [07/Apr/2019:14:06:18] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1737 - - [07/Apr/2019:14:06:28] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1784 - - [07/Apr/2019:14:06:28] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1784 - - [07/Apr/2019:14:06:28] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1784 - - [07/Apr/2019:14:06:45] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:1832 - - [07/Apr/2019:14:06:46] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:1832 - - [07/Apr/2019:14:06:46] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:1832 - - [07/Apr/2019:14:16:15] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:3509 - - [07/Apr/2019:14:16:15] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:3509 - - [07/Apr/2019:14:16:15] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:3509 - - [07/Apr/2019:14:16:36] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:64787 - - [07/Apr/2019:14:16:36] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:64787 - - [07/Apr/2019:14:16:36] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:64787 - - [07/Apr/2019:14:17:26] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:3681 - - [07/Apr/2019:14:17:26] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:3681 - - [07/Apr/2019:14:17:26] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:3681 - - [07/Apr/2019:14:17:49] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:3753 - - [07/Apr/2019:14:17:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:3753 - - [07/Apr/2019:14:17:49] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:3753 - - [07/Apr/2019:14:27:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:5727 - - [07/Apr/2019:14:27:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:5727 - - [07/Apr/2019:14:27:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:5727 - - [07/Apr/2019:14:28:41] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:5880 - - [07/Apr/2019:14:28:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:5880 - - [07/Apr/2019:14:28:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:5880 - - [07/Apr/2019:14:29:52] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:6152 - - [07/Apr/2019:14:29:53] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:6152 - - [07/Apr/2019:14:29:53] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:6152 - - [07/Apr/2019:14:34:08] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:7003 - - [07/Apr/2019:14:34:08] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:7003 - - [07/Apr/2019:14:34:08] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:7003 - - [07/Apr/2019:14:46:54] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:9677 - - [07/Apr/2019:14:46:54] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:9677 - - [07/Apr/2019:14:46:54] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:9677 - - [07/Apr/2019:14:47:24] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:9799 - - [07/Apr/2019:14:47:40] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:9799 - - [07/Apr/2019:14:47:40] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:9799 - - [07/Apr/2019:14:48:36] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:9998 - - [07/Apr/2019:14:48:36] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:9998 - - [07/Apr/2019:14:48:36] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:9998 - - [07/Apr/2019:14:49:25] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:10209 - - [07/Apr/2019:14:49:25] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:10209 - - [07/Apr/2019:14:49:25] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:10209 - - [07/Apr/2019:14:51:07] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:10521 - - [07/Apr/2019:14:51:08] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:10521 - - [07/Apr/2019:14:51:08] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:33708 - - [07/Apr/2019:14:51:26] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:10583 - - [07/Apr/2019:14:51:26] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:10583 - - [07/Apr/2019:14:51:26] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:10583 - - [07/Apr/2019:14:52:47] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:10775 - - [07/Apr/2019:14:52:48] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:10775 - - [07/Apr/2019:14:52:48] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:10521 - - [07/Apr/2019:14:54:18] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:11011 - - [07/Apr/2019:14:54:19] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:11011 - - [07/Apr/2019:14:54:19] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:11011 - - [07/Apr/2019:14:55:17] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:11200 - - [07/Apr/2019:14:55:18] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:11200 - - [07/Apr/2019:14:55:18] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:10775 - - [07/Apr/2019:14:55:25] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:11221 - - [07/Apr/2019:14:55:26] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:11221 - - [07/Apr/2019:14:55:26] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:11221 - - [07/Apr/2019:14:55:45] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:11262 - - [07/Apr/2019:14:55:46] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:11262 - - [07/Apr/2019:14:55:46] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:11200 - - [07/Apr/2019:14:56:59] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:11416 - - [07/Apr/2019:14:56:59] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:11416 - - [07/Apr/2019:14:56:59] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:11416 - - [07/Apr/2019:14:57:19] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:11470 - - [07/Apr/2019:14:57:19] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:11470 - - [07/Apr/2019:14:57:19] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:11262 - - [07/Apr/2019:14:57:25] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:11496 - - [07/Apr/2019:14:57:25] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:11496 - - [07/Apr/2019:14:57:25] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:11496 - - [07/Apr/2019:14:58:28] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:11650 - - [07/Apr/2019:14:58:28] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:11650 - - [07/Apr/2019:14:58:28] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:11470 - - [07/Apr/2019:15:02:18] "WSDISCONNECT /ws/chat/2/" - -
+124.160.57.70:12393 - - [07/Apr/2019:15:02:31] "WSCONNECTING /ws/chat/2/" - -
+124.160.57.70:12393 - - [07/Apr/2019:15:02:31] "WSCONNECT /ws/chat/2/" - -
+124.160.57.70:12400 - - [07/Apr/2019:15:02:32] "WSCONNECTING /robot/2/" - -
+124.160.57.70:12400 - - [07/Apr/2019:15:02:32] "WSCONNECT /robot/2/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.02 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:11650 - - [07/Apr/2019:15:04:07] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:12693 - - [07/Apr/2019:15:04:07] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:12693 - - [07/Apr/2019:15:04:07] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:12400 - - [07/Apr/2019:15:06:18] "WSDISCONNECT /robot/2/" - -
+124.160.57.70:13134 - - [07/Apr/2019:15:06:19] "WSCONNECTING /robot/2/" - -

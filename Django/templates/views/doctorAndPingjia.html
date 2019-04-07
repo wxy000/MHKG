@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>医生信息</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/template.css" media="all">
+
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-card">
+            <div class="layui-card-body">
+                <div class="layadmin-caller">
+                    <div class="caller-contar">
+                        {% for doc in result.doctorInfo %}
+                        <div class="caller-item" style="margin: -30px 0 -69px 0 !important;">
+                            <img src="{{ doc.doctorheader }}" alt="" class="caller-img caller-fl">
+                            <div class="caller-main caller-fl">
+                                <p>
+                                    <strong>{{ doc.doctorname }}</strong>
+                                    <em>{{ doc.quiz2 }}{{ doc.positionalTitle }}</em>
+                                </p>
+                                <p class="caller-adds">
+                                    <i class="layui-icon layui-icon-location"></i>
+                                    {{ doc.quiz1 }}
+                                </p>
+                                <div class="caller-iconset">
+                                    <i class="layui-icon layui-icon-login-wechat"></i>
+                                    <i class="layui-icon layui-icon-login-qq"></i>
+                                    <i class="layui-icon layui-icon-login-weibo"></i>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-card">
+            <div class="layui-card-body">
+                <div><span>评分：</span><div id="rate0"></div></div>
+                <span id="xingxing" hidden>{{ result.rate_avg }}</span>
+                <hr>
+                <div class="layadmin-message-fluid">
+                    <div class="layui-row">
+                        <div class="layui-col-md12 layadmin-homepage-list-imgtxt message-content">
+                            {% for pj in result.allPingjia reversed %}
+                            <div class="media-body">
+                                <a href="javascript:;" class="media-left" style="float: left;">
+                                    <img src="{{ pj.userheader }}" height="46px" width="46px">
+                                </a>
+                                <div class="pad-btm">
+                                    <p class="fontColor"><a href="javascript:;">{{ pj.username }}</a></p>
+                                    <p class="min-font">
+                                        <span class="layui-breadcrumb" lay-separator="-">
+                                            <a>于</a>
+                                            <a>{{ pj.createTime }}</a>
+                                            <a>评价</a>
+                                        </span>
+                                    </p>
+                                </div>
+                                <p class="message-text">{{ pj.text }}</p>
+                            </div>
+                            {% empty %}
+                            <center>暂无评价</center>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% csrf_token %}
+<div id="code" hidden>{{ result.code }}</div>
+<div id="msg" hidden>{{ result.msg }}</div>
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '../../../static/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'form', 'rate'], function () {
+        var $ = layui.$
+            , admin = layui.admin
+            , element = layui.element
+            , form = layui.form;
+        var rate = layui.rate;
+
+        rate.render({
+            elem: '#rate0',
+            half: true,
+            value: $("#xingxing").text(),
+            readonly: true
+        });
+
+        if ($("#code").text() === '500') {
+            var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+            parent.layer.close(index); //再执行关闭
+            parent.layer.msg($("#msg").text());
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -31,6 +31,7 @@
             <div class="layui-card">
                 <div class="layui-card-header" style="color: #393D49;">【我的求助】</div>
                 <div class="layui-card-body layui-row layui-col-space10 layui-form">
+                    <input name="userid" value="{{ request.user.id }}" hidden>
                     <div class="layui-col-md12">
                         <textarea id="textarea" name="textarea" required lay-verify="required" placeholder="请输入" class="layui-textarea"></textarea>
                     </div>
@@ -46,7 +47,7 @@
                         {% for alld in alldoctors %}
                         <div class="layui-col-md6 layui-col-sm6">
                             <div class="layadmin-contact-box">
-                                <a href="javascript:;">
+                                <a href="javascript:;" onclick="get_doctorAndPingjia('{{ alld.doctorId }}')">
                                     <div class="layui-col-md4 layui-col-sm6">
                                         <div class="layadmin-text-center">
                                             <img src="{{ alld.doctorheader }}">
@@ -134,30 +135,65 @@
             // layer.full(xx);
         };
 
+        window.get_doctorAndPingjia = function(doctorId) {
+            layer.open({
+                type: 2,
+                title: '医生信息',
+                content: '/doctor/getDoctorAndPingjia?doctorId=' + doctorId,
+                maxmin: true,
+                area: ['500px', '450px'],
+                btn: ['确定'],
+                yes: function (index, layero) {
+                    layer.close(index);
+                }
+            });
+        };
+
         //监听提交
         form.on('submit(qiuzhu)', function(data){
             // layer.msg(JSON.stringify(data.field));
-            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
-            var index = layer.load(2);
             $.ajax({
-                headers: {"X-CSRFToken": csrfToken},
-                url: '/views/myDoctor/setHelper/',
-                data: data.field,
-                type: 'post',
-                success: function (data) {
-                    if (data.code === 0) {
-                        layer.msg(data.msg, function () {
-                            $("#textarea").val('');
-                            window.location.reload();
+                url: '/views/myDoctor/getMyRate?userId=' + data.field.userid,
+                success: function (data1) {
+                    if (data1.code === 0) {
+                        layer.confirm(data1.msg, {icon: 3, title:'提示'}, function(index1){
+                            var csrfToken = $("[name='csrfmiddlewaretoken']").val();
+                            var index = layer.load(2);
+                            data.field.fen = data1.fen;
+                            $.ajax({
+                                headers: {"X-CSRFToken": csrfToken},
+                                url: '/views/myDoctor/setHelper/',
+                                data: data.field,
+                                type: 'post',
+                                success: function (data) {
+                                    if (data.code === 0) {
+                                        layer.msg(data.msg, function () {
+                                            $("#textarea").val('');
+                                            window.location.reload();
+                                        });
+                                    } else {
+                                        layer.msg(data.msg);
+                                    }
+                                    layer.close(index);
+                                },
+                                error: function (data) {
+                                    layer.close(index);
+                                    layer.msg("无法求助，请稍后再试");
+                                }
+                            });
+                            layer.close(index1);
+                        });
+                    } else if (data1.code === 200) {
+                        layer.confirm(data1.msg, {icon: 2, title:'提示'}, function(index1){
+                            top.layui.index.openTabsPage('views/myRate?userId=' + data.field.userid, "我的积分");
+                            layer.close(index1);
                         });
                     } else {
-                        layer.msg(data.msg);
+                        layer.msg(data1.msg);
                     }
-                    layer.close(index);
                 },
                 error: function (data) {
-                    layer.close(index);
-                    layer.msg("无法求助，请稍后再试");
+                    layer.msg("未知错误，请稍后再试");
                 }
             });
             return false;

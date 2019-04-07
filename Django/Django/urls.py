@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 
+from . import myRate_view
 from . import doctorInfo_view
 from . import myDoctor_view
 from . import healthControl_view
@@ -66,6 +67,11 @@ urlpatterns = [
     path('views/interlocution/getDoctor/', interlocution_view.getDoctor),
     path('views/myDoctor/', myDoctor_view.myDoctor),
     path('views/myDoctor/setHelper/', myDoctor_view.setHelper),
+    path('views/myDoctor/getMyRate/', myDoctor_view.getMyRate),
+    path('views/myDoctor/pingjia/', myDoctor_view.pingjia),
+    path('views/myDoctor/setPingjia/', myDoctor_view.setPingjia),
+    path('views/myRate/', myRate_view.getRate),
+    path('views/myRate/setMoney/', myRate_view.setMoney),
     # path('getAnswer/', interlocution_view.getAnswer),
     # re_path('views/(?P<p>\S*)/', views.pages),
     path('admin_views/userList/', userList_view.getAllUser),
@@ -110,6 +116,7 @@ urlpatterns = [
     path('doctor/logout/', doctorInfo_view.logout),
     path('doctor/getQiuzhu/', myDoctor_view.getQiuzhu),
     path('doctor/getQiuzhu1/', inquiry_view.getQiuzhu1),
+    path('doctor/getDoctorAndPingjia/', myDoctor_view.getDoctorAndPingjia),
     path('ManualAnnotation/', include('ManualAnnotation.urls', namespace='ManualAnnotation')),
     path('accounts/', include('users.urls', namespace='users')),
 ]

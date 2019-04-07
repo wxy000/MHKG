@@ -16,6 +16,12 @@ from toolkit.mongodb_operation.mongodb_qiuzhu import mongo_qiuzhu
 from toolkit.mongodb_operation.mongodb_answerQiuzhu import mongo_answer_qiuzhu
 
 # noinspection PyUnresolvedReferences
+from toolkit.mongodb_operation.mongodb_rate import mongo_rate
+
+# noinspection PyUnresolvedReferences
+from toolkit.mongodb_operation.mongodb_pingjia import mongo_pingjia
+
+# noinspection PyUnresolvedReferences
 from users.models import UserProfile
 
 
@@ -66,10 +72,21 @@ def inquiry(request):
                 if len(tt['content']) > 30:
                     tt['content'] = tt['content'][0:30] + '...'
                 myAnswerQiuzhu.append(tt)
+            mongoRate = mongo_rate().getRateById(doctorId)
+            if mongoRate is None:
+                myRate = 0
+            else:
+                myRate = mongoRate['rate']
+            mongoPingjia = mongo_pingjia().getPingjiaByQuery({'doctorId': doctorId})
+            for mpj in mongoPingjia:
+                if len(mpj['text']) > 13:
+                    mpj['text'] = mpj['text'][0:13] + '...'
             return render(request, 'doctor/inquiry.html',
                           {'result': result, 'mine': mine, 'bufenQiuzhu': bufenQiuzhu[-3:],
                            'allQiuzhu': allQiuzhu, 'myAnswerQiuzhu': myAnswerQiuzhu,
-                           'friends': [{'groupname': "患者", 'id': -100000, 'list': friends}]})
+                           'friends': [{'groupname': "患者", 'id': -100000, 'list': friends}],
+                           'myRate': myRate, 'myPingjia': mongoPingjia[-2:],
+                           'pingjiaNum': len(mongoPingjia)})
 
 
 def getQiuzhu1(request):

@@ -19,6 +19,7 @@
             </div>
         </div>
         <div class="layui-col-md12 layadmin-homepage-list-imgtxt message-content">
+            {% if result.allAnswerQiuzhu %}
             {% for allaq in result.allAnswerQiuzhu reversed %}
             <div class="media-body">
                 <a href="javascript:;" class="media-left" style="float: left;">
@@ -35,9 +36,13 @@
                 </div>
                 <p class="message-text">{{ allaq.content }}</p>
             </div>
-            {% empty %}
-            <center>暂无回答</center>
             {% endfor %}
+            <div class="layui-row message-content-btn">
+                <a href="javascript:;" onclick="set_pingjia('{{ result.qiuzhuId }}')" class="layui-btn">终结求助</a>
+            </div>
+            {% else %}
+            <center>暂无回答</center>
+            {% endif %}
         </div>
     </div>
 </div>
@@ -50,8 +55,22 @@
         base: '../../../static/layuiadmin/' //静态资源所在路径
     }).extend({
         index: 'lib/index' //主入口模块
-    }).use('index', function () {
+    }).use(['index'], function () {
         var $ = layui.$;
+
+        window.set_pingjia = function (qiuzhuId) {
+            parent.layer.open({
+                type: 2,
+                title: '我的评价',
+                content: '/views/myDoctor/pingjia?qiuzhuId=' + qiuzhuId,
+                maxmin: true,
+                area: ['500px', '450px'],
+                btn: ['确定'],
+                yes: function (index, layero) {
+                    parent.layer.close(index);
+                }
+            });
+        };
 
         if ($("#code").text() === '500') {
             var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引

@@ -38,14 +38,17 @@
                             <div class="layui-text-top">
                                 <i class="layui-icon layui-icon-dialogue" style="font-size: 32px; color: #ffffff;"></i>
                                 <a href="javascript:;">
-                                    <span style="font-size: 18px;">我的评价</span><span>(1122条)</span>
+                                    <span style="font-size: 18px;">我的评价</span><span>({{ pingjiaNum }}条)</span>
                                 </a>
                             </div>
                             <hr/>
                             <p class="layui-text-bottom">
                                 <ul style="margin-left: 18px;">
-                                    <li style="list-style: disc;">还不错，解释的很明白啊啊啊...</li>
-                                    <li style="list-style: disc;">解决了我的困扰</li>
+                                    {% for pj in myPingjia %}
+                                    <li style="list-style: disc;">{{ pj.text }}</li>
+                                    {% empty %}
+                                        <div style="margin-left: -25px; height: 48px;"><center>没有评价</center></div>
+                                    {% endfor %}
                                 </ul>
                             </p>
                         </div>
@@ -55,7 +58,7 @@
                             <div class="layui-text-top">
                                 <i class="layui-icon layui-icon-rate-half" style="font-size: 32px; color: #ffffff;"></i>
                                 <a href="javascript:;">
-                                    <span style="font-size: 18px;">我的积分</span><span>(1122)</span>
+                                    <span style="font-size: 18px;">我的积分</span><span>({{ myRate }})</span>
                                 </a>
                             </div>
                             <hr/>
