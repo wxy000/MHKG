@@ -33,17 +33,17 @@ def getDistinguishData(request):
 
         NE_List = ner.get_NE(text)
         for pair in NE_List:
-            if str(pair[1]) == '#':
+            if str(pair[2]) == '#':
                 retext += str(pair[0])
-            elif str(pair[1]) == '##':
+            elif str(pair[2]) == '##':
                 retext += '<a style="color: #5FB878;" href="javascript:;">' + str(pair[0]) + '</a>'
             else:
-                retext += '<a style="color: #01AAED;" href="baike?name=' + str(pair[0]) + '&id='\
-                          + str(pair[1]) + '&label=' + str(pair[2]) + '">' + str(pair[0]) + '</a>'
+                retext += '<a style="color: #01AAED;" href="baike?name=' + str(pair[1]) + '&id='\
+                          + str(pair[2]) + '&label=' + str(pair[3]) + '">' + str(pair[0]) + '</a>'
 
                 if str(pair[0]) not in distinctnode:
                     findNode = Find()
-                    node = findNode.matchNodebyId(str(pair[1]))
+                    node = findNode.matchNodebyId(str(pair[2]))
                     jianjie = ""
                     try:
                         jianjie += node['简介']
@@ -58,8 +58,8 @@ def getDistinguishData(request):
                     except:
                         jianjie += ""
                     pipeitable += '<tr><td>' + str(pair[0]) + '</td><td><a style="color: #01AAED;" href="baike?name='\
-                                  + str(pair[0]) + '&id=' + str(pair[1]) + '&label='\
-                                  + str(pair[2]) + '">' + str(pair[0]) + '</a></td><td>' + jianjie + '</td></tr>'
+                                  + str(pair[1]) + '&id=' + str(pair[2]) + '&label='\
+                                  + str(pair[3]) + '">' + str(pair[1]) + '</a></td><td>' + jianjie + '</td></tr>'
                     distinctnode.add(str(pair[0]))
 
         retext = '<p style="text-indent: 2em;">' + retext + '</p>'

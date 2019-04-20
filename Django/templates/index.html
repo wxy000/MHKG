@@ -80,9 +80,14 @@
                         <span class="layui-nav-more"></span>
                     </a>
                     <dl class="layui-nav-child">
+                        {% if request.user.is_superuser %}
+                        <dd style="text-align: center;"><a lay-href="accounts/userinfo/{{ user.id }}">基本资料</a></dd>
+                        <dd style="text-align: center;"><a lay-href="accounts/user/{{ user.id }}/pwdchange">修改密码</a></dd>
+                        {% else %}
                         <dd style="text-align: center;"><a lay-href="views/myRate?userId={{ user.id }}">我的积分</a></dd>
                         <dd style="text-align: center;"><a lay-href="accounts/userinfo/{{ user.id }}">基本资料</a></dd>
                         <dd style="text-align: center;"><a lay-href="accounts/user/{{ user.id }}/pwdchange">修改密码</a></dd>
+                        {% endif %}
                         <hr>
                         <dd style="text-align: center;"><a href="accounts/logout">退出</a></dd>
                     </dl>

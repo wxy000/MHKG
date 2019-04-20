@@ -2,26 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="738fb977-96a1-4ef2-b147-303a0079a041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django/Django/myRate_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/static/images/weixzhifu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/static/images/zhifubaozhifu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/templates/views/doctorAndPingjia.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/templates/views/myRate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/templates/views/pingjia.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_pingjia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_rate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190412.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190413.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190414.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190415.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190416.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190417.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190418.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190419.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/Django/inquiry_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/Django/inquiry_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/Django/myDoctor_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/Django/myDoctor_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/Django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/Django/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/Django/distinguish_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/Django/distinguish_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/nginx_access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190330.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190331.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190401.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190402.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190403.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190404.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190405.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190406.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/logs/uwsgi.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/uwsgi.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/logs/websocket.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/websocket.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/templates/doctor/inquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/doctor/inquiry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/templates/doctor/qiuzhu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/doctor/qiuzhu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/templates/views/myDoctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/views/myDoctor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/toolkit/nlp/NER.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/toolkit/nlp/NER.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +40,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/toolkit/nlp/NER.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/Django/distinguish_view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Django/Django/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,8 +76,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -80,6 +104,7 @@
       <find>console</find>
       <find>myPingjia</find>
       <find>mongo_pingjia</find>
+      <find>get_NE</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -102,9 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Django/Django/views.py" />
-        <option value="$PROJECT_DIR$/Django/apps/users/views.py" />
-        <option value="$PROJECT_DIR$/Django/Django/login1_view.py" />
         <option value="$PROJECT_DIR$/Django/static/users/css/admin.css" />
         <option value="$PROJECT_DIR$/Django/static/layuiadmin/style/custom.css" />
         <option value="$PROJECT_DIR$/Django/templates/doctor/register1.html" />
@@ -138,7 +160,6 @@
         <option value="$PROJECT_DIR$/Django/templates/doctor/answer_qiuzhu.html" />
         <option value="$PROJECT_DIR$/Django/Django/login1_register1_view.py" />
         <option value="$PROJECT_DIR$/Django/toolkit/toolbar.py" />
-        <option value="$PROJECT_DIR$/Django/templates/index.html" />
         <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_rate.py" />
         <option value="$PROJECT_DIR$/Django/Django/myRate_view.py" />
         <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_answerQiuzhu.py" />
@@ -152,6 +173,10 @@
         <option value="$PROJECT_DIR$/Django/templates/views/doctorAndPingjia.html" />
         <option value="$PROJECT_DIR$/Django/templates/views/pingjia.html" />
         <option value="$PROJECT_DIR$/Django/templates/views/myRate.html" />
+        <option value="$PROJECT_DIR$/Django/templates/index.html" />
+        <option value="$PROJECT_DIR$/Django/toolkit/ssh.py" />
+        <option value="$PROJECT_DIR$/Django/Django/distinguish_view.py" />
+        <option value="$PROJECT_DIR$/Django/toolkit/nlp/NER.py" />
         <option value="$PROJECT_DIR$/Django/Django/settings.py" />
       </list>
     </option>
@@ -181,6 +206,19 @@
               <item name="MHKG" type="b2602c69:ProjectViewProjectNode" />
               <item name="MHKG" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MHKG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MHKG" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="toolkit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MHKG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MHKG" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,14 +326,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ssh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MHKG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/toolkit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/toolkit/ssh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.mongodb_doctor" />
       <item itemvalue="Python.mongodb_rate" />
+      <item itemvalue="Python.ssh" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.ssh" />
         <item itemvalue="Python.mongodb_rate" />
         <item itemvalue="Python.mongodb_doctor" />
       </list>
@@ -336,7 +398,12 @@
       <workItem from="1554441757951" duration="5347000" />
       <workItem from="1554447899872" duration="29369000" />
       <workItem from="1554531779994" duration="15751000" />
-      <workItem from="1554599623340" duration="39759000" />
+      <workItem from="1554599623340" duration="40430000" />
+      <workItem from="1554875369431" duration="1075000" />
+      <workItem from="1554880113509" duration="1202000" />
+      <workItem from="1555131190465" duration="176000" />
+      <workItem from="1555567878050" duration="3270000" />
+      <workItem from="1555736238870" duration="15320000" />
     </task>
     <task id="LOCAL-00001" summary="完成用户一对一聊天">
       <created>1552802980522</created>
@@ -436,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554568158413</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加积分及评价机制">
+      <created>1554650530530</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554650530530</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331047000" />
+    <option name="totallyTimeSpent" value="352761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,7 +528,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -537,64 +611,15 @@
     <MESSAGE value="完成医生端的‘基本信息’‘修改密码’‘退出’" />
     <MESSAGE value="修改主页‘快捷方式’" />
     <MESSAGE value="新增‘患者求助’，及医生解答求助" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增‘患者求助’，及医生解答求助" />
+    <MESSAGE value="增加积分及评价机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加积分及评价机制" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MHKG$mongodb_rate.coverage" NAME="mongodb_rate Coverage Results" MODIFIED="1554603428560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/toolkit/mongodb_operation" />
-    <SUITE FILE_PATH="coverage/MHKG$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554642640226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
+    <SUITE FILE_PATH="coverage/MHKG$manage.coverage" NAME="manage Coverage Results" MODIFIED="1555766641869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
+    <SUITE FILE_PATH="coverage/MHKG$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1555749137481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/toolkit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MHKG">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/logs/uwsgi.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="229">
-          <caret line="755" lean-forward="true" selection-start-line="755" selection-end-line="755" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/logs/websocket.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="243">
-          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/apps/chat/consumers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="48" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/baike_view.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/console_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/views/console.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="68" column="78" selection-start-line="68" selection-start-column="78" selection-end-line="68" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/views/entity.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/Django/healthControl_view.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -603,11 +628,6 @@
         <state relative-caret-position="300">
           <caret line="24" column="110" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="110" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/distinguish_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django/Django/general_view.py">
@@ -732,17 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1669">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="82" column="89" selection-start-line="82" selection-start-column="69" selection-end-line="82" selection-end-column="89" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,6 +952,70 @@
             <element signature="n#style#0;n#span#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/data/unlabeled_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/toolkit/readLabel.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/data/labeled_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/data/collect.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/baike_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/toolkit/ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Manipulation/Crawler/illness/illness/spiders/jibing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/distinguish_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/toolkit/nlp/NER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

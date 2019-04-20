@@ -144,6 +144,12 @@ class NER:
 
         i = 0
         length = len(tagList) - 2
+
+        l1 = list()
+        for ii in tagList:
+            l1.append("'" + str(ii[0]) + "'")
+        syn = dict(eval(ssh('cd /root/MHKGssh;./SYNssh.sh ' + str(l1).replace(' ', ''))[376:]))
+        # print(syn['艾滋病'])
         while i < length:
             p1 = tagList[i][0]
             t1 = tagList[i][1]
@@ -167,16 +173,30 @@ class NER:
             #         i += 2
             #         continue
             if p1 not in biaodian:
-                flag = db.matchItemByTitle(p1)
-                if p1 in labels and len(flag) > 0 and self.nowok(t1):
-                    answerList.append([p1, flag[0]['id'], labels[p1]])
-                    i += 1
-                    continue
+                fl = list()
+                f = list()
+                for zz in list(syn.values()):
+                    if p1 in zz:
+                        fl.append(zz)
+                for j in fl:
+                    f.append(list(syn.keys())[list(syn.values()).index(j)])
+                zuihou = list(set(f).intersection(set(labels)))
+                if len(zuihou) > 0:
+                    word = zuihou[0]
+                else:
+                    word = p1
+                print(p1 + "---" + word)
+                if word in labels:
+                    flag = db.matchItemByTitle(word)
+                    if len(flag) > 0 and self.nowok(t1):
+                        answerList.append([p1, word, flag[0]['id'], labels[word]])
+                        i += 1
+                        continue
             if self.temporaryok(t1):
-                answerList.append([p1, '##', ''])
+                answerList.append([p1, p1, '##', ''])
                 i += 1
                 continue
-            answerList.append([p1, '#', ''])
+            answerList.append([p1, p1, '#', ''])
             i += 1
         return answerList
 
