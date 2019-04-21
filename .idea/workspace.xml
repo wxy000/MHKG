@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="738fb977-96a1-4ef2-b147-303a0079a041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190412.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190413.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190414.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190415.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190416.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190417.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190418.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190419.log" afterDir="false" />
+    <list default="true" id="738fb977-96a1-4ef2-b147-303a0079a041" name="Default Changelist" comment="实体识别添加同义词转换">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/Django/distinguish_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/Django/distinguish_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/nginx_access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190330.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190331.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190401.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190402.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190403.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190404.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190405.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190406.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/uwsgi.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/uwsgi.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/websocket.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/websocket.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/toolkit/nlp/NER.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/toolkit/nlp/NER.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,20 +22,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django/toolkit/nlp/NER.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+            <state relative-caret-position="173">
+              <caret line="151" column="54" lean-forward="true" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/Django/distinguish_view.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -65,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/Django/Django/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -194,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,7 +373,8 @@
       <workItem from="1554880113509" duration="1202000" />
       <workItem from="1555131190465" duration="176000" />
       <workItem from="1555567878050" duration="3270000" />
-      <workItem from="1555736238870" duration="15320000" />
+      <workItem from="1555736238870" duration="15636000" />
+      <workItem from="1555813766273" duration="5477000" />
     </task>
     <task id="LOCAL-00001" summary="完成用户一对一聊天">
       <created>1552802980522</created>
@@ -510,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554650530530</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="实体识别添加同义词转换">
+      <created>1555767626687</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555767626687</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352761000" />
+    <option name="totallyTimeSpent" value="358554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,8 +505,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -612,11 +591,12 @@
     <MESSAGE value="修改主页‘快捷方式’" />
     <MESSAGE value="新增‘患者求助’，及医生解答求助" />
     <MESSAGE value="增加积分及评价机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加积分及评价机制" />
+    <MESSAGE value="实体识别添加同义词转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="实体识别添加同义词转换" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MHKG$mongodb_rate.coverage" NAME="mongodb_rate Coverage Results" MODIFIED="1554603428560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/toolkit/mongodb_operation" />
-    <SUITE FILE_PATH="coverage/MHKG$manage.coverage" NAME="manage Coverage Results" MODIFIED="1555766641869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
+    <SUITE FILE_PATH="coverage/MHKG$manage.coverage" NAME="manage Coverage Results" MODIFIED="1555816286985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
     <SUITE FILE_PATH="coverage/MHKG$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1555749137481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/toolkit" />
   </component>
   <component name="editorHistoryManager">
@@ -986,16 +966,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/toolkit/ssh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/toolkit/ssh.py" />
     <entry file="file://$PROJECT_DIR$/Data_Manipulation/Crawler/illness/illness/spiders/jibing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1012,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Django/toolkit/nlp/NER.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+        <state relative-caret-position="173">
+          <caret line="151" column="54" lean-forward="true" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
@@ -1023,7 +994,7 @@
     <entry file="file://$PROJECT_DIR$/Django/Django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>

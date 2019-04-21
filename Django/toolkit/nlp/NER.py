@@ -148,7 +148,8 @@ class NER:
         l1 = list()
         for ii in tagList:
             l1.append("'" + str(ii[0]) + "'")
-        syn = dict(eval(ssh('cd /root/MHKGssh;./SYNssh.sh ' + str(l1).replace(' ', ''))[376:]))
+        # print(str(l1).replace(' ', '').replace('\\\'"\\\'', '\"'))
+        syn = dict(eval(ssh('cd /root/MHKGssh;./SYNssh.sh ' + str(l1).replace(' ', '').replace('\\\'"\\\'', '\"'))[376:]))
         # print(syn['艾滋病'])
         while i < length:
             p1 = tagList[i][0]
