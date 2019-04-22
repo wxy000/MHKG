@@ -1,9 +1,1399 @@
 
-Not Found: /FxCodeShell.jsp 
-2019-04-20 00:55:33,591 WARNING  Not Found: /FxCodeShell.jsp 
-Not Found: /FxCodeShell.jsp::$DATA
-2019-04-20 00:55:33,966 WARNING  Not Found: /FxCodeShell.jsp::$DATA
-Not Found: /FxCodeShell.jsp/
-2019-04-20 00:55:34,295 WARNING  Not Found: /FxCodeShell.jsp/
-Not Found: /FxCodeShell.jsp
-2019-04-20 00:55:34,622 WARNING  Not Found: /FxCodeShell.jsp
+done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:10154 - - [21/Apr/2019:09:54:20] "WSDISCONNECT /robot/019820.9985559077913171/" - -
+124.160.57.70:10852 - - [21/Apr/2019:09:56:21] "WSCONNECTING /robot/1/" - -
+124.160.57.70:10852 - - [21/Apr/2019:09:56:21] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.07 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:10903 - - [21/Apr/2019:09:56:36] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:10903 - - [21/Apr/2019:09:56:36] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:10852 - - [21/Apr/2019:09:57:51] "WSDISCONNECT /robot/1/" - -
+124.160.57.70:10903 - - [21/Apr/2019:09:57:51] "WSDISCONNECT /ws/chat/1/" - -
+139.162.79.87:49586 - - [21/Apr/2019:12:12:53] "GET /" 200 12678
+124.160.57.70:47508 - - [22/Apr/2019:05:08:06] "WSCONNECTING /robot/091970.2852260458402085/" - -
+124.160.57.70:47508 - - [22/Apr/2019:05:08:06] "WSCONNECT /robot/091970.2852260458402085/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...Not Found: www.google.com:443
+2019-04-22 05:22:30,797 WARNING  Not Found: www.google.com:443
+Not Found: http://www.google.com/
+2019-04-22 05:22:30,914 WARNING  Not Found: http://www.google.com/
+done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+193.112.96.94:40920 - - [22/Apr/2019:05:22:30] "CONNECT www.google.com:443" 404 1651
+193.112.96.94:40938 - - [22/Apr/2019:05:22:30] "GET http://www.google.com/" 404 1659
+124.160.57.70:47508 - - [22/Apr/2019:05:31:38] "WSDISCONNECT /robot/091970.2852260458402085/" - -
+124.160.57.70:52013 - - [22/Apr/2019:05:32:01] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:52013 - - [22/Apr/2019:05:32:01] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:58183 - - [22/Apr/2019:05:57:37] "WSCONNECTING /robot/1/" - -
+124.160.57.70:58183 - - [22/Apr/2019:05:57:37] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:58183 - - [22/Apr/2019:05:57:44] "WSDISCONNECT /robot/1/" - -
+124.160.57.70:52013 - - [22/Apr/2019:05:57:44] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:58282 - - [22/Apr/2019:05:57:52] "WSCONNECTING /robot/904080.8196922658768937/" - -
+124.160.57.70:58282 - - [22/Apr/2019:05:57:52] "WSCONNECT /robot/904080.8196922658768937/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
+124.160.57.70:58282 - - [22/Apr/2019:05:58:19] "WSDISCONNECT /robot/904080.8196922658768937/" - -
+124.160.57.70:58553 - - [22/Apr/2019:05:58:35] "WSCONNECTING /robot/528840.3424585945709544/" - -
+124.160.57.70:58553 - - [22/Apr/2019:05:58:35] "WSCONNECT /robot/528840.3424585945709544/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:58553 - - [22/Apr/2019:06:03:40] "WSDISCONNECT /robot/528840.3424585945709544/" - -
+124.160.57.70:59599 - - [22/Apr/2019:06:03:40] "WSCONNECTING /robot/796190.8068666527107671/" - -
+124.160.57.70:59599 - - [22/Apr/2019:06:03:40] "WSCONNECT /robot/796190.8068666527107671/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:59599 - - [22/Apr/2019:06:04:03] "WSDISCONNECT /robot/796190.8068666527107671/" - -
+124.160.57.70:59679 - - [22/Apr/2019:06:04:03] "WSCONNECTING /robot/329460.13805233697149277/" - -
+124.160.57.70:59679 - - [22/Apr/2019:06:04:03] "WSCONNECT /robot/329460.13805233697149277/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:59679 - - [22/Apr/2019:06:04:42] "WSDISCONNECT /robot/329460.13805233697149277/" - -
+124.160.57.70:59850 - - [22/Apr/2019:06:04:45] "WSCONNECTING /robot/506900.40518648430087323/" - -
+124.160.57.70:59850 - - [22/Apr/2019:06:04:45] "WSCONNECT /robot/506900.40518648430087323/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:59850 - - [22/Apr/2019:06:05:32] "WSDISCONNECT /robot/506900.40518648430087323/" - -
+124.160.57.70:60001 - - [22/Apr/2019:06:05:37] "WSCONNECTING /robot/593190.7151682826833585/" - -
+124.160.57.70:60001 - - [22/Apr/2019:06:05:38] "WSCONNECT /robot/593190.7151682826833585/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:60001 - - [22/Apr/2019:06:07:04] "WSDISCONNECT /robot/593190.7151682826833585/" - -
+124.160.57.70:60348 - - [22/Apr/2019:06:07:36] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:60348 - - [22/Apr/2019:06:07:36] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:60524 - - [22/Apr/2019:06:08:25] "WSCONNECTING /robot/1/" - -
+124.160.57.70:60524 - - [22/Apr/2019:06:08:25] "WSCONNECT /robot/1/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:60531 - - [22/Apr/2019:06:08:27] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:60531 - - [22/Apr/2019:06:08:27] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:60531 - - [22/Apr/2019:06:13:31] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:61463 - - [22/Apr/2019:06:13:32] "WSCONNECTING /ws/chat/1/" - -
+2019-04-22 07:20:10,935 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:10,936 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:10,937 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:10,937 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:12,986 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:12,988 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:12,988 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:12,989 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:16,285 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:16,287 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:16,287 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:16,288 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:19,679 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:19,680 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:19,681 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:19,682 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:23,053 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:23,054 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:23,054 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:23,055 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:26,180 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:26,181 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:26,181 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:26,182 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:29,679 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:29,680 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:29,681 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:29,682 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:32,826 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:32,827 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:32,827 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:32,828 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:35,939 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:35,940 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:35,946 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:35,948 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:38,768 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:38,770 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:38,770 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:38,771 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:42,139 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:42,140 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:42,141 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:42,142 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:45,493 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:45,494 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:45,494 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:45,496 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:48,661 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:48,662 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:48,663 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:48,664 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:51,980 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:51,981 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:51,981 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:51,982 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:55,094 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:55,095 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:55,095 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:55,096 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:20:58,393 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:58,395 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:20:58,395 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:20:58,396 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:01,771 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:01,773 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:01,773 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:01,774 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:05,148 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:05,149 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:05,150 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:05,151 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:08,467 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:08,468 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:08,469 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:08,470 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:11,609 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:11,610 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:11,610 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:11,611 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:15,017 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:15,018 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:15,018 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:15,020 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:18,156 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:18,157 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:18,158 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:18,158 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:21,280 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:21,281 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:21,282 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:21,282 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:24,348 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:24,349 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:24,350 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:24,350 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:27,449 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:27,450 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:27,451 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:27,452 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:30,628 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:30,629 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:30,630 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:30,631 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:33,769 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:33,770 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:33,770 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:33,771 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:36,934 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:36,935 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:36,935 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:36,936 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:40,058 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:40,060 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:40,061 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:40,062 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:43,279 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:43,280 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:43,281 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:43,281 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:46,562 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:46,564 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:46,564 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:46,565 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:49,792 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:49,793 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:49,794 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:49,795 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:53,118 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:53,120 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:53,120 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:53,121 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:56,502 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:56,503 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:56,504 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:56,505 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:21:59,696 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:59,697 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:21:59,697 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:21:59,698 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:03,185 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:03,186 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:03,187 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:03,188 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:06,593 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:06,594 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:06,594 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:06,595 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:10,011 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:10,012 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:10,014 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:10,017 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:13,261 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:13,262 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:13,262 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:13,263 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:16,385 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:16,386 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:16,386 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:16,387 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:19,538 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:19,539 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:19,539 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:19,540 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:22,837 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:22,838 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:22,839 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:22,840 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:26,116 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:26,117 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:26,117 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:26,118 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:29,263 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:29,264 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:29,264 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:29,265 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:32,383 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:32,384 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:32,384 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:32,385 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:35,613 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:35,615 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:35,615 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:35,616 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:38,914 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:38,915 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:38,916 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:38,917 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:42,192 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:42,193 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:42,194 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:42,195 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:45,290 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:45,291 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:45,292 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:45,293 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:48,520 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:48,522 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:48,522 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:48,524 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:51,854 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:51,855 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:51,856 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:51,857 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:54,976 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:54,977 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:54,978 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:54,979 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:57,306 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:57,308 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:57,308 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:57,313 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:22:58,592 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:58,593 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:22:58,593 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:22:58,594 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:01,971 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:01,972 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:01,972 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:01,974 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:05,399 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:05,400 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:05,401 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:05,402 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:08,814 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:08,815 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:08,815 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:08,816 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:12,007 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:12,008 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:12,008 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:12,009 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:15,440 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:15,442 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:15,442 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:15,443 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:18,785 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:18,786 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:18,787 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:18,788 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:21,915 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:21,916 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:21,916 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:21,917 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:25,210 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:25,211 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:25,211 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:25,212 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:28,420 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:28,421 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:28,421 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:28,422 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:31,709 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:31,710 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:31,710 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:31,711 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:35,170 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:35,171 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:35,172 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:35,173 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:38,479 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:38,480 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:38,481 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:38,482 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:41,744 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:41,745 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:41,746 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:41,747 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:45,056 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:45,058 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:45,058 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:45,059 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:48,209 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:48,210 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:48,211 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:48,212 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:51,438 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:51,439 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:51,439 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:51,440 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:54,540 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:54,541 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:54,541 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:54,542 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:23:57,744 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:57,746 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:23:57,746 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:23:57,747 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:00,976 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:00,977 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:00,978 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:00,979 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:04,143 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:04,144 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:04,145 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:04,146 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:07,504 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:07,506 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:07,506 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:07,507 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:12,016 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:12,018 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:12,018 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:12,019 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:15,168 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:15,169 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:15,169 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:15,170 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:18,257 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:18,258 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:18,258 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:18,259 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:21,475 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:21,476 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:21,477 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:21,478 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:24,570 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:24,571 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:24,571 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:24,572 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:27,699 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:27,700 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:27,700 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:27,701 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:30,874 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:30,875 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:30,875 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:30,876 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:33,978 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:33,979 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:33,980 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:33,980 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:37,101 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:37,102 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:37,102 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:37,103 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:40,167 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:40,168 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:40,168 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:40,169 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:43,386 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:43,388 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:43,388 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:43,389 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:46,847 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:46,848 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:46,849 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:46,850 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:50,232 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:50,233 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:50,233 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:50,235 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:53,365 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:53,366 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:53,366 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:53,367 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:24:56,562 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:56,563 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:24:56,564 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:24:56,565 CRITICAL Listen failure: Couldn't listen on 0.0.0.0:8001: [Errno 98] Address already in use.
+2019-04-22 07:25:00,960 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:25:00,963 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:25:00,968 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:25:00,969 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 07:26:36,273 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:26:36,276 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:26:36,281 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:26:36,284 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 07:55:30,861 INFO     Killed 2 pending application instances
+124.160.57.70:7849 - - [22/Apr/2019:07:27:04] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:7849 - - [22/Apr/2019:07:27:05] "WSCONNECT /ws/chat/1/" - -
+1 YS19032700 {'username': 'wxy', 'avatar': '/static/images/20190126181307_83.jpg', 'id': 1, 'content': '哈哈哈', 'timestamp': 1555918037550}
+124.160.57.70:8274 - - [22/Apr/2019:07:29:12] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:8274 - - [22/Apr/2019:07:29:12] "WSCONNECT /ws/chat/YS19032700/" - -
+YS19032700 1 {'username': '欧阳豆豆', 'avatar': '/static/images/doctorheader/20190327075308_55.jpg', 'id': 'YS19032700', 'content': '症状症状', 'timestamp': 1555918162930}
+124.160.57.70:7849 - - [22/Apr/2019:07:35:05] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:9252 - - [22/Apr/2019:07:35:25] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:9252 - - [22/Apr/2019:07:35:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:8274 - - [22/Apr/2019:07:35:32] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:9274 - - [22/Apr/2019:07:35:33] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:9274 - - [22/Apr/2019:07:35:33] "WSCONNECT /ws/chat/YS19032700/" - -
+1 YS19032700 {'username': 'wxy', 'avatar': '/static/images/20190126181307_83.jpg', 'id': 1, 'content': '你好不', 'timestamp': 1555918614131}
+124.160.57.70:9252 - - [22/Apr/2019:07:50:22] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:11657 - - [22/Apr/2019:07:50:22] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:11657 - - [22/Apr/2019:07:50:22] "WSCONNECT /ws/chat/1/" - -
+1 YS19032700 {'username': 'wxy', 'avatar': '/static/images/20190126181307_83.jpg', 'id': 1, 'content': '在不，有事', 'timestamp': 1555919435451}
+124.160.57.70:11657 - - [22/Apr/2019:07:55:01] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:12468 - - [22/Apr/2019:07:55:02] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:12468 - - [22/Apr/2019:07:55:02] "WSCONNECT /ws/chat/1/" - -
+1 YS19032700 {'username': 'wxy', 'avatar': '/static/images/20190126181307_83.jpg', 'id': 1, 'content': '你好', 'timestamp': 1555919709741}
+124.160.57.70:9274 - - [22/Apr/2019:07:55:30] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:12468 - - [22/Apr/2019:07:55:30] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 07:55:32,166 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:55:32,167 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 07:55:32,168 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 07:55:32,169 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 08:02:58,119 INFO     Killed 2 pending application instances
+124.160.57.70:12542 - - [22/Apr/2019:07:55:40] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:12542 - - [22/Apr/2019:07:55:40] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:12542 - - [22/Apr/2019:07:56:12] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:12632 - - [22/Apr/2019:07:56:13] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:12632 - - [22/Apr/2019:07:56:13] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:12632 - - [22/Apr/2019:07:59:58] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:13294 - - [22/Apr/2019:08:00:01] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:13294 - - [22/Apr/2019:08:00:01] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:13307 - - [22/Apr/2019:08:00:07] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:13307 - - [22/Apr/2019:08:00:07] "WSCONNECT /ws/chat/YS19032700/" - -
+YS19032700 1 {'username': '欧阳豆豆', 'avatar': '/static/images/doctorheader/20190327075308_55.jpg', 'id': 'YS19032700', 'content': '12按不出', 'timestamp': 1555920038327}
+1 YS19032700 {'username': 'wxy', 'avatar': '/static/images/20190126181307_83.jpg', 'id': 1, 'content': '？？？？', 'timestamp': 1555920128938}
+124.160.57.70:13307 - - [22/Apr/2019:08:02:58] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:13294 - - [22/Apr/2019:08:02:58] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 08:02:59,374 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:02:59,375 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 08:02:59,375 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:02:59,376 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 08:06:56,608 ERROR    Exception inside application: can only concatenate str (not "int") to str
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 60, in chat_message
+    mongo_cl.insertChatLog(message['id'], to_user['id'], message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 38, in insertChatLog
+    x = self.collection(["chatlog" + mineId + toId, "chatlog" + toId + mineId]).insert_one(message)
+  can only concatenate str (not "int") to str
+2019-04-22 08:08:42,710 ERROR    Exception inside application: can only concatenate str (not "int") to str
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 60, in chat_message
+    mongo_cl.insertChatLog(message['id'], to_user['id'], message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 38, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(message)
+  can only concatenate str (not "int") to str
+2019-04-22 08:13:16,979 ERROR    Exception inside application: can only concatenate str (not "int") to str
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 60, in chat_message
+    mongo_cl.insertChatLog(message['id'], to_user['id'], message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 38, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(message)
+  can only concatenate str (not "int") to str
+2019-04-22 08:14:37,420 INFO     Killed 1 pending application instances
+124.160.57.70:14615 - - [22/Apr/2019:08:06:43] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:14615 - - [22/Apr/2019:08:06:43] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:14634 - - [22/Apr/2019:08:06:46] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:14634 - - [22/Apr/2019:08:06:46] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:14615 - - [22/Apr/2019:08:06:56] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:14634 - - [22/Apr/2019:08:08:25] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:14968 - - [22/Apr/2019:08:08:26] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:14968 - - [22/Apr/2019:08:08:26] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:14978 - - [22/Apr/2019:08:08:28] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:14978 - - [22/Apr/2019:08:08:28] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:14968 - - [22/Apr/2019:08:08:42] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:14978 - - [22/Apr/2019:08:12:54] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:15673 - - [22/Apr/2019:08:12:57] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:15673 - - [22/Apr/2019:08:12:57] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:15677 - - [22/Apr/2019:08:13:00] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:15677 - - [22/Apr/2019:08:13:00] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:15673 - - [22/Apr/2019:08:13:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:15677 - - [22/Apr/2019:08:14:37] "WSDISCONNECT /ws/chat/YS19032700/" - -
+2019-04-22 08:14:38,678 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:14:38,679 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 08:14:38,679 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:14:38,681 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 08:15:14,733 ERROR    Exception inside application: Object of type ObjectId is not JSON serializable
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 69, in chat_message
+    }, ensure_ascii=False).replace(u'\xa0', u''))
+  File "/usr/local/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+  Object of type ObjectId is not JSON serializable
+2019-04-22 08:19:40,753 INFO     Killed 1 pending application instances
+124.160.57.70:15941 - - [22/Apr/2019:08:14:56] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:15941 - - [22/Apr/2019:08:14:56] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:15966 - - [22/Apr/2019:08:15:04] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:15966 - - [22/Apr/2019:08:15:04] "WSCONNECT /ws/chat/YS19032700/" - -
+YS19032700 1 {'username': '欧阳豆豆', 'avatar': '/static/images/doctorheader/20190327075308_55.jpg', 'id': 'YS19032700', 'content': '吧吧吧吧吧吧吧', 'timestamp': 1555920913855, '_id': ObjectId('5cbd781157f7821944b3b338')}
+124.160.57.70:15941 - - [22/Apr/2019:08:15:14] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:15966 - - [22/Apr/2019:08:19:40] "WSDISCONNECT /ws/chat/YS19032700/" - -
+2019-04-22 08:19:42,045 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:19:42,046 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 08:19:42,046 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:19:42,048 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 08:25:06,164 INFO     Killed 2 pending application instances
+124.160.57.70:16786 - - [22/Apr/2019:08:20:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:16786 - - [22/Apr/2019:08:20:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:16801 - - [22/Apr/2019:08:20:28] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:16801 - - [22/Apr/2019:08:20:28] "WSCONNECT /ws/chat/YS19032700/" - -
+YS19032700 1 {'username': '欧阳豆豆', 'avatar': '/static/images/doctorheader/20190327075308_55.jpg', 'id': 'YS19032700', 'content': '收到了吗', 'timestamp': 1555921239979, '_id': ObjectId('5cbd795757f7821b9863f1e8')}
+1 YS19032700 {'username': 'wxy', 'avatar': '/static/images/20190126181307_83.jpg', 'id': 1, 'content': '收到了', 'timestamp': 1555921264437, '_id': ObjectId('5cbd797057f7821b9863f1ea')}
+YS19032700 1 {'username': '欧阳豆豆', 'avatar': '/static/images/doctorheader/20190327075308_55.jpg', 'id': 'YS19032700', 'content': '好的', 'timestamp': 1555921270487, '_id': ObjectId('5cbd797657f7821b9863f1ec')}
+1 YS19032700 {'username': 'wxy', 'avatar': '/static/images/20190126181307_83.jpg', 'id': 1, 'content': '收到了什么？？？', 'timestamp': 1555921475670, '_id': ObjectId('5cbd7a4357f7821b9863f1ee')}
+124.160.57.70:16786 - - [22/Apr/2019:08:25:06] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:16801 - - [22/Apr/2019:08:25:06] "WSDISCONNECT /ws/chat/YS19032700/" - -
+2019-04-22 08:25:07,521 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:25:07,522 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 08:25:07,522 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:25:07,523 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 08:27:16,766 INFO     Killed 2 pending application instances
+124.160.57.70:17650 - - [22/Apr/2019:08:26:09] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:17650 - - [22/Apr/2019:08:26:09] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:17658 - - [22/Apr/2019:08:26:12] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:17658 - - [22/Apr/2019:08:26:12] "WSCONNECT /ws/chat/1/" - -
+插入成功
+插入成功
+124.160.57.70:17650 - - [22/Apr/2019:08:27:16] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:17658 - - [22/Apr/2019:08:27:16] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 08:27:18,106 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:27:18,107 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 08:27:18,107 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:27:18,108 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 08:31:39,906 INFO     Killed 2 pending application instances
+124.160.57.70:18060 - - [22/Apr/2019:08:28:07] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:18060 - - [22/Apr/2019:08:28:07] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:18089 - - [22/Apr/2019:08:28:14] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:18089 - - [22/Apr/2019:08:28:14] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:18089 - - [22/Apr/2019:08:29:26] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:18237 - - [22/Apr/2019:08:29:27] "WSCONNECTING /ws/chat/YS19032701/" - -
+124.160.57.70:18237 - - [22/Apr/2019:08:29:27] "WSCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:18237 - - [22/Apr/2019:08:29:30] "WSDISCONNECT /ws/chat/YS19032701/" - -
+124.160.57.70:18244 - - [22/Apr/2019:08:29:31] "WSCONNECTING /ws/chat/YS19032702/" - -
+124.160.57.70:18244 - - [22/Apr/2019:08:29:31] "WSCONNECT /ws/chat/YS19032702/" - -
+插入成功
+插入成功
+124.160.57.70:18244 - - [22/Apr/2019:08:31:39] "WSDISCONNECT /ws/chat/YS19032702/" - -
+124.160.57.70:18060 - - [22/Apr/2019:08:31:39] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 08:31:41,210 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:31:41,211 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 08:31:41,211 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 08:31:41,212 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 08:32:46,328 ERROR    Exception inside application: can not serialize 'ObjectId' object
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 54, in receive
+    'to_user': to_user
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 619, in group_send
+    channel_names, message
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 736, in _map_channel_keys_to_connection
+    channel_key_to_message[key] = self.serialize(channel_key_to_message[key])
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 756, in serialize
+    value = msgpack.packb(message, use_bin_type=True)
+  File "/usr/local/lib/python3.7/site-packages/msgpack/__init__.py", line 46, in packb
+    return Packer(**kwargs).pack(o)
+  File "msgpack/_packer.pyx", line 282, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 288, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 285, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 279, in msgpack._cmsgpack.Packer._pack
+  can not serialize 'ObjectId' object
+2019-04-22 08:40:58,777 ERROR    Exception inside application: can not serialize 'ObjectId' object
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 54, in receive
+    'to_user': to_user
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 619, in group_send
+    channel_names, message
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 736, in _map_channel_keys_to_connection
+    channel_key_to_message[key] = self.serialize(channel_key_to_message[key])
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 756, in serialize
+    value = msgpack.packb(message, use_bin_type=True)
+  File "/usr/local/lib/python3.7/site-packages/msgpack/__init__.py", line 46, in packb
+    return Packer(**kwargs).pack(o)
+  File "msgpack/_packer.pyx", line 282, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 288, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 285, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 279, in msgpack._cmsgpack.Packer._pack
+  can not serialize 'ObjectId' object
+2019-04-22 09:14:13,732 ERROR    Exception inside application: can not serialize 'ObjectId' object
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 54, in receive
+    'to_user': to_user
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 619, in group_send
+    channel_names, message
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 736, in _map_channel_keys_to_connection
+    channel_key_to_message[key] = self.serialize(channel_key_to_message[key])
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 756, in serialize
+    value = msgpack.packb(message, use_bin_type=True)
+  File "/usr/local/lib/python3.7/site-packages/msgpack/__init__.py", line 46, in packb
+    return Packer(**kwargs).pack(o)
+  File "msgpack/_packer.pyx", line 282, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 288, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 285, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 279, in msgpack._cmsgpack.Packer._pack
+  can not serialize 'ObjectId' object
+2019-04-22 09:14:41,762 ERROR    Exception inside application: can not serialize 'ObjectId' object
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 54, in receive
+    'to_user': to_user
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 619, in group_send
+    channel_names, message
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 736, in _map_channel_keys_to_connection
+    channel_key_to_message[key] = self.serialize(channel_key_to_message[key])
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 756, in serialize
+    value = msgpack.packb(message, use_bin_type=True)
+  File "/usr/local/lib/python3.7/site-packages/msgpack/__init__.py", line 46, in packb
+    return Packer(**kwargs).pack(o)
+  File "msgpack/_packer.pyx", line 282, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 288, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 285, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 279, in msgpack._cmsgpack.Packer._pack
+  can not serialize 'ObjectId' object
+2019-04-22 09:17:29,279 INFO     Killed 0 pending application instances
+124.160.57.70:18630 - - [22/Apr/2019:08:32:25] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:18630 - - [22/Apr/2019:08:32:25] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:18661 - - [22/Apr/2019:08:32:37] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:18661 - - [22/Apr/2019:08:32:37] "WSCONNECT /ws/chat/YS19032700/" - -
+插入成功
+124.160.57.70:18630 - - [22/Apr/2019:08:32:46] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:19905 - - [22/Apr/2019:08:40:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:19905 - - [22/Apr/2019:08:40:49] "WSCONNECT /ws/chat/1/" - -
+插入成功
+124.160.57.70:19905 - - [22/Apr/2019:08:40:58] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:20085 - - [22/Apr/2019:08:42:08] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:20085 - - [22/Apr/2019:08:42:08] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:20085 - - [22/Apr/2019:08:48:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:21128 - - [22/Apr/2019:08:48:18] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:21128 - - [22/Apr/2019:08:48:18] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:21128 - - [22/Apr/2019:08:56:57] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:22507 - - [22/Apr/2019:08:56:57] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:22507 - - [22/Apr/2019:08:56:57] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:22507 - - [22/Apr/2019:09:13:17] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:24879 - - [22/Apr/2019:09:13:21] "WSCONNECTING /robot/914680.4992555395394156/" - -
+124.160.57.70:24879 - - [22/Apr/2019:09:13:21] "WSCONNECT /robot/914680.4992555395394156/" - -
+Loading /root/MHKG/Django/toolkit/aiml/std-startup.xml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Praise.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Sex.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Complain.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Greeting.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/tools.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Rude.aiml...done (0.01 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Redirection.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Gossip.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Thinks.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/corpus/Bye.aiml...done (0.00 seconds)
+Loading /root/MHKG/Django/toolkit/aiml/basic_chat.aiml...done (0.00 seconds)
+124.160.57.70:24879 - - [22/Apr/2019:09:13:27] "WSDISCONNECT /robot/914680.4992555395394156/" - -
+124.160.57.70:24925 - - [22/Apr/2019:09:13:43] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:24925 - - [22/Apr/2019:09:13:43] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:18661 - - [22/Apr/2019:09:13:48] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:24936 - - [22/Apr/2019:09:13:49] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:24936 - - [22/Apr/2019:09:13:49] "WSCONNECT /ws/chat/YS19032700/" - -
+插入成功
+124.160.57.70:24925 - - [22/Apr/2019:09:14:13] "WSDISCONNECT /ws/chat/1/" - -
+插入成功
+124.160.57.70:24936 - - [22/Apr/2019:09:14:41] "WSDISCONNECT /ws/chat/YS19032700/" - -
+2019-04-22 09:17:30,911 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:17:30,912 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 09:17:30,912 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:17:30,914 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 09:18:03,981 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 39, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(message)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:24:56,362 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 39, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(message)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:27:32,512 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 39, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(str(message))
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:28:51,586 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 39, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(dict(message))
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:33:42,861 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 39, in insertChatLog
+    # message = message.pop('mine')
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:33:55,874 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 39, in insertChatLog
+    # message = message.pop('mine')
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:36:58,119 INFO     Killed 2 pending application instances
+124.160.57.70:25426 - - [22/Apr/2019:09:17:47] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:25426 - - [22/Apr/2019:09:17:47] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:25434 - - [22/Apr/2019:09:17:50] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:25434 - - [22/Apr/2019:09:17:50] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:25426 - - [22/Apr/2019:09:18:04] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:26488 - - [22/Apr/2019:09:24:43] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:26488 - - [22/Apr/2019:09:24:43] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:25434 - - [22/Apr/2019:09:24:46] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:26500 - - [22/Apr/2019:09:24:46] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:26500 - - [22/Apr/2019:09:24:47] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:26488 - - [22/Apr/2019:09:24:56] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:26500 - - [22/Apr/2019:09:27:19] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:27010 - - [22/Apr/2019:09:27:20] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:27010 - - [22/Apr/2019:09:27:20] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:27053 - - [22/Apr/2019:09:27:23] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:27053 - - [22/Apr/2019:09:27:23] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:27053 - - [22/Apr/2019:09:27:32] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:27010 - - [22/Apr/2019:09:28:28] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:27218 - - [22/Apr/2019:09:28:28] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:27218 - - [22/Apr/2019:09:28:29] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:27236 - - [22/Apr/2019:09:28:33] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:27236 - - [22/Apr/2019:09:28:33] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:27236 - - [22/Apr/2019:09:28:51] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:27218 - - [22/Apr/2019:09:33:31] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28282 - - [22/Apr/2019:09:33:31] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:28282 - - [22/Apr/2019:09:33:31] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28294 - - [22/Apr/2019:09:33:35] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:28294 - - [22/Apr/2019:09:33:35] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:28294 - - [22/Apr/2019:09:33:42] "WSDISCONNECT /ws/chat/1/" - -
+124.160.57.70:28282 - - [22/Apr/2019:09:33:55] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28861 - - [22/Apr/2019:09:36:47] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:28861 - - [22/Apr/2019:09:36:47] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28871 - - [22/Apr/2019:09:36:51] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:28871 - - [22/Apr/2019:09:36:51] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:28861 - - [22/Apr/2019:09:36:58] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28871 - - [22/Apr/2019:09:36:58] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 09:36:59,819 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:36:59,820 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 09:36:59,821 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:36:59,822 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 09:37:40,862 ERROR    Exception inside application: can not serialize 'ObjectId' object
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 54, in receive
+    'to_user': to_user
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 619, in group_send
+    channel_names, message
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 736, in _map_channel_keys_to_connection
+    channel_key_to_message[key] = self.serialize(channel_key_to_message[key])
+  File "/usr/local/lib/python3.7/site-packages/channels_redis/core.py", line 756, in serialize
+    value = msgpack.packb(message, use_bin_type=True)
+  File "/usr/local/lib/python3.7/site-packages/msgpack/__init__.py", line 46, in packb
+    return Packer(**kwargs).pack(o)
+  File "msgpack/_packer.pyx", line 282, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 288, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 285, in msgpack._cmsgpack.Packer.pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 232, in msgpack._cmsgpack.Packer._pack
+  File "msgpack/_packer.pyx", line 279, in msgpack._cmsgpack.Packer._pack
+  can not serialize 'ObjectId' object
+2019-04-22 09:38:42,822 INFO     Killed 1 pending application instances
+124.160.57.70:28960 - - [22/Apr/2019:09:37:21] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:28960 - - [22/Apr/2019:09:37:21] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:28962 - - [22/Apr/2019:09:37:24] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:28962 - - [22/Apr/2019:09:37:24] "WSCONNECT /ws/chat/YS19032700/" - -
+插入成功
+124.160.57.70:28962 - - [22/Apr/2019:09:37:40] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:28960 - - [22/Apr/2019:09:38:42] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 09:38:44,155 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:38:44,156 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 09:38:44,157 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:38:44,158 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 09:39:50,215 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 39, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(message)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:40:40,700 INFO     Killed 1 pending application instances
+124.160.57.70:29266 - - [22/Apr/2019:09:39:39] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:29266 - - [22/Apr/2019:09:39:39] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:29271 - - [22/Apr/2019:09:39:41] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:29271 - - [22/Apr/2019:09:39:41] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29271 - - [22/Apr/2019:09:39:50] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29266 - - [22/Apr/2019:09:40:40] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 09:40:42,401 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:40:42,402 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 09:40:42,402 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:40:42,404 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 09:41:13,432 ERROR    Exception inside application: the JSON object must be str, bytes or bytearray, not bool
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 40, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(json.loads(message))
+  File "/usr/local/lib/python3.7/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+  the JSON object must be str, bytes or bytearray, not bool
+2019-04-22 09:42:30,067 INFO     Killed 1 pending application instances
+124.160.57.70:29444 - - [22/Apr/2019:09:41:02] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:29444 - - [22/Apr/2019:09:41:02] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:29459 - - [22/Apr/2019:09:41:05] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:29459 - - [22/Apr/2019:09:41:05] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29459 - - [22/Apr/2019:09:41:13] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29444 - - [22/Apr/2019:09:42:30] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 09:42:31,365 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:42:31,366 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 09:42:31,366 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:42:31,367 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 09:42:59,421 ERROR    Exception inside application: Expecting value: line 1 column 1 (char 0)
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 40, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(json.loads(str(message)))
+  File "/usr/local/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+  Expecting value: line 1 column 1 (char 0)
+2019-04-22 09:43:57,504 INFO     Killed 1 pending application instances
+124.160.57.70:29695 - - [22/Apr/2019:09:42:49] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:29695 - - [22/Apr/2019:09:42:49] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:29702 - - [22/Apr/2019:09:42:52] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:29702 - - [22/Apr/2019:09:42:52] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29702 - - [22/Apr/2019:09:42:59] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:29695 - - [22/Apr/2019:09:43:57] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 09:43:59,159 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:43:59,160 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 09:43:59,161 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:43:59,162 INFO     Listening on TCP address 0.0.0.0:8001
+2019-04-22 09:46:49,317 ERROR    Exception inside application: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+  File "/usr/local/lib/python3.7/site-packages/channels/sessions.py", line 179, in __call__
+    return await self.inner(receive, self.send)
+  File "/usr/local/lib/python3.7/site-packages/channels/middleware.py", line 41, in coroutine_call
+    await inner_instance(receive, send)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 59, in __call__
+    [receive, self.channel_receive], self.dispatch
+  File "/usr/local/lib/python3.7/site-packages/channels/utils.py", line 52, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.7/site-packages/channels/consumer.py", line 73, in dispatch
+    await handler(message)
+  File "/usr/local/lib/python3.7/site-packages/channels/generic/websocket.py", line 196, in websocket_receive
+    await self.receive(text_data=message["text"])
+  File "/root/MHKG/Django/apps/chat/consumers.py", line 43, in receive
+    mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+  File "./toolkit/mongodb_operation/mongodb_chatlog.py", line 40, in insertChatLog
+    x = self.collection(["chatlog_" + str(mineId) + "_" + str(toId), "chatlog_" + str(toId) + "_" + str(mineId)]).insert_one(str(message))
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 684, in insert_one
+    common.validate_is_document_type("document", document)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/common.py", line 453, in validate_is_document_type
+    "collections.MutableMapping" % (option,))
+  document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2019-04-22 09:50:14,878 INFO     Killed 1 pending application instances
+124.160.57.70:30324 - - [22/Apr/2019:09:46:41] "WSCONNECTING /ws/chat/1/" - -
+124.160.57.70:30324 - - [22/Apr/2019:09:46:41] "WSCONNECT /ws/chat/1/" - -
+124.160.57.70:30330 - - [22/Apr/2019:09:46:43] "WSCONNECTING /ws/chat/YS19032700/" - -
+124.160.57.70:30330 - - [22/Apr/2019:09:46:43] "WSCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:30330 - - [22/Apr/2019:09:46:49] "WSDISCONNECT /ws/chat/YS19032700/" - -
+124.160.57.70:30324 - - [22/Apr/2019:09:50:14] "WSDISCONNECT /ws/chat/1/" - -
+2019-04-22 09:50:16,410 INFO     Starting server at tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:50:16,413 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-04-22 09:50:16,415 INFO     Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2019-04-22 09:50:16,416 INFO     Listening on TCP address 0.0.0.0:8001
+Not Found: /public/index.php
+2019-04-22 10:15:09,791 WARNING  Not Found: /public/index.php
+Not Found: /public/index.php
+2019-04-22 10:15:09,805 WARNING  Not Found: /public/index.php
+Not Found: /public/hydra.php
+2019-04-22 10:15:09,817 WARNING  Not Found: /public/hydra.php

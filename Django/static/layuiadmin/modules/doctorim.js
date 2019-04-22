@@ -25,13 +25,15 @@ layui.define(function(exports){
             },
             initSkin: "3.jpg",
             notice: true,
-            // chatLog: layui.cache.dir + 'css/modules/layim/html/chatlog.html',
+            chatLog: layui.cache.dir + 'css/modules/layim/html/chatlog.html',
             voice: false
         });
 
         var socket = new WebSocket('ws://119.29.225.142:8001/ws/chat/' + mine.id + '/');
         layim.on("sendMessage", function (data) {
             var To = data.to;
+            data.mine.timestamp = (new Date()).valueOf();
+            // console.log(data);
             socket.send(JSON.stringify({
                 type: 'chatMessage',
                 data: data

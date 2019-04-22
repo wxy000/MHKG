@@ -19,14 +19,14 @@
 <div id="LAY_page" style="margin: 0 10px;"></div>
 
 
-<textarea title="消息模版" id="LAY_tpl" style="display:none;">
-{{# layui.each(d.data, function(index, item){
-  if(item.id == parent.layui.layim.cache().mine.id){ }}
-    <li class="layim-chat-mine"><div class="layim-chat-user"><img src="{{ item.avatar }}"><cite><i>{{ layui.data.date(item.timestamp) }}</i>{{ item.username }}</cite></div><div class="layim-chat-text">{{ layui.layim.content(item.content) }}</div></li>
-  {{# } else { }}
-    <li><div class="layim-chat-user"><img src="{{ item.avatar }}"><cite>{{ item.username }}<i>{{ layui.data.date(item.timestamp) }}</i></cite></div><div class="layim-chat-text">{{ layui.layim.content(item.content) }}</div></li>
-  {{# }
-}); }}
+<textarea title="消息" id="LAY_tpl" style="display:none;">
+<%# layui.each(d.data, function(index, item){
+  if(item.id == parent.layui.layim.cache().mine.id){ %>
+    <li class="layim-chat-mine"><div class="layim-chat-user"><img src="<% item.avatar %>"><cite><i><% layui.data.date(item.timestamp) %></i><% item.username %></cite></div><div class="layim-chat-text"><% layui.layim.content(item.content) %></div></li>
+  <%# } else { %>
+    <li><div class="layim-chat-user"><img src="<% item.avatar %>"><cite><% item.username %><i><% layui.data.date(item.timestamp) %></i></cite></div><div class="layim-chat-text"><% layui.layim.content(item.content) %></div></li>
+  <%# }
+}); %>
 </textarea>
 
 <!-- 
@@ -44,49 +44,49 @@
             ,$ = layui.jquery
             ,laypage = layui.laypage;
 
-        //开始请求聊天记录
-        var param = location.search; //获得URL参数。该窗口url会携带会话id和type，他们是你请求聊天记录的重要凭据
-
-        var res = {
-            code: 0
-            ,msg: ''
-            ,data: [{
-                username: '纸飞机'
-                ,id: -1
-                ,avatar: '//tva3.sinaimg.cn/crop.0.0.512.512.180/8693225ajw8f2rt20ptykj20e80e8weu.jpg'
-                ,timestamp: 1480897882000
-                ,content: 'face[抱抱] face[心] 你好啊'
-            }, {
-                username: 'Z_子晴'
-                ,id: 108101
-                ,avatar: '//tva3.sinaimg.cn/crop.0.0.512.512.180/8693225ajw8f2rt20ptykj20e80e8weu.jpg'
-                ,timestamp: 1480897892000
-                ,content: '你没发错吧？face[微笑]'
-            }, {
-                username: '纸飞机'
-                ,id: -1
-                ,avatar: '//tva3.sinaimg.cn/crop.0.0.512.512.180/8693225ajw8f2rt20ptykj20e80e8weu.jpg'
-                ,timestamp: 1480897882000
-                ,content: '我是xxx啊'
-            }, {
-                username: 'Z_子晴'
-                ,id: 108101
-                ,avatar: '//tva3.sinaimg.cn/crop.0.0.512.512.180/8693225ajw8f2rt20ptykj20e80e8weu.jpg'
-                ,timestamp: 1480897898000
-                ,content: '哦~，你啊'
-            }, {
-                username: 'Z_子晴'
-                ,id: 108101
-                ,avatar: '//tva3.sinaimg.cn/crop.0.0.512.512.180/8693225ajw8f2rt20ptykj20e80e8weu.jpg'
-                ,timestamp: 1480897908000
-                ,content: '啥事啊'
-            }]
-        };
-
-        var html = laytpl(LAY_tpl.value).render({
-            data: res.data
+        laytpl.config({
+            open: '<%',
+            close: '%>'
         });
-        $('#LAY_view').html(html);
+
+        //开始请求聊天记录
+        // var param = location.search; //获得URL参数。该窗口url会携带会话id和type，他们是你请求聊天记录的重要凭据
+
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);//search,查询？后面的参数，并匹配正则
+            if(r!=null)return  unescape(r[2]); return null;
+        }
+
+        // console.log(GetQueryString('id'));
+        // console.log(parent.layui.layim.cache().mine.id);
+        // var cache =  parent.layui.layim.cache();
+        // console.log(parent.layui.data('layim')[cache.mine.id]);
+
+        var index = layer.load(2);
+        $.ajax({
+            url: "/getChatLog?id1=" + parent.layui.layim.cache().mine.id + "&id2=" + GetQueryString('id'),
+            success: function (data1) {
+                if (data1.code === 0) {
+                    var res = {
+                        code: 0,
+                        msg: '',
+                        data: data1.chatList
+                    };
+                    var html = laytpl(LAY_tpl.value).render({
+                        data: res.data
+                    });
+                    $('#LAY_view').html(html);
+                } else {
+                    $('#LAY_view').html("<center>" + data1.msg + "</center>");
+                }
+                layer.close(index);
+            },
+            error: function (e) {
+                $('#LAY_view').html("<center>未知错误</center>");
+                layer.close(index);
+            }
+        });
 
     });
 </script>

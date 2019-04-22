@@ -117,6 +117,7 @@ urlpatterns = [
     path('doctor/getQiuzhu/', myDoctor_view.getQiuzhu),
     path('doctor/getQiuzhu1/', inquiry_view.getQiuzhu1),
     path('doctor/getDoctorAndPingjia/', myDoctor_view.getDoctorAndPingjia),
+    path('getChatLog/', myDoctor_view.getChatLog),
     path('ManualAnnotation/', include('ManualAnnotation.urls', namespace='ManualAnnotation')),
     path('accounts/', include('users.urls', namespace='users')),
 ]

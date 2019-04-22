@@ -28,6 +28,9 @@ from toolkit.mongodb_operation.mongodb_rate import mongo_rate
 # noinspection PyUnresolvedReferences
 from toolkit.mongodb_operation.mongodb_pingjia import mongo_pingjia
 
+# noinspection PyUnresolvedReferences
+from toolkit.mongodb_operation.mongodb_chatlog import mongo_chatlog
+
 
 @login_required
 def myDoctor(request):
@@ -238,3 +241,15 @@ def getDoctorAndPingjia(request):
         result = {'code': 0, 'msg': "", 'doctorInfo': doctor, 'rate_avg': rate_avg,
                   'allPingjia': mongoPingjia}
     return render(request, 'views/doctorAndPingjia.html', {'result': result})
+
+
+def getChatLog(request):
+    id1 = request.GET.get('id1', '')
+    id2 = request.GET.get('id2', '')
+    mongo_cl = mongo_chatlog()
+    chatList = mongo_cl.getChatLogByQuery(id1, id2)
+    if len(chatList) == 0:
+        result = {'code': 500, 'msg': "暂无聊天记录"}
+    else:
+        result = {'code': 0, 'msg': "", 'chatList': chatList}
+    return HttpResponse(json.dumps(result, ensure_ascii=False), content_type="application/json,charset=utf-8")

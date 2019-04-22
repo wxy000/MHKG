@@ -9,6 +9,9 @@ from toolkit.aiml.handle.neo4j import Find
 # noinspection PyUnresolvedReferences
 from toolkit.aiml.im import im
 
+# noinspection PyUnresolvedReferences
+from toolkit.mongodb_operation.mongodb_chatlog import mongo_chatlog
+
 
 class ChatConsumer(AsyncWebsocketConsumer):
     async def connect(self):
@@ -34,7 +37,11 @@ class ChatConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
         text_data_json = json.loads(text_data)
         message = text_data_json['data']['mine']
+
         # message.pop('mine')
+        mongo_cl = mongo_chatlog()
+        mongo_cl.insertChatLog(str(message['id']), str(text_data_json['data']['to']['id']), message)
+
         to_user = text_data_json['data']['to']
         to_user_id = 'chat_' + str(text_data_json['data']['to']['id'])
 
