@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 
+from . import record_view
 from . import myRate_view
 from . import doctorInfo_view
 from . import myDoctor_view
@@ -97,6 +98,7 @@ urlpatterns = [
     path('searchCondition/', views.searchCondition),
     path('admin_views/newOld/', newOld_view.newOld),
     path('admin_views/newOld/getNewOldData/', newOld_view.getNewOldData),
+    path('admin_views/record/', record_view.record),
     path('doctor/login1/', login1_register1_view.login),
     path('doctor/getLogin/', login1_register1_view.getLogin),
     path('doctor/register1/', login1_register1_view.register),

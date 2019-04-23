@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="738fb977-96a1-4ef2-b147-303a0079a041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190420.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190421.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/Django/record_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/logs/nginx_access_20190422.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/templates/admin_views/record.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/Django/myDoctor_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/Django/myDoctor_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/Django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/Django/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/apps/chat/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/apps/chat/consumers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/nginx_access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190412.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190413.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_access_20190414.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/logs/nginx_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/nginx_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/logs/uwsgi.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/uwsgi.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/logs/uwsgi.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/uwsgi.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/logs/websocket.log" beforeDir="false" afterPath="$PROJECT_DIR$/Django/logs/websocket.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/static/layuiadmin/layui/css/modules/layim/html/chatlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/static/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/static/layuiadmin/modules/doctorim.js" beforeDir="false" afterPath="$PROJECT_DIR$/Django/static/layuiadmin/modules/doctorim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/static/layuiadmin/style/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/Django/static/layuiadmin/style/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/static/layuiadmin/tpl/system/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/static/layuiadmin/tpl/system/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/doctor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/doctor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/doctor/inquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/doctor/inquiry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/views/classifiedQuery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/views/classifiedQuery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/views/console.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/views/console.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/views/interlocution.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/views/interlocution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/views/myDoctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/views/myDoctor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +41,63 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Django/Django/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="25">
               <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/Django/record_view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="53" column="75" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="75" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-44">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/Django/myDoctor_view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="254" column="18" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/templates/admin_views/record.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1781">
+              <caret line="111" column="45" lean-forward="true" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +137,8 @@
       <find>myPingjia</find>
       <find>mongo_pingjia</find>
       <find>get_NE</find>
+      <find>//at.alicdn.com/t/font_935338_5w3z4hpqzs7.css</find>
+      <find>get_doctor_mouseenter</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -98,12 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Django/templates/doctor/register1.html" />
-        <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_doctor.py" />
-        <option value="$PROJECT_DIR$/Django/templates/admin_views/doctorList.html" />
-        <option value="$PROJECT_DIR$/Django/templates/doctor/shenhe.html" />
-        <option value="$PROJECT_DIR$/Django/templates/doctor/login1.html" />
-        <option value="$PROJECT_DIR$/Django/static/layuiadmin/modules/doctoradmin.js" />
         <option value="$PROJECT_DIR$/Django/Django/doctorList_view.py" />
         <option value="$PROJECT_DIR$/Django/Django/healthControl.py" />
         <option value="$PROJECT_DIR$/Django/Django/healthControl_view.py" />
@@ -112,16 +169,13 @@
         <option value="$PROJECT_DIR$/Django/templates/doctor/perfectInfo.html" />
         <option value="$PROJECT_DIR$/Django/static/layuiadmin/modules/terminal.js" />
         <option value="$PROJECT_DIR$/Django/static/layuiadmin/style/im.css" />
-        <option value="$PROJECT_DIR$/Django/templates/views/interlocution.html" />
         <option value="$PROJECT_DIR$/Django/Django/interlocution_view.py" />
         <option value="$PROJECT_DIR$/Django/templates/doctor/doctoInfo.html" />
         <option value="$PROJECT_DIR$/Django/templates/doctor/doctorInfo.html" />
         <option value="$PROJECT_DIR$/Django/templates/doctor/uploadpass.html" />
         <option value="$PROJECT_DIR$/Django/templates/doctor/uploadPass.html" />
         <option value="$PROJECT_DIR$/Django/static/layuiadmin/modules/set.js" />
-        <option value="$PROJECT_DIR$/Django/templates/doctor/index.html" />
         <option value="$PROJECT_DIR$/Django/Django/doctorInfo_view.py" />
-        <option value="$PROJECT_DIR$/Django/templates/views/console.html" />
         <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_qiuzhu.py" />
         <option value="$PROJECT_DIR$/Django/templates/doctor/answer_qiuzhu.html" />
         <option value="$PROJECT_DIR$/Django/Django/login1_register1_view.py" />
@@ -132,22 +186,31 @@
         <option value="$PROJECT_DIR$/Django/templates/doctor/qiuzhu.html" />
         <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_pingjia.py" />
         <option value="$PROJECT_DIR$/Django/Django/inquiry_view.py" />
-        <option value="$PROJECT_DIR$/Django/templates/doctor/inquiry.html" />
-        <option value="$PROJECT_DIR$/Django/templates/views/myDoctor.html" />
         <option value="$PROJECT_DIR$/Django/templates/views/doctorAndPingjia.html" />
         <option value="$PROJECT_DIR$/Django/templates/views/pingjia.html" />
         <option value="$PROJECT_DIR$/Django/templates/views/myRate.html" />
-        <option value="$PROJECT_DIR$/Django/templates/index.html" />
         <option value="$PROJECT_DIR$/Django/toolkit/ssh.py" />
         <option value="$PROJECT_DIR$/Django/Django/distinguish_view.py" />
         <option value="$PROJECT_DIR$/Django/toolkit/nlp/NER.py" />
         <option value="$PROJECT_DIR$/Django/static/layuiadmin/modules/im.js" />
         <option value="$PROJECT_DIR$/Django/static/layuiadmin/modules/doctorim.js" />
-        <option value="$PROJECT_DIR$/Django/Django/urls.py" />
-        <option value="$PROJECT_DIR$/Django/Django/myDoctor_view.py" />
         <option value="$PROJECT_DIR$/Django/apps/chat/consumers.py" />
-        <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py" />
         <option value="$PROJECT_DIR$/Django/static/layuiadmin/layui/css/modules/layim/html/chatlog.html" />
+        <option value="$PROJECT_DIR$/Django/Django/urls.py" />
+        <option value="$PROJECT_DIR$/Django/templates/views/console.html" />
+        <option value="$PROJECT_DIR$/Django/templates/doctor/inquiry.html" />
+        <option value="$PROJECT_DIR$/Django/templates/index.html" />
+        <option value="$PROJECT_DIR$/Django/static/layuiadmin/tpl/system/about.html" />
+        <option value="$PROJECT_DIR$/Django/templates/views/classifiedQuery.html" />
+        <option value="$PROJECT_DIR$/Django/templates/views/interlocution.html" />
+        <option value="$PROJECT_DIR$/Django/templates/doctor/index.html" />
+        <option value="$PROJECT_DIR$/Django/templates/views/myDoctor.html" />
+        <option value="$PROJECT_DIR$/Django/static/layuiadmin/style/custom.css" />
+        <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_record.py" />
+        <option value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py" />
+        <option value="$PROJECT_DIR$/Django/Django/record_view.py" />
+        <option value="$PROJECT_DIR$/Django/Django/myDoctor_view.py" />
+        <option value="$PROJECT_DIR$/Django/templates/admin_views/record.html" />
         <option value="$PROJECT_DIR$/Django/Django/settings.py" />
       </list>
     </option>
@@ -188,21 +251,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django/static/layuiadmin/style" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\myPyCharm\MHKG\Django\apps" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myPyCharm\MHKG\Django\static\layuiadmin\style" />
       <recent name="E:\myPyCharm\MHKG\Django\static\images" />
       <recent name="E:\myPyCharm\MHKG\Django" />
       <recent name="E:\myPyCharm\MHKG\Django\static\layuiadmin\modules" />
       <recent name="E:\myPyCharm\MHKG\Django\toolkit\mongodb_operation" />
-      <recent name="E:\myPyCharm\MHKG" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\myPyCharm\MHKG\Django\apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,6 +296,28 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/manage.py" />
       <option name="PARAMETERS" value="runserver 0.0.0.0:8081" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mongodb_chatlog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MHKG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/toolkit/mongodb_operation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -311,10 +396,12 @@
       <item itemvalue="Python.mongodb_doctor" />
       <item itemvalue="Python.mongodb_rate" />
       <item itemvalue="Python.ssh" />
+      <item itemvalue="Python.mongodb_chatlog" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.mongodb_chatlog" />
         <item itemvalue="Python.ssh" />
         <item itemvalue="Python.mongodb_rate" />
         <item itemvalue="Python.mongodb_doctor" />
@@ -365,7 +452,8 @@
       <workItem from="1555813766273" duration="5581000" />
       <workItem from="1555827657149" duration="616000" />
       <workItem from="1555830446276" duration="1987000" />
-      <workItem from="1555899938886" duration="19400000" />
+      <workItem from="1555899938886" duration="26710000" />
+      <workItem from="1555995902695" duration="17594000" />
     </task>
     <task id="LOCAL-00001" summary="完成用户一对一聊天">
       <created>1552802980522</created>
@@ -486,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555825609943</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="聊天记录保存">
+      <created>1555929374385</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555929374385</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380661000" />
+    <option name="totallyTimeSpent" value="405565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,9 +598,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -591,105 +685,16 @@
     <MESSAGE value="增加积分及评价机制" />
     <MESSAGE value="实体识别添加同义词转换" />
     <MESSAGE value="字符串修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串修正" />
+    <MESSAGE value="聊天记录保存" />
+    <option name="LAST_COMMIT_MESSAGE" value="聊天记录保存" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MHKG$mongodb_chatlog.coverage" NAME="mongodb_chatlog Coverage Results" MODIFIED="1556004467872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/toolkit/mongodb_operation" />
     <SUITE FILE_PATH="coverage/MHKG$mongodb_rate.coverage" NAME="mongodb_rate Coverage Results" MODIFIED="1554603428560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/toolkit/mongodb_operation" />
-    <SUITE FILE_PATH="coverage/MHKG$manage.coverage" NAME="manage Coverage Results" MODIFIED="1555924656609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
+    <SUITE FILE_PATH="coverage/MHKG$manage.coverage" NAME="manage Coverage Results" MODIFIED="1556030148269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
     <SUITE FILE_PATH="coverage/MHKG$ssh.coverage" NAME="ssh Coverage Results" MODIFIED="1555749137481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/toolkit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Django/templates/doctor/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="84" column="79" selection-start-line="84" selection-start-column="79" selection-end-line="84" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/toolkit/toolbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/login1_register1_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="148" column="64" lean-forward="true" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/doctor/answer_qiuzhu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="62" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/apps/users/templates/users/pwd_change.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/views/distinguish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1850">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="19628" selection-start-line="1" selection-start-column="19628" selection-end-line="1" selection-end-column="19628" />
-          <folding>
-            <element signature="e#61525#61664#2" expanded="true" />
-            <element signature="e#63118#63257#2" expanded="true" />
-            <element signature="e#63805#63944#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="410" column="16" selection-start-line="410" selection-start-column="16" selection-end-line="410" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/admin_views/area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="90" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_answerQiuzhu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="63" column="67" lean-forward="true" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/Django/myRate_view.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -707,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_doctor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/Django/doctorInfo_view.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -721,13 +719,6 @@
           <folding>
             <element signature="e#25#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/userList_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -807,17 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/data/unlabeled_data.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -862,28 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/interlocution_view.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/templates/views/interlocution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1669">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/modules/im.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_rate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-325">
@@ -922,16 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="119" column="50" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/templates/views/myDoctor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -949,36 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/layui/css/modules/layim/html/chatlog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="63" column="66" lean-forward="true" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/Django/myDoctor_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="253" column="49" selection-start-line="253" selection-start-column="41" selection-end-line="253" selection-end-column="49" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" column="132" selection-start-line="40" selection-start-column="132" selection-end-line="40" selection-end-column="132" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/apps/chat/consumers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -989,16 +907,197 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/terminal_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="101" column="56" lean-forward="true" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/layui/css/modules/layim/html/chatlog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="63" column="66" lean-forward="true" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/modules/entity.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/admin_views/area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="90" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/admin_views/pul.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/modules/doctorim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="475">
           <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/views/consoles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="227" column="46" selection-start-line="227" selection-start-column="46" selection-end-line="227" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/style/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/views/interlocution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1669">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/modules/im.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_record.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/interlocution_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/admin_views/userList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/static/layuiadmin/modules/useradmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_doctor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/doctorList_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/userList_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="60" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/record_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="53" column="75" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="75" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/toolkit/mongodb_operation/mongodb_chatlog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/Django/myDoctor_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="254" column="18" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/templates/admin_views/record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1781">
+          <caret line="111" column="45" lean-forward="true" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#center#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django/Django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="25">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>

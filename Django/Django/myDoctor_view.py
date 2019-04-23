@@ -251,5 +251,7 @@ def getChatLog(request):
     if len(chatList) == 0:
         result = {'code': 500, 'msg': "暂无聊天记录"}
     else:
+        for cl in chatList:
+            cl['rightId'] = id1
         result = {'code': 0, 'msg': "", 'chatList': chatList}
     return HttpResponse(json.dumps(result, ensure_ascii=False), content_type="application/json,charset=utf-8")

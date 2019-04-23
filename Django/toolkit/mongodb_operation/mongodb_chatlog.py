@@ -46,6 +46,10 @@ class mongo_chatlog:
             print("插入失败，未知错误")
             return False
 
+    def getAllCollection(self):
+        collist = self.mydb.list_collection_names()
+        return collist
+
     # def getNodeByEmail(self, key):
     #     x = self.collection(settings['collection_name']).find({'doctoremail': key})
     #     return [xx for xx in x]
@@ -67,5 +71,5 @@ class mongo_chatlog:
     #     return x.deleted_count
 
 
-# t = mongo()
-# print(t.login({'doctorId': 'YS19032300', 'doctorpassword': '000000'}))
+# t = mongo_chatlog()
+# t.getAllCollection()

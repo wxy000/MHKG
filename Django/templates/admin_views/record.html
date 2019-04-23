@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>记录智慧</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../static/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../../static/layuiadmin/style/custom.css" media="all">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_935338_lfgq8aymqln.css">
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space8">
+
+        <div class="layui-col-sm8">
+            <div class="layui-card">
+                <div class="layui-card-header" id="ttt"></div>
+                <div class="layui-card-body" style="height: 327px;">
+                    <div class="layim-chat-main" style="height: 307px;">
+                        <ul id="LAY_view"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm4">
+            <div class="layui-card">
+                <div class="layui-card-header">聊天列表</div>
+                <div class="layui-card-body" style="max-height: 327px; height: 327px; overflow: auto;">
+                    {% for cl in chatlist %}
+                    <table style="padding: 0 15px; margin-top: 20px; display: inline;">
+                        <tr style="height: 80px;">
+                            <td nn="【{{ cl.username }}】&【{{ cl.doctorname }}】" id1="{{ cl.userId }}" id2="{{ cl.doctorId }}" onmouseenter="get_title(this)" onclick="get_chat(this)">
+                                <div style="position: absolute;">
+                                    <img class="round_icon" src="{{ cl.doctorheader }}">
+                                </div>
+                                <div style="position: relative; top: 0; left: 15px;">
+                                    <img class="round_icon" src="{{ cl.userheader }}">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    {% empty %}
+                    <center>暂无聊天</center>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    333
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<textarea title="消息" id="LAY_tpl" style="display:none;">
+<%# layui.each(d.data, function(index, item){
+  if(item.id == item.rightId){ %>
+    <li class="layim-chat-mine"><div class="layim-chat-user"><img src="<% item.avatar %>"><cite><i><% layui.data.date(item.timestamp) %></i><% item.username %></cite></div><div class="layim-chat-text"><% layui.layim.content(item.content) %></div></li>
+  <%# } else { %>
+    <li><div class="layim-chat-user"><img src="<% item.avatar %>"><cite><% item.username %><i><% layui.data.date(item.timestamp) %></i></cite></div><div class="layim-chat-text"><% layui.layim.content(item.content) %></div></li>
+  <%# }
+}); %>
+</textarea>
+
+<script src="../../static/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.use(['layim', 'laypage'], function(){
+        var layim = layui.layim
+            ,layer = layui.layer
+            ,laytpl = layui.laytpl
+            ,$ = layui.jquery
+            ,laypage = layui.laypage;
+
+        laytpl.config({
+            open: '<%',
+            close: '%>'
+        });
+
+        $('#ttt').html("点击右侧选择");
+        $('#LAY_view').html("<center>点击右侧列表，显示聊天记录</center>");
+
+        window.get_title = function(x) {
+            var nn = x.getAttribute('nn');
+            layer.tips(nn, x, {tips: 4});
+        };
+
+        window.get_chat = function(xx) {
+            var nn = xx.getAttribute('nn');
+            var id1 = xx.getAttribute('id1');
+            var id2 = xx.getAttribute('id2');
+            var index = layer.load(2);
+            $.ajax({
+                url: "/getChatLog?id1=" + id1 + "&id2=" + id2,
+                success: function (data1) {
+                    if (data1.code === 0) {
+                        var res = {
+                            code: 0,
+                            msg: '',
+                            data: data1.chatList
+                        };
+                        var html = laytpl(LAY_tpl.value).render({
+                            data: res.data
+                        });
+                        $('#ttt').html(nn + "的聊天记录");
+                        $('#LAY_view').html(html);
+                    } else {
+                        $('#ttt').html(nn + "的聊天记录");
+                        $('#LAY_view').html("<center>" + data1.msg + "</center>");
+                    }
+                    layer.close(index);
+                },
+                error: function (e) {
+                    $('#ttt').html(nn + "的聊天记录");
+                    $('#LAY_view').html("<center>未知错误</center>");
+                    layer.close(index);
+                }
+            });
+        };
+
+    });
+</script>
+</body>
+</html>

@@ -21,3 +21,13 @@
 .layadmin-graph-small > [carousel-item] > div {
     height: 365px
 }
+
+.round_icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
